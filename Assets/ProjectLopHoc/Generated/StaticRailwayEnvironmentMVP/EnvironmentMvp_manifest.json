@@ -1,0 +1,18 @@
+{
+  "scene": "Assets/ProjectLopHoc/Scenes/YenTuHaLongXanh.unity",
+  "terrainSource": "Assets/ProjectLopHoc/Prefabs/SaBan_YenTu_HaLong_Miniature.prefab",
+  "routeLengthMeters": 28810.960,
+  "heightmapResolution": 2049,
+  "chunkLengthMeters": 100,
+  "chunks": 289,
+  "treesBaked": 4464,
+  "ruralRoadSegments": 558,
+  "houses": 64,
+  "activeBridgeStartMeters": 9320.00,
+  "activeBridgeLengthMeters": 180.00,
+  "railLowestWorldY": 8.925,
+  "gradedGroundWorldY": 8.575,
+  "riverSurfaceWorldY": -2.718,
+  "terrainWorldYRange": [-6.718, 174.995],
+  "runtimeRandomPlacement": false
+}
