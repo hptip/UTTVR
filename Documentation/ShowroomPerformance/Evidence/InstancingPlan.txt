@@ -1,0 +1,38 @@
+Light probes=0
+Reflection probes=0
+Supports instancing=True
+terrain | candidates=81 | eligible repeated=0 | batches=0
+ skip | inactive/disabled=83
+ skip | script/collider-controlled object=17
+ mesh | 1 | TerrainTransition_Chunk_0051 | Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0051.asset
+ mesh | 1 | TerrainTransition_Chunk_0052 | Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0052.asset
+ mesh | 1 | TerrainTransition_Chunk_0053 | Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0053.asset
+ mesh | 1 | TerrainTransition_Chunk_0054 | Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0054.asset
+ mesh | 1 | TerrainTransition_Chunk_0055 | Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0055.asset
+ mesh | 1 | TerrainTransition_Chunk_0056 | Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0056.asset
+nature | candidates=105 | eligible repeated=57 | batches=16
+ skip | inactive/disabled=7
+ mesh | 47 | Mountain_19_Depth_00 | Assets/Terrain/Rocks and Terrains Pack - Low Poly/Models/Terrains/Mountains/NoLOD/Mountain_L_19.fbx
+ mesh | 29 | Mountain_6_Depth_00 | Assets/Terrain/Rocks and Terrains Pack - Low Poly/Models/Terrains/Mountains/NoLOD/Mountain_L_06.fbx
+ mesh | 29 | Mountain_11_Depth_00 | Assets/Terrain/Rocks and Terrains Pack - Low Poly/Models/Terrains/Mountains/NoLOD/Mountain_L_11.fbx
+rail | candidates=49091 | eligible repeated=49074 | batches=264
+ skip | inactive/disabled=81
+ skip | mirrored transform=2314
+ mesh | 2667 | Mesh_51 | Assets/ProjectLopHoc/Prefabs/EBS_Rail_2000_Prefab.prefab
+ mesh | 2667 | Mesh_62 | Assets/ProjectLopHoc/Prefabs/EBS_Rail_2000_Prefab.prefab
+ mesh | 2667 | Mesh_61 | Assets/ProjectLopHoc/Prefabs/EBS_Rail_2000_Prefab.prefab
+ mesh | 2667 | Mesh_60 | Assets/ProjectLopHoc/Prefabs/EBS_Rail_2000_Prefab.prefab
+ mesh | 2667 | Mesh_58 | Assets/ProjectLopHoc/Prefabs/EBS_Rail_2000_Prefab.prefab
+ mesh | 2667 | Mesh_59 | Assets/ProjectLopHoc/Prefabs/EBS_Rail_2000_Prefab.prefab
+bridge | candidates=1 | eligible repeated=0 | batches=0
+ skip | multiple submeshes/materials=1
+ skip | shader not explicitly validated for instancing=1
+ mesh | 1 | BridgeValleyWaterQuest | Assets/ProjectLopHoc/Generated/QuestEnvironmentDensity/BridgeWater.asset
+tunnel | candidates=204 | eligible repeated=204 | batches=9
+ mesh | 68 | Object_26_mesh0 | Assets/ProjectLopHoc/Art/3DModels/Tunnel/ImageToStl.com_concrete_girder_beam_bridgestunnels_free.fbx
+ mesh | 68 | Object_30_mesh0 | Assets/ProjectLopHoc/Art/3DModels/Tunnel/ImageToStl.com_concrete_girder_beam_bridgestunnels_free.fbx
+ mesh | 68 | Object_28_mesh0 | Assets/ProjectLopHoc/Art/3DModels/Tunnel/ImageToStl.com_concrete_girder_beam_bridgestunnels_free.fbx
+station | candidates=0 | eligible repeated=0 | batches=0
+ skip | multiple submeshes/materials=75
+ skip | script/collider-controlled object=184
+ skip | transparent sorting=2

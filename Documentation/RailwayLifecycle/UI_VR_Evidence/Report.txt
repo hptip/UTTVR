@@ -1,0 +1,25 @@
+PASS | Scene adapter present; registry ready=33434
+Mouse target=(251.52, 573.53); hits=AssetItem_0,Viewport,LeftNav; module=XRUIInputModule; selected=Z021-TL-S001
+PASS | Desktop mouse through XRUIInputModule selects navigation row
+PASS | Vietnamese navigation/header
+PASS | Desktop detail button works
+PASS | Direct standalone VR starts with authored fallback rig
+PASS | Exactly one active XR Origin
+PASS | Exactly one EventSystem
+PASS | World-space dashboard with tracked-device raycaster
+PASS | Single enabled camera; desktop orbit cannot override HMD
+PASS | Actual XR ray hits dashboard graphic: InspectDetail
+PASS | Controller UI press opens selected segment through tracked input module
+PASS | Controller trigger selects physical bolt via actual physics ray + central selection
+PASS | Controller selection drives same outline
+PASS | Controller ray click opens field keyboard
+PASS | Vietnamese key raycast is not covered by another key
+PASS | Controller ray clicks Vietnamese virtual key after input loses focus
+PASS | Vietnamese keyboard inserts text and composed tone independent of field focus
+PASS | Keyboard backspace preserves target/caret
+PASS | Asset panel toggle hides dashboard
+PASS | Asset panel can reopen/reposition
+PASS | Scene registered in build list for menu loading
+PASS | Global scene menu contains named lifecycle destination
+PASS | No C# runtime errors in UI/VR test
+LIMIT: simulated trigger/pose with production XR ray and UI module; physical headset/buttons not tested. No APK built.

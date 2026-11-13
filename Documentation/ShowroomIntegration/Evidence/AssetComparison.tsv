@@ -1,0 +1,952 @@
+Package path	GUID	Category	Asset bytes identical	Normalized text identical	Meta bytes identical	Meta normalized identical	Referenced GUID count
+Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/blinn30.mat	00406058dfef8c44ba440499828e4f9e	B_IDENTICAL	True		True		2
+Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/Color_Door_Gray.mat	008c207b084141643b0f3e256da75204	B_IDENTICAL	True		True		3
+Assets/ProjectLopHoc/Generated/QuestRailway/TerrainMeshes/Terrain_011.asset	009cae9feaa319947ba423805f89f313	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Features/Authentication/Models/LoginModel.cs	00b02d0fd39ef434f8b8d6f012703391	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauShowroom/gold-coast-glink-light-rail-tram-flexity-2/textures/glink_exterior03.mat	00b6710822d355d4b88f04c3a60a8dce	B_IDENTICAL	True		True		3
+Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/UI/BIMSpeakButton.cs	00bbc0cdcf7c4188aa33d2062987fa35	A_NEW			True		0
+Assets/ProjectLopHoc/Art/3DModels/Showroom/FloatingInfoBoard.cs	012ddd12616b848409e2b8649b843299	A_NEW			True		0
+Assets/Photon/PhotonLibs/netstandard2.0/release/PhotonClient.dll	0159a32e0fa183b4c93e3628f4ba97cf	B_IDENTICAL	True		True		0
+Assets/UTTSaBan-Tool/UTTSaBan/Runtime/SaBanLayer.cs	015bc05be4097274e848bf7c3d383102	A_NEW			True		0
+Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/Light_blinn.mat	01d0a53ce2289ac4d8a39aa93c7538b2	B_IDENTICAL	True		True		2
+Assets/Plugins/PixyzPluginForUnity/Editor/Commons/Extensions/EditorGUIExtensions.cs	02105bf162a9d3f4bb36ecdb1669aff3	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0077.asset	0273350a4f6e5824d94818ce1873376e	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0058.asset	0275d7f053ee59344bbd54a7a04b396d	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0119.asset	02bcbaa91f2bcca47aed39004f7f4a77	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/RuntimeZones/Meshes/ContactWire_Zone_024.asset	032aaf745e4231f41b15060700d7b15e	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0069.asset	0388cf5bfea18d34bba4de128063dde1	B_IDENTICAL	True		True		0
+Assets/Photon/Fusion/Editor/FusionEditorHubWindow.cs	05f075eaed8255d41ab3852ab5c7e0fd	B_IDENTICAL	True		True		0
+Assets/Photon/PhotonRealtime/Code/RealtimeClientVersion.cs	0611690e71282404f9d739f38b42654e	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Runtime/Commons/Utilities/Delegates.cs	066e59962c1a3834cb615b350de5b21d	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Core/Windows/UpdateWindow.cs	06a20eca0da0e2548a3cc7b0811954d9	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/ImportSDK/Extensions/ContextualExtensions.cs	06ad54ac86251b54291f636701547352	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Materials/StaticRailway_ContactWire.mat	06ddc2a103ef5b94eae0e42ce6f6a5aa	B_IDENTICAL	True		True		2
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0117.asset	0753969a82b25e74b95a29a3d96eec8b	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0113.asset	0800b796d506d9245a95316ac4e4e75d	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0114.asset	0817b94cfc5a3ac468611469b8c4dd09	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Toolbox/BaseActions/RemoveHiddenAction.cs	0870b75125162de49831d414ba9a348f	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Features/Lecture/TeacherLecturePanelController.cs	09561d68b340b9b429a9480c99b4918d	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/QuestRailway/RailwayVertexColour.shader	099791b7436b3744e8ea60113a379212	C_CHANGED_SAME_GUID	False	True	True		0
+Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/textures/Marker.jpg	09bcdb7524572a64e9701f109ca1cd7b	B_IDENTICAL	True		True		0
+Assets/Photon/Fusion/Runtime/Statistics/Scripts/FusionStatisticsConfig.cs	09c325ab8dbb4599a9b4f7ba03306e28	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0089.asset	09c73f377ef62d2458d786d940db39ba	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Bin/include/PiXYZRaytrace/interface/RaytraceTypes_cs.cs	09dee326943aac24d975519a16471b6c	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Scripts/NetworkManager.cs	09e89c94d1f6ece499e4fa777bba047f	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/Materials/Classroom_Signboard.mat	09f7842e3da7ba54fbd50e58a24c6756	B_IDENTICAL	True		True		2
+Assets/Plugins/PixyzPluginForUnity/Editor/Core/ManagedInterface.cs	0a46906b2a35a764f8c1a44e2e921fc0	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0107.asset	0a7b47b1bc9efd444badbd281a7a4d4d	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/ImportSDK/Import/DropInSceneImporter.cs	0b23d371e58d7f943b2c6b33ad0d0efa	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/Color_Ground_blinn.mat	0b5c83fbe378be5488f12005e44796f5	B_IDENTICAL	True		True		3
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0076.asset	0c9a1f839b9d7d1479a8ae2524ade8fe	B_IDENTICAL	True		True		0
+Assets/Photon/Fusion/Runtime/Statistics/Scripts/FusionStatisticsForecastObjectStats.cs	0cb38cb1c8636364684a29f4070c135e	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauChay/than/textures/Metal_Rusted_1.jpg	0d33da0e01fd0fb4285b268535ad1941	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0108.asset	0d764681b171e2f488b0c24a874d67b2	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauShowroom/gold-coast-glink-light-rail-tram-flexity-2/textures/Please Read.mat	0d76b23f7ddb29947ace629455015c66	B_IDENTICAL	True		True		3
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0124.asset	0dcfa0086f0331a4da22e80f89dc2551	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/QuestRailway/TerrainMeshes/Terrain_012.asset	0f1b42bf82e80714fb96b134888a7af0	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Toolbox/BaseActions/RemoveCollidersAction.cs	0fa068aa8c20d3f49a0e5f2c8b04bfaa	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0098.asset	0fc0b8e1fdaeef547887b991f926ed31	B_IDENTICAL	True		True		0
+Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs	103e0a6a1d404693b9fb1a5173e0e979	C_CHANGED_SAME_GUID	False	True	False	True	0
+Assets/Photon/Fusion/Runtime/NetworkObjectProviderDefault.cs	10533623ed629624c8acc6869f609bf2	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Scripts/MinimapTeleport (1).cs	10953412878fe55488853c869f3f0564	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/Color_RG_blinn.mat	1095a7edd9c570f40ae95bc1fda579ca	B_IDENTICAL	True		True		2
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0122.asset	111810bacab675445a7db7586700374e	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0105.asset	113218f2394a6854ebb6059bf1f4dd52	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Toolbox/Tools/PixyzFunction.cs	1148ae9558f21344b9bd639bc56e6813	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/QuestTunnelMountain/Forest_01Mountain_SourceRidge_OpenBore.asset	11657e9cccf8fcb409887e3ec0d585f7	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/RuleEngine/Rule.cs	1179dec244f857343aa07f5a29cec6e9	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/Ctrl_Panel_blinn.mat	11ba0864317f50940ab59638b9a32c88	B_IDENTICAL	True		True		3
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0105.asset	11d67f0dfd474c44796599c2634dcfaf	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Chatbot/Editor/BIMVoiceOutputFactory.cs	12249f5041cd4e9daf57ea4abc8bdd1f	A_NEW			True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0071.asset	12455579de1441d42a5fd207052bce85	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Scripts/StudentSlideReviewUI.cs	1283ea2790d3aea4a94f9c944d3aa1f7	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/UI/BIMVoiceOutputUI.cs	12923c56ad2d42f68a1deacca5e8e5e8	A_NEW			True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/RuleEngine/BaseActions/SetTransform.cs	12a7b84e75857024c9e82ef5ea50c102	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/Seat_Gray_blinn1.mat	12f28355b087a7a4ba95a169e1e1c186	B_IDENTICAL	True		True		2
+Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventHandler.cs	1312ae25639a4bae8e25ae223209cc50	C_CHANGED_SAME_GUID	False	True	False	True	0
+Assets/Plugins/PixyzPluginForUnity/Editor/RuleEngine/BaseActions/AddChild.cs	13ca6e79fc71aba48a87ab6f7b765700	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/ImportSDK/ManagedInterface.cs	13dc298dde8252246bff8d54c9c2c4ae	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0077.asset	13f45cebc3577054ca41d921ba1ef3c7	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Scripts/TrainInfoPopupUI.cs	1449851e4e809e64d9bd180155f2adfc	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0114.asset	14be4a1785b761a42a949d13c4849395	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauShowroom/gold-coast-glink-light-rail-tram-flexity-2/textures/glink03_albedo_opacity.png	14e2627121f95d645984bdff663f5040	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Bin/include/PiXYZView/interface/ViewInterface_cs.cs	14f72031514868845ad77971cd5647bd	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/RuleEngine/BaseActions/SetEnabled.cs	1530f48eefd580b4487e9f291754f364	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Toolbox/Tools/Toolbox.cs	153f31d3be364a547a1a5e43fef3cab9	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Commons/Utilities/TexturePacker/TexturePacker.cs	158d00b8f41fc3941938a09002a378cd	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/RuleEngine/BaseActions/FilterOnName.cs	15b78c8e4f6525a4aba0d983718622e1	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0128.asset	16323482cf2169945b0cac7c342904a2	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/RuleEngine/BaseActions/FilterOnLayer.cs	16337751223406b448c94a74aab19e10	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Commons/Utilities/TexturePacker/TexturePackerWindow.cs	163709f80495a284a9e6dda9a72997bf	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/RuntimeZones/Meshes/ContactWire_Zone_025.asset	1648b51d766afe94fa7ab8643b5d17a8	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Runtime/ImportSDK/Import/TransformVariant.cs	16a3113367ffaaf46a510adca9253f27	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Runtime/LODTools/ScriptableObjects/LODProcess.cs	172c94ade57e7f140b6d18dafb69ffec	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0097.asset	173833e5cb14d014eaf05e24a75bddea	B_IDENTICAL	True		True		0
+Assets/Photon/PhotonRealtime/Code/Room.cs	17568a7a5552c09428dd48e73548b8b8	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Bin/include/PiXYZPolygonal/interface/PolygonalTypes_cs.cs	1795b38f611d38747a8ca482458f789e	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0078.asset	18336c64b6fd6414eb64a83cedbd2ca2	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Runtime/Commons/Extensions/CollectionExtensions.cs	18707dda40f55be42a4b9e617bfc53ab	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0056.asset	18bed0c36c4c4304f9502512e6af3b9b	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Runtime/OptimizeSDK/FunctionParameters.cs	18e4106c7915b0a499191958e9c428da	B_IDENTICAL	True		True		0
+Assets/StandaloneFileBrowser/StandaloneFileBrowserWindows.cs	194e247414a78461d83ae606c1b96917	C_CHANGED_SAME_GUID	False	True	False	True	0
+Assets/Terrain/Rocks and Terrains Pack - Low Poly/Models/Terrains/Mountains/NoLOD/Mountain_L_06.fbx	195d9ac76a06f3641adb7e800f293344	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0054.asset	19bbdbfe941daff43ab6828e0db83b26	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauChay/than/textures/Marker.jpg	19deb1a8b78175f4eb1f57a03c2d5777	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0076.asset	1a000115a13aa9a4098f6b8320e53ae3	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0103.asset	1a2c105ce1392594a8e20d1f9acb702f	B_IDENTICAL	True		True		0
+Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator.cs	1a7eb92a01ed499a987bde9def05fbce	C_CHANGED_SAME_GUID	False	True	False	True	0
+Assets/Plugins/PixyzPluginForUnity/Editor/Bin/include/PiXYZMaterial/interface/MaterialInterface_cs.cs	1b619d408ba1f3144a15a953f2947e09	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0065.asset	1b6a206043b219849814311068cd919d	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/Showroom/textures/Marble2x2_Albedo.jpg	1bcd1647d51d9ed4d97bfd76c44ac1d1	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauChay/than/textures/Matel_01.jpg	1ca1c2dcb84b2c840a9c0f901c7058d1	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Bin/include/PiXYZProcess/interface/ProcessTypes_cs.cs	1cafd0604e8589d4b9a31588e07af990	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Runtime/Commons/Extensions/BaseExtensions.cs	1ccf3fe5153f1f146a3af70504f2cf68	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0077.asset	1ea7ee981b800e440875d1e26806cc6d	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Bin/include/PiXYZIO/interface/IOInterface_cs.cs	1f15cd73dfce3c3438390d024d91d49f	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/RuleEngine/BaseActions/FilterOnTriangleCount.cs	1f3eee90a79fd56498066ffc51a114f3	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0119.asset	2025689908186f44aa141755f186aefe	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/ImportSDK/Import/MetadataEditor.cs	20377fb86f9884b48a73dacd85cf47ee	B_IDENTICAL	True		True		0
+Assets/Photon/PhotonRealtime/Code/RegionHandler.cs	207807222df026f40ac3688a3a051e38	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Runtime/ImportSDK/Import/ImportSettings.cs	2081cc53cfa1d274baace4797d5a2a7c	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/PointerVoiceTrigger.cs	20b5aa63ec3b42a8a7c98407dbabd829	A_NEW			True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0064.asset	20b91bd267d20414b94cde6d6a511fab	B_IDENTICAL	True		True		0
+Assets/SlimUI/Modern Menu 1/Scripts/Misc/ResetDemo.cs	20d87ca15c8067e45b85954ff9ed137d	B_IDENTICAL	True		True		0
+Assets/Photon/Fusion/Editor/FusionEditorSkin.cs	2119ee8fcf3d90445867b93c17e27272	B_IDENTICAL	True		True		0
+Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool.cs	21256c5b62f346f18640dad779911e20	C_CHANGED_SAME_GUID	False	True	False	True	0
+Assets/Plugins/PixyzPluginForUnity/Editor/Bin/include/PiXYZGeom/interface/GeomTypes_cs.cs	21422c24578d9844a9b083159b3d6e17	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Commons/EditorUI/Actions.cs	21714f287e8ab4748ba1c65ff84fe744	B_IDENTICAL	True		True		0
+Assets/SaBanDemo/Runtime/SaBanDemoRailStreamer.cs	217df32ef8cecb740a9687a0a11a13e7	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0128.asset	2189645633bc12946b7fe9633835bc1a	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/ImportSDK/Import/Importer.cs	21c22b913b9647240b8a9c482ab9088f	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Editor/RuntimeStreaming/QuestRailwayOptimize.cs	21e9ee0391bb312448da869b243c2b95	B_IDENTICAL	True		True		0
+Assets/Photon/Fusion/Runtime/Statistics/Scripts/FusionStatisticsNetworkObjectPage.cs	236561047cd540279c511a98f8338fb1	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0127.asset	2498ccb6622383247b6217a4096890bf	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0127.asset	24b06202b2677ca4abc838115527ea4b	B_IDENTICAL	True		True		0
+Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs	24b0dc2d1d494adbbec1f4db26b4cf83	C_CHANGED_SAME_GUID	False	True	False	True	0
+Assets/ProjectLopHoc/Art/3DModels/Tunnel/Mat/ConcreteBridge0.mat	24efcdbd850c0064db49e44ddc5c9a78	B_IDENTICAL	True		True		2
+Assets/ProjectLopHoc/Scripts/XR/XROriginSessionPersistence.cs	2578f1a94ae603b40bce0dc60b65e0f8	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/VoiceInputController.cs	25a6c71a1ed54521ac100ebb5f4a27d9	A_NEW			True		0
+Assets/Photon/Fusion/Runtime/FusionBasicBillboard.cs	25acde9209338d24d83cc1c826297be4	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Toolbox/AssetProcessing/CustomModelImporterEditor.cs	2644fb007871f124984cd025fb8b2baa	B_IDENTICAL	True		True		0
+Assets/SlimUI/Editor/SlimUIWindow.cs	2648ac7eab327b344ae06b184a4286a4	B_IDENTICAL	True		True		0
+Assets/StandaloneFileBrowser/StandaloneFileBrowserEditor.cs	2650af8de2cda46b99b1bc7cf5d30ca5	C_CHANGED_SAME_GUID	False	True	False	True	0
+Assets/Plugins/PixyzPluginForUnity/Editor/RuleEngine/BaseActions/FilterOnSize.cs	27156a5552b645343956e99502224d19	B_IDENTICAL	True		True		0
+Assets/Photon/PhotonRealtime/Code/AppSettings.cs	272beb7315eb9fc4daecafe2ff373baf	B_IDENTICAL	True		True		0
+Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs	2787a46a4dc848c1b4b7b9307b614bfd	C_CHANGED_SAME_GUID	False	True	False	True	0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0085.asset	28443482eec9e8c4eadfde686cc0e75d	B_IDENTICAL	True		True		0
+Assets/Photon/Fusion/Plugins/NanoSockets/Metro/NanoSockets.dll	28478daed9ce57f4989884143dfc5622	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0074.asset	284a89121c0660b4ab8e987b515578d3	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0068.asset	28a8a5f1c69b7cc4e9a823f575b9ba99	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Scripts/XR/XRWorldSpaceCanvas.cs	28bc4ea9a6f31b042a2f13f4dd9bb17d	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0089.asset	28d20950e9caa4548b658fa2b8274dee	B_IDENTICAL	True		True		0
+Assets/Editor/TreePainterWindow.cs	28d9f1f05d1a52846ba60fb7dc21c0ca	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0087.asset	28ddec49e6d37354a9fde603dc1af067	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/RuleEngine/BaseActions/FilterOnPosition.cs	28debb50a8734c64982d41bec57c4e57	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/RuleEngine/RuleSetWindow.cs	290baaf297b52574cae4b05374e117c4	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/ImportSDK/Import/ScriptedImporterEditor.cs	292dbd6606651404a9cc9b194c830661	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/RuleEngine/BaseActions/FilterOnVerticesCount.cs	2979f74605f2f374faa63e4691e97fd3	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauChay/than/source/TaiwanHSR700T_02.fbx	2982b8c60779a5e479201c0e379c7a8c	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0080.asset	298a4d4786155334daa4bdf946ab4b99	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Bin/include/PiXYZCore/interface/CoreTypes_cs.cs	29eb9faf6f57e574ca84d81f53030c43	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0107.asset	2a189f0d4133d8647a34e7345f99d7ff	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Runtime/Core/DiagnosticsUtils.cs	2a2b174ef99fcbe49b29e89dcb5bb6b6	B_IDENTICAL	True		True		0
+Assets/Photon/Fusion/Editor/NetworkPrefabsInspector.cs	2a91437e16a1edc41bde1ce3b0114aab	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Scripts/XR/YenTuStandaloneXRBootstrap.cs	2ab25bb4d069d7c419d665b6a865afb9	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0075.asset	2b0a2d5265befda4fb62f589deb9a72b	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Commons/Utilities/EditorGUI/TextureScaler.cs	2b275ebc20becb543b449d542abbe226	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Chatbot/Editor/AIChatbotBuilder.cs	2b80da8771ccb404e9be7baaccfb4539	A_NEW			True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0066.asset	2bad03d26d7359345b8c4e2cc02fc73b	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/LODTools/LODPrebuild.cs	2be632728ab66a64e827ec78e5718e61	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/OptimizeSDK/Conversions/MaterialConversion.cs	2be69886cefaf4a43aae5e973776de8f	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauShowroom/sydney-metro-driverless-train-alstom-metropolis/source/sydney_metro_jotrain.fbx	2bfa2793a5bdd3448bc5326f7eadf6fd	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0124.asset	2c7026112f5c46642a8edee93fecaa85	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/LODTools/LODRuleInspector.cs	2ced2186f4da0b146a7b90ec28a77276	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Prefabs/pole.prefab	2d1220598491d2141ba723e3b8b41214	B_IDENTICAL	True		True		1
+Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs	2d687537154440a3913a9a3c7977978c	C_CHANGED_SAME_GUID	False	True	False	True	0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0091.asset	2da291675956ad74cbb7186f4bfe9369	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0060.asset	2dca3de711831524cb5be554cc5aaf0a	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/QuestRailway/TerrainMeshes/Terrain_016.asset	2e0399198ff9f514897cc3c1f6a76eda	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Features/Authentication/Controllers/LoginController.cs	2e47f1afb002dfe46b4457748809044b	B_IDENTICAL	True		True		0
+Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset	2e498d1c8094910479dc3e1b768306a4	C_CHANGED_SAME_GUID	False		True		3
+Assets/Photon/PhotonRealtime/Code/FindFriendsArgs.cs	2eae4b2198860dd4c955b1538463336d	B_IDENTICAL	True		True		0
+Assets/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs	2ed57967c52645d390a89dcf8f61ba73	C_CHANGED_SAME_GUID	False	True	False	True	0
+Assets/Plugins/PixyzPluginForUnity/Editor/Bin/include/PiXYZView/interface/ViewTypes_cs.cs	2f2bd656a9c1a3640bb72531a57be0ad	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/QuestRailway/TrainVisual_1.asset	2fef869d63340f64f97afea4541b8a23	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/ImportSDK/Interface/MeshToMeshDefinition.cs	2ff22786bd37fea44a30caf3feb4cfa5	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/OK/train-ride/mat/Seethrough.mat	302ee6f9015a9a746ad8dca1f8b112b1	B_IDENTICAL	True		True		2
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0127.asset	307b91d2b22a1324e9a15c4f5bd2bf2d	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/TTS/MetaConnectTTSClient.cs	307d810b44794241bedad88f4d6ab5d3	A_NEW			True		0
+Assets/ProjectLopHoc/Prefabs/MountainRidge.prefab	3080b3875484c9f4faa30617b3db934d	B_IDENTICAL	True		True		1
+Assets/ProjectLopHoc/Art/3DModels/TauChay/than/textures/Seat_Number.jpg	30a46b2e29e61be459674bbac0bebdc8	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/RuntimeZones/Meshes/ContactWire_Zone_013.asset	30f848c3b2347364abbc72709a7ab946	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/LODTools/LODProcessEditor.cs	3117aa24dd0e6344094c82b57feca056	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Runtime/ImportSDK/Import/Properties.cs	312b0f2d3ac2dce45b710e68592ba636	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Prefabs/Mountain_Peak.prefab	31b519fd1746cbd4781a4dc09e07ee3a	B_IDENTICAL	True		True		1
+Assets/Photon/Fusion/Runtime/FusionMenuSceneInfo.cs	31d3fbb1a7fbf504e8a53070c780d58d	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/RuleEngine/BaseActions/SetAsStatic.cs	31ece2548cc859043ac46bba3a923a83	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Runtime/Commons/Utilities/ShaderUtilities.cs	321d981ac02745743a09de00db34a70d	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauChay/than/textures/Metal_Rough.jpg	323479115ba776a4fb7fe3e4309dea57	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/QuestRailway/RailwayMicroChunks.asset	325ddfa8d80d1834ab20cdee7e81f2e4	B_IDENTICAL	True		True		2
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0072.asset	328e955a1f58ef547be757313d9245f4	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauShowroom/sydney-metro-driverless-train-alstom-metropolis/textures/exterior_trailer_dif.png	32c1b5e46528e994eadd91cefd308d0f	B_IDENTICAL	True		True		0
+Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileImage.cs	331c95b7bf39e4792acecff50a972040	C_CHANGED_SAME_GUID	False	True	False	True	0
+Assets/Plugins/PixyzPluginForUnity/Editor/ImportSDK/Utils/Tolerances.cs	33e9705248d0ca44b815381639c53e64	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Chatbot/Scripts/DemoPlayer.cs	341ef20b7febb3447bb9aa6a3935a347	A_NEW			True		0
+Assets/ProjectLopHoc/Editor/RuntimeStreaming/RailwayFarSettlement.cs	342a81fc1ecae7c4392d6bb4089ef3c0	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/RuleEngine/BaseActions/SetMetadata.cs	347240d7c98e2764a93d6b06b4d0ddb9	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/RuleEngine/RuleSet.cs	34acb6faa25ad2e449371f4f9f7e498c	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/OK/train-ride/mat/Train Texture.mat	3591e2abea66dc549b6f0e7652419b07	B_IDENTICAL	True		True		2
+Assets/ProjectLopHoc/Generated/QuestExperienceSectors/Zone_021_ResidentialStreets.asset	35bf5b0789c4a7a439f8520c377584fb	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/IVoiceTrigger.cs	367fc194f556476995daac951beef5ae	A_NEW			True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0065.asset	370e67a23ba837545a4222e04dda3e75	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/RD_blinn.mat	372b4152538140949a2f307d30ac9a84	B_IDENTICAL	True		True		2
+Assets/Photon/Fusion/Runtime/NetworkCharacterController.cs	378411a89480da345945c2f888327a2d	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0058.asset	37efced33655acd4c889b7754a1511ef	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/LODTools/LODGenerationDataInspector.cs	3816d22257ff8904889dd4aa392ad9f0	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Commons/Style/StaticStyles.cs	381b8bab85feac6429a0f22939e3d346	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0068.asset	382928f83a7204c47b312cbcde0d5b1d	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/QuestEnvironmentDensity/BridgeWater.asset	382e6cd3ae4c4ae4398ce536b8557b15	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/OptimizeSDK/ManagedInterface.cs	382fb29042b6347498214918f4480840	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0126.asset	383e7c308bdad8249abe6da65cb99ed7	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Scripts/TrainInteractable.cs	3892d434a6106d04ca930ab21d146b76	B_IDENTICAL	True		True		0
+Assets/Photon/Fusion/Runtime/Statistics/Scripts/FusionStatisticsForecastObjectPage.cs	38e8c6ffcb0020e42bd5e16a105f9912	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0069.asset	394dd7521098b1b408f0050ec13080a2	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0108.asset	397713b24155f1947a05bdb10f450673	B_IDENTICAL	True		True		0
+Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc	3997e2241185407d80309a82f9148466	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/OptimizeSDK/OptimizeSDKUtils.cs	39cfca5adc4709849a1501b446b707bc	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0092.asset	3a1253f5b5c453742b1c7c18eee2aa0a	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/TTS/BIMWavParser.cs	3a1edf96dfcb4d1fbdd8d8fca9f81231	A_NEW			True		0
+Assets/ChiTietSaBan/ChiTiet/DetailOrbitZoom.cs	3a23b06980fab9a4fa06e13c3162097f	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/QuestFarSettlement/Zone_015_FarCluster.asset	3a9b3681b7fda0b49b44446efa65119f	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/QuestRailway/GrassColour.asset	3b5daf3059c860c4f93f83fd95b4338a	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0063.asset	3b90de719362ed14587098e6e9cb79d1	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Core/Windows/AboutWindow.cs	3ba5fee9e94b4d74bb72d398537564f0	B_IDENTICAL	True		True		0
+Assets/Photon/PhotonRealtime/Code/Extensions.cs	3c0464991e33a70498abdd85c150cc59	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Scripts/StationStreamer.cs	3c1733014cb22534fa4be2e3ac1b96a2	B_IDENTICAL	True		True		0
+Assets/StandaloneFileBrowser/StandaloneFileBrowser.cs	3c708be74128e4ced9b79eaaf80e8443	C_CHANGED_SAME_GUID	False	True	False	True	0
+Assets/Photon/Fusion/Runtime/Statistics/Scripts/FusionStatisticsRoot.cs	3cd5b8381d8d483ba0eb61f2d7e51058	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Runtime/LODTools/Components/LODGenerationData.cs	3da929191981db04c9ffbb83a30eaa9b	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/Robot/Robot.fbx	3dda4aa62b4eb0d428deb0f81c1a2ad7	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/QuestFarSettlement/Zone_016_FarCluster.asset	3df952466dce5304a9b069a735e9516e	B_IDENTICAL	True		True		0
+Assets/SkySeries Freebie/DayInTheClouds.mat	3e5399bd195de7649b874f58c1b9f8a3	B_IDENTICAL	True		True		2
+Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/BIMAISecrets.cs	3e802c5e9aaf463cb4c22013e28ffea2	A_NEW			True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0118.asset	3ea9af089bcd84e4d90cab012a6c7238	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0081.asset	3ead0bf7b0c186544931dbd42414d302	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauShowroom/gold-coast-glink-light-rail-tram-flexity-2/textures/glink_exterior02.mat	3ead3520f02f4a74cacc4d14060ae105	B_IDENTICAL	True		True		3
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0061.asset	3f3c09caa7d2cea468cb61bece076f88	B_IDENTICAL	True		True		0
+Assets/Editor/YenTuSaBanBuilder.cs	3f667d3eaf34413468a2858014f8e373	C_CHANGED_SAME_GUID	False	False	True		0
+Assets/Plugins/PixyzPluginForUnity/Runtime/Commons/Utilities/FilePath.cs	3f81d40155da6dc4d8b5f952fcf8f2f0	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/OK/train-ride/source/Train Ride.fbx	3fa2ef5f5d312684296de0a55d40ace1	B_IDENTICAL	True		True		0
+Assets/TextMesh Pro/Shaders/TMPro.cginc	407bc68d299748449bbf7f48ee690f8d	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/QuestRailway/TerrainMeshes/Terrain_019.asset	412650107cae99944a8aa8c3d7dedd4e	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/textures/Ground_01.jpg	417c5374654b4ec40aa86b3ebf90c759	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/ImportSDK/Conversions/MeshConversion.cs	41f1f6ef20ed92945ad13f25385efea1	B_IDENTICAL	True		True		0
+Assets/Photon/PhotonRealtime/Code/Log.cs	41fcd9c6c0aa78b4f8e52cc34314b87f	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0111.asset	434b59c5238df6f4192df9c8e2805326	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/Color_WH_blinn.mat	4374b431ab4c1a34bbe53ec3c1df93b6	B_IDENTICAL	True		True		2
+Assets/Photon/Fusion/Editor/FusionEditorHubModeSelectionWindow.cs	437e1807b25b8134eae6883cce627ded	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/blinn42.mat	43ac8552f87d14347892ecd028c17303	B_IDENTICAL	True		True		2
+Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs	43bcd35a1c0c40ccb6d472893fe2093f	C_CHANGED_SAME_GUID	False	True	False	True	0
+Assets/Plugins/PixyzPluginForUnity/Editor/OptimizeSDK/Conversions/BaseTypeConversion.cs	459c6016936ce0449a0a9093782a3308	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/logo.png	45e9644e411784f4c8b7d49d23b61b2c	B_IDENTICAL	True		True		0
+Assets/Photon/Fusion/Editor/FusionEditorAssetLibrary.cs	4610fd454e22731439bc1ce24343bbb8	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/textures/Seat_Color.jpg	461e87097976e1c47a87816caaebd9a9	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/RuntimeZones/Meshes/ContactWire_Zone_019.asset	465675216c031e54fa1846996a64dad2	B_IDENTICAL	True		True		0
+Assets/ChiTietSaBan/ChiTiet/ExcelImportManager.cs	4677c4d33ff5f6f4ebeaf565159159ae	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/QuestEnvironmentDensity/Zone_017_Chunk_0088_8800m_to_8900m_Cut.asset	46e6ed2d7c6a6394da8eddacd1fd9084	B_IDENTICAL	True		True		0
+Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs	476cc7d7cd9874016adc216baab94a0a	C_CHANGED_SAME_GUID	False	True	False	True	0
+Assets/ProjectLopHoc/Scripts/SceneryStreamer.cs	478f86892989cd547bea2fdc1716c338	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/QuestExperienceSectors/Zone_021_ResidentialCluster.asset	47c373a097564c74785f5aaf86342bb1	B_IDENTICAL	True		True		0
+Assets/Photon/PhotonRealtime/Code/RealtimeClientOps.cs	480fd56868ffed84c9cd9b5d3435170f	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/LODTools/LODProcessInspector.cs	485211fa62f868c4a9a490ba62c5ad75	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/blinn34.mat	4868595d8f2b37147907ef709bf29106	B_IDENTICAL	True		True		2
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0115.asset	48a906126632921478d495f93990b3c6	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/QuestTunnelMountain/Forest_02TunnelInterior_SourcePrefab.asset	4932c399153efe0478a2aa75048f1149	B_IDENTICAL	True		True		0
+Assets/Photon/Fusion/Runtime/Statistics/Scripts/FusionStatisticsMemoryPage.cs	4a68cf56c2524be2b3b85cb4a9c1b934	B_IDENTICAL	True		True		0
+Assets/Photon/Fusion/Runtime/Fusion.Unity.cs	4a69219964762b240b6138a56c829f26	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0103.asset	4a95e76a2ca82514bb30bb7afca7f775	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/RuleEngine/BaseActions/SetMesh.cs	4ad32057a6d648c488848b4d6242db13	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Runtime/Commons/Extensions/ReflectionExtensions.cs	4b17180298a2f314ca83bed7beab425d	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Features/Authentication/Views/LoginView.cs	4b19529cab8943f4586e4e4b3c8ac3f5	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/Materials/concrete_pavers_02_disp_4k.mat	4b2439b59f603144681a8e9559a9b1ac	B_IDENTICAL	True		True		3
+Assets/ProjectLopHoc/Editor/RuntimeStreaming/RailwayVegetationReduction.cs	4b8f9349bbf34e748bd1429138340f0f	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Core/Managers/AppManager.cs	4be4778128d1ebe4498053bd344fc70d	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/OptimizeSDK/PixyzContext.cs	4c19946621e80f246a7c4ed46615093f	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauShowroom/sydney-metro-driverless-train-alstom-metropolis/textures/undercarriage_dif.png	4c7a58e03f91fdd46a48be71f908b62b	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/QuestEnvironmentDensity/Zone_019_Chunk_0099_9900m_to_10000m_Cut.asset	4c98a39fb887b844da801c624ce1a949	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Scripts/SaBan/SaBanPoolScaleFix.cs	4ca83aee84936a34cb58bc50ac760552	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Toolbox/BaseActions/ReplaceByAction.cs	4cb07d82210f54c44baf88ddc2489a72	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Features/Lecture/GenericInteractableButton.cs	4cd6045cd2ae99148af0496ea5b4c805	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0115.asset	4ce9c57928011194dbeb3d267eb37d2d	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Toolbox/BaseActions/CreateColliderAction.cs	4cfd95d9711e90b40967175e09e6a388	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0116.asset	4d08c87df463a6649b3b571b0048d526	B_IDENTICAL	True		True		0
+Assets/Packages/ExcelDataReader.3.9.0/lib/netstandard2.1/ExcelDataReader.dll	4d294ead3d461f64abbbcea44704ca00	B_IDENTICAL	True		False	True	0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0110.asset	4d562e347d2e2a44dadd81b66a419745	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Prefabs/RailLow.prefab	4d713a0cb4685da4a8e0f9e7f9faa625	B_IDENTICAL	True		True		5
+Assets/ChiTietSaBan/ChiTiet/BimComponentListUI.cs	4dcfe3023b87a6b43b29641a00517e37	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/RuleEngine/BaseActions/SetMaterial.cs	4dee8d13c7a41aa4cb2059cc6f842ba9	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0053.asset	4e7842d2ccb6ef442aed01de06d6b1d6	B_IDENTICAL	True		True		0
+Assets/Photon/Fusion/Runtime/Statistics/Scripts/LineChart.cs	4ead6c3b7e394b19b6ade08f8c81c7b7	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0088.asset	4f01a3efb4f802d458ca96f4e21b7674	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/QuestRailway/TerrainMeshes/Terrain_024.asset	4f0dea9e067a7ca4693a4c4b1416779e	B_IDENTICAL	True		True		0
+Assets/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs	4f19c7f94c794c5097d8bd11e39c750d	C_CHANGED_SAME_GUID	False	True	False	True	0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0055.asset	4f24d880a98b21649b5e3ad4d254b6bb	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0066.asset	4f48dc401875ece43b2fa5ac32675ac4	B_IDENTICAL	True		True		0
+Assets/Photon/Fusion/Editor/Fusion.Unity.Editor.AssemblyAttributes.cs	5094317ddb6bdc049aac25f854861ab9	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/RuleEngine/RuleSetEditor.cs	50ed6654f4ca3634ab883b5edadcbba2	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Scenes/Showroom.unity	511eb67c6367be44984f6ef41a343e66	C_CHANGED_SAME_GUID	False		True		417
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0110.asset	513bb4bf13d0485449b69c46530ed31d	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0090.asset	5144cffa0f7601a46b5e7fbc8f1caaeb	B_IDENTICAL	True		True		0
+Assets/StandaloneFileBrowser/Sample/BasicSample.cs	5148400295519405d82bb0fa65246ea2	C_CHANGED_SAME_GUID	False	True	False	True	0
+Assets/ProjectLopHoc/Scripts/SaBan/SaBanTrainController.cs	5159a78b869ab3345911fc1eed8a631b	A_NEW			True		0
+Assets/Photon/Fusion/Runtime/Statistics/Scripts/FusionStatisticsSimulationPage.cs	51a7ec5186294b8e8c190a551c9c5a52	B_IDENTICAL	True		True		0
+Assets/SlimUI/Modern Menu 1/Scripts/Audio/CheckSFXVolume.cs	51f7ab2135dc14b45b2acef27ecb59ac	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0092.asset	52178f32445623049bc224bb2eeb7773	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0063.asset	521793b1462cfc74eb5db6f1e9c09eb3	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0076.asset	5223fcd6ef153694b8707dfcff2d232f	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/TTS/BIMTTSSettings.cs	52300832bfae4bbf850b0d7fbc9250de	A_NEW			True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Bin/include/PiXYZCAD/interface/CADInterface_cs.cs	5230d8aa9415e9d439547c5b66bf151e	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Commons/EditorUI/EditorWindows/SingletonEditorWindow.cs	5289f9e43200e46458824c6bce8d3d40	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Core/Windows/LicensingWindow.cs	52ba316ea8f072046bb76a333e0aa089	B_IDENTICAL	True		True		0
+Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs	52ec835d14bd486f900952b77698b7eb	C_CHANGED_SAME_GUID	False	True	False	True	0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0074.asset	53156457209b3874b80901089379c194	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/QuestTunnelMountain/Forest_01TunnelInterior_SourcePrefab.asset	53b76f1076396c541a3344e96565e236	B_IDENTICAL	True		True		0
+Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs	53d91f98a2664f5cb9af11de72ac54ec	C_CHANGED_SAME_GUID	False	True	False	True	0
+Assets/Terrain/Rocks and Terrains Pack - Low Poly/Models/Terrains/Mountains/NoLOD/Mountain_L_11.fbx	53df8ca26c9290f49a430a8499d8ef3f	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/RuleEngine/BaseActions/RandomizeTransform.cs	540ca71db28e2f84184739e9dac48eb4	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Editor/RuntimeStreaming/RuntimeMigrationAudit.cs	5410f5decf98fd04582b3e49ddca0173	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Features/Quiz/QuizSessionController.cs	54e3684825f2321498574ae2f2164548	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0098.asset	54f415a2b3447c643b38a8f208222cb6	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Scripts/RailwayExperienceValidation.cs	552c1e09b0d45c245806656586226579	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0120.asset	55dff27bba858544b815834272584153	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Scripts/SaBan/SaBanSplineVisual.cs	563879190db8eff438674828a5fe5197	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0119.asset	5674ba43f1bab8749914f69701760cb5	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Scripts/PlayerVisualController.cs	56758839b7ff27248a279cbb42d6de72	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0079.asset	5691af377885bd54281cd5b2c1c1aa8b	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0109.asset	56a9fd847fc79d24fa90e57bf8fccec7	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Toolbox/BaseActions/ExplodeSubMeshAction.cs	5716d8edd3193b84bb9ff39e9b1a08e4	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/OK/electric+pole.fbx	584bb0b8fd0a89042a65ad33119cb303	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0062.asset	5854b6a5bced0bd429469676ed79fc32	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/ImportSDK/Import/PreprocessVRED.cs	586dd09d162b8c44f8672d16c0a1f1f0	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Editor/StaticRailwayMap/StaticRailwayTerrainEnvironmentMvp.cs	5916345fb3335a842bf200250e2c96c3	B_IDENTICAL	True		True		0
+Assets/Photon/Fusion/Runtime/Statistics/Scripts/MultilineGraph.cs	595c9c85fa8aaeb4e8145b18c449afcc	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/textures/THSR_Color.jpg	599d11d9765531b4e93573156d48569e	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Runtime/Commons/Utilities/LookUpTable.cs	59a9883b3feb35d458718b9862456872	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0104.asset	59c5d06846d9a4643b2a995a05f550ec	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Prefabs/AIChatbot_Prefab.prefab	59d68352bde680a4082088e58d4c3c34	A_NEW			True		26
+Assets/SlimUI/Modern Menu 1/Fonts/Poppins-Bold SDF.asset	59ee34472c5892a4196858080cc2141e	B_IDENTICAL	True		True		2
+Assets/UTTSaBan-Tool/UTTSaBan/Editor/SaBanBaker.cs	59f7cbd7dd0a11f40997b386befc6dd2	A_NEW			True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0109.asset	5a1df5b6b2ee2c94fb0bab3d80057f5a	B_IDENTICAL	True		True		0
+Assets/Photon/PhotonRealtime/Code/PhotonPing.cs	5a2f6055139b44142954461627d344bc	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Editor/RuntimeStreaming/RailwayEnvironmentSectors.cs	5aa848cd139e8634a8094aaac746ef94	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0100.asset	5ab06a70c3ae39c45ad182a6dd8e4862	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Bin/include/PiXYZScene/interface/SceneTypes_cs.cs	5b9d7192249c5e84da7d2b526d69f994	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Runtime/Commons/Utilities/Dispatcher.cs	5ba30f98565e774499ac852dd18890dc	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/Showroom/textures/Marble2x2_Roughness.png	5bff646d4fea0fe478449c9848ef53c1	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/QuestRailway/RailwayFlatColour.mat	5c5223bb1a3733343930cfb912877af9	B_IDENTICAL	True		True		1
+Assets/Plugins/PixyzPluginForUnity/Editor/ImportSDK/Import/ImportSettingsEditor.cs	5c740b3e46aee9f40a47bc7c6f6d059c	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Features/Quiz/QuizSO.cs	5d28084cc82390e4ebc685a0db1c487e	B_IDENTICAL	True		True		0
+Assets/StandaloneFileBrowser/StandaloneFileBrowserLinux.cs	5d3a668018554b8a89c3fe12de72b60c	C_CHANGED_SAME_GUID	False	True	True		0
+Assets/ProjectLopHoc/Generated/RuntimeZones/Meshes/ContactWire_Zone_018.asset	5e627d0d751020d429f50ae8bd98c541	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0107.asset	5e973b1252eae9b41a6a42a753bdc04b	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Chatbot/Scripts/AIChatbotIntegration.cs	5e9f66f81a4a9a248966b1b8b2a8ef84	A_NEW			True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/ImportSDK/Import/ImportStampEditor.cs	5ee06c706aa52d548ba62b3dd8c94c5a	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/OK/train-ride/mat/Trim Material.mat	5f1c10a0056cfd3468421e125d0bbb94	B_IDENTICAL	True		True		2
+Assets/Photon/Fusion/CodeGen/Fusion.CodeGen.User.cs	5f9faa3ffc014c941995a81138385040	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/QuestRailway/Station_End_TrainRide_Combined.asset	600a78e92ecd36641a3458bb611cf3d5	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/OptimizeSDK/Conversions/MeshConversion.cs	606c9c57e0ad6e74aa96aafe5a79a09d	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Scripts/SaBan/YenTuSaBanControls.cs	606f85987e903c84fb618543305c63dc	C_CHANGED_SAME_GUID	False	False	True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Bin/include/PiXYZCloud/interface/CloudTypes_cs.cs	6073e87829700724ea649bc22d8128fb	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Scripts/TrainDriverHUD.cs	6119fcb6039f836479971d9d204b0c8b	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0075.asset	61401396e1fa35c4896429bdcae47272	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/TTS/BIMAudioPlayer.cs	617a551120284885817dfed020b93f27	A_NEW			True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0056.asset	61c1bc871f8ae9f49af14afc30539449	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/QuestEnvironmentDensity/ExtendedBridge.asset	62b8f81716bf49f4e81b5775d2ce3865	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/RuntimeZones/Meshes/ContactWire_Zone_017.asset	62c51d938df51cb42ad3639ea8f81d33	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/QuestRailway/TrainVisual_0.asset	62d0fd02da9744645b5633b9b3afb976	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Toolbox/AssetProcessing/CustomModelPostProcessor.cs	63a16c0dab7aeee4cbb4e69ad7870b25	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Chatbot/Scripts/ChatbotInputController.cs	63cbbdab11315dd4bb2748bd7601681b	A_NEW			True		0
+Assets/Photon/Fusion/Assemblies/Fusion.Log.dll	641f841cbef022e4f90b206df4a1f40c	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Commons/Extensions/SceneExtensionsEditor.cs	6443b6121a3eb8f4ebe5e276630b6593	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0066.asset	6454ca578bd384544b6e8ef5a65661ea	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0097.asset	645fbafa886196b4a93f389c1d748d01	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Core/Preferences.cs	646eb2abc70aa064db4ac3271a5f7db3	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Scripts/SaBan/SaBanTrainVisual.cs	64ad70e70ce93874293350a20a7db656	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0060.asset	64d5732dc4319c54d8b704a5adaa54be	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Toolbox/BaseActions/RepairMeshAction.cs	660b77e4ee805024d90b7e9625001527	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/RuntimeZones/Meshes/ContactWire_Zone_020.asset	6684e4c60ed5bc44b9192280e8875c31	B_IDENTICAL	True		True		0
+Assets/Photon/Fusion/Editor/NetworkProjectConfigImporter.cs	66a64a17d0b40f34f9224317a5a84bf2	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Core/Formats.cs	6714ef0b5c629674d95e6606720127b2	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0059.asset	67cf870595f7382418559e932db649a6	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/EnvironmentVisualFix/Water_Opaque.mat	6801e92303ae1d843b88ba6eff4fbf37	B_IDENTICAL	True		True		2
+Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_FrameRateCounter.cs	686ec78b56aa445795335fbadafcfaa4	C_CHANGED_SAME_GUID	False	True	False	True	0
+Assets/Plugins/PixyzPluginForUnity/Editor/Commons/EditorUI/FieldInstanceSerializer.cs	68bbce70db0b6bc4d8375e67b95e48ed	B_IDENTICAL	True		True		0
+Assets/TextMesh Pro/Shaders/TMP_SDF.shader	68e6db2ebdc24f95958faec2be5558d6	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/Seat_BU_lambert.mat	69112de18c6a4c149ac8362c6ff0319c	B_IDENTICAL	True		True		3
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0099.asset	695f96dfeca41f846903cc592f1ca515	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0100.asset	6965a8dce4f9e594ea9b129442f790ad	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Commons/EditorUI/FieldInstanceDrawer.cs	6a4e7ca1cfcb25f45b49422a6aa4e2b7	B_IDENTICAL	True		True		0
+Assets/Photon/PhotonLibs/netstandard2.0/debug/PhotonClient.dll	6a558ae793155af4b9b9ab945fc64a0f	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/ExportSupport/HandsShared/Billboard.cs	6aa1362b6de959a45ab733c99b21c680	A_NEW			True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/RuleEngine/BaseActions/GetImportedModel.cs	6ab7a13826bbc7442973881934883254	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Commons/Extensions/BaseExtensionsEditor.cs	6b1aeb4ba05a01549936238c644958fe	B_IDENTICAL	True		True		0
+Assets/Photon/Fusion/Runtime/Statistics/Scripts/FusionBehaviourStats.cs	6bf9173a4dec486c88585a9dbd2868fa	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/QuestExperienceSectors/Zone_016_OverheadPortalSector.asset	6c4dda134ff71404aaafede86e9e256d	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Scripts/SaBan/SaBanInfoTarget.cs	6c5887d4bbb837742a2b579087c42439	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0096.asset	6cb48bbf15ba7ff4485234455bc30d53	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Toolbox/BaseActions/GenerateBillboardAction.cs	6ce992a7e009ad248b4c0fd9a55a034e	B_IDENTICAL	True		True		0
+Assets/Photon/Fusion/Editor/FusionHubWindow.cs	6d3bb7f5f74058d48bec8c16fc988309	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0120.asset	6e517215cd8b12644aa14ee32bd3d4df	B_IDENTICAL	True		True		0
+Assets/StandaloneFileBrowser/Sample/CanvasSampleSaveFileImage.cs	6e681018aa67241a69b8447678ec3b4e	C_CHANGED_SAME_GUID	False	True	False	True	0
+Assets/Plugins/PixyzPluginForUnity/Editor/RuleEngine/BaseActions/AddRigidbody.cs	6e87c4a76c92a3b43bdb6d9980f85d4b	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Prefabs/UserMessagePrefab.prefab	6eb6fcca99c592047bf4663b7979d2f2	A_NEW			True		7
+Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/Color_SV_blinn.mat	6ec41b62f11086643a9fc42f725b8689	B_IDENTICAL	True		True		2
+Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/textures/Seat_Label.jpg	6ec8cc44c1bfa1547935e79b82d2000d	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0112.asset	6ec95523fc89ad84386ea75b6591c6c5	B_IDENTICAL	True		True		0
+Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs	6f2c5b59b6874405865e2616e4ec276a	C_CHANGED_SAME_GUID	False	True	False	True	0
+Assets/ProjectLopHoc/Art/3DModels/Tunnel/ImageToStl.com_concrete_girder_beam_bridgestunnels_free.fbx	6fbf722cf5c444d44a5e5b8bafa6b38d	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0131.asset	70089de1ae4c83c488879fa166f0b697	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/Tunnel/Mat/ConcreteTunnel1.mat	7009cc1e8ce0f614abd070b692f98820	B_IDENTICAL	True		True		2
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0098.asset	714061a101d95c448a420af3d12dc825	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/ImportSDK/Utils/NonPersistentSerializer.cs	71454b3e211fb5f4ba180c9dc9ba8801	B_IDENTICAL	True		True		0
+Assets/Photon/PhotonRealtime/Code/RoomInfo.cs	71760b65ad7d5b842942c797a0366fa7	B_IDENTICAL	True		True		0
+Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileTextMultiple.cs	71c09849449d61e47a4599e06b964998	C_CHANGED_SAME_GUID	False	True	False	True	0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0126.asset	72286fcba405f1f44a12fc004b372d1c	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0125.asset	722aefa2f5ba8b64785eeb94c3a3e2cd	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0086.asset	72439322828b20741a1a163af0e321e6	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/API/ManagedInterface.cs	724b2741ad14e3245acbe0c988b8728a	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Toolbox/BaseActions/CreateUVsAction.cs	729a12bd49bb33c40b1a113d3a3e89f6	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Toolbox/BaseActions/CreateLightMapUVsAction.cs	72ba5f7bd03d2914eb9255f89a0e4769	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0055.asset	72cd01a94bb04c541a6a0fad9e29eacb	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/RuleEngine/BaseActions/PrintMaterialsInfo.cs	73b98485367336548a99a73ad245403c	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/TTS/IBIMTextToSpeechProvider.cs	73c9bacd74a046f795c2418084691eeb	A_NEW			True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/LODTools/LODGenerationWindow.cs	73f83f2e8db1d84478b1a14022301ad4	B_IDENTICAL	True		True		0
+Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll	748eb70bc0d7515498ef73fed155520a	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/Auto_Sale_blinn.mat	74dea8cf3382d9a4fb88618f6374f0d7	B_IDENTICAL	True		True		3
+Assets/ProjectLopHoc/Generated/QuestRailway/TerrainMeshes/Terrain_022.asset	74dec0333e9e0e84cbed3bd18a63ef4a	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/ImportSDK/Import/ScriptedImporter.cs	7504ed5347b10eb4a852ffb73563ad6e	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/RuntimeZones/Meshes/ContactWire_Zone_016.asset	751e8ea397335544faceb1b213cf2757	B_IDENTICAL	True		True		0
+Assets/Photon/Fusion/Runtime/Utilities/RunnerVisibility/RunnerLagCompensationGizmos.cs	7551cd937fd7ae84eb38a9dbbcd67c6f	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/QuestExperienceSectors/Zone_022_ResidentialCluster.asset	75881cf316b24694bb525b4d4d2d6378	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0062.asset	75c00178c2346ff429d908fca57edb37	B_IDENTICAL	True		True		0
+Assets/StandaloneFileBrowser/IStandaloneFileBrowser.cs	7609f7b6787a54496aa41a3053fcc76a	C_CHANGED_SAME_GUID	False	True	False	True	0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0088.asset	764eeda8e25410e4990beb441e8c8ec6	B_IDENTICAL	True		True		0
+Assets/ChiTietSaBan/ChiTiet/Test.cs	76995d933db487f43bde2167c266d8d9	B_IDENTICAL	True		True		0
+Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner.cs	76c11bbcfddf44e0ba17d6c2751c8d84	C_CHANGED_SAME_GUID	False	True	False	True	0
+Assets/Plugins/PixyzPluginForUnity/Editor/RuleEngine/BaseActions/GetGameObject.cs	76dd699c0fd60d54ea20da1528dedf0f	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0122.asset	7719f93f553a8404995c229eb35f434e	B_IDENTICAL	True		True		0
+Assets/SlimUI/Modern Menu 1/Graphics/Frames/Panel Frame 512px.png	77d3c62c476ec1b4a8057b7591ff68d1	B_IDENTICAL	True		True		0
+Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs	790744c462254b7ba8038e6ed28b3db2	C_CHANGED_SAME_GUID	False	True	False	True	0
+Assets/Plugins/PixyzPluginForUnity/Editor/Toolbox/BaseActions/RemoveZFightingAction.cs	79864b588cb69244b9380320830b6390	B_IDENTICAL	True		True		0
+Assets/ChiTietSaBan/ChiTiet/RailwayDatabase.cs	7a6054f010596b047bc271799d3ca705	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauShowroom/sydney-metro-driverless-train-alstom-metropolis/textures/Glass_dif.png	7a7f2009d02aba047918b3cc9de0450c	B_IDENTICAL	True		True		0
+Assets/Photon/PhotonRealtime/Code/Lobby.cs	7a83e34320caf4c4d95c73f753f9670e	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/QuestFarSettlement/Zone_017_FarCluster.asset	7a8e0b81572ae4e448277cd24bc8ffbe	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0101.asset	7a9c4813bfadd4d408311cfefb7b895d	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/Glass_blinn32.mat	7ac651bf10bf63f4492797276cc78da7	B_IDENTICAL	True		True		2
+Assets/Plugins/PixyzPluginForUnity/Editor/RuleEngine/BaseActions/PrintGameObjectsInfo.cs	7b15d104832b4c54fb18640156e97ba4	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0052.asset	7b16dfb55679034439219cb6117cfa01	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0060.asset	7bd4cb7a697f2784aa62dc762a0b039f	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/Marker_blinn.mat	7c5709570b9b57c489f928965e6b6fd9	B_IDENTICAL	True		True		3
+Assets/ProjectLopHoc/Generated/RuntimeZones/Meshes/ContactWire_Zone_012.asset	7c691d6e1ecf8904eb331dcde4117adb	B_IDENTICAL	True		True		0
+Assets/Photon/PhotonRealtime/Code/RoomOptions.cs	7c867664c0784eb4f86b99bf9eb3f403	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0123.asset	7cd1e1b72c08fce4aa3679c0e03193b4	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0055.asset	7cf3e8bc07a081740bb275ba2534e90e	B_IDENTICAL	True		True		0
+Assets/StandaloneFileBrowser/Plugins/System.Windows.Forms.dll	7d459a96865cc4aaab657012c6dc4833	B_IDENTICAL	True		False	True	0
+Assets/Photon/Fusion/Assemblies/Fusion.Realtime.dll	7de3b8b9e1263ad479e2d0c4261b7646	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/RuleEngine/BaseActions/SetTag.cs	7e23e9a391608c74ba695c4e58cc99ed	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0129.asset	7e2d68b3bc690ad4cadb6a1166b74f5f	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Toolbox/BaseActions/DecimateAction.cs	7f834793e6c92974e9b577416d049b6a	B_IDENTICAL	True		True		0
+Assets/Photon/Fusion/Editor/FusionEditorHubWindowSdk.cs	7fdfd519abf867b42bfc03a6f1d7b76b	B_IDENTICAL	True		True		0
+Assets/UTTSaBan-Tool/UTTSaBan/Runtime/SaBanRouteSampler.cs	80015c83fd63c3d40859f5680175f2d7	A_NEW			True		0
+Assets/Photon/Fusion/CodeGen/Fusion.CodeGen.cs	800c2efef414be248b2a8c6cf25bf27f	B_IDENTICAL	True		True		0
+Assets/Photon/Fusion/Runtime/Statistics/Scripts/TimeStatisticsPage.cs	8057e602093d4115bd2422a4a65b9643	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Toolbox/BaseActions/FreePassAction.cs	808797f5bf6aa664ba12bb61b08278d3	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0084.asset	809b7e22d07d15341b49b0c60c0d40ac	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Toolbox/BaseActions/RetopologizeAction.cs	809ca400504d9aa48b65ef22f73de651	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0079.asset	80dfb9db2b712c64cb141360e2e461cd	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/TTS/BIMTextSanitizer.cs	8113b9c0baf94bf4bb4e5718a39b767d	A_NEW			True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/RuleEngine/BaseActions/FilterOnTag.cs	81197b665438f3c45adbc00e67bc3def	B_IDENTICAL	True		True		0
+Assets/Photon/Fusion/Runtime/Statistics/Scripts/FusionStatistics.cs	814d6db13cb046cc8c85a13cdb86ee98	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/Tunnel/Mat/Grass2.mat	81da86e088b4f824bbd85ffb8fb607c5	B_IDENTICAL	True		True		2
+Assets/Plugins/PixyzPluginForUnity/Runtime/ImportSDK/Import/ImportSettingsTemplate.cs	81e36465bb629344baa5e4c8b421062e	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Toolbox/BaseActions/MergeAction.cs	825ed3e3bf531344aafb4f56011b4553	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Chatbot/Scripts/MockBrain.cs	82834b66ec951144c9e3ec4bf812bc64	A_NEW			True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0111.asset	828f276d4d8255d419061dc318353980	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Features/Authentication/Services/OfflineAuthenticationService.cs	831f2356758c78945ad6e54f72312e1d	B_IDENTICAL	True		True		0
+Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator.cs	83680ab1a69f4102ac67d1459fe76e1f	C_CHANGED_SAME_GUID	False	True	False	True	0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0091.asset	844caa90960a4104f9a713108070ae70	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Core/ScriptableObjects/ClassroomConfigSO.cs	848169e93fa78284f97e07c3253113e6	B_IDENTICAL	True		True		0
+Assets/Photon/Fusion/Assemblies/Fusion.Sockets.dll	850f5b8096bb4c64abfef35065cde6b1	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/QuestFarSettlement/Zone_020_FarCluster.asset	85b82abf3d28fc3448997f57aee1e6f9	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0073.asset	85b99c852e969bc48b3d11a8690e23d3	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0129.asset	8619ccd0d4d95294caa3f420a8610738	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/RuntimeZones/Meshes/ContactWire_Zone_014.asset	864d3c4e30e1beb40a411ddf3c4adeb7	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/OK/High-speed_train.fbx	86d2c21f0b29b9947b583e022ccafa73	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0129.asset	86def8292b5292f4ab5ad971e8cb0ba1	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/textures/Ctrl_Panel.jpg	873f1aec9aa3685449c9462bcc41796d	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Runtime/Commons/Utilities/Profiling.cs	87423b560b21ebe4a81838dc5aa1ac70	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0090.asset	87b7bb88df5298043b738643fe530901	B_IDENTICAL	True		True		0
+Assets/Photon/Fusion/Runtime/Fusion.Unity.AssemblyAttributes.cs	87e3886742c1ae04096a83c7188f1d9b	B_IDENTICAL	True		True		0
+Assets/Photon/Fusion/Runtime/FusionBootstrap.cs	88230848386761045af440d808ee3efa	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0083.asset	885babaef99fbda4bb6e1038319d4987	B_IDENTICAL	True		True		0
+Assets/Photon/PhotonRealtime/Code/EventBetter.cs	892c0291c03669d4cbbe41fd5fb7b267	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/RuleEngine/RuleEngineMenu.cs	8964acdb8d54f7540b5d171fa8302de9	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/ImportSDK/Conversions/BaseTypeConversion.cs	8aa2f905721d4114d9435bb1e9f9a0e8	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/THSR_Color_blinn.mat	8b0608d24f3debd47a9517efbc1340f9	B_IDENTICAL	True		True		3
+Assets/ProjectLopHoc/Prefabs/EBS_Rail_2000_Prefab.prefab	8b217a26fc870154c9bd0593d6ec191f	B_IDENTICAL	True		True		2
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0070.asset	8b49f3c24fd2d97418aeb224e3b1e3aa	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Chatbot/Scripts/RobotInteraction.cs	8b7a3db39465f264bb7ff3cf68e7c6c6	A_NEW			True		0
+Assets/Photon/Fusion/Runtime/FusionBootstrapDebugGUI.cs	8ba5764f4714bd64ab9efab127938e77	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0071.asset	8bd99cc1e83731846a66235342868ae4	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0131.asset	8c0cdd2c7450fb647a1491d311c4c7e2	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Features/Quiz/QuizButtonInteractable.cs	8c4e2af7a08b5fa48a586734a603861a	B_IDENTICAL	True		True		0
+Assets/ChiTietSaBan/ChiTiet/RailwayElement.cs	8c500b212c260de43b3c9f4c298fd363	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Scripts/RailwayStreamingBudget.cs	8c77efc447171f54ebafa1ff0944a0e8	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Features/Quiz/QuizPopupUI.cs	8c9562739c676614887d954172157a25	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/RuntimeZones/Meshes/ContactWire_Zone_023.asset	8cd4a0144671d6a43a52e10bc2755431	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Scripts/SceneQuickMenu.cs	8d20cf4f568c4ae899b0569b11b7a920	C_CHANGED_SAME_GUID	False	False	True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Commons/Utilities/PiXYZDefinesManager.cs	8e629a920edd21945b96d6a3b417f945	B_IDENTICAL	True		True		0
+Assets/StandaloneFileBrowser/Sample/CanvasSampleSaveFileText.cs	8e97f52f0bd664ee78305dae0094a755	C_CHANGED_SAME_GUID	False	True	False	True	0
+Assets/Plugins/PixyzPluginForUnity/Editor/RuleEngine/BaseActions/GetAllGameObjects.cs	8eac5890f8192dc4aabaa4d9b0bbb163	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/QuestFarSettlement/Zone_022_FarCluster.asset	8eadf284ee01c0141a1063b59cb0b84e	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Runtime/ImportSDK/Import/VariantsManager.cs	8eedb80ab487fa4419a5c937ba2775cd	B_IDENTICAL	True		True		0
+Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs	8ef7be1c625941f7ba8ed7cc71718c0d	C_CHANGED_SAME_GUID	False	True	False	True	0
+Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/Color_RG_blinn1.mat	8f0f0aa7d2d87a2449027615c7ffdd1e	B_IDENTICAL	True		True		2
+Assets/ProjectLopHoc/Art/3DModels/TauShowroom/gold-coast-glink-light-rail-tram-flexity-2/source/glink_tram_skecthfab.fbx	8f52b3c6c17d7b749946dc21106bbb22	B_IDENTICAL	True		True		0
+Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset	8f586378b4e144a9851e7b34d9b748ee	B_IDENTICAL	True		True		4
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0121.asset	8f869c02441727e45a6b22038b878094	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/Materials/concrete_pavers_02_diff_4k.mat	8fa868ff3a8968a4095707b31f92cb2c	B_IDENTICAL	True		True		3
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0096.asset	8fac820196a67dd448c3cd83e081971f	B_IDENTICAL	True		True		0
+Assets/SkySeries Freebie/FreebieHdri/DayInTheClouds4k.hdr	90196f2c2d8d2f2448717676e1a09894	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/Showroom/ObjectInfoBoard.cs	903dec0da6d44c94c9c2b938c91554ae	A_NEW			True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0070.asset	90662c724a9e11943a43417d9d365d5f	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Commons/Utilities/EditorGUI/TextureCache.cs	906f1756da5603f4d94aa3cfe2733821	B_IDENTICAL	True		True		0
+Assets/Photon/Fusion/Runtime/NetworkSceneManagerDefault.cs	90a93abf1a391964a94e5c139605105b	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Scripts/RailwayMicroChunkStreamer.cs	90ae29c276b4513478c320dca8af8b56	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0082.asset	90deed99b553ee1459691963a12ce51b	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Scripts/RailwaySmoothnessProbe.cs	914192fa11ca9a64a8085f670658beaf	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Commons/EditorUI/FieldInstance.cs	916e553a0c24a3844adeefa2d9f14216	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Core/Windows/Menus.cs	919548ae55d40964792a8d4bd63e5e44	B_IDENTICAL	True		True		0
+Assets/Photon/Fusion/Editor/Fusion.Unity.Editor.cs	91a915d06029929418c86dcc2003f785	B_IDENTICAL	True		True		0
+Assets/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler.cs	91b8ba3d52e041fab2d0e0f169855539	C_CHANGED_SAME_GUID	False	True	False	True	0
+Assets/ProjectLopHoc/Prefabs/Pier Column.prefab	91fd5dae5dc56fe4e92d8222ee9a185b	B_IDENTICAL	True		True		2
+Assets/Photon/PhotonRealtime/Code/RaiseEventArgs.cs	921e467ad67d74b44bb097ce54e95b12	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0053.asset	9272162ef3d7b304c9105697cbf3a42e	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/TTS/BIMTextToSpeechController.cs	934157c212184aab8f3f5776f8ed068b	A_NEW			True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Toolbox/BaseActions/MovePivotAction.cs	93702645e80735f4fb5f3f20c5970adf	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Runtime/ImportSDK/Import/VariantSets.cs	938259e1dbe7f4d4fac834d5718702f6	B_IDENTICAL	True		True		0
+Assets/Photon/Fusion/Runtime/Statistics/Scripts/RadialChart.cs	9395928b6ad74d9d921a2fe6fd2e0244	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Scripts/TrackSplineGenerator.cs	93d28acdb411afb4799c4b6c31fdb5e3	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/textures/Matel_02.jpg	93d6e695d8eedad42a8e79b296afba55	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Scripts/SceneTeleporter.cs	93dffd21d8b147444866e0795ce3cb12	B_IDENTICAL	True		True		0
+Assets/UTTSaBan-Tool/UTTSaBan/Editor/SaBanBuilderWindow.cs	9406b46c48a1eff4aa1931c1f6267991	A_NEW			True		0
+Assets/ProjectLopHoc/Generated/QuestRailway/TerrainMeshes/Terrain_015.asset	940d7a32ac84c1645bad42237a55de9a	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Bin/include/PiXYZScene/interface/SceneInterface_cs.cs	9417df309eb94b74a818c9eb7d270a7a	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/RuleEngine/Resources/IconRuleEngine.png	942a5c7ea730b1b42a23262f38db5c63	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Prefabs/LoadingMessagePrefab.prefab	944659a55acdb2c478e4a2bba0611d73	A_NEW			True		7
+Assets/ProjectLopHoc/Art/3DModels/TauShowroom/gold-coast-glink-light-rail-tram-flexity-2/textures/glink01_albedo_opacity.png	94a90b5612e59ca46b0ced9d22a729e3	B_IDENTICAL	True		True		0
+Assets/Photon/PhotonRealtime/Code/FriendInfo.cs	94ba1138c322ea04c8c37cfbcf87f468	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Runtime/Commons/Utilities/TextureUtilities.cs	9531a2c231aeec042a601e234cc6be63	B_IDENTICAL	True		True		0
+Assets/Photon/Fusion/Runtime/Statistics/Scripts/FusionStatisticsNetworkObjectStats.cs	954fa5b03a164742a17a847f1148a245	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0095.asset	958c7940cfeb0b44fb3f31e9c383224e	B_IDENTICAL	True		True		0
+Assets/SaBanDemo/Runtime/SaBanDemoMotionController.cs	9593a2c197e9721448cdc2d8301a7b3a	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauShowroom/gold-coast-glink-light-rail-tram-flexity-2/textures/glink_exterior01.mat	960c6edbcc5b0104babc3cc2b0a8c78a	B_IDENTICAL	True		True		3
+Assets/ProjectLopHoc/Scripts/DashboardManager.cs	965d10921e512d2409e01f2d9ed6bbd0	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Scripts/TrainExteriorView.cs	9676b397afc2eb344a16d27fc500af9f	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Bin/include/PiXYZGeom/interface/GeomInterface_cs.cs	9676e5e03ccffd74ea982e0684ccfa20	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/LODTools/LODBuilder.cs	9698ee3d92bed7448b11bc33272a55fe	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Bin/include/PiXYZUnity/interface/UnityTypes_cs.cs	969f9478cc8ab924d972a6d351466431	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0052.asset	96f1f86e49895684185e6744cffa0200	B_IDENTICAL	True		True		0
+Assets/Photon/Fusion/Runtime/Utilities/RunnerVisibility/RunnerVisibilityLink.cs	972a7cfee50c64022a98777550cfb7d6	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0051.asset	976a4c27d7239064cb819419f1d09f6a	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/concrete_pavers_02_disp_4k.png	97889fda88cdaca4ebb5c943bd65d2c2	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauShowroom/gold-coast-glink-light-rail-tram-flexity-2/textures/Copyright.png	97b5b584a6756e041b74edc9a6fb7910	B_IDENTICAL	True		True		0
+Assets/Photon/Fusion/Plugins/NanoSockets/NanoSockets/Dynamic/NanoSockets.dll	97dbb2b4c5d67894381958ef748f2a74	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/blinn31.mat	981b264cca904d64f9d57f6fbe77e317	B_IDENTICAL	True		True		2
+Assets/ProjectLopHoc/Generated/QuestRailway/TerrainMeshes/Terrain_018.asset	98561980dafe1de43b9fdd28dbe4d7bf	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Scripts/XRSessionRevisionValidation.cs	98599c59d0caa7d42856269630994280	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0120.asset	9884f98618801b245bacc3a754b08da5	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/QuestFarSettlement/Zone_012_FarCluster.asset	98f0c77be4b31cf46ae7dcfa38930100	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0078.asset	993bae18bed263145b552264611b2e96	B_IDENTICAL	True		True		0
+Assets/Photon/Fusion/Editor/FusionEditorHubPageSO.cs	996fc906296b981458399ade608e7a97	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/RuleEngine/RuleBlock.cs	99917f3a0ce77644086966c5d8436321	B_IDENTICAL	True		True		0
+Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileText.cs	99a65d6437df64949b37cba4eadc67a2	C_CHANGED_SAME_GUID	False	True	False	True	0
+Assets/ProjectLopHoc/Editor/RuntimeStreaming/RailwayPerformanceAudit.cs	99a8113e50f9cc347bccad0927adfe29	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Commons/Style/ColoredTheme.cs	9a09f3ed1f71fc248808fab8f484f156	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0101.asset	9a5876db19a877b4399dd300ebf30995	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/RuleEngine/BaseActions/GetSelectedGameObjects.cs	9aeb359d402f7384f8d82d752215f5e6	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/QuestFarSettlement/Zone_014_FarCluster.asset	9b1df09f9e280e64d9641657eaabbd70	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/RuntimeZones/Meshes/ContactWire_Zone_015.asset	9b5ebc0bb11d5f5478ed0ccbd1f4cb1a	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0068.asset	9b6e5658f60342a499d21ed12fd455f2	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Toolbox/BaseActions/CombineAction.cs	9b7053fafa2afaf418f5e01a3c9a01bb	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/XkiroBrain.cs	9b761e3ae497af04f85b189355932f55	A_NEW			True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Bin/include/PiXYZProcess/interface/ProcessInterface_cs.cs	9b8fa8a67a8a6404d8c1fabb28a3c538	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0109.asset	9b9d7350d58276a47adc1e257cab20d4	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0106.asset	9d1ffbf3f716a034c8cf6fd3e6dcebcd	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0084.asset	9d32eadf7ab098540b1be93e74186b59	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0087.asset	9d406a04840b22c4c8d05820e2fe54b3	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/ImportSDK/Interface/SceneTreeConverter.cs	9d91a73feafa0384bb3b263a08eae082	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0093.asset	9dbdeca2b7c9f6544889bb5b10447130	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Scripts/RailwayFarSceneryVisibility.cs	9e308ea4da48bc8409b3aeb77d8c6fdf	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/QuestRailway/TerrainMeshes/Terrain_021.asset	9e3f35aebfad9254cbe01dc73b40dcc2	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/Showroom/textures/Map #19-Map #19.png	9ed8eb8b2ec7e964bb70d1b245de5807	B_IDENTICAL	True		True		0
+Assets/Editor/ConvertHDRPToURP.cs	9eea9ee827f8d9546943e5879c7165ba	B_IDENTICAL	True		True		0
+Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs	9eff140b25d64601aabc6ba32245d099	C_CHANGED_SAME_GUID	False	True	False	True	0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0131.asset	9f69dba724835f749a21629c5e301e1b	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0064.asset	9f70bbf6822c5da41b2b9499b2512763	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0128.asset	9fd6f5b2d7ccb8a42ae3cd24b3953c7b	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Scripts/FollowCompanionBot.cs	9fee4bde137326d4599f66d757100013	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/QuestFarSettlement/Zone_023_FarCluster.asset	a030eee61a611904791df0f4afde59e4	B_IDENTICAL	True		True		0
+Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_B.cs	a05dcd8be7ec4ccbb35c26219884aa37	C_CHANGED_SAME_GUID	False	True	False	True	0
+Assets/ProjectLopHoc/Scripts/SaBan/SaBanInteractable.cs	a0768a0b984cc3d4ebd8eb0fba1e9138	A_NEW					0
+Assets/Photon/Fusion/Runtime/Utilities/RunnerVisibility/RunnerAOIGizmos.cs	a09b7c3c2f0604fef93beb7057001dbb	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauShowroom/gold-coast-glink-light-rail-tram-flexity-2/textures/glink_interior.mat	a0abf75640d7b4a4ebf2208b1bcf2069	B_IDENTICAL	True		True		2
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0079.asset	a0b94eae2461a9747bd95b1699380d95	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0092.asset	a187bf25791929d4b9e5d19590c1782d	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Runtime/Commons/Extensions/MathExtensions.cs	a1a32ec5f6535e74b808e73117244a22	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Scripts/BIMInteractable.cs	a1fc11d12b8a1184597ac4961a10f9e8	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0083.asset	a273c044292b13a4e9dba8909c2a1090	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0080.asset	a29312306d81e604bab26fd3f7005d24	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Scripts/TrainSeatInteractable.cs	a2a11fafc45466b4b913c0f632e1851c	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Features/Lecture/LectureBoardController.cs	a2c9c24967ffe0049863e610205d03bf	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Scripts/YenTuHaLongCameraHeight.cs	a2e5e0045f1e30844bfa4f627f7e46eb	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Features/Quiz/QuizQuestion.cs	a345e4d8b665fd54792d3c82f459d3fd	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/Showroom/Warehouse.fbx	a34640d4145ead141be6449445d58bad	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/GroqSpeechToText.cs	a35e4f1e2c7879a4489d06ce1d91e466	A_NEW			True		0
+Assets/Photon/PhotonRealtime/Code/ProtocolPorts.cs	a399c8884105b4a42a6e19164685fb3b	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Editor/RuntimeStreaming/RailwayEnvironmentDensity.cs	a3a1a5e113d06164ab73ff677f306711	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0095.asset	a3cab140692053e43b0892164db24f96	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0078.asset	a4136602a97fddf4f9a6ed3a2cc8c1e8	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0118.asset	a4465da46e483cf46ac28ff5a1d4ea15	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0093.asset	a46e841ee83943a428c6e5d1ab5df77b	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0102.asset	a4960be0a4b646f4eb9b403c81b27e36	B_IDENTICAL	True		True		0
+Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs	a4b6f99e8bc54541bbd149b014ff441c	C_CHANGED_SAME_GUID	False	True	False	True	0
+Assets/Photon/Fusion/Assemblies/Fusion.Common.dll	a4d1b22b416816f4a830209a6058fe35	B_IDENTICAL	True		True		0
+Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs	a4d4c76e63944cba8c7d00f56334b98c	C_CHANGED_SAME_GUID	False	True	False	True	0
+Assets/ChiTietSaBan/ChiTiet/VRBimAiDashboard/VRBimAiDashboard_Contextual_Package/VRBimAiDashboardController.cs	a5c11f0f6d9645ba9b26f27a91a2b683	B_IDENTICAL	True		False	True	0
+Assets/Plugins/PixyzPluginForUnity/Editor/Toolbox/BaseActions/FlipNormalsAction.cs	a63eba365d7eded4599c20e53c059a20	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0112.asset	a6bed3819efec8842994e38bcf51be75	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0051.asset	a6e686efe7bcc5c47a78de2f2d0a9784	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Bin/include/APIInterface_cs.cs	a70e99229670d2047b5d63c9e9a23109	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0117.asset	a72db5fe94dc5884598b7dcce9f88619	B_IDENTICAL	True		True		0
+Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs	a73109742c8d47ac822895a473300c29	C_CHANGED_SAME_GUID	False	True	False	True	0
+Assets/Plugins/PixyzPluginForUnity/Editor/RuleEngine/BaseActions/FilterOnMetadata.cs	a75836de9327f7c42959ad449b780971	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/RuleEngine/BaseActions/SetLayer.cs	a79803596c54bda4080c89b325005fe2	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0094.asset	a8244ecf6d8455343bfbfbc32974ca4e	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Scripts/FirstPersonController.cs	a8422535916a55d42b660ba4c993cc71	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/QuestFarSettlement/Zone_021_FarCluster.asset	a87302b010e28cb49b3ae73c7ee57671	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Features/Authentication/Views/QuestLoginKeyboard.cs	a890d872c1c94f44a8e9ddbe69007e4b	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/RuleEngine/BaseActions/Delete.cs	a8a03d0452d012f4d8d219404854e852	B_IDENTICAL	True		True		0
+Assets/UTTSaBan-Tool/UTTSaBan/Runtime/SaBanPanelButton.cs	a8cba01320fe70a46a3c328f8b9cefe3	A_NEW			True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/ImportSDK/Import/Subprocess.cs	a969d5a62b0c51c428b8584e28ba4f68	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0067.asset	a9db9031fcaa43b4c98c6da646a36c01	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/Color_BK_blinn.mat	a9df702f2cd07d8469f4f587e87aaff0	B_IDENTICAL	True		True		2
+Assets/ProjectLopHoc/Scripts/PlayerSpawner.cs	aa62411290db7ff4da6939f9bcd3026b	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/QuestRailway/TerrainMeshes/Terrain_025.asset	aaf7e2b4f88879f48aad289dece80999	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0084.asset	ab02305f26d92034f907e55df6d06ccb	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Scripts/XR/QuestRayControllerInput.cs	ab752d11337a0a640b33805e0e0ec429	B_IDENTICAL	True		True		0
+Assets/TextMesh Pro/Examples & Extras/Scripts/DropdownSample.cs	ac1eb05af6d391b4eb0f4c070a99f1d0	C_CHANGED_SAME_GUID	False	True	False	True	0
+Assets/Plugins/PixyzPluginForUnity/Editor/RuleEngine/BaseActions/PrintMeshesInfo.cs	ac7a919b97f32e94b97c0c5ebe1a404e	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/RuntimeZones/Meshes/ContactWire_Zone_026.asset	ac7ba02d3870d8a489fa3bb55c00c2e0	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/QuestExperienceSectors/Zone_011_SubgradeReinforcedSlope.asset	ac8f784becf48f64dae98e9c8e9c6bfb	B_IDENTICAL	True		True		0
+Assets/Photon/PhotonLibs/WebSocket/SocketWebTcp.cs	ac953d6a57a9ea94e96ec689598995d5	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/RuleEngine/BaseActions/GetChildAt.cs	acf50fc57a775da4cb0eb83843c78b41	B_IDENTICAL	True		True		0
+Assets/SlimUI/Modern Menu 1/Scripts/Audio/CheckMusicVolume.cs	ad149d53679afc04782ee02fa3e008d8	B_IDENTICAL	True		True		0
+Assets/Photon/Fusion/Editor/FusionWeaverTriggerImporter.cs	ad51894a651725c42acc54ccd6a81282	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0130.asset	ad650ce571d27f24c8cf64ffbc8e41b0	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0085.asset	ad6cf71caebfd0f4c96831161bfb007e	B_IDENTICAL	True		True		0
+Assets/ChiTietSaBan/ChiTiet/VRBimAiDashboard/Scripts/VRBimAiDashboardInteractions.cs	ad9ca40270144982b9c3367277aaf1ee	C_CHANGED_SAME_GUID	False	True	False	True	0
+Assets/Plugins/PixyzPluginForUnity/Editor/ImportSDK/Conversions/InterfaceConversion.cs	ae56556974545c348b46992f9e31e376	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0126.asset	af70149dc692ae543ac6060f422efbdd	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0130.asset	aff71a8384b6e334c9a21f519f2f2282	B_IDENTICAL	True		True		0
+Assets/ChiTietSaBan/ChiTiet/MeshClickHandler.cs	b003f088ac1a4a84488f45abddf04f8e	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0081.asset	b00d5ede85536294fb6a3c594cb3a373	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0118.asset	b07f9e76e5979e94b84fb2f24f743bc3	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Scripts/TunnelStreamer.cs	b08633d2612b61b489058bdab0b08202	B_IDENTICAL	True		True		0
+Assets/Photon/Fusion/Editor/FusionRunnerVisibilityControlsWindow.cs	b0b9919e3f6641c4dbd365521e52c809	B_IDENTICAL	True		True		0
+Assets/Photon/PhotonLibs/WebSocket/WebSocket.cs	b1bad04f7805f764dba77f0d4518e0f0	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/textures/Seat_Number.jpg	b1f9ed7f2640f6041ba0868bab406dda	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Bin/include/PiXYZAlgo/interface/AlgoInterface_cs.cs	b22f249cd4443944bb0db97beda9cc74	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/QuestRailway/TerrainMeshes/Terrain_010.asset	b230261898ba3304bbfa7c21e81c53cc	B_IDENTICAL	True		True		0
+Assets/Museum/MuseumLabelStand (1).cs	b2a06afb42866ff43b95b415bab96d02	A_NEW					0
+Assets/Plugins/PixyzPluginForUnity/Runtime/ImportSDK/Utils/Enums.cs	b2c6ad16d7c060f41b38c7c5baad5356	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Bin/include/PiXYZCAD/interface/CADTypes_cs.cs	b30c7fec844d99c4387e7e664251b384	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0070.asset	b32d2b2961997ac428714cd269c5e023	B_IDENTICAL	True		True		0
+Assets/SaBanDemo/Runtime/SaBanPresenceGate.cs	b350ff0cd54f9ae41a7535a7a212664d	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/QuestExperienceSectors/Zone_022_ResidentialStreets.asset	b39fce365284afe43913b9d59e807ef6	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0062.asset	b3d445aec29242143a643d2da8c626f6	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0103.asset	b41fdb7fdc97f2049a5199a528c5f4c5	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0102.asset	b4271a3c4828408439ade686fc3c85df	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/RuleEngine/BaseActions/GetChildren.cs	b4316d58ac8095a4ebd5c701402325e2	B_IDENTICAL	True		True		0
+Assets/Photon/PhotonRealtime/Code/AuthenticationValues.cs	b4442eb12b05e7f4da28cf460b9a48e2	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/QuestFarSettlement/Zone_011_FarCluster.asset	b44c8670b8809f4488d527a7d0ed8900	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0074.asset	b4b658dc31082a74eb22755255dcf1b4	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0056.asset	b4f80d498fb5408459f2bf1648ef10bf	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauChay/than/textures/Polished_Concrete_Old.jpg	b4fbed763ce1162488e51a9643f45a5c	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/ImportSDK/Resources/IconPixyz.png	b5034852c97812e44b26450421d35cce	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0091.asset	b50ab091c6fefdf48bc9623ab81bbcb5	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0113.asset	b5598647bd6fbf34593a53d2a667b978	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0053.asset	b57b8a84c150914499a13ea84a8c241e	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0080.asset	b59c3977dee82d8488af4c2c96bc40ca	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Toolbox/BaseActions/CreateNormalsAction.cs	b730d2a5371cbd94abf788ba79e59c3e	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0086.asset	b7f6b7efc36dcbf4aa7a6a8467f5b4de	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0071.asset	b821985fe2c351d4fa4114523ca7c54f	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/LODTools/LODRuleEditor.cs	b82b392f375f57e40a800165825660ba	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0082.asset	b851b925d2f1da743870d6d3df19d853	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Toolbox/EditorWindows/LicenseManagerWindow.cs	b887560d71bda4a47844b8544de5a006	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0086.asset	b8a54d56b5a91c94484cb934dd4a68bb	B_IDENTICAL	True		True		0
+Assets/Photon/Fusion/Runtime/Utilities/RunnerVisibility/RunnerEnableVisibility.cs	b8edbe7108d8a43ab838cf8b8d9453df	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0087.asset	b902ad7312e93ca438aab46e17634d2a	B_IDENTICAL	True		True		0
+Assets/UTTSaBan-Tool/UTTSaBan/Runtime/SaBanPanelFactory.cs	b90a8b15bf60262499f39909fb7c710c	A_NEW			True		0
+Assets/ProjectLopHoc/Art/3DModels/TauChay/than/textures/Seat_Color.jpg	ba3d86d5a2828e949851807caf03c6bf	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0099.asset	ba47dd4f4ba3f914498769f0edb94ff5	B_IDENTICAL	True		True		0
+Assets/UTTSaBan-Tool/UTTSaBan/Runtime/SaBanControlPanel.cs	ba55a3167add1084b890c0544875d8f4	A_NEW			True		0
+Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/textures/Autosale.jpg	bb9a2d694a05cd1418d8cf5424075793	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Core/Windows/CoreImportWindow.cs	bc0f120b0ef3ed24c9c7283972d59802	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/ImportSDK/Interface/MeshDefinitionToMesh.cs	bc319faeb9061bb4fbd3d9d0c20dc8c1	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0130.asset	bc53e993508c37042abee1dd2f023388	B_IDENTICAL	True		True		0
+Assets/StandaloneFileBrowser/StandaloneFileBrowserMac.cs	bcb49ddb0ed5644fda9c3b055cafa27a	C_CHANGED_SAME_GUID	False	True	False	True	0
+Assets/ProjectLopHoc/Editor/StaticRailwayMap/StaticRailwayMapMvpBuilder.cs	bcd7b899f76ed324db4c63d907d34b60	B_IDENTICAL	True		True		0
+Assets/Photon/Fusion/Plugins/NanoSockets/WebGL/NanoSockets.dll	bd2e65f8c0aea6e42850309bca2213c1	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0101.asset	bd5d798352d3cb349be8e2b1c1de754d	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Toolbox/Tools/ToolboxWindow.cs	bd6911106d651ba4894de08541262ebc	B_IDENTICAL	True		True		0
+Assets/Photon/PhotonRealtime/Code/Region.cs	bddf4f4bde2f8dd46927411229ce1302	B_IDENTICAL	True		True		0
+Assets/Photon/PhotonRealtime/Code/ErrorInfo.cs	becc887575ca60c49a18ee7daf11c7b8	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0075.asset	bf6efd3b650be96408564816b7e3b50e	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0105.asset	c0416c38c4ebaf74ebd130dbb59ab1ec	B_IDENTICAL	True		True		0
+Assets/Photon/Fusion/Runtime/Statistics/Scripts/MultilineGraphLegendItem.cs	c101a580a1cf34146abcccdf9fcd5dbd	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/Net_lambert.mat	c11b439d44bd2f041beb1acf59f4bb70	B_IDENTICAL	True		True		2
+Assets/Plugins/PixyzPluginForUnity/Editor/ImportSDK/Import/ImportLodSettingsDrawer.cs	c139c96923154244298c0b15a083b4ea	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/RuntimeZones/Meshes/ContactWire_Zone_011.asset	c1928e3b56924834d81fe9323b524014	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauChay/than/textures/No2_Label.jpg	c1a169c26036f0e439df2af1f71287ec	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Bin/include/PiXYZAlgo/interface/AlgoTypes_cs.cs	c22911dc564ba8642950512936a8d948	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Prefabs/Robot.prefab	c233b062354732d4e86af6fc18e8ea4e	B_IDENTICAL	True		True		4
+Assets/ProjectLopHoc/Generated/QuestRailway/GrassGround.mat	c2367ff9532fd374ba9a1a285e3a9103	B_IDENTICAL	True		True		3
+Assets/Plugins/PixyzPluginForUnity/Runtime/Commons/Extensions/SceneExtensions.cs	c29cc0d358387c546ba4745c88c5a4af	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Scripts/DynamicTrackStreamer.cs	c2f5c0a339bc1694e85d81127e63bfe3	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0073.asset	c32e0057814423143b92c2995175bb7c	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/QuestEnvironmentDensity/ExistingBridgeConcrete.asset	c35174eb31c0b154ab48e591d14d71f9	B_IDENTICAL	True		True		0
+Assets/Photon/Fusion/Runtime/Utilities/RunnerVisibility/RunnerVisibilityLinksRoot.cs	c370cac09f73d42fab172498cc96e499	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Chatbot/Scripts/ChatBubble.cs	c3715da899a9ca84b982c298a830c1c0	A_NEW			True		0
+Assets/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay.cs	c3c1afeda5e545e0b19add5373896d2e	C_CHANGED_SAME_GUID	False	True	False	True	0
+Assets/Terrain/Rocks and Terrains Pack - Low Poly/Models/Terrains/Mountains/NoLOD/Mountain_L_19.fbx	c3e6d9096f4973442b47c1079a9bf55d	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Bin/include/PiXYZIO/interface/IOTypes_cs.cs	c40e24bfb0953564ebebd4bc572c0d84	B_IDENTICAL	True		True		0
+Assets/Photon/PhotonRealtime/Code/CustomTypesUnity.cs	c41ee868d8540674982e160cf16e0775	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauChay/than/textures/Ground_01.jpg	c436624b77cbb3f41ac76e72da880b92	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0067.asset	c448ec3769716d34ba08e112268f2b85	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Commons/Utilities/EditorGUI/ProgressBar.cs	c454e1ad304be6e4db7d0d917b435b8b	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Core/Interfaces/IInteractable.cs	c4f2749ca967bc8448eef6f3f1f529cf	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/ImportSDK/Import/ImportWindow.cs	c525ebefce285f24cb7de32cf07b6450	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/Showroom/CameraInfoBoard.cs	c52846c960081c648a9b84dc265e60ac	A_NEW			True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Bin/include/PiXYZUnity/interface/UnityInterface_cs.cs	c5f9c7721ae7c384fa94f9a61253c238	B_IDENTICAL	True		True		0
+Assets/Photon/PhotonRealtime/Code/EnterRoomArgs.cs	c63cfc4c49a092648a0263cda3d3d0b2	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/QuestFarSettlement/FarCluster.mat	c69df2126e9ed5c40b6ef4787c362e09	B_IDENTICAL	True		True		1
+Assets/Plugins/PixyzPluginForUnity/Runtime/Commons/Utilities/Range.cs	c6d99b8a3e95bbf4297c75f55403ed8c	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Toolbox/Tools/ToolsEditor.cs	c752aeeafe86c944c9a406e7ae60e6b1	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Features/Quiz/Editor/QuizSOEditor.cs	c801068e4514da64f89e78b20b0d6347	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/ImportSDK/Utils/PxzDllImporter.cs	c8144137ab3335544ad2b391a1d8af4e	B_IDENTICAL	True		True		0
+Assets/ChiTietSaBan/ChiTiet/RailwayElementManager.cs	c81456cb7b80e6e4fa4eee19e950152f	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0059.asset	c89e9ea348c20b6488b0aef3d8a72aa3	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Chatbot/Editor/AIChatbotVoiceUIFactory.cs	c9082f2285eb4b7a8aae20c79f5bbf8f	A_NEW			True		0
+Assets/Photon/PhotonRealtime/Code/JoinRandomRoomArgs.cs	c91038ad306ce0b47b3fc329f68b7ebd	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/RuleEngine/BaseActions/FilterOnMaterial.cs	c99a0ad5eba70274d8dd23434d7cd351	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/QuestRailway/TerrainMeshes/Terrain_020.asset	ca2358ed9a4a03447aa43a9a63292247	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0116.asset	ca63314559cf9dc4a91e7096bb4429a8	B_IDENTICAL	True		True		0
+Assets/Photon/PhotonRealtime/Code/Enums.cs	ca6ba617cabf5304dbf498c789ddaa9b	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0108.asset	cab88027a0379c44b9cb81cb207d62a2	B_IDENTICAL	True		True		0
+Assets/ChiTietSaBan/ChiTiet/ElementIdentity.cs	cb11693b228eb6e4f909fb3d0fb9c27e	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Toolbox/Tools/MergingContainer.cs	cb8ec26142959904ba66e6129b9fe9cf	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/textures/Matel_01.jpg	cb939f8cdbabc9e409e8532b5b84cf86	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/QuestRailway/TerrainMeshes/Terrain_013.asset	cc0cddd8a2bed0f499bf7d266ff195a3	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/Mirror_blinn.mat	cc3a87e5aed96254fa035f05de13416f	B_IDENTICAL	True		True		2
+Assets/ProjectLopHoc/Scripts/InteractableObject.cs	cc4eaf4f9cf6e3c43961b9f1f904bc1d	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Runtime/LODTools/LodGenerationSettings.cs	cc5135037d0106441a30d4b86cd2bbbe	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/QuestExperienceSectors/Zone_020_ResidentialStreets.asset	cc5ea087f4ee8da4ab621f8a4cd23979	B_IDENTICAL	True		True		0
+Assets/Photon/Fusion/Runtime/FusionAddressablePrefabsPreloader.cs	ccb29b1c478478c418765bc307a473ca	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0072.asset	cd3f9a57de3f3af43b70ef226717f0a7	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0111.asset	cd4be25215ddcc543a347c26bd8ac6d7	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0054.asset	cd7c05adc50dd124d97503b5289078b9	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0125.asset	cd7dfb1accb96df4cb56cdd3e1a30fff	B_IDENTICAL	True		True		0
+Assets/UTTSaBan-Tool/UTTSaBan/Runtime/SaBanRoot.cs	cd91f112bd2e6a241a850d11fe558a81	A_NEW			True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Core/Configuration.cs	cd9fc97ea6dd32f4e8caae1637e12eef	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0081.asset	cdd8e053d8092234189aee6a6216f220	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0102.asset	cdea350c3d790394f8027c46113bace4	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/RuntimeZones/Meshes/ContactWire_Zone_021.asset	ce127cb4c84352148aaca17f6f8ce4e1	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0090.asset	ce36d9d46f3711e4e96e57f4762b3642	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0124.asset	ce3dac0a7d62aa443a1a83469922f9e6	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/lambert1.mat	cecf2640dc2391747b54883c7785611b	B_IDENTICAL	True		True		2
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0094.asset	cf48deca3158ee94eaa9b79d33af51ed	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Core/UI/TooltipUI.cs	cfc9ad42ee5739542b9011f7d87eb758	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Scripts/AutoEnableReadWrite.cs	d04f2403bf357434fa262d01c70707c4	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/OptimizeSDK/ExampleWindow.cs	d05d39ca4da4e184c9254d31ec3f30ee	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/RuleEngine/BaseActions/SwitchMaterials.cs	d0de8a9091cc961498a0074f02efed08	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/Color_Gray_blinn.mat	d0fa6ece6b7a3984bab33bab6cf72806	B_IDENTICAL	True		True		2
+Assets/ProjectLopHoc/Art/3DModels/TauShowroom/sydney-metro-driverless-train-alstom-metropolis/textures/interior_dif.png	d141b34eb377d3e43b0af498f72cf4e1	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/Seat_blinn2.mat	d16890e56e37aa84c89272bdf212c8ed	B_IDENTICAL	True		True		3
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0100.asset	d20f0cd5ef30ce14eafdf7e192121579	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Bin/include/PiXYZRaytrace/interface/RaytraceInterface_cs.cs	d2f110e627b8e8e48a1f1f63180dbde7	B_IDENTICAL	True		True		0
+Assets/UTTSaBan-Tool/UTTSaBan/Runtime/SaBanTrainRunner.cs	d323906a92aec3c4e9cc7d4b699f1230	A_NEW			True		0
+Assets/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample.cs	d412675cfb3441efa3bf8dcd9b7624dc	C_CHANGED_SAME_GUID	False	True	False	True	0
+Assets/Photon/Fusion/Plugins/NanoSockets/NanoSockets/Static/NanoSockets.dll	d42594000bed8de429fd22c181be00ab	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/Seat_Number_blinn.mat	d46392a15fa20a048828833a825d9809	B_IDENTICAL	True		True		3
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0125.asset	d4801bf3e0b878144b528d1634f5f909	B_IDENTICAL	True		True		0
+Assets/ChiTietSaBan/ChiTiet/VRBimAiDashboard/VRBimAiDashboard_Contextual_Package/Demo_Rail_Component/Scripts/DemoBIMAsset.cs	d4c8b2a04d5e4edc9f7b2f8a6c319e51	C_CHANGED_SAME_GUID	False	True	False	True	0
+Assets/Pixyz/Editor/Actions/ToolboxMenuItems.cs	d59e1a18c75a94a48949c972dcda454b	B_IDENTICAL	True		True		0
+Assets/SlimUI/Modern Menu 1/Scripts/ThemeEditor/ThemedUI.cs	d61d4d0e3c8671743b1dc985afa043fb	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/RuleEngine/BaseActions/RunRules.cs	d6ba9d11320045b43bf31bee24e59b64	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0106.asset	d71568b274e7ce741bdd71e8a220929b	B_IDENTICAL	True		True		0
+Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck.cs	d736ce056cf444ca96e424f4d9c42b76	C_CHANGED_SAME_GUID	False	True	False	True	0
+Assets/Photon/Fusion/Runtime/Utilities/RunnerVisibility/EnableOnSingleRunner.cs	d73b0a95be81246699cf0d9ecdc01863	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Prefabs/Train Ride.prefab	d75837957ee0f3242a9919c6304c81e6	B_IDENTICAL	True		True		1
+Assets/ProjectLopHoc/Scripts/TrainSpeedButtonFeedback.cs	d7b03b273d420e64bb473b78780b4bac	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/ImportSDK/Import/PostprocessVRED.cs	d7bb896fc3a454d46990db8c0697822c	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Editor/BIMTTSInstaller.cs	d836baa00d694596879fa84eaf02fa32	A_NEW			True		0
+Assets/Plugins/PixyzPluginForUnity/Runtime/Core/Exceptions.cs	d844d5d85a846094495d074283420235	B_IDENTICAL	True		True		0
+Assets/ChiTietSaBan/ChiTiet/MeshCombiner.cs	d88dc4e05e6b91d4c8e9edc8bce7dbe0	C_CHANGED_SAME_GUID	False	False	True		0
+Assets/Photon/Fusion/Editor/FusionPluginProjectSettings.cs	d88fac7421ed449884c9fc0c1a9059c1	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0085.asset	d8a3b4166e52e6c4e89bf33efae50f3e	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Scripts/TrainPassengerCarrier.cs	d9073b206ee1f1a4ca27b15daa41e9d2	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Scripts/RailwayProfileProbe.cs	d9088fd652cc58f41836caabe7541f74	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Scripts/DataBridge.cs	d94368414b629ba4080bbc10feccc0b2	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauShowroom/gold-coast-glink-light-rail-tram-flexity-2/textures/glink02_albedo_opacity.png	d95f0aa3ad0093c4da6e8b570dbbbb75	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0069.asset	daf79360f85d15d4aac428c7eab5a54c	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0106.asset	db064bd6305bb6642b319dfcaf16e50b	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/QuestRailway/TerrainMeshes/Terrain_026.asset	db1d4762169bc7347870d741a2fd195d	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Editor/RuntimeStreaming/RuntimeZoneSceneBuilder.cs	db2f603c2222bba4fb5ddaf513d58cda	B_IDENTICAL	True		True		0
+Assets/Photon/Fusion/Runtime/Statistics/Scripts/FusionBehaviourStatisticsPage.cs	db7ebcb6acda4bf6aae0598b8537b65a	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Bin/include/PiXYZPolygonal/interface/PolygonalInterface_cs.cs	dba69adfa3bffdc4cb3fcda5ce968e94	B_IDENTICAL	True		True		0
+Assets/SlimUI/Modern Menu 1/Scripts/ThemeEditor/ThemedUIData.cs	dbacb2414dc974448827c731c3756377	B_IDENTICAL	True		True		0
+Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs	dc20866c0d5e413ab7559440e15333ae	C_CHANGED_SAME_GUID	False	True	False	True	0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0121.asset	dc597e45d37be1b4fb4b6521f86ce9de	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0052.asset	dcaf7f607a467734d98293f3abb2e4a0	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0116.asset	dcb166481a36bb247b456fe87c3e6d83	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/RuntimeZones/Meshes/ContactWire_Zone_022.asset	dd289195d50796548acb7e468a65578b	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0064.asset	dd33080374ebe974eb6e9d84c36858d6	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0057.asset	dd8838b7e6ea4544d86bb5fb256cddea	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/QuestRailway/TerrainMeshes/Terrain_017.asset	de4a3ea49bfc18d4dbb9744ffed6947a	B_IDENTICAL	True		True		0
+Assets/Photon/PhotonRealtime/Code/AsyncExtensions.cs	de4de2e4c2412bc48b9c4f7d9c603f73	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Scripts/LectureDashboardUI.cs	de5cd98a1decf8847804341d7b9a89eb	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauChay/than/textures/Car_No.jpg	dec960de71d8b244fae7c046f48e7ceb	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Bin/include/PiXYZCore/interface/CoreInterface_cs.cs	df698669460bf8043a9be31d7f7ebbd6	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/OK/train-ride/mat/Light Texture.mat	df8b6ad200547ac4489e3e1f6b0316f8	B_IDENTICAL	True		True		2
+Assets/Plugins/PixyzPluginForUnity/Runtime/LODTools/Enums/Enums.cs	e06a3c80f4e569f47a954dcfcadb383a	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0082.asset	e07c725fa9b16df42a594eb93abd163e	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/QuestTunnelMountain/Forest_02Mountain_SourceRidge_OpenBore.asset	e0b2f571f891d754e827b02b21d24663	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0114.asset	e129fabf38871d141a295512b337b623	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/QuestRailway/TerrainMeshes/Terrain_023.asset	e1daf9525b3e07540aa852e898e2c5c2	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Scripts/RailwayZoneActivation.cs	e2228ddd828005e4ab28ddcdd5863d4d	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0094.asset	e2580fb6fd8a01d46928d3c50cb07b00	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/ImportSDK/Extensions/MeshExtensions.cs	e25c050628bda5043a82bf8bb260a958	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Commons/Extensions/EditorExtensions.cs	e29306bdd11f3ad4c95bdb81aabad460	B_IDENTICAL	True		True		0
+Assets/Photon/Fusion/Runtime/Statistics/Scripts/MultipleOptionsPanel.cs	e3129f3676024512b82e6e5e0a73d422	B_IDENTICAL	True		True		0
+Assets/TextMesh Pro/Fonts/LiberationSans.ttf	e3265ab4bf004d28a9537516768c1c75	B_IDENTICAL	True		True		0
+Assets/TextMesh Pro/Examples & Extras/Scripts/TeleType.cs	e32c266ee6204b21a427753cb0694c81	C_CHANGED_SAME_GUID	False	True	False	True	0
+Assets/Photon/PhotonRealtime/Code/Player.cs	e3e4b5bebc687044b9c6c2803c36be3d	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0121.asset	e3e8dd2a29979f346bca2e4e3d90da01	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/RuleEngine/BaseActions/SetName.cs	e43c87166e43e274ab322f362cbe5391	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0115.asset	e4519d3a893392b40801328958711ab6	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0096.asset	e47026ddc13d23f4cadec8323e1f0ea5	B_IDENTICAL	True		True		0
+Assets/SlimUI/Modern Menu 1/Scripts/ThemeEditor/ThemedUIElement.cs	e4870c7d0bdddd644a64ab8bc98f83ba	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Runtime/ImportSDK/Import/ImportStamp.cs	e4a07b89af670684fb0ec682aa981371	B_IDENTICAL	True		True		0
+Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs	e4e0d9ccee5f4950be8979268c9014e0	C_CHANGED_SAME_GUID	False	True	False	True	0
+Assets/ProjectLopHoc/Generated/QuestExperienceSectors/Zone_020_ResidentialCluster.asset	e4e8113f96b7f68429aef49b58d55fc0	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Prefabs/Mountain_GreenHill.prefab	e4f8207ccb395bc46bccc96a2c474873	B_IDENTICAL	True		True		1
+Assets/SlimUI/Modern Menu 1/Scripts/Misc/ExtraLinks.cs	e50282c3877d92d4a99ea976a2f6592e	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Bin/include/PiXYZMaterial/interface/MaterialTypes_cs.cs	e52da57799eeac647a982c30754548d6	B_IDENTICAL	True		True		0
+Assets/UTTSaBan-Tool/UTTSaBan/Editor/SaBanEditorUtil.cs	e574dff91a72bf64eb005ecde51c7210	A_NEW			True		0
+Assets/StandaloneFileBrowser/Plugins/Ookii.Dialogs.dll	e60958662eed5413d86143a0a69b731e	B_IDENTICAL	True		False	True	0
+Assets/Plugins/PixyzPluginForUnity/Editor/Toolbox/ToolboxTooltips.cs	e6358e12347459048826c8650efea802	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0095.asset	e642815012462334b83b1033d6c06bca	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0089.asset	e64c905a7764f144da55ace497ce5173	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauShowroom/riyadh-metro/source/RiyadhMetro_D.fbx	e64d20c20f859ec4fb8c82c9d0407b4b	B_IDENTICAL	True		True		0
+Assets/Photon/Fusion/Assemblies/Fusion.Runtime.dll	e725a070cec140c4caffb81624c8c787	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Editor/VoiceInputInstaller.cs	e774faed172d48f49f93e34c456937a1	A_NEW			True		0
+Assets/ProjectLopHoc/Scripts/XR/XRNodePoseDriver.cs	e824b7ee2368fa544a56a125ee34bf08	B_IDENTICAL	True		True		0
+Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs	e8538afcddc14efbb5d9e94b7ae50197	C_CHANGED_SAME_GUID	False	True	False	True	0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0065.asset	e85630eff40ff4f46b73f816c50d0102	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Scripts/RailwayZoneStreamingManager.cs	e899651ccdd57f349bcb4e3a19675660	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Features/Lecture/LectureActionManager.cs	e92b786f378843447ba8a9821c593d3b	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0073.asset	e937b273df8e8604aba679504401591d	B_IDENTICAL	True		True		0
+Assets/Photon/Fusion/Editor/NetworkProjectConfigImporterEditor.cs	e94c67db235c29f4891980a488edca07	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/VoiceInputView.cs	e98f692742a544479949911d46066467	A_NEW			True		0
+Assets/Plugins/PixyzPluginForUnity/Runtime/ImportSDK/Import/Metadata.cs	e9a53efa33c6d1548bce647fc5df71c4	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/QuestRailway/TerrainMeshes/Terrain_014.asset	e9c6a90ba1fae5746803d9eba70d2e69	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/Showroom/textures/Marble2x2_Normal.jpg	e9ca5adbf270ce145952d7b8b84069e3	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/QuestFarSettlement/Zone_013_FarCluster.asset	ea320b36f3e320649b92dba1e2d9105c	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/RuleEngine/BaseActions/AddLight.cs	ea3fad5aca62d09418c38f404475a5be	B_IDENTICAL	True		True		0
+Assets/ChiTietSaBan/ChiTiet/CameraFreeMovement.cs	ea571c73b5b760145a20a558db4adad3	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0063.asset	ead8d349a79af504c97d42dd6cf365ad	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Editor/RuntimeStreaming/RailwayEnvironmentVisualFix.cs	eb0834dfc23471d46923b5fe19a7a855	B_IDENTICAL	True		True		0
+Assets/Terrain/Rocks and Terrains Pack - Low Poly/Textures/ColorGrid.png	eb2a77b0320b22042aba3e372a46cd6c	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0067.asset	eb2f3cdb7beef6d49944c6832e49b97c	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Prefabs/Deck Girder.prefab	eb5ee1cdd1dc642418502ed57e871043	B_IDENTICAL	True		True		3
+Assets/SlimUI/Modern Menu 1/Graphics/Frames/Panel 1920x1080px.png	ebf9e47b2a26f544aa2fa9cb3a11190b	B_IDENTICAL	True		True		0
+Assets/Photon/Fusion/Runtime/Statistics/Scripts/LagCompensationStatisticsPage.cs	ec2edc4bf7174303a1bbebe2a13dffba	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Toolbox/Tools/ToolsBase.cs	ec33a9e760b651540900830f6cbf0206	B_IDENTICAL	True		True		0
+Assets/ChiTietSaBan/ChiTiet/ElementInfo.cs	ece24d6874decf747b2a47834d2d8d35	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0061.asset	ed16deb87da32b946921ad77b5a6cafa	B_IDENTICAL	True		True		0
+Assets/Photon/Fusion/Runtime/Statistics/Icons/StatsCloseIcon.png	ed6dc841b3679da48aced99029a36e1e	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Toolbox/BaseActions/GenerateOcclusionMeshAction.cs	ed991c3b156e36d4a8bde227065d930c	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0110.asset	edae92f97348d424bb7d005bcc7ccecf	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Runtime/LODTools/ScriptableObjects/LODRule.cs	edd9531b58f94804db77b1f966b89a38	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Chatbot/Scripts/AIChatbotUIController.cs	eeb238d6b0673664e8da57508938139f	A_NEW			True		0
+Assets/ProjectLopHoc/Generated/QuestRailway/EnvironmentClusterFade.shader	eecb089f9ac96564681641de26b52345	C_CHANGED_SAME_GUID	False	True	True		0
+Assets/ProjectLopHoc/Generated/QuestExperienceSectors/Zone_010_SubgradeReinforcedSlope.asset	ef876f04f37b4aa4b935af1068eb4049	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Scripts/TrainSplineMover.cs	f0478f7216f505040ab5509b3178a0c1	B_IDENTICAL	True		True		0
+Assets/Photon/PhotonRealtime/Code/ConnectionHandler.cs	f0b3ce6748186d3468e0dbaecb38b04c	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/RuntimeZones/Meshes/ContactWire_Zone_010.asset	f1040a940df08a244b040b15c79f9745	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0097.asset	f143b4e29cc3ab04faab545302b74bce	B_IDENTICAL	True		True		0
+Assets/UTTSaBan/Generated/SaBan_Table.mat	f16b82c0eea2c4146bfaef374a97fa69	A_NEW			True		2
+Assets/ProjectLopHoc/Prefabs/Tunnel.prefab	f17211b1dd71684479e48ad4b3b9d634	B_IDENTICAL	True		True		4
+Assets/ProjectLopHoc/Scripts/RailwayMicroChunkData.cs	f1a95d23ab527534ca2df1b16a949c69	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/ImportSDK/Conversions/MaterialConversion.cs	f1d90d2cc49043c4ab8c9bf9a25e0982	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0122.asset	f1df37083220c1c46be4a6a353199741	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/LODTools/LODsSettingsDrawer.cs	f23ebfc9e78ccbb4d889cc72da688a25	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauChay/than/textures/Matel_02.jpg	f280facfbd2f8a845b8a8cc255e55dfd	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Editor/RuntimeStreaming/RailwayBilateralOptimization.cs	f29b51ce96d7534428d73fa73d27ebcb	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0054.asset	f2f0cf7056734104eb796b57f181cb3d	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/Showroom/textures/Bitmaptexture-Bitmaptexture.png	f3fe9a30c2d24ae41bf606ad0f49912b	B_IDENTICAL	True		True		0
+Assets/Photon/Fusion/Runtime/Statistics/Scripts/FusionStatisticsNetworkPage.cs	f45fce6e8806496c90223844f396f17c	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Bin/include/PiXYZCloud/interface/CloudInterface_cs.cs	f467143ef0076c74ca45bb10d72c361c	B_IDENTICAL	True		True		0
+Assets/Photon/PhotonRealtime/Code/RealtimeClient.cs	f4e65968c7102bf42a77b6a5cade8743	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0104.asset	f51a85eab8b9cb24387321fd5529917e	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Prefabs/AIMessagePrefab.prefab	f5cab7f01c7914e489e37a0d0814de0c	A_NEW			True		9
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0093.asset	f5dadb6fd210f894398c0c33c7e14e59	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0123.asset	f5e5dadfd3a8d2e4c96db70203950b74	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/Showroom/textures/Bitmaptexture.jpg	f603bb078a608d34398829d39240484a	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Features/Lecture/CrosshairInteractor.cs	f618018544cf3f8408a5f1abe3b0199c	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/concrete_pavers_02_diff_4k.jpg	f63f719bcd1f2b7449f7cbe47ca6863f	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Editor/StaticRailwayMap/StaticRailwayMapPrototypeWindow.cs	f6b18c01c0346be45ac0069765c52da5	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/QuestExperienceSectors/Zone_017_OverheadPortalSector.asset	f6cb5fa9ef1b94443b2aa9c969ac208f	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0059.asset	f734671821af41e4680ec5b2ca2d66d5	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/Color_Gray_Inside.mat	f75080ba884d4364b844d9c0b7593faf	B_IDENTICAL	True		True		3
+Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs	f7cfa58e417a46ea8889989684c2522e	C_CHANGED_SAME_GUID	False	True	False	True	0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0123.asset	f7df2e89a195ae5488989a44c1bacda5	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauShowroom/trainy-mctrainface/source/McFace.FBX	f7ede2d77225fcd41affc1a96ce614f0	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0113.asset	f7f573e78c5335a4f904bd4763cc67f1	B_IDENTICAL	True		True		0
+Assets/Photon/PhotonRealtime/Code/Callbacks.cs	f81071e87b2f09a46aaf5ddd823e309e	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Runtime/Commons/Extensions/MeshExtensions.cs	f81157612c1eb414f8c21d67385e024e	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0072.asset	f93de047a739fae47ab137c44ef3bdf9	B_IDENTICAL	True		True		0
+Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs	f970ea55f9f84bf79b05dab180b8c125	C_CHANGED_SAME_GUID	False	True	False	True	0
+Assets/ProjectLopHoc/Generated/QuestFarSettlement/Zone_025_FarCluster.asset	f9a40ea76f839d741b58a46dc3acb03a	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0104.asset	f9c7b3a7fcf96cb4293d4f94a77e2483	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0061.asset	fac3c27eb6e64a94fb65beee13c88078	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0057.asset	fadf46f858a93554fb73d1b1f4050d9e	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Toolbox/BaseActions/BakeImpostor.cs	fb917471a19e9ba46bef1b1974e1739f	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Runtime/Commons/Extensions/VerticesData.cs	fbbc8e9a277b52e4fab06d67f5098252	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0051.asset	fc698b9a6580b94448c2c4d1d9914720	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/RuralRoad_Chunk_0112.asset	fced274036a0ddc42a63ad91e15ac0cf	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/RuleEngine/BaseActions/GetLatestImportedModel.cs	fcf41dbc4780c4d449d6a8c577d747bc	B_IDENTICAL	True		True		0
+Assets/TutorialInfo/Scripts/Readme.cs	fcf7219bab7fe46a1ad266029b2fee19	C_CHANGED_SAME_GUID	False	True	False	True	0
+Assets/ProjectLopHoc/Generated/QuestFarSettlement/Zone_024_FarCluster.asset	fd31c371bf19039408fce99ae5597501	B_IDENTICAL	True		True		0
+Assets/Plugins/PixyzPluginForUnity/Editor/Commons/Utilities/DispatcherEditor.cs	fd4fc76b8d816654d94221ae41047f6e	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Art/3DModels/TauShowroom/sydney-metro-driverless-train-alstom-metropolis/textures/exterior_dif.png	fdf134e9eb9478f47b6b76ba9c450ec9	B_IDENTICAL	True		True		0
+Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader	fe393ace9b354375a9cb14cdbbc28be4	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0117.asset	fe7fa61595774e74594b6d6ed190a198	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0057.asset	fe9100380e8f9304f9fb70b03c3c0a02	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayMap/Meshes/SRM_MVP_20261110_184700_Poles_Chunk_0058.asset	fed1e57536f50b849be4f2f55ba06d17	B_IDENTICAL	True		True		0
+Assets/Photon/PhotonRealtime/Code/MatchmakingExtensions.cs	fee0bd4fc302b8849a507b923d2ad49a	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Editor/BIMAISecretsEditor.cs	ff198fda7c054fb3ad319b8ec3dd6ee5	A_NEW			True		0
+Assets/ProjectLopHoc/Art/3DModels/TauShowroom/sydney-metro-driverless-train-alstom-metropolis/textures/light_dif.png	ff8bbb3d11426474cac3838569fa012b	B_IDENTICAL	True		True		0
+Assets/ProjectLopHoc/Generated/StaticRailwayEnvironmentMVP/Meshes/TerrainTransition_Chunk_0083.asset	ffe0c930a29adf5409ce16f6dce09655	B_IDENTICAL	True		True		0

@@ -1,0 +1,1 @@
+Cleared only the dirty flag after exact serialized diff proved changes were auto-layout rect caches in chatbot and popup content. No saved UI values or user scene changes overwritten.

@@ -1,0 +1,17 @@
+PASS | Segment selection focuses without descending
+PASS | Closer segment fit: 57.26815m vs old 60m
+PASS | Block selection keeps level
+PASS | Bolt automatic focus closer than former 1.1m minimum
+PASS | Isolation keeps selected renderer and outline
+PASS | Isolation hides overview layers, not terrain/environment
+PASS | Restore snapshot preserves pre-hidden sibling
+PASS | Changing selection restores isolation
+PASS | Isolate temporarily reveals an initially hidden selection
+PASS | Restore returns initially hidden selection to hidden without a ghost outline
+PASS | Back restores selected parent block
+PASS | Back restores selected segment
+PASS | Back at top level safe
+PASS | Search locate resolves context and final ID
+PASS | Stable 34+334+33066 asset IDs
+PASS | No new C# runtime errors
+DONE selection

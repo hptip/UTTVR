@@ -1,0 +1,37 @@
+PASS | Three primary tabs and six reused stage buttons
+PASS | Removed focus/measure/statistics objects and obsolete top tabs
+PASS | Dynamic templates retained after inactive UI cleanup
+PASS | LeftNav selects and focuses segment without descending
+PASS | Block UI selection and auto focus
+PASS | Bolt UI selection auto focuses close
+PASS | Isolation button state clearly changes
+PASS | Isolation button restores visibility
+PASS | Quay lại button restores block context
+PASS | Quay lại disabled at top level
+PASS | Stage UI opens Quy hoạch without changing asset Z021-TR-S001-B001-C001
+PASS | Stage UI opens Thiết kế without changing asset Z021-TR-S001-B001-C001
+PASS | Stage UI opens Thi công without changing asset Z021-TR-S001-B001-C001
+PASS | Stage UI opens Vận hành without changing asset Z021-TR-S001-B001-C001
+PASS | Stage UI opens Bảo trì without changing asset Z021-TR-S001-B001-C001
+PASS | Stage UI opens Nâng cấp without changing asset Z021-TR-S001-B001-C001
+PASS | Stage UI opens Quy hoạch without changing asset Z021-TR-S001-B001-C002
+PASS | Stage UI opens Thiết kế without changing asset Z021-TR-S001-B001-C002
+PASS | Stage UI opens Thi công without changing asset Z021-TR-S001-B001-C002
+PASS | Stage UI opens Vận hành without changing asset Z021-TR-S001-B001-C002
+PASS | Stage UI opens Bảo trì without changing asset Z021-TR-S001-B001-C002
+PASS | Stage UI opens Nâng cấp without changing asset Z021-TR-S001-B001-C002
+PASS | Actual Save button isolates asset and stage
+PASS | Operation panel preserves old inspections and adds a new inspection
+PASS | Maintenance panel adds event and retains old history
+PASS | Stage history remains accessible inside Asset Panel
+PASS | Older history page available beyond first 50 events
+PASS | History paging reaches older entries
+PASS | History paging returns to newest entries
+PASS | Hiding PC UI enables bounded-speed free camera controls
+PASS | Actual W/E input moves free camera with UI hidden
+PASS | Showing PC UI preserves camera and selection
+PASS | Explicit F-equivalent return to selected asset available
+PASS | Search still resolves exact asset ID
+PASS | Search navigation uses unified selection
+PASS | No new C# runtime errors
+DONE ui

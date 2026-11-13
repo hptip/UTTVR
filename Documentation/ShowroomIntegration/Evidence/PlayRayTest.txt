@@ -1,0 +1,21 @@
+PASS | Merged Showroom starts independently in Play Mode
+PASS | Exactly one XR Origin and EventSystem
+PASS | Exactly one active AudioListener
+PASS | Display does not run the copied route streamer
+PASS | Eight display layers and miniature train cars resolve
+PASS | Existing Scene Menu closed before new UI ray interaction
+PASS | Uses the existing rig interactor: NearFarInteractor
+RAY | interactor=XR Origin (VR)/Camera Offset/Right Controller/Near-Far Interactor; active=True; hit=Btn_Play; eye=(10.00, 1.36, 30.20); canvas=SaBan_ControlPanel
+PASS | Actual XR ray hits new UI button: Btn_Play
+PASS | XR disables only copied panel's FPS colliders to avoid double activation
+PASS | Actual XR UI trigger starts the miniature train once
+RAY | interactor=XR Origin (VR)/Camera Offset/Right Controller/Near-Far Interactor; active=True; hit=ClearButton; eye=(10.00, 1.36, 30.20); canvas=Canvas
+PASS | Actual XR ray hits new UI button: ClearButton
+PASS | XR ray clicks chatbot clear button
+RAY | interactor=XR Origin (VR)/Camera Offset/Right Controller/Near-Far Interactor; active=True; hit=Label; eye=(10.00, 1.36, 30.20); canvas=Canvas
+PASS | Actual XR ray hits new UI button: CloseButton
+PASS | XR ray closes chatbot
+PASS | No real route or zone scenes loaded by display
+PASS | No Console errors during tested Showroom Play session
+NOT TESTED | Real AI/STT/TTS services, microphone capture, physical Quest 3S and actual doorway scene transition.
+DONE PASS

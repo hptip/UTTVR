@@ -1,0 +1,16 @@
+Case	Metric	Mean	p95	p99
+overview_stopped	Frame ms	9.713	11.335	11.899
+overview_stopped	Main Thread	9699812.222	11187600.000	11947100.000
+overview_stopped	GPU Frame Time	7981749.933	9095168.000	9532416.000
+overview_stopped	CPU Main Thread Frame Time	6832228.878	8025300.000	8497600.000
+overview_stopped	CPU Render Thread Frame Time	4423305.500	5190200.000	5801100.000
+overview_stopped	Draw Calls Count	5018.578	5581.000	5762.000
+overview_stopped	SetPass Calls Count	136.611	137.000	137.000
+overview_stopped	Triangles Count	16186642.589	17422210.000	17580817.000
+overview_stopped	Vertices Count	25561889.856	27239394.000	27303183.000
+overview_stopped	Batches Count	4114.278	4976.000	5136.000
+overview_stopped	GC Allocated In Frame	30362.867	30543.000	31591.000
+overview_stopped	Mesh Memory	582943170.000	582943170.000	582943170.000
+overview_stopped	Texture Memory	898781454.000	898781454.000	898781454.000
+overview_stopped	Total Used Memory	4629922633.300	4631161249.000	4631449387.000
+overview_stopped	GC Used Memory	1288276377.600	1288675328.000	1288712192.000

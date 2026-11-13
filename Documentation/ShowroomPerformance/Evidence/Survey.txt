@@ -1,0 +1,257 @@
+Scene=Assets/ProjectLopHoc/Scenes/Showroom.unity
+Nodes=94859; active=94653
+MeshFilters=53780; colliders=66; meshColliders=17
+ALL | renderers=53780; enabledActive=52580; meshes=855; mats=137; vertices(instanced)=23438419; triangles(instanced)=15673072; uniqueMeshBytes=562851722; readable=32482
+MODEL | renderers=53278; enabledActive=52078; meshes=478; mats=84; vertices(instanced)=18387169; triangles(instanced)=10158609; uniqueMeshBytes=194295658; readable=32314
+Scale=0.002190031; model=SaBan_YenTuHaLongMain/Model
+Runner={"MonoBehaviour":{"m_Enabled":true,"m_EditorHideFlags":0,"m_Name":"","m_EditorClassIdentifier":"Assembly-CSharp::UTT.SaBan.SaBanTrainRunner","route":{"instanceID":0},"cars":[{"instanceID":0},{"instanceID":0}],"carBackOffsets":[0.0,96.3669204711914],"carHeights":[1.399999976158142,0.20563042163848878],"journeySecondsAt1x":90.0,"loop":true,"startProgress":0.019999999552965165,"easeSeconds":0.6000000238418579}}
+LAYER | train | SaBan_YenTuHaLongMain/Model/Content/Layer_train | visible=True | renderers=1013; enabledActive=2; meshes=2; mats=52; vertices(instanced)=242768; triangles(instanced)=186700; uniqueMeshBytes=27794736; readable=2
+  material | 371 | Assets/ProjectLopHoc/Art/3DModels/TauChay/than/source/TaiwanHSR700T_02.fbx
+  material | 367 | multi/null
+  material | 126 | Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/Seat_blinn2.mat
+  material | 63 | Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/lambert1.mat
+  material | 50 | Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/Seat_Gray_blinn1.mat
+  material | 8 | Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/blinn34.mat
+  material | 4 | Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/Marker_blinn.mat
+  script | 5 | TMPro.TextMeshProUGUI
+  script | 3 | UnityEngine.UI.Image
+  script | 2 | UnityEngine.UI.Button
+  script | 2 | TrainSpeedButtonFeedback
+  script | 1 | UTT.SaBan.SaBanLayer
+  script | 1 | UnityEngine.UI.CanvasScaler
+  script | 1 | UnityEngine.XR.Interaction.Toolkit.UI.TrackedDeviceGraphicRaycaster
+  script | 1 | TrainDriverHUD
+LAYER | terrain | SaBan_YenTuHaLongMain/Model/Content/Layer_terrain | visible=True | renderers=181; enabledActive=98; meshes=181; mats=2; vertices(instanced)=117089; triangles(instanced)=176660; uniqueMeshBytes=9679648; readable=181
+  material | 179 | Assets/ProjectLopHoc/Generated/QuestRailway/GrassGround.mat
+  material | 2 | Assets/ProjectLopHoc/Generated/QuestRailway/RailwayFlatColour.mat
+  script | 1 | UTT.SaBan.SaBanLayer
+LAYER | nature | SaBan_YenTuHaLongMain/Model/Content/Layer_nature | visible=True | renderers=112; enabledActive=105; meshes=10; mats=5; vertices(instanced)=5117368; triangles(instanced)=2125617; uniqueMeshBytes=24611698; readable=7
+  material | 31 | Assets/Terrain/Rocks and Terrains Pack - Low Poly/Models/Terrains/Mountains/NoLOD/Mountain_L_19.fbx
+  material | 29 | Assets/Terrain/Rocks and Terrains Pack - Low Poly/Models/Terrains/Mountains/NoLOD/Mountain_L_06.fbx
+  material | 29 | Assets/Terrain/Rocks and Terrains Pack - Low Poly/Models/Terrains/Mountains/NoLOD/Mountain_L_11.fbx
+  material | 16 | Assets/ProjectLopHoc/Generated/QuestRailway/GrassGround.mat
+  material | 7 | Assets/ProjectLopHoc/Generated/QuestRailway/RailwayFlatColour.mat
+  script | 1 | UTT.SaBan.SaBanLayer
+LAYER | rail | SaBan_YenTuHaLongMain/Model/Content/Layer_rail | visible=True | renderers=51486; enabledActive=51405; meshes=135; mats=21; vertices(instanced)=12420086; triangles(instanced)=7324842; uniqueMeshBytes=99117152; readable=32102
+  material | 32004 | Assets/ProjectLopHoc/Prefabs/RailLow.prefab
+  material | 8001 | Assets/ProjectLopHoc/Art/Materials/concrete_pavers_02_disp_4k.mat
+  material | 8001 | Assets/ProjectLopHoc/Art/Materials/concrete_pavers_02_diff_4k.mat
+  material | 3382 | Assets/ProjectLopHoc/Art/3DModels/OK/electric+pole.fbx
+  material | 81 | multi/null
+  material | 17 | Assets/ProjectLopHoc/Generated/StaticRailwayMap/Materials/StaticRailway_ContactWire.mat
+  script | 1 | UTT.SaBan.SaBanLayer
+  script | 1 | RailwayZoneStreamingManager
+  script | 1 | RailwayMicroChunkStreamer
+LAYER | bridge | SaBan_YenTuHaLongMain/Model/Content/Layer_bridge | visible=True | renderers=3; enabledActive=3; meshes=3; mats=4; vertices(instanced)=25906; triangles(instanced)=14324; uniqueMeshBytes=2156040; readable=3
+  material | 1 | multi/null
+  material | 1 | Assets/ProjectLopHoc/Generated/QuestRailway/RailwayFlatColour.mat
+  material | 1 | Assets/ProjectLopHoc/Generated/EnvironmentVisualFix/Water_Opaque.mat
+  script | 1 | UTT.SaBan.SaBanLayer
+LAYER | tunnel | SaBan_YenTuHaLongMain/Model/Content/Layer_tunnel | visible=True | renderers=204; enabledActive=204; meshes=3; mats=3; vertices(instanced)=25568; triangles(instanced)=14552; uniqueMeshBytes=43344; readable=0
+  material | 68 | Assets/ProjectLopHoc/Art/Materials/concrete_pavers_02_diff_4k.mat
+  material | 68 | Assets/ProjectLopHoc/Art/3DModels/Tunnel/Mat/Grass2.mat
+  material | 68 | Assets/ProjectLopHoc/Art/Materials/concrete_pavers_02_disp_4k.mat
+  script | 1 | UTT.SaBan.SaBanLayer
+LAYER | station | SaBan_YenTuHaLongMain/Model/Content/Layer_station | visible=True | renderers=261; enabledActive=261; meshes=126; mats=3; vertices(instanced)=290037; triangles(instanced)=239118; uniqueMeshBytes=21404232; readable=1
+  material | 182 | Assets/ProjectLopHoc/Art/3DModels/OK/train-ride/mat/Trim Material.mat
+  material | 75 | multi/null
+  material | 2 | Assets/ProjectLopHoc/Art/3DModels/OK/train-ride/mat/Seethrough.mat
+  material | 2 | Assets/ProjectLopHoc/Art/3DModels/OK/train-ride/mat/Light Texture.mat
+  script | 1 | UTT.SaBan.SaBanLayer
+LAYER | khac | SaBan_YenTuHaLongMain/Model/Content/Layer_khac | visible=True | renderers=18; enabledActive=0; meshes=18; mats=2; vertices(instanced)=148347; triangles(instanced)=76796; uniqueMeshBytes=9488808; readable=18
+  material | 13 | Assets/ProjectLopHoc/Generated/QuestFarSettlement/FarCluster.mat
+  material | 5 | Assets/ProjectLopHoc/Generated/QuestRailway/RailwayFlatColour.mat
+  script | 13 | RailwayFarSceneryVisibility
+  script | 1 | UTT.SaBan.SaBanLayer
+SCRIPT | 54 | enabled=54 | Pixyz.ImportSDK.Metadata
+SCRIPT | 47 | enabled=44 | UnityEngine.UI.Image
+SCRIPT | 37 | enabled=37 | UnityEngine.UI.LayoutElement
+SCRIPT | 28 | enabled=23 | TMPro.TextMeshProUGUI
+SCRIPT | 26 | enabled=24 | UnityEngine.UI.Button
+SCRIPT | 18 | enabled=18 | TMPro.TextMeshPro
+SCRIPT | 17 | enabled=17 | UnityEngine.UI.Text
+SCRIPT | 16 | enabled=16 | TMPro.TMP_SubMesh
+SCRIPT | 15 | enabled=15 | TMPro.TMP_SubMeshUI
+SCRIPT | 14 | enabled=14 | UTT.SaBan.SaBanPanelButton
+SCRIPT | 13 | enabled=0 | RailwayFarSceneryVisibility
+SCRIPT | 9 | enabled=9 | Pixyz.ImportSDK.ImportStamp
+SCRIPT | 9 | enabled=9 | BIMInteractable
+SCRIPT | 8 | enabled=8 | UTT.SaBan.SaBanLayer
+SCRIPT | 5 | enabled=4 | UnityEngine.UI.CanvasScaler
+SCRIPT | 5 | enabled=5 | UnityEngine.UI.GraphicRaycaster
+SCRIPT | 5 | enabled=5 | UnityEngine.UI.HorizontalLayoutGroup
+SCRIPT | 4 | enabled=4 | TrainInteractable
+SCRIPT | 4 | enabled=4 | MuseumLabelStand
+SCRIPT | 3 | enabled=2 | UnityEngine.Rendering.Universal.UniversalAdditionalLightData
+SCRIPT | 3 | enabled=2 | UnityEngine.XR.Interaction.Toolkit.UI.TrackedDeviceGraphicRaycaster
+SCRIPT | 3 | enabled=3 | UnityEngine.UI.RectMask2D
+SCRIPT | 3 | enabled=3 | UnityEngine.UI.VerticalLayoutGroup
+SCRIPT | 3 | enabled=3 | UnityEngine.UI.ContentSizeFitter
+SCRIPT | 3 | enabled=3 | UnityEngine.UI.Slider
+SCRIPT | 2 | enabled=2 | UnityEngine.UI.ScrollRect
+SCRIPT | 2 | enabled=0 | TrainSpeedButtonFeedback
+SCRIPT | 1 | enabled=1 | UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
+SCRIPT | 1 | enabled=1 | SceneTeleporter
+SCRIPT | 1 | enabled=1 | FollowCompanionBot
+SCRIPT | 1 | enabled=1 | RobotInteraction
+SCRIPT | 1 | enabled=1 | ShowroomRobotChatInteractable
+SCRIPT | 1 | enabled=1 | PlayerSpawner
+SCRIPT | 1 | enabled=1 | TrainInfoPopupUI
+SCRIPT | 1 | enabled=1 | XRWorldSpaceCanvas
+SCRIPT | 1 | enabled=1 | UnityEngine.UI.Scrollbar
+SCRIPT | 1 | enabled=1 | UnityEngine.EventSystems.EventSystem
+SCRIPT | 1 | enabled=1 | UnityEngine.XR.Interaction.Toolkit.UI.XRUIInputModule
+SCRIPT | 1 | enabled=1 | ObjectInfoBoard
+SCRIPT | 1 | enabled=1 | AIChatbotIntegration
+SCRIPT | 1 | enabled=1 | AIChatbotUIController
+SCRIPT | 1 | enabled=1 | VoiceInputController
+SCRIPT | 1 | enabled=1 | VoiceInputView
+SCRIPT | 1 | enabled=1 | BIM4D.AI.Speech.BIMAudioPlayer
+SCRIPT | 1 | enabled=1 | BIM4D.AI.Speech.BIMTextToSpeechController
+SCRIPT | 1 | enabled=1 | BIM4D.AI.Speech.BIMVoiceOutputUI
+SCRIPT | 1 | enabled=1 | BIM4D.AI.Generative.XkiroBrain
+SCRIPT | 1 | enabled=1 | BIM4D.AI.Generative.GroqSpeechToText
+SCRIPT | 1 | enabled=1 | UnityEngine.UI.Outline
+SCRIPT | 1 | enabled=1 | TMPro.TMP_InputField
+SCRIPT | 1 | enabled=1 | PointerVoiceTrigger
+SCRIPT | 1 | enabled=1 | UTT.SaBan.SaBanRoot
+SCRIPT | 1 | enabled=1 | UTT.SaBan.SaBanTrainRunner
+SCRIPT | 1 | enabled=0 | TrainDriverHUD
+SCRIPT | 1 | enabled=0 | RailwayZoneStreamingManager
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauShowroom/sydney-metro-driverless-train-alstom-metropolis/source/sydney_metro_jotrain.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauShowroom/sydney-metro-driverless-train-alstom-metropolis/source/sydney_metro_jotrain.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/Materials/Classroom_Signboard.mat | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset | shader=TextMeshPro/Mobile/Distance Field | instancing=False | passes=1
+MAT |  | shader=TextMeshPro/Mobile/Distance Field | instancing=False | passes=1
+MAT |  | shader=TextMeshPro/Mobile/Distance Field | instancing=False | passes=1
+MAT | Assets/ProjectLopHoc/Art/3DModels/Showroom/Warehouse.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/Showroom/Warehouse.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/Showroom/Warehouse.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/Showroom/Warehouse.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauShowroom/gold-coast-glink-light-rail-tram-flexity-2/textures/glink_exterior01.mat | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauShowroom/gold-coast-glink-light-rail-tram-flexity-2/textures/glink_interior.mat | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauShowroom/gold-coast-glink-light-rail-tram-flexity-2/textures/glink_exterior02.mat | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauShowroom/gold-coast-glink-light-rail-tram-flexity-2/textures/glink_exterior03.mat | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauShowroom/riyadh-metro/source/RiyadhMetro_D.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauShowroom/riyadh-metro/source/RiyadhMetro_D.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauShowroom/riyadh-metro/source/RiyadhMetro_D.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauShowroom/riyadh-metro/source/RiyadhMetro_D.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauShowroom/riyadh-metro/source/RiyadhMetro_D.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauShowroom/riyadh-metro/source/RiyadhMetro_D.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauShowroom/riyadh-metro/source/RiyadhMetro_D.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauShowroom/riyadh-metro/source/RiyadhMetro_D.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauShowroom/riyadh-metro/source/RiyadhMetro_D.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauShowroom/sydney-metro-driverless-train-alstom-metropolis/source/sydney_metro_jotrain.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauShowroom/sydney-metro-driverless-train-alstom-metropolis/source/sydney_metro_jotrain.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauShowroom/sydney-metro-driverless-train-alstom-metropolis/source/sydney_metro_jotrain.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauShowroom/sydney-metro-driverless-train-alstom-metropolis/source/sydney_metro_jotrain.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauShowroom/sydney-metro-driverless-train-alstom-metropolis/source/sydney_metro_jotrain.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauShowroom/sydney-metro-driverless-train-alstom-metropolis/source/sydney_metro_jotrain.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauShowroom/trainy-mctrainface/source/McFace.FBX | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauShowroom/trainy-mctrainface/source/McFace.FBX | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauShowroom/trainy-mctrainface/source/McFace.FBX | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauShowroom/trainy-mctrainface/source/McFace.FBX | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauShowroom/trainy-mctrainface/source/McFace.FBX | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauShowroom/trainy-mctrainface/source/McFace.FBX | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauShowroom/trainy-mctrainface/source/McFace.FBX | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/Robot/Robot.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/Robot/Robot.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/Robot/Robot.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/SlimUI/Modern Menu 1/Fonts/Poppins-Bold SDF.asset | shader=TextMeshPro/Distance Field | instancing=False | passes=1
+MAT | Assets/ProjectLopHoc/Prefabs/RailLow.prefab | shader=Universal Render Pipeline/Lit | instancing=True | passes=9
+MAT | Assets/ProjectLopHoc/Prefabs/RailLow.prefab | shader=Universal Render Pipeline/Lit | instancing=True | passes=9
+MAT | Assets/ProjectLopHoc/Prefabs/RailLow.prefab | shader=Universal Render Pipeline/Lit | instancing=True | passes=9
+MAT | Assets/ProjectLopHoc/Prefabs/RailLow.prefab | shader=Universal Render Pipeline/Lit | instancing=True | passes=9
+MAT | Assets/ProjectLopHoc/Prefabs/RailLow.prefab | shader=Universal Render Pipeline/Lit | instancing=True | passes=9
+MAT | Assets/ProjectLopHoc/Prefabs/RailLow.prefab | shader=Universal Render Pipeline/Lit | instancing=True | passes=9
+MAT | Assets/ProjectLopHoc/Prefabs/RailLow.prefab | shader=Universal Render Pipeline/Lit | instancing=True | passes=9
+MAT | Assets/ProjectLopHoc/Prefabs/RailLow.prefab | shader=Universal Render Pipeline/Lit | instancing=True | passes=9
+MAT | Assets/ProjectLopHoc/Prefabs/RailLow.prefab | shader=Universal Render Pipeline/Lit | instancing=True | passes=9
+MAT | Assets/ProjectLopHoc/Prefabs/RailLow.prefab | shader=Universal Render Pipeline/Lit | instancing=True | passes=9
+MAT | Assets/ProjectLopHoc/Prefabs/RailLow.prefab | shader=Universal Render Pipeline/Lit | instancing=True | passes=9
+MAT |  | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT |  | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT |  | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT |  | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT |  | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT |  | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT |  | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT |  | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT |  | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT |  | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT |  | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT |  | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/Color_Gray_blinn.mat | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/Seat_BU_lambert.mat | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/Color_Gray_Inside.mat | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/blinn34.mat | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/Light_blinn.mat | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/Color_BK_blinn.mat | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/lambert1.mat | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/Glass_blinn32.mat | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/Color_Door_Gray.mat | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/Color_RG_blinn1.mat | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/Color_SV_blinn.mat | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/Marker_blinn.mat | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/blinn30.mat | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/Auto_Sale_blinn.mat | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/Mirror_blinn.mat | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/Color_WH_blinn.mat | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/blinn42.mat | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/blinn31.mat | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/RD_blinn.mat | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/Net_lambert.mat | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/Seat_blinn2.mat | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/Seat_Number_blinn.mat | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/Ctrl_Panel_blinn.mat | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/Color_Ground_blinn.mat | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/Seat_Gray_blinn1.mat | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/THSR_Color_blinn.mat | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauChay/dau/materials/Color_RG_blinn.mat | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/OK/High-speed_train.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/OK/High-speed_train.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauChay/than/source/TaiwanHSR700T_02.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauChay/than/source/TaiwanHSR700T_02.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauChay/than/source/TaiwanHSR700T_02.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauChay/than/source/TaiwanHSR700T_02.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauChay/than/source/TaiwanHSR700T_02.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauChay/than/source/TaiwanHSR700T_02.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauChay/than/source/TaiwanHSR700T_02.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauChay/than/source/TaiwanHSR700T_02.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauChay/than/source/TaiwanHSR700T_02.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauChay/than/source/TaiwanHSR700T_02.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauChay/than/source/TaiwanHSR700T_02.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauChay/than/source/TaiwanHSR700T_02.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauChay/than/source/TaiwanHSR700T_02.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauChay/than/source/TaiwanHSR700T_02.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauChay/than/source/TaiwanHSR700T_02.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauChay/than/source/TaiwanHSR700T_02.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauChay/than/source/TaiwanHSR700T_02.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauChay/than/source/TaiwanHSR700T_02.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauChay/than/source/TaiwanHSR700T_02.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauChay/than/source/TaiwanHSR700T_02.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauChay/than/source/TaiwanHSR700T_02.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauChay/than/source/TaiwanHSR700T_02.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/TauChay/than/source/TaiwanHSR700T_02.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Generated/QuestRailway/GrassGround.mat | shader=Universal Render Pipeline/Lit | instancing=True | passes=9
+MAT | Assets/ProjectLopHoc/Generated/QuestRailway/RailwayFlatColour.mat | shader=UTT/Railway Vertex Colour Matte | instancing=True | passes=1
+MAT | Assets/Terrain/Rocks and Terrains Pack - Low Poly/Models/Terrains/Mountains/NoLOD/Mountain_L_06.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/Terrain/Rocks and Terrains Pack - Low Poly/Models/Terrains/Mountains/NoLOD/Mountain_L_11.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/Terrain/Rocks and Terrains Pack - Low Poly/Models/Terrains/Mountains/NoLOD/Mountain_L_19.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/OK/electric+pole.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/OK/electric+pole.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/OK/electric+pole.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/OK/electric+pole.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/OK/electric+pole.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/OK/electric+pole.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/OK/electric+pole.fbx | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Generated/StaticRailwayMap/Materials/StaticRailway_ContactWire.mat | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/Materials/concrete_pavers_02_disp_4k.mat | shader=Universal Render Pipeline/Lit | instancing=True | passes=9
+MAT | Assets/ProjectLopHoc/Art/Materials/concrete_pavers_02_diff_4k.mat | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Generated/EnvironmentVisualFix/Water_Opaque.mat | shader=Universal Render Pipeline/Unlit | instancing=False | passes=7
+MAT | Assets/ProjectLopHoc/Art/3DModels/Tunnel/Mat/Grass2.mat | shader=Universal Render Pipeline/Lit | instancing=True | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/OK/train-ride/mat/Trim Material.mat | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/OK/train-ride/mat/Light Texture.mat | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Art/3DModels/OK/train-ride/mat/Seethrough.mat | shader=Universal Render Pipeline/Lit | instancing=False | passes=9
+MAT | Assets/ProjectLopHoc/Generated/QuestFarSettlement/FarCluster.mat | shader=UTT/Environment Cluster Fade | instancing=True | passes=1

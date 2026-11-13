@@ -1,0 +1,5 @@
+PASS | Asset Panel save persists after restarting Play Mode
+PASS | Other asset/stage unchanged after UI save/restart
+PASS | Inspection/maintenance events persist without seed duplication on another Play session
+PASS | No new C# runtime errors
+DONE ui-persist

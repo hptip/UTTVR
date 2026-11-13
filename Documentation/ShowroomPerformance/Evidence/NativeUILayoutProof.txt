@@ -1,0 +1,1 @@
+At execution time, all serialized blocks match disk except 3 known auto-layout cache blocks. Geometry, scripts and references equal.

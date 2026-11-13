@@ -1,0 +1,50 @@
+[
+  {
+    "view": "01_overview",
+    "mean_abs_error_255": 0.003295482982982983,
+    "changed_over12_percent": 0.010146865615615615,
+    "changed_over40_percent": 0.0025220533033033033
+  },
+  {
+    "view": "02_close",
+    "mean_abs_error_255": 0.009983420920920921,
+    "changed_over12_percent": 0.0268041478978979,
+    "changed_over40_percent": 0.004926801801801802
+  },
+  {
+    "view": "03_rail",
+    "mean_abs_error_255": 0.004419458521021021,
+    "changed_over12_percent": 0.013841966966966966,
+    "changed_over40_percent": 0.00316722972972973
+  },
+  {
+    "view": "04_mountains",
+    "mean_abs_error_255": 0.006059379692192193,
+    "changed_over12_percent": 0.01882742117117117,
+    "changed_over40_percent": 0.005161411411411411
+  },
+  {
+    "view": "05_bridge",
+    "mean_abs_error_255": 0.00812159816066066,
+    "changed_over12_percent": 0.023812875375375374,
+    "changed_over40_percent": 0.005747935435435435
+  },
+  {
+    "view": "06_station",
+    "mean_abs_error_255": 2.8935185185185186e-05,
+    "changed_over12_percent": 0.0,
+    "changed_over40_percent": 0.0
+  },
+  {
+    "view": "07_train",
+    "mean_abs_error_255": 0.0017539023398398398,
+    "changed_over12_percent": 0.005689283033033033,
+    "changed_over40_percent": 0.0007624812312312312
+  },
+  {
+    "view": "08_bridge_detail",
+    "mean_abs_error_255": 0.007143080580580581,
+    "changed_over12_percent": 0.023578265765765768,
+    "changed_over40_percent": 0.005982545045045045
+  }
+]

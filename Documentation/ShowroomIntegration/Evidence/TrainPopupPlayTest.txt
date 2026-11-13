@@ -1,0 +1,38 @@
+PASS | Merged Showroom starts independently in Play Mode
+PASS | Exactly one XR Origin and EventSystem
+PASS | Exactly one active AudioListener
+PASS | Display does not run the copied route streamer
+PASS | Eight display layers and miniature train cars resolve
+PASS | Train popup singleton initialized
+PASS | Saved popup ScrollRect reference resolves
+PASS | Train popup preserves full specifications: sydney_metro_jotrain
+PASS | Viewport has positive usable dimensions
+PASS | Information is clipped to the scrolling viewport
+PASS | Content height accommodates full train information
+PASS | Close button entirely inside panel
+PASS | Close callback works: sydney_metro_jotrain
+PASS | Train popup preserves full specifications: RiyadhMetro_D
+PASS | Viewport has positive usable dimensions
+PASS | Information is clipped to the scrolling viewport
+PASS | Content height accommodates full train information
+PASS | Close button entirely inside panel
+PASS | Close callback works: RiyadhMetro_D
+PASS | Train popup preserves full specifications: McFace
+PASS | Viewport has positive usable dimensions
+PASS | Information is clipped to the scrolling viewport
+PASS | Content height accommodates full train information
+PASS | Close button entirely inside panel
+PASS | Close callback works: McFace
+PASS | Train popup preserves full specifications: glink_tram_skecthfab
+PASS | Viewport has positive usable dimensions
+PASS | Information is clipped to the scrolling viewport
+PASS | Content height accommodates full train information
+PASS | Close button entirely inside panel
+PASS | Close callback works: glink_tram_skecthfab
+PASS | Existing Scene Menu closed before new UI ray interaction
+PASS | Uses the existing rig interactor: NearFarInteractor
+RAY | interactor=XR Origin (VR)/Camera Offset/Right Controller/Near-Far Interactor; active=True; hit=Close_Btn; eye=(45.76, 1.36, 10.87); canvas=TrainInfo
+PASS | Actual XR ray hits new UI button: Close_Btn
+PASS | Actual XR trigger closes train information popup
+PASS | No Console errors during popup test
+DONE PASS; physical headset not tested

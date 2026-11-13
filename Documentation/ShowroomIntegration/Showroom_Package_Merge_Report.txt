@@ -1,0 +1,164 @@
+SHOWROOM — BÁO CÁO HỢP NHẤT UNITY PACKAGE
+Project: F:\UTT_vr
+Unity: 6000.3.0f1 — ngày 13/11/2026
+Scene đích: Assets/ProjectLopHoc/Scenes/Showroom.unity
+
+A. PACKAGE VÀ BASELINE
+- Chọn F:\UnityTemp\ShowRoomUTT.unitypackage bằng nội dung: chứa đúng Scene Showroom cùng GUID với Scene hiện tại. Package Yên Tử đã kiểm tra và không có Scene Showroom.
+- 951 asset entries: 842 giống byte; 51 mới; 58 cùng GUID nhưng khác byte. Không có xung đột đường dẫn khác GUID hoặc GUID khác đường dẫn trong tập package.
+- Trong nhóm khác byte: 52 file code/shader chỉ khác BOM/newline; 4 script khác nội dung thực; 1 Scene; 1 font fallback. Giữ file hiện tại cho các phần dùng chung.
+- Meta/import settings: không phát hiện khác biệt ngữ nghĩa sau chuẩn hóa BOM/newline. GUID mới được giữ; class/file MuseumLabelStand đã được đặt lại tên file đúng để Unity nhận MonoScript, GUID không đổi.
+- Kiểm tra một lần Git status trước sửa: 5.571 mục thay đổi/untracked đã có; Showroom đã sửa chưa commit. Không reset/checkout/revert, không branch/commit.
+- Scene Showroom được mở/merge qua Editor API. Không copy Scene package đè lên file gốc. Các tham chiếu và thuộc tính của 417 GameObject cũ được đối chiếu trước khi lưu; tất cả giữ nguyên.
+
+B. BẢNG CHỨC NĂNG
+Chức năng | Bản hiện tại | Package | Kết quả
+4 mô hình tàu / popup thông số | Có và đã có VR | Có nhưng thiếu vài component của bản hiện tại | Giữ bản hiện tại; test cả 4 popup mở/đóng đúng dữ liệu
+Cửa đi Yên Tử | Đích YenTuHaLongXanh | Đổi target sang LaiTau | Giữ đích và toàn bộ Inspector hiện tại
+PlayerSpawner / XR / comfort | Có standalone XR prefab | Bỏ tham chiếu prefab | Giữ nguyên tham chiếu và các thiết lập hiện tại
+Scene Menu | Có mục quản lý tài sản và phím 5 | Bản cũ không có mục đó | Không ghi đè SceneQuickMenu
+Sa bàn tuyến thu nhỏ | Chưa có trong Showroom | Có UTT.SaBan, 8 lớp, tàu chạy, x1–x4, reset | Đã thêm và test tàu di chuyển thực theo thời gian, pause, reset, 8 lớp
+4 bảng thuyết minh | Chưa có | Riyadh, G:link, Sydney, Trainy McTrainface | Đã thêm; căn theo vị trí các mô hình hiện có
+Dãy ray chi tiết / bảng nổi | Một module ray | Cụm ray bổ sung và ObjectInfoBoard | Đã thêm các phần mới quanh module hiện có, không nhân đôi module gốc
+Chatbot / giọng nói | Bot bám người chơi, chưa có UI này | UI chat, STT, TTS, brain Xkiro | Đã thêm UI và cấu trúc dịch vụ; mở từ Robot bằng hợp đồng tương tác cũ và C theo code package. Luồng UI được test bằng provider cục bộ; dịch vụ trực tuyến chưa được xác minh
+
+C. THAY ĐỔI THỰC HIỆN
+- Import có chọn lọc 50 asset mới, không import/ghi đè 842 asset cũ giống nhau hoặc 58 asset xung đột. 1 script mới không dùng bởi Scene bị loại khỏi kế hoạch vì phụ thuộc API legacy không tương thích.
+- Tạo glue riêng ShowroomPackageIntegration và ShowroomRobotChatInteractable. Không sửa FirstPersonController, PlayerSpawner, shared XR prefab, Input Actions, Multiplayer, URP hoặc Package manifest.
+- GameObject mới: AIChatbot_Prefab, SaBan_YenTuHaLongMain, bốn Museum Label Stand, các logo cửa mới, phần Ray bổ sung dưới module EBS hiện tại và root Showroom Package Integration.
+- Component mới trên Robot: RobotInteraction của package và adapter tương tác PC/VR; FollowCompanionBot cũ giữ nguyên.
+- Model sa bàn nằm ở vùng trống phía trước: root (10,0,19); mặt bàn 50 x 18; console khoảng (10,1.45,28.7). Model Scale cuối 0.002190031, căn mô hình vừa bàn. Chỉ đổi Transform của bản sao sa bàn, không sửa knot/spline/prefab nguồn.
+- Tắt riêng các bản sao streamer tuyến thật và HUD lái tàu còn lẫn trong sa bàn; tắt collider của mô hình thu nhỏ. Không chạy hai hệ thống tàu/streaming song song. Bộ UTT.SaBan.SaBanTrainRunner của package điều khiển tàu sa bàn.
+- Thêm tracked-device raycaster cho bảng sa bàn. Trong XR, collider FPS của nút sa bàn được tắt để một lần Trigger không kích hoạt hai lần; ngoài XR giữ đường tương tác FPS.
+- Chat dùng XRWorldSpaceCanvas hiện có trên canvas mới, bàn phím dùng lại QuestLoginKeyboard và được quản lý riêng theo Scene. Khi chat mở, tạm ẩn console sa bàn, đóng chat khôi phục đúng trạng thái console.
+- Unity API chuyển các nhánh mới từ Scene staging vào Scene gốc, bảo toàn prefab connections và remap tham chiếu tới camera/đối tượng đang có. Không tạo camera, XR Origin, EventSystem hoặc network manager thứ hai.
+- Không Apply/ghi đè bất kỳ prefab gốc nào. Những asset mới được giữ GUID của package, trừ GUID riêng của Scene staging tạm.
+- Scene staging tạm đã xóa sau khi xác nhận không còn dependency; chỉ xóa asset tạm do nhiệm vụ tạo, không xóa tài nguyên gốc hay package.
+
+D. XUNG ĐỘT VÀ PHỤ THUỘC
+Đã xử lý:
+1. Door target LaiTau: bỏ thay đổi package, giữ YenTuHaLongXanh.
+2. PlayerSpawner mất standalone XR prefab: giữ cấu hình local.
+3. EventSystem package dùng InputSystemUIInputModule: không thêm module đó, giữ XRUIInputModule local.
+4. TrainInfo package bỏ component: giữ toàn bộ component local.
+5. SceneQuickMenu package cũ hơn: giữ local, gồm mục quản lý tài sản.
+6. Shared YenTuSaBanBuilder/YenTuSaBanControls, MeshCombiner của ChiTietSaBan: không ghi đè; Scene mới dùng UTT.SaBan riêng nên không cần thay các file này.
+7. MuseumLabelStand (1).cs: import thành MuseumLabelStand.cs với cùng GUID để khớp tên class.
+8. Cụm sa bàn mang theo runtime streamer/HUD không phù hợp: vô hiệu hóa trên bản sao Showroom, không sửa script hay Scene tuyến thật.
+9. Đèn Directional Light bổ sung toàn cục của package không được đưa vào, giữ lighting hiện tại.
+10. Không còn tham chiếu từ nội dung mới tới Scene staging. Không tìm thấy GUID thiếu trong dependency closure đã resolve bằng AssetDatabase; compile xác nhận các phụ thuộc code đang được dùng.
+
+Giữ lại / chưa hợp nhất:
+- SaBanInteractable.cs không gắn trong Scene package và yêu cầu EnterInspection/IsInspecting từ phiên bản khác của YenTuSaBanControls. Không import script legacy này, không ép thay hệ thống hiện tại.
+- Các cập nhật ngoài phạm vi trong script dùng chung không được áp dụng.
+- Xkiro hiện báo thiếu khóa API khi dùng provider thật. Chưa xác nhận STT/TTS/server ngoài; cần cấu hình bằng Tools > BIM AI > Create or Open Local API Config. Không ghi khóa bí mật vào báo cáo, không cấu hình thay người dùng.
+
+Phát sinh font được ghi nhận:
+- Không copy đè LiberationSans SDF - Fallback.asset từ package. Tuy nhiên TextMeshPro Dynamic Font tự cập nhật cache glyph khi chạy các text mới; file local tăng từ 1.088.549 lên 1.089.559 byte so với mốc đầu task.
+- Font này đã có thay đổi chưa commit trước nhiệm vụ. Không dùng Git/package để khôi phục mù quáng vì có thể làm mất glyph đã có của người dùng. Đây là một thay đổi cache font được công khai, không phải thay font bằng bản của package.
+- Đối chiếu 60 file bảo vệ: 59 giữ nguyên byte, ngoại lệ là cache font trên. Ba Scene YenTuHaLongXanh, QuanLyVongDoiTaiSan, ChiTietSaBan không đổi byte; 58 Zone cũng khớp baseline đã có trong workspace.
+- Scene BIM còn mở từng bị cờ dirty trung tính do chuyển GameObject tạm qua Scene. Đã serialize ra file chẩn đoán ngoài Assets và xác nhận giống file gốc từng byte mới xóa cờ dirty; không lưu đè hay bỏ qua thay đổi thực của Scene BIM.
+
+E. KIỂM THỬ
+Compile: PASS trong Unity Editor, không còn compile error của phần tích hợp.
+Scene validation: PASS, lưu sạch; 96.796 node; 598 asset dependencies; 0 Missing Script, 0 Missing Prefab, 0 Renderer đang hiển thị thiếu Mesh/Material.
+Có 1.011 MeshFilter rỗng trong bản package nằm trên Renderer đã tắt; không tính chúng là hình học đang hiển thị bị mất và không xóa chúng.
+Chức năng đã chạy thật trong Play Mode:
+- Bốn popup cũ mở đúng thông tin, nút đóng hoạt động.
+- Tám lớp sa bàn bật/tắt và khôi phục đúng.
+- Bốn mức tốc độ thay setting, không tự chạy tàu đang dừng.
+- Nút chạy làm tàu di chuyển thực theo thời gian trên spline bản sao; pause dừng, reset trở về điểm xuất phát.
+- Robot mở chatbot; nhập/xóa/đóng và luồng gửi/hiển thị bubble/phản hồi qua provider test cục bộ đã đạt. Provider test không lưu vào Scene, không được dùng thay backend thật.
+- Ray UI thực của rig hiện tại (NearFarInteractor) trỏ và Trigger bấm nút chạy, Clear và Close. Scene Menu được đóng trước tương tác, không thay input chung.
+- Một XR Origin, một EventSystem, một AudioListener active; không tự load tuyến thật hoặc Zone bởi sa bàn; không có lỗi Console trong phiên kiểm thử ray cuối.
+Các assertion chức năng và assertion ray được lưu ở hai log riêng; không dùng một lần thấy UI để coi là PASS.
+
+Chưa kiểm thử / không được coi là đạt:
+- Phản hồi Xkiro thật, ghi âm/STT/TTS thực, microphone và server ngoài.
+- Kính Quest 3S thật, FPS/độ trễ/bộ nhớ trên thiết bị, Android/IL2CPP.
+- Chuyển Scene thật bằng cửa trong bài test này; chỉ xác nhận giữ nguyên dữ liệu/hàm hiện tại, không tuyên bố đã đi qua cửa.
+- Gõ bằng bàn phím VR trên thiết bị thật; adapter đã được gắn, thao tác ray Clear/Close đã test.
+Không Android Build trong nhiệm vụ này.
+
+F. KẾT LUẬN VÀ THAO TÁC TIẾP THEO
+Showroom gốc đã được bổ sung sa bàn, bảng thuyết minh, cụm ray/bảng thông tin và UI chatbot bằng merge chọn lọc; chức năng popup cũ và cấu hình cửa/XR/menu được giữ. Scene đã lưu, không còn dependency vào Scene staging.
+Mở Assets/ProjectLopHoc/Scenes/Showroom.unity để chỉnh sửa. Sa bàn mới ở phía trước phòng, vị trí mô tả ở mục C; console cung cấp chạy/dừng, x1–x4, reset và bật/tắt lớp.
+Cần cấu hình API của người dùng để kiểm thử dịch vụ AI/giọng nói thật. Chưa tuyên bố Showroom sẵn sàng build Quest: package mang bản đồ rất lớn (bản package có 54.332 MeshRenderer), cần đo và tối ưu riêng sa bàn trước on-device.
+Không tạo Project phụ, branch, commit; không xóa/rebuild Library; không sửa Pixyz/importer; không xóa asset gốc; không đổi Build Settings, XR hoặc URP.
+
+BẰNG CHỨNG VÀ DANH SÁCH FILE
+Thư mục đầy đủ: F:\UTT_vr\Temp\ShowroomMerge
+AssetComparison.tsv: toàn bộ 951 asset, GUID, trạng thái, so sánh nội dung/meta.
+CurrentSceneAudit.json: baseline 417 node và serialized references.
+SceneDocumentDiff.json / SharedSceneChanges.json: so sánh fileID/GUID/property của hai Scene.
+ImportPlan.json / Merge.txt / FinalValidation.txt / StagingCleanup.txt: kế hoạch import, thao tác thực hiện và xác minh.
+FunctionalPlayAssertions.txt / PlayRayTest.txt: log kiểm thử theo phạm vi.
+ProtectedBefore.json / ProtectedAfter.json / OtherSceneDirtyCheck.txt: bảo vệ file và xác minh trạng thái chưa lưu.
+Hướng dẫn: F:\UTT_vr\Documentation\ShowroomIntegration\README.md
+
+SCENE GUID GIỮ NGUYÊN: 511eb67c6367be44984f6ef41a343e66
+
+ASSET MỚI IMPORT (50):
+- Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/UI/BIMSpeakButton.cs
+- Assets/ProjectLopHoc/Art/3DModels/Showroom/FloatingInfoBoard.cs
+- Assets/UTTSaBan-Tool/UTTSaBan/Runtime/SaBanLayer.cs
+- Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Chatbot/Editor/BIMVoiceOutputFactory.cs
+- Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/UI/BIMVoiceOutputUI.cs
+- Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/PointerVoiceTrigger.cs
+- Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/VoiceInputController.cs
+- Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Chatbot/Editor/AIChatbotBuilder.cs
+- Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/TTS/MetaConnectTTSClient.cs
+- Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Chatbot/Scripts/DemoPlayer.cs
+- Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/IVoiceTrigger.cs
+- Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/TTS/BIMWavParser.cs
+- Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/BIMAISecrets.cs
+- Assets/ProjectLopHoc/Scripts/SaBan/SaBanTrainController.cs
+- Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/TTS/BIMTTSSettings.cs
+- Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Prefabs/AIChatbot_Prefab.prefab
+- Assets/UTTSaBan-Tool/UTTSaBan/Editor/SaBanBaker.cs
+- Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Chatbot/Scripts/AIChatbotIntegration.cs
+- Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/TTS/BIMAudioPlayer.cs
+- Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Chatbot/Scripts/ChatbotInputController.cs
+- Assets/ProjectLopHoc/ExportSupport/HandsShared/Billboard.cs
+- Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Prefabs/UserMessagePrefab.prefab
+- Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/TTS/IBIMTextToSpeechProvider.cs
+- Assets/UTTSaBan-Tool/UTTSaBan/Runtime/SaBanRouteSampler.cs
+- Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/TTS/BIMTextSanitizer.cs
+- Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Chatbot/Scripts/MockBrain.cs
+- Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Chatbot/Scripts/RobotInteraction.cs
+- Assets/ProjectLopHoc/Art/3DModels/Showroom/ObjectInfoBoard.cs
+- Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/TTS/BIMTextToSpeechController.cs
+- Assets/UTTSaBan-Tool/UTTSaBan/Editor/SaBanBuilderWindow.cs
+- Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Prefabs/LoadingMessagePrefab.prefab
+- Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/XkiroBrain.cs
+- Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/GroqSpeechToText.cs
+- Assets/UTTSaBan-Tool/UTTSaBan/Runtime/SaBanPanelButton.cs
+- Assets/Museum/MuseumLabelStand.cs (đổi tên từ Assets/Museum/MuseumLabelStand (1).cs)
+- Assets/UTTSaBan-Tool/UTTSaBan/Runtime/SaBanPanelFactory.cs
+- Assets/UTTSaBan-Tool/UTTSaBan/Runtime/SaBanControlPanel.cs
+- Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Chatbot/Scripts/ChatBubble.cs
+- Assets/ProjectLopHoc/Art/3DModels/Showroom/CameraInfoBoard.cs
+- Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Chatbot/Editor/AIChatbotVoiceUIFactory.cs
+- Assets/UTTSaBan-Tool/UTTSaBan/Runtime/SaBanRoot.cs
+- Assets/UTTSaBan-Tool/UTTSaBan/Runtime/SaBanTrainRunner.cs
+- Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Editor/BIMTTSInstaller.cs
+- Assets/UTTSaBan-Tool/UTTSaBan/Editor/SaBanEditorUtil.cs
+- Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Editor/VoiceInputInstaller.cs
+- Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/VoiceInputView.cs
+- Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Chatbot/Scripts/AIChatbotUIController.cs
+- Assets/UTTSaBan/Generated/SaBan_Table.mat
+- Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Prefabs/AIMessagePrefab.prefab
+- Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Editor/BIMAISecretsEditor.cs
+
+CODE TÍCH HỢP / KIỂM THỬ TẠO MỚI:
+- Assets/ShowroomIntegration/Runtime/ShowroomMergeTestBrain.cs
+- Assets/ShowroomIntegration/Runtime/ShowroomMergeTestTrigger.cs
+- Assets/ShowroomIntegration/Runtime/ShowroomPackageIntegration.cs
+- Assets/ShowroomIntegration/Runtime/ShowroomRobotChatInteractable.cs
+- Assets/Editor/ShowroomPackageMergeDirtyCheck.cs
+- Assets/Editor/ShowroomPackageMergeImplementation.cs
+- Assets/Editor/ShowroomPackageMergeTests.cs
+- Assets/Editor/ShowroomPackageMergeTools.cs
+
+FILE CŨ CHỦ ĐÍCH SỬA: Assets/ProjectLopHoc/Scenes/Showroom.unity
+Ngoại lệ cache font tự động: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset

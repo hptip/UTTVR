@@ -1,0 +1,24 @@
+PASS | VR has distinct left navigation, right asset panel and lower commands canvases
+PASS | One XR Origin and EventSystem
+PASS | One enabled AudioListener
+PASS | Actual XR ray reaches relocated command button
+PASS | Trigger click opens detail through XR UI module
+PASS | Right trigger physics selection and outline still work with auto focus
+PASS | A/B/right grip do not focus, go back, enter detail or submit a selected UI button
+PASS | Left X hides all management panels without losing selection
+PASS | Left joystick moves origin horizontally at limited speed while UI hidden
+PASS | Locomotion does not write tracked local HMD pose
+PASS | Right joystick performs one snap turn
+PASS | Held stick does not repeatedly turn without rearming
+PASS | Showing UI recenters panels without teleporting HMD or changing selection
+PASS | LeftNav collapses independently
+PASS | Asset panel collapses independently
+PASS | Left Y opens existing Scene Menu
+PASS | Left Y closes menu
+Scroll diagnostics: before=1 after=0.7237382 reader=(0.00, 0.00) device=(0.00, 0.00) hit=AssetItem_10
+PASS | Joystick scrolls LeftNav through actual XR UI input
+PASS | UI scroll does not also locomote
+PASS | Relocated VR search opens independent world-space Vietnamese keyboard
+PASS | Actual ray types Vietnamese key despite input losing focus
+PASS | No new C# runtime errors
+DONE vr

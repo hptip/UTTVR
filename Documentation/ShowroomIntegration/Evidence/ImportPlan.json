@@ -1,0 +1,261 @@
+{
+  "imported": [
+    {
+      "source": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/UI/BIMSpeakButton.cs",
+      "destination": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/UI/BIMSpeakButton.cs",
+      "guid": "00bbc0cdcf7c4188aa33d2062987fa35"
+    },
+    {
+      "source": "Assets/ProjectLopHoc/Art/3DModels/Showroom/FloatingInfoBoard.cs",
+      "destination": "Assets/ProjectLopHoc/Art/3DModels/Showroom/FloatingInfoBoard.cs",
+      "guid": "012ddd12616b848409e2b8649b843299"
+    },
+    {
+      "source": "Assets/UTTSaBan-Tool/UTTSaBan/Runtime/SaBanLayer.cs",
+      "destination": "Assets/UTTSaBan-Tool/UTTSaBan/Runtime/SaBanLayer.cs",
+      "guid": "015bc05be4097274e848bf7c3d383102"
+    },
+    {
+      "source": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Chatbot/Editor/BIMVoiceOutputFactory.cs",
+      "destination": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Chatbot/Editor/BIMVoiceOutputFactory.cs",
+      "guid": "12249f5041cd4e9daf57ea4abc8bdd1f"
+    },
+    {
+      "source": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/UI/BIMVoiceOutputUI.cs",
+      "destination": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/UI/BIMVoiceOutputUI.cs",
+      "guid": "12923c56ad2d42f68a1deacca5e8e5e8"
+    },
+    {
+      "source": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/PointerVoiceTrigger.cs",
+      "destination": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/PointerVoiceTrigger.cs",
+      "guid": "20b5aa63ec3b42a8a7c98407dbabd829"
+    },
+    {
+      "source": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/VoiceInputController.cs",
+      "destination": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/VoiceInputController.cs",
+      "guid": "25a6c71a1ed54521ac100ebb5f4a27d9"
+    },
+    {
+      "source": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Chatbot/Editor/AIChatbotBuilder.cs",
+      "destination": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Chatbot/Editor/AIChatbotBuilder.cs",
+      "guid": "2b80da8771ccb404e9be7baaccfb4539"
+    },
+    {
+      "source": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/TTS/MetaConnectTTSClient.cs",
+      "destination": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/TTS/MetaConnectTTSClient.cs",
+      "guid": "307d810b44794241bedad88f4d6ab5d3"
+    },
+    {
+      "source": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Chatbot/Scripts/DemoPlayer.cs",
+      "destination": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Chatbot/Scripts/DemoPlayer.cs",
+      "guid": "341ef20b7febb3447bb9aa6a3935a347"
+    },
+    {
+      "source": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/IVoiceTrigger.cs",
+      "destination": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/IVoiceTrigger.cs",
+      "guid": "367fc194f556476995daac951beef5ae"
+    },
+    {
+      "source": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/TTS/BIMWavParser.cs",
+      "destination": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/TTS/BIMWavParser.cs",
+      "guid": "3a1edf96dfcb4d1fbdd8d8fca9f81231"
+    },
+    {
+      "source": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/BIMAISecrets.cs",
+      "destination": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/BIMAISecrets.cs",
+      "guid": "3e802c5e9aaf463cb4c22013e28ffea2"
+    },
+    {
+      "source": "Assets/ProjectLopHoc/Scripts/SaBan/SaBanTrainController.cs",
+      "destination": "Assets/ProjectLopHoc/Scripts/SaBan/SaBanTrainController.cs",
+      "guid": "5159a78b869ab3345911fc1eed8a631b"
+    },
+    {
+      "source": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/TTS/BIMTTSSettings.cs",
+      "destination": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/TTS/BIMTTSSettings.cs",
+      "guid": "52300832bfae4bbf850b0d7fbc9250de"
+    },
+    {
+      "source": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Prefabs/AIChatbot_Prefab.prefab",
+      "destination": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Prefabs/AIChatbot_Prefab.prefab",
+      "guid": "59d68352bde680a4082088e58d4c3c34"
+    },
+    {
+      "source": "Assets/UTTSaBan-Tool/UTTSaBan/Editor/SaBanBaker.cs",
+      "destination": "Assets/UTTSaBan-Tool/UTTSaBan/Editor/SaBanBaker.cs",
+      "guid": "59f7cbd7dd0a11f40997b386befc6dd2"
+    },
+    {
+      "source": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Chatbot/Scripts/AIChatbotIntegration.cs",
+      "destination": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Chatbot/Scripts/AIChatbotIntegration.cs",
+      "guid": "5e9f66f81a4a9a248966b1b8b2a8ef84"
+    },
+    {
+      "source": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/TTS/BIMAudioPlayer.cs",
+      "destination": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/TTS/BIMAudioPlayer.cs",
+      "guid": "617a551120284885817dfed020b93f27"
+    },
+    {
+      "source": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Chatbot/Scripts/ChatbotInputController.cs",
+      "destination": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Chatbot/Scripts/ChatbotInputController.cs",
+      "guid": "63cbbdab11315dd4bb2748bd7601681b"
+    },
+    {
+      "source": "Assets/ProjectLopHoc/ExportSupport/HandsShared/Billboard.cs",
+      "destination": "Assets/ProjectLopHoc/ExportSupport/HandsShared/Billboard.cs",
+      "guid": "6aa1362b6de959a45ab733c99b21c680"
+    },
+    {
+      "source": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Prefabs/UserMessagePrefab.prefab",
+      "destination": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Prefabs/UserMessagePrefab.prefab",
+      "guid": "6eb6fcca99c592047bf4663b7979d2f2"
+    },
+    {
+      "source": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/TTS/IBIMTextToSpeechProvider.cs",
+      "destination": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/TTS/IBIMTextToSpeechProvider.cs",
+      "guid": "73c9bacd74a046f795c2418084691eeb"
+    },
+    {
+      "source": "Assets/UTTSaBan-Tool/UTTSaBan/Runtime/SaBanRouteSampler.cs",
+      "destination": "Assets/UTTSaBan-Tool/UTTSaBan/Runtime/SaBanRouteSampler.cs",
+      "guid": "80015c83fd63c3d40859f5680175f2d7"
+    },
+    {
+      "source": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/TTS/BIMTextSanitizer.cs",
+      "destination": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/TTS/BIMTextSanitizer.cs",
+      "guid": "8113b9c0baf94bf4bb4e5718a39b767d"
+    },
+    {
+      "source": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Chatbot/Scripts/MockBrain.cs",
+      "destination": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Chatbot/Scripts/MockBrain.cs",
+      "guid": "82834b66ec951144c9e3ec4bf812bc64"
+    },
+    {
+      "source": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Chatbot/Scripts/RobotInteraction.cs",
+      "destination": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Chatbot/Scripts/RobotInteraction.cs",
+      "guid": "8b7a3db39465f264bb7ff3cf68e7c6c6"
+    },
+    {
+      "source": "Assets/ProjectLopHoc/Art/3DModels/Showroom/ObjectInfoBoard.cs",
+      "destination": "Assets/ProjectLopHoc/Art/3DModels/Showroom/ObjectInfoBoard.cs",
+      "guid": "903dec0da6d44c94c9c2b938c91554ae"
+    },
+    {
+      "source": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/TTS/BIMTextToSpeechController.cs",
+      "destination": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/TTS/BIMTextToSpeechController.cs",
+      "guid": "934157c212184aab8f3f5776f8ed068b"
+    },
+    {
+      "source": "Assets/UTTSaBan-Tool/UTTSaBan/Editor/SaBanBuilderWindow.cs",
+      "destination": "Assets/UTTSaBan-Tool/UTTSaBan/Editor/SaBanBuilderWindow.cs",
+      "guid": "9406b46c48a1eff4aa1931c1f6267991"
+    },
+    {
+      "source": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Prefabs/LoadingMessagePrefab.prefab",
+      "destination": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Prefabs/LoadingMessagePrefab.prefab",
+      "guid": "944659a55acdb2c478e4a2bba0611d73"
+    },
+    {
+      "source": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/XkiroBrain.cs",
+      "destination": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/XkiroBrain.cs",
+      "guid": "9b761e3ae497af04f85b189355932f55"
+    },
+    {
+      "source": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/GroqSpeechToText.cs",
+      "destination": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/GroqSpeechToText.cs",
+      "guid": "a35e4f1e2c7879a4489d06ce1d91e466"
+    },
+    {
+      "source": "Assets/UTTSaBan-Tool/UTTSaBan/Runtime/SaBanPanelButton.cs",
+      "destination": "Assets/UTTSaBan-Tool/UTTSaBan/Runtime/SaBanPanelButton.cs",
+      "guid": "a8cba01320fe70a46a3c328f8b9cefe3"
+    },
+    {
+      "source": "Assets/Museum/MuseumLabelStand (1).cs",
+      "destination": "Assets/Museum/MuseumLabelStand.cs",
+      "guid": "b2a06afb42866ff43b95b415bab96d02"
+    },
+    {
+      "source": "Assets/UTTSaBan-Tool/UTTSaBan/Runtime/SaBanPanelFactory.cs",
+      "destination": "Assets/UTTSaBan-Tool/UTTSaBan/Runtime/SaBanPanelFactory.cs",
+      "guid": "b90a8b15bf60262499f39909fb7c710c"
+    },
+    {
+      "source": "Assets/UTTSaBan-Tool/UTTSaBan/Runtime/SaBanControlPanel.cs",
+      "destination": "Assets/UTTSaBan-Tool/UTTSaBan/Runtime/SaBanControlPanel.cs",
+      "guid": "ba55a3167add1084b890c0544875d8f4"
+    },
+    {
+      "source": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Chatbot/Scripts/ChatBubble.cs",
+      "destination": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Chatbot/Scripts/ChatBubble.cs",
+      "guid": "c3715da899a9ca84b982c298a830c1c0"
+    },
+    {
+      "source": "Assets/ProjectLopHoc/Art/3DModels/Showroom/CameraInfoBoard.cs",
+      "destination": "Assets/ProjectLopHoc/Art/3DModels/Showroom/CameraInfoBoard.cs",
+      "guid": "c52846c960081c648a9b84dc265e60ac"
+    },
+    {
+      "source": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Chatbot/Editor/AIChatbotVoiceUIFactory.cs",
+      "destination": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Chatbot/Editor/AIChatbotVoiceUIFactory.cs",
+      "guid": "c9082f2285eb4b7a8aae20c79f5bbf8f"
+    },
+    {
+      "source": "Assets/UTTSaBan-Tool/UTTSaBan/Runtime/SaBanRoot.cs",
+      "destination": "Assets/UTTSaBan-Tool/UTTSaBan/Runtime/SaBanRoot.cs",
+      "guid": "cd91f112bd2e6a241a850d11fe558a81"
+    },
+    {
+      "source": "Assets/UTTSaBan-Tool/UTTSaBan/Runtime/SaBanTrainRunner.cs",
+      "destination": "Assets/UTTSaBan-Tool/UTTSaBan/Runtime/SaBanTrainRunner.cs",
+      "guid": "d323906a92aec3c4e9cc7d4b699f1230"
+    },
+    {
+      "source": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Editor/BIMTTSInstaller.cs",
+      "destination": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Editor/BIMTTSInstaller.cs",
+      "guid": "d836baa00d694596879fa84eaf02fa32"
+    },
+    {
+      "source": "Assets/UTTSaBan-Tool/UTTSaBan/Editor/SaBanEditorUtil.cs",
+      "destination": "Assets/UTTSaBan-Tool/UTTSaBan/Editor/SaBanEditorUtil.cs",
+      "guid": "e574dff91a72bf64eb005ecde51c7210"
+    },
+    {
+      "source": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Editor/VoiceInputInstaller.cs",
+      "destination": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Editor/VoiceInputInstaller.cs",
+      "guid": "e774faed172d48f49f93e34c456937a1"
+    },
+    {
+      "source": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/VoiceInputView.cs",
+      "destination": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Runtime/VoiceInputView.cs",
+      "guid": "e98f692742a544479949911d46066467"
+    },
+    {
+      "source": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Chatbot/Scripts/AIChatbotUIController.cs",
+      "destination": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Chatbot/Scripts/AIChatbotUIController.cs",
+      "guid": "eeb238d6b0673664e8da57508938139f"
+    },
+    {
+      "source": "Assets/UTTSaBan/Generated/SaBan_Table.mat",
+      "destination": "Assets/UTTSaBan/Generated/SaBan_Table.mat",
+      "guid": "f16b82c0eea2c4146bfaef374a97fa69"
+    },
+    {
+      "source": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Prefabs/AIMessagePrefab.prefab",
+      "destination": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Prefabs/AIMessagePrefab.prefab",
+      "guid": "f5cab7f01c7914e489e37a0d0814de0c"
+    },
+    {
+      "source": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Editor/BIMAISecretsEditor.cs",
+      "destination": "Assets/ProjectLopHoc/AIChatbot_Phase3_MetaConnect_Final_Unity6/AIChatbot_Phase3_MetaConnect_Final_Unity6/Unity/Assets/AIChatbot_Phase2_Final_Unity6/Editor/BIMAISecretsEditor.cs",
+      "guid": "ff198fda7c054fb3ad319b8ec3dd6ee5"
+    }
+  ],
+  "skipped": [
+    {
+      "path": "Assets/ProjectLopHoc/Scripts/SaBan/SaBanInteractable.cs",
+      "reason": "Unused by incoming Scene/prefabs; requires incompatible shared YenTuSaBanControls inspection API. Preserve current shared controller."
+    }
+  ],
+  "incomingScene": "Assets/ShowroomIntegration/_MergeStaging/Showroom_Incoming.unity"
+}

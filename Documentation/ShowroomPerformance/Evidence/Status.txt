@@ -1,0 +1,1 @@
+Playing=False; Compiling=False; Assets/ProjectLopHoc/Scenes/Showroom.unity dirty=False

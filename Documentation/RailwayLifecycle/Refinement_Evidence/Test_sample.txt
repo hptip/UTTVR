@@ -1,0 +1,7 @@
+PASS | Artifact-authored six-stage XLSX parses with production ExcelDataReader: Cập nhật: 12; mới: 0; trường mới: 0; ID không có mô hình: 0; lỗi: 0
+Ô trống giữ nguyên dữ liệu; Apply dùng đúng nội dung đã preview.
+PASS | Formatted sample applies with correct AssetID+StageKey/version and real numeric/date cell types
+PASS | Existing five-sheet workbook still parses/previews against migrated production registry without writing user data: Cập nhật: 65; mới: 0; trường mới: 0; ID không có mô hình: 0; lỗi: 0
+Ô trống giữ nguyên dữ liệu; Apply dùng đúng nội dung đã preview.
+PASS | No new C# runtime errors
+DONE sample

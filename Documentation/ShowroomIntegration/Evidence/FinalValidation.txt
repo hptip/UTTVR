@@ -1,0 +1,6 @@
+PASS | Saved Showroom opens with nodes=96796
+PASS | Missing scripts=0; active renderer missing mesh/material=0; missing prefab=0
+PASS | Exactly one saved EventSystem; copied runtime streamers inactive
+Dependencies=598
+Staging dependency=False
+Scene dirty=False

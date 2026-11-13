@@ -1,0 +1,125 @@
+BÁO CÁO TỐI ƯU SHOWROOM — BẢO TOÀN MÔ HÌNH HIỆN TẠI
+Ngày: 13/11/2026. Unity 6000.3.0f1. Mục tiêu: Quest 3S; số liệu thực đo trong Unity Editor Windows.
+
+1. SCENE VÀ PHẠM VI
+F:/UTT_vr/Assets/ProjectLopHoc/Scenes/Showroom.unity
+Dùng đúng mô hình Showroom đang tồn tại làm nguồn duy nhất. Không chạy SaBanBaker, YenTuSaBanBuilder hoặc tool sinh bản đồ; không đồng bộ YenTu; không tạo sa bàn/Scene thay thế; không tạo ray, Terrain, núi hoặc công trình mới.
+
+2. HIỆN TRẠNG TRƯỚC TỐI ƯU
+94.859 GameObject/Transform; 94.653 active theo khảo sát Edit Mode. Renderer 53.780, enabled+active 52.580. MeshFilter 53.780. Collider 66, trong đó MeshCollider 17. Unique mesh 855, material của các Renderer 137.
+Tổng đếm MeshFilter kể cả các nhóm đang ẩn: 23.438.419 vertices, 15.673.072 triangles. Đây là thống kê instance hình học, không phải số triangles thực vẽ của một frame.
+Model riêng có 53.278 Renderer; 52.078 enabled+active. Lớp rail có 51.486 Renderer, 51.405 enabled+active. Nature: 112 Renderer/105 enabled+active, khoảng 2,126 triệu triangles theo instance. Terrain 181/98, bridge 3/3, tunnel 204/204, station 261/261, train 1.013/2, khac 18/0. Các trạng thái ẩn sẵn có được giữ nguyên.
+
+3. CHỨC NĂNG PHẢI BẢO TOÀN
+Tàu: chạy, dừng có easing, tiếp tục, reset, x1-x4, spline/path và khoảng cách hai toa.
+8 lớp riêng: train, terrain, nature (núi/cây), rail (ray/cột/dây), bridge, tunnel, station, khac. Không tự tạo thêm nút cây/nhà độc lập khi Scene chỉ có nhóm nature/khac.
+4 popup tàu cũ, popup metadata của 9 cấu kiện BIM, bảng nổi ObjectInfoBoard, 4 bảng MuseumLabelStand.
+Robot mở chatbot; nhập/gửi/xóa/đóng; console được ẩn và khôi phục khi chat mở/đóng; menu Scene; UI và ray của rig XR hiện tại.
+Door, PlayerSpawner, XR, comfort setup và multiplayer giữ nguyên cấu hình. Không thực hiện phiên multiplayer nhiều máy hoặc chuyển Scene qua Door trong bài test này.
+
+4. BOTTLENECK ĐƯỢC ĐO
+Chi phí gửi/cull hàng chục nghìn Renderer lặp lại của rail là bottleneck CPU chính. Phép thử chỉ tắt visual rail được thực hiện trong Play rồi khôi phục, không lưu Scene ở trạng thái tắt thử. Số draw call giảm mạnh khi cô lập rail; các nhóm khác có số Renderer nhỏ hơn nhiều. Không coi giảm Renderer đơn thuần là bằng chứng FPS tăng: đã đo CPU/render/GPU trước và sau.
+Một bottleneck thứ hai: SetActive cả cây rail khi bật/tắt gây callback khoảng 29.005 ms khi ẩn và 90.369 ms khi hiện trong lần đo rendering-only.
+
+5. PHƯƠNG PHÁP ĐO BASELINE
+ProfilerRecorder đọc CPU main/render frame, GPU frame, draw calls, SetPass, triangles, batches, GC và memory. 90 frame được quan sát cho mỗi case, có warm-up; lấy mean/p95/p99. Game View 1920x888, camera cố định, cùng pose trước/sau.
+Tạm dừng pose input/locomotion của rig trong phiên đo để cố định camera; không lưu trạng thái thử này. Không thêm rig, EventSystem hoặc AudioListener.
+Đo stopped, chạy x1, chạy x4, nhìn gần, và tắt visual lần lượt từng lớp. Khi cô lập rail sau tối ưu, cả lô instancing cũng được tạm ngừng vẽ, rồi khôi phục.
+Lượt afterfinal xác nhận 90 frame toàn cảnh sau cả tối ưu nút visibility. Các case bổ sung trong Profile_after.tsv được đo sau tối ưu rendering; đường vẽ không đổi ở bước tối ưu callback visibility.
+GPU là GPU máy phát triển, memory là counter của Editor. Không đo FPS, GPU memory hoặc RAM của Quest. p95/p99 là phân vị của mẫu 90 frame, không phải trace dài toàn phiên.
+
+6. KỸ THUẬT ĐÃ ÁP DỤNG
+a) GPU instancing cho đúng 49.074 Renderer tĩnh, gồm 390 batch, tối đa 250 instance/batch, chia theo mesh/material/trạng thái bóng/layer và ô không gian khoảng 2 m ở sa bàn.
+Giữ nguyên mesh gốc, UV, normals, tangents, màu và vị trí. Không combine hoặc simplify mesh. Ma trận vẽ lấy từ Transform nguồn thực tế khi vào Play; cập nhật khi transform cha thay đổi.
+Renderer gốc vẫn bật trong Edit Mode để chỉnh mô hình. Chỉ tạm ngừng Renderer được thay bằng instancing trong Play. Tắt component tối ưu sẽ khôi phục Renderer gốc; nếu không hỗ trợ GPU instancing thì dùng nguyên cơ chế cũ.
+b) 17 bản sao material riêng, chỉ bật instancing. 0 khác biệt thuộc tính màu/texture/shader/render queue giữa bản sao và nguồn trong kiểm tra native. Không sửa material dùng chung, URP, Lighting, shadows hay texture/importer.
+c) Khắc phục spike nút rail bằng adapter visibility chỉ đăng ký lúc runtime và chỉ khi xác nhận lớp không có Collider/Rigidbody/Light/Animator hay MonoBehaviour đang chạy ngoài lớp/adapter. Chỉ tắt/bật phần vẽ, không kích hoạt lại toàn bộ cây 49k đối tượng. Các lớp/sa bàn khác không có adapter vẫn dùng SetActive như trước. Rail.IsVisible, sự kiện VisibilityChanged và UI vẫn cập nhật đúng. Root rail có thể vẫn active trong khi visual ẩn; đây là chủ ý của fast visibility, không phải mất chức năng.
+Cache mảng và ma trận; không cấp phát lại toàn bộ buffer khi bấm ẩn/hiện. Không sửa Train Mover/Controller hoặc sampler.
+
+7. ĐỐI TƯỢNG/RENDERER/SCRIPT THAY ĐỔI
+Thêm duy nhất ShowroomInstancedVisualGroup vào Layer_rail, giữ nguyên GameObject, Transform, parent và đường dẫn hiện có.
+Nguồn Renderer chính xác: Documentation/ShowroomPerformance/Evidence/InstancedSourceRenderers.tsv (49.074 dòng, ID/path/mesh/material gốc).
+Không xóa GameObject, Collider, MeshFilter hoặc asset nguồn. Các Renderer mirrored, có interaction/script/LOD/property block, transparent hoặc không đủ điều kiện được giữ nguyên đường vẽ cũ.
+Runtime script cũ duy nhất được bổ sung API: Assets/UTTSaBan-Tool/UTTSaBan/Runtime/SaBanLayer.cs — hai delegate không serialize, mặc định null; chỉ phục vụ fast visibility đã có bằng chứng spike. Không sửa procedural generation, TrainSplineMover, SaBanTrainRunner, TrainPassengerCarrier, XR hoặc multiplayer.
+
+8. ASSET VÀ CÔNG CỤ MỚI
+Assets/ProjectLopHoc/Generated/ShowroomPerformance/rail.asset
+Assets/ProjectLopHoc/Generated/ShowroomPerformance/Materials/rail_000.mat ... rail_016.mat
+Tổng 18 asset dữ liệu/material riêng, 16,015,552 byte (không tính .meta). Không có mesh mới.
+Runtime: Assets/ShowroomIntegration/Runtime/ShowroomInstancedVisualData.cs và ShowroomInstancedVisualGroup.cs.
+Editor audit/profile/instancing/integrity/pictures/regression trong Assets/Editor/ShowroomPerformance*.cs; cập nhật test harness ShowroomPackageMerge*.cs. Chỉ chạy khi có yêu cầu rõ ràng; không tự sinh lại mô hình lúc mở Editor.
+
+9. BẢO TOÀN HÌNH HỌC VÀ BỐ CỤC
+Integrity native: 0 thay đổi Transform 3D; 0 thay đổi serialized data của script cũ; object count 94.859 -> 94.859; Collider 66; Missing Script 0.
+65 Scene được bảo vệ giữ nguyên byte, gồm các Scene khác và toàn bộ Zone hiện có. 372 file tài nguyên mesh/material/model nguồn giữ nguyên hash. Những số này không bao gồm thay đổi mã có chủ đích của SaBanLayer.cs nêu trên.
+Nguồn mesh dùng lại nguyên trạng. Sai số ma trận snapshot kiểm tra bằng 8 góc bounds <= 0,0000118 world unit; runtime dùng trực tiếp ma trận Transform nguồn.
+8 cặp ảnh kiểm tra: toàn cảnh, gần, ray, vùng núi, vùng cầu, ga, tàu cùng pose, và cầu chi tiết. Ảnh cầu chi tiết bổ sung để không đánh đồng mặt nước/thung lũng với kết cấu cầu. Sai khác màu trung bình lớn nhất 0.009983/255; tỷ lệ pixel lệch >12/255 lớn nhất 0.026804%. Đã xem contact sheet đối chiếu, không thấy mất cảnh quan, sai tuyến, đổi màu lớn hoặc biến dạng mới.
+Tàu được đặt cùng pose trong ảnh để so sánh hình học; chuyển động thật được kiểm tra riêng bằng Play Mode và case chạy x1/x4.
+25 khác biệt Transform trong bộ nhớ là cache RectTransform auto-layout của chatbot/popup; 0 thuộc hình học 3D. Đối chiếu serialized block xác nhận chỉ 3 block layout khác bản lưu, không đổi model/script/reference. Chỉ clear dirty flag sau kiểm chứng này, không ghi đè các giá trị UI đã lưu. File so sánh chỉ ở Temp, không tạo Scene mới trong Assets.
+
+10. TEST TÀU
+PASS trong Editor: Play làm vị trí và progress tăng tự nhiên theo thời gian; Pause giảm về dừng rồi giữ vị trí; Reset về start; tiếp tục sau Pause; không sửa chainage để giả chuyển động. Lượt cuối đầy đủ trong Regression.txt kết thúc DONE PASS, không có lỗi Console của phiên test.
+
+11. TEST TỐC ĐỘ
+PASS: x1-x4 đổi hệ số, không tự khởi động tàu đang dừng; x4 thực chạy trong benchmark; giảm x4 -> x1 giữa chuỗi ẩn/hiện vẫn giữ trạng thái chạy đúng.
+
+12. TEST VISIBILITY
+PASS: từng nút của cả 8 lớp được bật/tắt/khôi phục; chuỗi chạy -> x4 -> ẩn núi -> ẩn ray -> hiện núi -> ẩn tàu -> hiện ray -> hiện tàu -> x1; không mất trạng thái hoặc tạo bản sao.
+Callback rail đo trước: ẩn 29.005 ms, hiện 90.369 ms. Lượt cuối sau fast visibility: ẩn 1.773 ms, hiện 1.373 ms. Đây là thời gian callback trên máy phát triển, không phải cam kết latency Quest.
+49.074 Renderer thay thế vẫn disabled trong Play khi khôi phục visual, tránh vẽ trùng. Đã kiểm tra tắt/bật component tối ưu cho ảnh A/B và khôi phục đúng.
+
+13. TEST UI/XR/PACKAGE
+PASS trong Play: 4 popup tàu cũ mở đúng dữ liệu và đóng, 4 nhãn bảo tàng tồn tại; 9 popup metadata BIM, bảng nổi; chatbot mở/gửi/xóa/đóng, pipeline response với provider local chỉ dành cho test. Không gọi API thật hoặc thay provider trong Scene đã lưu.
+PASS: dùng interactor NearFar hiện có, raycast UI thật trúng nút Play, Clear, Close chatbot và X popup; trigger của bài test bấm thành công. Một rig XR, một EventSystem và một AudioListener đang hoạt động. Scene Menu mở/đóng; không tự load YenTu hoặc Zone thật.
+Pose/trigger được điều khiển bằng fixture Editor, chưa xác minh controller vật lý. Đã sửa test fixture xoay rig trước khi bù offset HMD và nhắm lại sau khi bảng xoay ổn định; không sửa input XR runtime để làm test qua.
+CHƯA TEST: Quest vật lý, gõ/giọng nói trên kính, API/STT/TTS thật, multiplayer nhiều client, đi qua Door sang Scene khác. Giữ nguyên những hệ thống này, không báo chúng đã PASS thực tế.
+
+14. HIỆU NĂNG TRƯỚC/SAU
+Toàn cảnh stopped: baseline vs afterfinal, cùng camera và warm-up:
+Metric | Before | After final | Change
+Frame ms | 31.013 ms | 9.713 ms | -68.68%
+CPU Main Thread Frame Time | 27.504 ms | 6.832 ms | -75.16%
+CPU Render Thread Frame Time | 12.202 ms | 4.423 ms | -63.75%
+GPU Frame Time | 9.118 ms | 7.982 ms | -12.47%
+Draw Calls Count | 62,967.733 | 5,018.578 | -92.03%
+SetPass Calls Count | 66.189 | 136.611 | +106.40%
+Triangles Count | 15,650,697.067 | 16,186,642.589 | +3.42%
+GC Allocated In Frame | 103.201 KiB/frame | 29.651 KiB/frame | -71.27%
+Mesh Memory | 555.938 MiB (Editor) | 555.938 MiB (Editor) | +0.00%
+Texture Memory | 856.993 MiB (Editor) | 857.145 MiB (Editor) | +0.02%
+Total Used Memory | 4,521.548 MiB (Editor) | 4,415.438 MiB (Editor) | -2.35%
+Frame p95 | 35.012 ms | 11.335 ms | -67.63%
+Frame p99 | 38.462 ms | 11.899 ms | -69.06%
+FPS quy đổi từ mean frame time, chỉ Editor | 32.24 | 102.95 | không phải FPS trên Quest
+
+SetPass tăng; triangles thực gửi có thể tăng nhẹ do culling theo lô. Đây là đánh đổi đã đo, không phải giảm hình học hoặc mất vật thể. Mesh Memory không tăng theo kiểu combine toàn tuyến; runtime thêm buffer ma trận và material nhỏ. Memory/RAM của Editor chịu ảnh hưởng cache/GC, không dùng để kết luận RAM APK.
+Các case bổ sung (baseline -> rendering optimized, đơn vị ms):
+overview_running_x1: mean frame 28.199 -> 10.959 ms; draw calls 62654.8 -> 5210.5
+overview_running_x4: mean frame 26.795 -> 10.731 ms; draw calls 62389.3 -> 5287.2
+close_stopped: mean frame 16.624 -> 8.056 ms; draw calls 37916.9 -> 3531.6
+hide_visual_rail: mean frame 21.343 -> 21.542 ms; draw calls 1331.7 -> 1326.7
+hide_visual_nature: mean frame 46.196 -> 26.461 ms; draw calls 62577.2 -> 5521.4
+hide_visual_train: mean frame 47.600 -> 26.911 ms; draw calls 62927.6 -> 5498.0
+hide_visual_terrain: mean frame 47.955 -> 25.755 ms; draw calls 62563.8 -> 5590.2
+hide_visual_bridge: mean frame 44.857 -> 26.973 ms; draw calls 61790.9 -> 5534.5
+hide_visual_tunnel: mean frame 44.142 -> 26.543 ms; draw calls 62192.8 -> 5401.1
+hide_visual_station: mean frame 40.065 -> 25.233 ms; draw calls 62249.5 -> 5112.3
+hide_visual_khac: mean frame 36.798 -> 24.700 ms; draw calls 61632.6 -> 5619.0
+Model runtime: 53.296 Renderer ở cả hai phiên (có submesh TMP runtime); enabled+active 52.081 -> 3.007, cộng 390 logical instancing batch. Không nhầm số Renderer còn hoạt động với tổng đối tượng/instance đã được giữ lại.
+Chi tiết mean/p95/p99 từng metric: Evidence/Profile_baseline.tsv, Profile_after.tsv, Profile_afterfinal.tsv.
+
+15. GIỚI HẠN VÀ VẤN ĐỀ CÒN LẠI
+Không cam kết 72 FPS hoặc hết khựng tuyệt đối trên Quest 3S: chưa build/cài lại APK hoặc đo bản tối ưu trên thiết bị.
+Edit Mode vẫn hiển thị Renderer nguồn cho khả năng chỉnh sửa; chi phí mở/deserialize cây gần 95k object và render Scene View Edit Mode chưa được loại bỏ. Lợi ích chính áp dụng trong Play/player.
+Khoảng 2.314 Renderer mirrored và các phần không đủ điều kiện còn dùng cơ chế cũ. Geometry/shadow/texture vẫn lớn; GPU có thể còn là giới hạn trên Quest. GC chưa bằng 0.
+Không giảm cây/nhà, không đơn giản hóa núi, ray, cầu hay train visual; không thay đổi lighting/style để đổi FPS.
+Nếu thay mesh/material thủ công, tắt component instancing để dùng Renderer gốc cho đến khi cập nhật lại dữ liệu batch. Chỉnh Transform trước Play được lấy từ nguồn sống khi Play. Nếu bổ sung baked light probes/reflection probes, cần đánh giá lại matching lighting cho instancing trước khi sử dụng.
+Lỗi test fixture và các kiểm tra dirty/ID transient được sửa riêng trong công cụ; không coi các failure của harness đó là lỗi gameplay đã chứng minh. Lượt cuối đầy đủ DONE PASS và profiles errors=0.
+
+16. ĐỀ XUẤT CHƯA TỰ ÁP DỤNG
+Đo bản APK tối ưu thực trên Quest trước khi chốt 72 Hz; thu p95/p99 dài và GPU/CPU/memory thực.
+LOD/simplification ở xa cho núi và nội thất tàu lớn; texture riêng nhỏ hơn cho mô hình thu nhỏ; shadow riêng có kiểm soát — cần ảnh chứng minh tương đương/duyệt nếu thay hình ảnh.
+Nếu muốn giảm mật độ cây/nhà hoặc thay hình học, phải được duyệt riêng; không thực hiện trong nhiệm vụ này.
+
+KẾT LUẬN
+Đã tối ưu đường vẽ của sa bàn hiện hữu, giữ hình học và dữ liệu nguồn; có lợi ích CPU/draw call và callback visibility đo được trong Editor. Chức năng kiểm thử nêu rõ đã qua. Chưa chứng nhận hiệu năng Quest hoặc dịch vụ mạng thực.

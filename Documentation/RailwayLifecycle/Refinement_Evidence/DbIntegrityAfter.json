@@ -1,0 +1,37 @@
+{
+  "Assets": {
+    "count": 33434,
+    "unchanged": true
+  },
+  "AssetProperties": {
+    "count": 167171,
+    "unchanged": true
+  },
+  "AssetLifecycle": {
+    "count": 33434,
+    "unchanged": true
+  },
+  "AssetInspections": {
+    "count": 33437,
+    "unchanged": true
+  },
+  "AssetMaintenance": {
+    "count": 11147,
+    "unchanged": true
+  },
+  "AssetLifecycleEvents": {
+    "count": 78029,
+    "unchanged": true
+  },
+  "stage_counts": {
+    "Construction": 33434,
+    "Design": 33434,
+    "Maintenance": 33434,
+    "Operation": 33434,
+    "Planning": 33434,
+    "Upgrade": 33434
+  },
+  "foreign_key_errors": 0,
+  "future_completed_upgrade": 0,
+  "future_completed_construction": 0
+}

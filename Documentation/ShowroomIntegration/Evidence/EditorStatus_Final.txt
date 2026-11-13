@@ -1,0 +1,3 @@
+Playing=False
+Compiling=False
+Assets/ProjectLopHoc/Scenes/Showroom.unity | loaded=True | dirty=False | active=True

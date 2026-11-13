@@ -1,0 +1,35 @@
+CHANGED TRANSFORM/ACTIVE | TrainInfo/TrainInfoPopup/BIM_ScrollView/Viewport/Content
+CHANGED TRANSFORM/ACTIVE | TrainInfo/TrainInfoPopup/BIM_ScrollView/Viewport/Content/DetailsText
+CHANGED TRANSFORM/ACTIVE | AIChatbot_Prefab/Canvas/ChatPanel/MessageScrollView/Viewport/Content
+CHANGED TRANSFORM/ACTIVE | AIChatbot_Prefab/Canvas/ChatPanel/InputArea/MessageInput
+CHANGED TRANSFORM/ACTIVE | AIChatbot_Prefab/Canvas/ChatPanel/InputArea/ClearButton
+CHANGED TRANSFORM/ACTIVE | AIChatbot_Prefab/Canvas/ChatPanel/InputArea/VoiceButton
+CHANGED TRANSFORM/ACTIVE | AIChatbot_Prefab/Canvas/ChatPanel/InputArea/SendButton
+CHANGED TRANSFORM/ACTIVE | AIChatbot_Prefab/Canvas/ChatPanel/VoiceRow/VoiceStatus
+CHANGED TRANSFORM/ACTIVE | AIChatbot_Prefab/Canvas/ChatPanel/VoiceRow/InputLevel
+CHANGED TRANSFORM/ACTIVE | AIChatbot_Prefab/Canvas/ChatPanel/VoiceRow/RecordingTimer
+CHANGED TRANSFORM/ACTIVE | AIChatbot_Prefab/Canvas/ChatPanel/VoiceOutputRow/Row1
+CHANGED TRANSFORM/ACTIVE | AIChatbot_Prefab/Canvas/ChatPanel/VoiceOutputRow/Row1/AutoSpeakButton
+CHANGED TRANSFORM/ACTIVE | AIChatbot_Prefab/Canvas/ChatPanel/VoiceOutputRow/Row1/LanguageButton
+CHANGED TRANSFORM/ACTIVE | AIChatbot_Prefab/Canvas/ChatPanel/VoiceOutputRow/Row1/VoiceOutputStatus
+CHANGED TRANSFORM/ACTIVE | AIChatbot_Prefab/Canvas/ChatPanel/VoiceOutputRow/Row1/StopButton
+CHANGED TRANSFORM/ACTIVE | AIChatbot_Prefab/Canvas/ChatPanel/VoiceOutputRow/Row2
+CHANGED TRANSFORM/ACTIVE | AIChatbot_Prefab/Canvas/ChatPanel/VoiceOutputRow/Row2/VoiceCaption
+CHANGED TRANSFORM/ACTIVE | AIChatbot_Prefab/Canvas/ChatPanel/VoiceOutputRow/Row2/VoicePrevButton
+CHANGED TRANSFORM/ACTIVE | AIChatbot_Prefab/Canvas/ChatPanel/VoiceOutputRow/Row2/VoiceLabel
+CHANGED TRANSFORM/ACTIVE | AIChatbot_Prefab/Canvas/ChatPanel/VoiceOutputRow/Row2/VoiceNextButton
+CHANGED TRANSFORM/ACTIVE | AIChatbot_Prefab/Canvas/ChatPanel/VoiceOutputRow/Row3
+CHANGED TRANSFORM/ACTIVE | AIChatbot_Prefab/Canvas/ChatPanel/VoiceOutputRow/Row3/VolumeLabel
+CHANGED TRANSFORM/ACTIVE | AIChatbot_Prefab/Canvas/ChatPanel/VoiceOutputRow/Row3/VolumeSlider
+CHANGED TRANSFORM/ACTIVE | AIChatbot_Prefab/Canvas/ChatPanel/VoiceOutputRow/Row3/SpeedLabel
+CHANGED TRANSFORM/ACTIVE | AIChatbot_Prefab/Canvas/ChatPanel/VoiceOutputRow/Row3/SpeedSlider
+ProtectedSceneHashes | checked=65 | changed=0
+SourceAssetHashes | checked=372 | changed=0
+Original object transform/parent/children/active differences=25
+Original 3D transform differences=0; other differences are UI auto-layout caches, not saved model geometry
+Original serialized script differences=0
+Objects before=94859; now=94859; colliders=66
+Missing scripts=0
+Instancing layer=rail; sources=49074; unique=49074; batches=390; original source renderers enabled in Editor=49074
+Sources with Static Batching flag=0
+Copied material visual property differences=0

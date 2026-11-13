@@ -1,0 +1,16 @@
+PASS | All 33434 asset IDs retained
+PASS | Six independent stage profiles retained
+PASS | Scenario migration has no foreign key errors
+PASS | Rail has a specific design material rather than placeholder text
+PASS | Rail pad has its own elastomer material
+PASS | Costs vary by component type
+PASS | Block construction estimate equals its component estimates
+PASS | Specific planning code and project records are visible
+PASS | Saved camera speeds are PC 12 m/s and VR 1.8 m/s
+PASS | Migration preserves user-edited stage data
+PASS | Exact-default comparison preserves custom fields even without history
+PASS | Old generated defaults upgrade in existing databases
+PASS | Reopening is idempotent; no duplicate migration or history
+PASS | No completed future upgrades introduced
+PASS | No new C# runtime errors
+DONE bimdata

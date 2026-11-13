@@ -1,0 +1,34 @@
+CẬP NHẬT HỒ SƠ BIM VÀ TỐC ĐỘ CAMERA — 13/11/2026
+Scene: QuanLyVongDoiTaiSan
+
+Đã thay các giá trị mẫu chung bằng nội dung hồ sơ dự án đường sắt giả định:
+- Mã quy hoạch YTHL-QH-2020, hồ sơ thiết kế YTHL-TKCS-2021 Rev.B, mã nghiệm thu riêng theo AssetID.
+- Đơn vị quy hoạch, thiết kế, thi công, khai thác và người kiểm tra cụ thể trong kịch bản.
+- Vật liệu theo loại: ray R260/thiết kế 60E1, bê tông C50/C60, bu lông 8.8, kẹp thép lò xo, đệm EPDM, bản dẫn hướng PA66.
+- Ngân sách và dự toán theo cấu kiện: ví dụ bu lông 45.000 VND, đệm 95.000 VND, thanh ray 3.600.000 VND, bản bê tông 12.500.000 VND; Block/Segment cộng từ các cấu kiện. Đây là dự toán kịch bản, không phải báo giá thị trường.
+- Kiểm tra/bảo trì có nội dung, biên bản, đơn vị thực hiện, kết quả và chi phí theo loại cấu kiện; hồ sơ nâng cấp thể hiện kế hoạch hoặc chưa có kế hoạch, không bịa ngày hoàn thành tương lai.
+- Nguồn giả định được giữ ở DataProvenance/tài liệu; không lặp nhãn MINH HỌA trong từng giá trị nghiệp vụ. Nhật ký khởi tạo trước đây giữ nguyên để truy xuất.
+
+DỮ LIỆU VÀ KIỂM THỬ
+- 33.434 ID giữ nguyên; 200.604 stage profiles; đủ 33.434 mã quy hoạch mới.
+- 33.437 bản ghi kiểm tra, 11.147 bản ghi bảo trì, 78.029 sự kiện lịch sử: giữ nguyên số lượng/ID, không xóa bản ghi.
+- Chỉ nâng cấp giá trị mặc định khớp mẫu cũ. Giai đoạn đã sửa và các giá trị tùy chỉnh được bảo vệ; hai tài sản có sửa lifecycle cũ vẫn giữ nội dung người dùng, chỉ cập nhật các mặc định nghiệp vụ khác chưa sửa.
+- Chi phí Block/Segment đối chiếu toàn bộ DB: 0 tổng sai lệch; foreign key: 0 lỗi.
+- Play Mode kiểm thử migration, lưu/mở lại idempotent, bảo vệ giá trị tùy chỉnh và UI/Free Camera: PASS.
+- Runtime seed khi cài mới cũng dùng cùng nội dung; không cần tạo lại AssetID. Migration nội dung cuối: bim-yen-ha-scenario-2026-v2.
+
+CAMERA
+- PC 4 → 12 m/s. F2 để ẩn UI và di chuyển WASD/QE; Shift tăng lên 36 m/s.
+- VR 1,2 → 1,8 m/s. Vẫn giữ giới hạn vùng, deadzone, collision và snap-turn; không tăng tốc độ quay đầu hoặc ép HMD.
+- Giá trị đã lưu vào Scene bằng Unity API. Không sửa Scene khác, spline, tàu, prefab XR hay multiplayer.
+
+LƯU Ý SỬ DỤNG
+Thông tin nghiệp vụ là hồ sơ BIM giả định, không phải chứng nhận kiểm định ngoài hiện trường. Kích thước lấy từ model được giữ nguyên. Tiêu chuẩn/mã chỉ dẫn nội bộ và vật liệu là giả định của kịch bản, không được suy ra là đã xác nhận từ hình học mesh. Các file Excel đã xuất trước đây không tự thay đổi; xuất lại trong Scene để lấy dữ liệu mới.
+Chưa kiểm thử kính Quest thật hoặc Android Build trong lượt cập nhật này.
+
+BẰNG CHỨNG
+Temp/BimRefinement/Test_bimdata.txt
+Temp/BimRefinement/Test_ui.txt
+Temp/BimRefinement/BimScenario_DataVerification.json
+
+Kiểm thử XR mô phỏng sau cập nhật: PASS ray/Trigger, X/Y, joystick di chuyển với tốc độ mới, snap turn, cuộn và bàn phím; không ghi local pose HMD. Log: Documentation/RailwayLifecycle/Refinement_Evidence/Test_vr_BimScenario.txt.

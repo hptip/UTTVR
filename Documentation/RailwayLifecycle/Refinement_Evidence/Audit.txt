@@ -1,0 +1,20 @@
+MAIN Assets/ProjectLopHoc/Scenes/QuanLyVongDoiTaiSan.unity
+Scene clean=True
+Main UI hierarchy inventory=Temp/BimRefinement/UI_Inventory.tsv
+REFERENCE CONTROLLER VRBimAiDashboardController Assets/ChiTietSaBan/ChiTiet/VRBimAiDashboard/VRBimAiDashboard_Contextual_Package/VRBimAiDashboardController.cs
+REFERENCE Canvas/VRBimAiDashboard_Contextual/AssetPanel components=RectTransform,CanvasRenderer,Image prefab=Assets/ChiTietSaBan/ChiTiet/VRBimAiDashboard/VRBimAiDashboard_Contextual_Package/VRBimAiDashboard_Contextual.prefab
+REFERENCE Canvas/VRBimAiDashboard_Contextual/LifecycleBar components=RectTransform,CanvasRenderer,Image,HorizontalLayoutGroup prefab=Assets/ChiTietSaBan/ChiTiet/VRBimAiDashboard/VRBimAiDashboard_Contextual_Package/VRBimAiDashboard_Contextual.prefab
+REFERENCE Canvas/VRBimAiDashboard_Contextual/LifecycleBar/Stg1 components=RectTransform,CanvasRenderer,Image,Button prefab=Assets/ChiTietSaBan/ChiTiet/VRBimAiDashboard/VRBimAiDashboard_Contextual_Package/VRBimAiDashboard_Contextual.prefab
+REFERENCE Canvas/VRBimAiDashboard_Contextual/LifecycleBar/Stg2 components=RectTransform,CanvasRenderer,Image,Button prefab=Assets/ChiTietSaBan/ChiTiet/VRBimAiDashboard/VRBimAiDashboard_Contextual_Package/VRBimAiDashboard_Contextual.prefab
+REFERENCE Canvas/VRBimAiDashboard_Contextual/LifecycleBar/Stg3 components=RectTransform,CanvasRenderer,Image,Button prefab=Assets/ChiTietSaBan/ChiTiet/VRBimAiDashboard/VRBimAiDashboard_Contextual_Package/VRBimAiDashboard_Contextual.prefab
+REFERENCE Canvas/VRBimAiDashboard_Contextual/LifecycleBar/Stg4 components=RectTransform,CanvasRenderer,Image,Button prefab=Assets/ChiTietSaBan/ChiTiet/VRBimAiDashboard/VRBimAiDashboard_Contextual_Package/VRBimAiDashboard_Contextual.prefab
+REFERENCE Canvas/VRBimAiDashboard_Contextual/LifecycleBar/Stg5 components=RectTransform,CanvasRenderer,Image,Button prefab=Assets/ChiTietSaBan/ChiTiet/VRBimAiDashboard/VRBimAiDashboard_Contextual_Package/VRBimAiDashboard_Contextual.prefab
+REFERENCE Canvas/VRBimAiDashboard_Contextual/LifecycleBar/Stg6 components=RectTransform,CanvasRenderer,Image,Button prefab=Assets/ChiTietSaBan/ChiTiet/VRBimAiDashboard/VRBimAiDashboard_Contextual_Package/VRBimAiDashboard_Contextual.prefab
+Existing controller uses explicit Select/Locate/EnterDetails/Back; focus currently manual and min 60/5/1.1m. Current hide toggles selected renderer, no isolate snapshot.
+Current dashboard six top tabs; records in AssetInspections/AssetMaintenance/AssetLifecycleEvents must remain.
+Current VR binds A focus/B back/right grip detail; one flat 1920x1080 board 2.1m ahead. No BIM locomotion. Source rig contains tracked pose/rays/vignette, no standalone locomotion provider.
+Source SelectLifecycleStage: Stg1..6 selection, active scale 1.04, TxtLife + OnLifecycleStageSelected. Source PopulateLifecycleTab placeholders: no real six-stage SQLite persistence. Reuse button/label/sprite/layout selection technique; extend separate adapter with real stage records.
+Reference highlight uses Custom/URP/XRayHighlight material replacement; BIM scene already has separate stereo-compatible outline adapter. Keep it and original source material.
+Current SQLite schema version1; AssetID identity never regenerated. Add version2 stage tables and per-event StageKey; retain all old tables/data.
+Excel Technical dynamic properties remain; six additional validated stage sheets will preserve AssetID+StageKey isolation.
+Audit only: no scene/source/prefab was saved or deleted. Existing templates and conditional UI cannot be removed solely because inactive.

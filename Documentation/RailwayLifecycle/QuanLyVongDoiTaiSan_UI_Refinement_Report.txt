@@ -1,0 +1,316 @@
+BÁO CÁO HOÀN THIỆN UI, CAMERA, VR VÀ VÒNG ĐỜI SÁU GIAI ĐOẠN
+Ngày: 13/11/2026
+Project: F:\UTT_vr — Unity 6000.3.0f1
+Scene: Assets/ProjectLopHoc/Scenes/QuanLyVongDoiTaiSan.unity
+Phạm vi nghiệm thu: Unity Editor / Play Mode và mô phỏng thiết bị XR. Không build APK, không có bài kiểm thử kính Quest thật.
+
+1. NÚT ĐÃ ĐỔI / XÓA
+- Cấp trước đổi thành Quay lại; trở về cấp cha, an toàn ở cấp Segment.
+- Bỏ Đến tài sản, Đo khoảng cách, Thống kê cùng các liên kết UI tương ứng. Logic cũ dùng chung không bị xóa.
+- Thay Ẩn/hiện bằng Cô lập tài sản / Hiện lại tài sản khác. Snapshot renderer khôi phục đúng trạng thái trước đó, kể cả tài sản đã ẩn từ trước; không tắt controller/database/Terrain/UI. Đổi selection hoặc cấp sẽ kết thúc cô lập. Không quét toàn bộ renderer mỗi frame.
+- Giữ Xem chi tiết, Quay lại, Toàn cảnh, Cô lập tài sản, Xuất bảng tính, Xem trước tệp, Xác nhận nhập và Lưu hồ sơ; bố trí lại khoảng trống.
+
+2. CHỨC NĂNG TẬP TRUNG TRONG ASSET PANEL
+- Ba tab chính: Tổng quan, Thông số, Vòng đời. Chuyển tab/giai đoạn giữ SelectedAssetID.
+- Sáu giai đoạn dùng chung vùng nội dung, không chồng sáu panel lớn.
+- Kiểm tra cũ và thêm kiểm tra nằm trong Vận hành; hồ sơ/lần bảo trì/chi phí nằm trong Bảo trì.
+- Nhật ký theo giai đoạn và nhật ký cũ không có StageKey vẫn truy cập được. Phân trang 50 dòng, có trước/sau, không giới hạn chỉ 200 sự kiện mới nhất.
+- Các trường động, sửa/lưu, tìm kiếm và điều hướng ba cấp vẫn hoạt động.
+
+3. TÁI SỬ DỤNG CHITIETSABAN
+Đã khảo sát trực tiếp Scene Assets/ChiTietSaBan/ChiTiet/ChiTietSaBan.unity và prefab Assets/ChiTietSaBan/ChiTiet/VRBimAiDashboard/VRBimAiDashboard_Contextual_Package/VRBimAiDashboard_Contextual.prefab.
+- Nút sáu giai đoạn lấy từ đúng Stg1–Stg6 của prefab tham khảo, giữ style/icon/hiệu ứng active tint và scale 1.04; bản sao riêng trong Scene đích.
+- Controller tham khảo có cơ chế chọn giai đoạn và nội dung minh họa, chưa có SQLite sáu giai đoạn đầy đủ. Vì vậy giữ hệ thống BIM hiện có và bổ sung lớp dữ liệu, không gán dữ liệu placeholder thành hồ sơ thật.
+- Shader highlight tham khảo là thay material XRay; Scene đích giữ silhouette outline riêng có hỗ trợ stereo, không thay material nguồn.
+- Không sửa Scene/prefab tham khảo.
+
+4. SQLITE MIGRATION VÀ BẢO TOÀN DỮ LIỆU
+- Tiếp tục DB UserData/QuanLyVongDoiTaiSan.db, không tạo lại registry hoặc ID.
+- Migration DB phiên bản 2 thêm AssetLifecycleStages (khóa chính AssetID+StageKey, SchemaVersion, Status, UpdatedAt) và AssetStageFields (khóa AssetID+StageKey+FieldKey, kiểu/đơn vị, foreign key).
+- Phiên bản hợp đồng dữ liệu giai đoạn là 1; khác với số migration DB là 2.
+- AssetLifecycleEvents thêm StageKey nullable và index; nhật ký cũ vẫn đọc được. Kiểm tra/bảo trì tiếp tục dùng bảng hiện có.
+- Save dùng đúng AssetID và StageKey, validate schema/kiểu/đơn vị/ngày, transaction; không UPDATE theo tên. Trường legacy liên quan được đồng bộ trong cùng transaction.
+- Seed INSERT OR IGNORE, marker idempotent; không ghi đè hồ sơ đã sửa. Các hiệu chỉnh minh họa chỉ áp dụng hồ sơ mặc định chưa có sự kiện chỉnh sửa tương ứng.
+- Linker descriptor giữ các DTO SQLite dùng reflection; chưa kiểm thử IL2CPP.
+- Đối chiếu hash nội dung sáu bảng cũ trước/sau: giữ nguyên toàn bộ Assets 33.434, AssetProperties 167.171, AssetLifecycle 33.434, AssetInspections 33.437, AssetMaintenance 11.147, AssetLifecycleEvents 78.029 (không tính cột StageKey mới trong fingerprint).
+- 34 Segment + 334 Block + 33.066 Component = 33.434 AssetID, không regenerate. Foreign key check: 0 lỗi.
+
+5. DỮ LIỆU SÁU GIAI ĐOẠN
+Đã có 200.604 hồ sơ (33.434 mỗi giai đoạn), 1.504.530 dòng trường lưu trữ. Mỗi AssetID/giai đoạn độc lập.
+- Quy hoạch: mã kế hoạch, mục tiêu, khu vực, đơn vị lập, ngày lập, ngân sách, phê duyệt, ghi chú.
+- Thiết kế: mã hồ sơ, đơn vị/ngày thiết kế, tiêu chuẩn, vật liệu, tuổi thọ, ngày duyệt, ghi chú kỹ thuật.
+- Thi công: đơn vị, ngày bắt đầu/hoàn thành/lắp đặt, đợt và kết quả nghiệm thu, chi phí, ghi chú.
+- Vận hành: ngày vận hành, trạng thái, tình trạng, ngày kiểm tra gần nhất/tiếp theo, đơn vị quản lý, ghi chú; danh sách kiểm tra thực tế từ bảng cũ.
+- Bảo trì: kế hoạch, ngày gần nhất/tiếp theo, công việc, trạng thái, tổng chi phí, ghi chú. Ngày gần nhất và tổng chi phí lấy từ lịch sử, chỉ đọc, không bị Excel ghi đè.
+- Nâng cấp: kế hoạch, lý do, thay đổi, ngày dự kiến/thực hiện, đơn vị, chi phí, trạng thái, AssetID thay thế, ghi chú.
+- Dữ liệu mới được đánh dấu MINH HỌA, không nhận là dữ liệu kiểm định. Hồ sơ nâng cấp có lịch dự kiến dùng trạng thái dự kiến; không có ngày thực hiện tương lai. Không gán mọi cấu kiện là thép: tổ hợp ghi đa vật liệu, đệm ray chưa xác nhận vật liệu ghi rõ chưa xác định.
+- Kiểm tra DB cuối: 0 ngày hoàn thành thi công tương lai, 0 ngày thực hiện nâng cấp tương lai. Dữ liệu legacy giữ nguyên.
+- Excel hỗ trợ sáu sheet QuyHoach/ThietKe/ThiCong/VanHanh/BaoTri/NangCap, AssetID+StageKey+SchemaVersion và header kiểu/đơn vị. Ô trống giữ giá trị cũ. Preview không ghi DB; Apply validate lại và transaction. Trùng khóa/sai stage/sai kiểu bị từ chối. Export mặc định có thêm sheet kỹ thuật/đăng ký/sự kiện.
+- Workbook cũ năm sheet vẫn preview/import được; từ chối trộn sheet Lifecycle cũ với sáu stage trong cùng tệp để tránh nguồn cập nhật mâu thuẫn.
+- Thêm cột kỹ thuật động được hỗ trợ; đổi tên header tạo thuộc tính mới, không tự suy luận là đổi tên/xóa thuộc tính cũ.
+
+6. CAMERA FOCUS
+- LeftNav, click mô hình và tìm kiếm dùng cùng đường chọn: ID, outline, panel và Focus. Chọn thông thường không tự xuống cấp; tìm kiếm sâu chỉ thiết lập ngữ cảnh hợp lệ.
+- Fit tám góc Bounds theo FOV/aspect và vùng mô hình còn lại giữa UI, padding 1.07; min/max theo Segment/Block/Component, không dùng cùng khoảng cách cho mọi tài sản.
+- PC chuyển mượt, lưu/khôi phục cả Bounds khi Quay lại. Kiểm thử Segment mẫu: khoảng 57,27 m so với 60 m cũ; bu lông được quan sát gần hơn giới hạn 1,1 m cũ. Không khẳng định mọi Segment đều thay đổi cùng mức.
+- VR chỉ dịch XR Origin, giữ local pose/hướng HMD; điểm quan sát cao hơn đỉnh Bounds và kiểm tra nền bằng collider để tránh đặt đầu bên trong cấu kiện.
+- Không ép camera HMD xoay theo tài sản. Hiện lại UI không reset vị trí đầu.
+
+7. INPUT PC / VR
+PC: F2 ẩn/hiện UI; khi ẩn dùng WASD, Q/E, Shift tăng tốc. Chuột phải orbit, con lăn zoom, chuột giữa pan; F về tài sản đã chọn. Free Camera không chạy khi nhập TMP.
+VR (chỉ Scene này): Trigger chọn/UI; X ẩn/hiện và đặt lại UI; Y Scene Menu; joystick cuộn danh sách qua XRUI khi trỏ UI.
+- A, B và Grip phải không gọi Focus/Quay lại/Xem chi tiết; kiểm thử cả trường hợp nút UI đang được chọn để phát hiện submit ngoài ý muốn.
+- Khi UI quản lý và Scene Menu đều đóng: joystick trái di chuyển ngang có deadzone 0.22, tốc độ mặc định 1.2 m/s (cấu hình 0.2–2.5), giới hạn quanh Zone và sweep collider; joystick phải snap turn 30 độ, nhả để kích hoạt lại. Không thêm trục bay VR.
+- Cuộn UI không đồng thời làm nhân vật di chuyển. Đổi Scene khôi phục cấu hình rig/ray/camera đã mượn.
+
+8. BỐ CỤC VR
+- Ba World Space Canvas riêng, không bê nguyên Canvas desktop lên trước mắt.
+- LeftNav: 520x920, scale 0.0011, khoảng 0.572x1.012 m; lệch trái 0.88 m, trước 1.25 m.
+- AssetPanel: 760x1080, scale 0.0011, khoảng 0.836x1.188 m; lệch phải 1.02 m, trước 1.25 m.
+- Thanh lệnh: 1040x190, scale 0.0011, đặt thấp khoảng 0.76 m, trước 1.31 m.
+- Hai panel thu gọn độc lập. X hiện lại đặt UI theo yaw hiện tại bằng thao tác chủ động; không chạy theo mặt từng frame. Không có nút Recenter desktop giả không làm gì.
+- Bàn phím tiếng Việt là World Space Canvas riêng, trước khoảng 1.12 m, thấp 0.44 m, không bị kẹt theo canvas desktop.
+- Một XR Origin, một EventSystem XRUIInputModule, một camera/audio listener hiệu lực trong bài kiểm thử. Ray UI được ưu tiên trước ray chọn vật thể sau UI.
+- Có ảnh Editor ở thư mục evidence; khả năng đọc trong FOV thật của Quest chưa được xác nhận.
+
+9. DỌN UI DISABLED
+- 36 mục/nhánh UI được ghi trong Cleanup.tsv, gồm nút/tab được yêu cầu bỏ, clone/placeholder inactive không còn sử dụng và nút desktop Recenter mới tạo nhưng không có chức năng.
+- Đã kiểm tra component, serialized reference, callback/UnityEvent, prefab source, chức năng bật theo điều kiện và template; không coi Transform parent/child là dependency nghiệp vụ.
+- Giữ LeftNav item/input template, ElementInfoRow, bảng nhập/nhật ký/add/save theo điều kiện, keyboard và XR UI.
+- Chỉ xóa bản sao Scene đích, không xóa file asset/prefab nguồn. Danh sách từng đường dẫn + lý do + dependency được chèn cuối báo cáo.
+
+10. KẾT QUẢ KIỂM THỬ
+PASS TRONG EDITOR:
+- Lựa chọn Segment/Block/bu lông, tự Focus, outline, không tự xuống cấp; Back từng cấp/top-level; search và đủ số ID.
+- Isolate/restore, giữ đối tượng được chọn, không ẩn Terrain, bảo toàn renderer ẩn sẵn, không ghost outline, đổi selection khôi phục.
+- Sáu stage cho ít nhất hai ID; sửa Planning A không đổi B hoặc Design A; lưu qua lần Play tiếp theo; seed/history không trùng.
+- Kiểm tra/bảo trì cũ còn nguyên; thêm sự kiện qua UI thật trên DB fixture; nhật ký xem được trang cũ hơn 50 dòng.
+- Runtime XLSX export/readback; Preview không ghi; Confirm cập nhật đúng ID/stage; blank retain; chặn trùng/sai stage/sai kiểu; file mẫu định dạng thật được ExcelDataReader đọc và Apply thành công trên DB fixture. Mẫu workbook cũ preview được trên registry migrated, không ghi dữ liệu người dùng.
+- F2, Free Camera W/E và hiện UI giữ camera/selection; API orbit/zoom/pan được giữ, thao tác chuột kéo vật lý chưa có bài kiểm thử độc lập.
+- Thiết bị XR mô phỏng: ray click nút thật, ray chọn bu lông, A/B/grip không gọi lệnh cũ/submit UI, X toggle, joystick di chuyển ngang/snap, Y menu, joystick scroll LeftNav qua XR UI, không di chuyển đồng thời, bàn phím gõ được ký tự tiếng Việt ă sau khi InputField mất focus.
+- Async chuyển vào Scene đích bằng Button.onClick Scene Menu từ Scene thử trong bộ nhớ; reuse rig persistent, unload dọn canvas/rig cục bộ và restore rig mượn. Không sửa Scene nguồn cho bài test.
+- Save và reopen Scene: sạch, 194 Transform nodes ở trạng thái lưu kiểm tra cuối; 57 active MeshRenderer; 613 asset dependencies. Không Missing Script/Mesh/Material mới, hai shader outline không lỗi compile.
+- Test runner không ghi nhận C# runtime error mới trong các phiên test; không khẳng định các warning/package có sẵn của toàn project đã được loại bỏ.
+- SHA256 83 file bảo vệ: 0 thay đổi, bao gồm Scene nguồn/58 Zone và tài nguyên dùng chung đã chọn trong baseline.
+- Mọi kiểm thử chỉnh sửa/import dữ liệu chạy trên fixture tách biệt, không sửa hồ sơ người dùng trong DB chính. Fingerprint sáu bảng cũ khớp tuyệt đối.
+Các log PASS nguyên bản đính kèm cuối báo cáo để phân biệt assertion thực sự đã chạy.
+
+11. GIỚI HẠN / CHƯA XÁC MINH
+- Chưa đeo Quest 3S, chưa kiểm thử tracking thiết bị thật, độ dễ đọc/FOV/sự thoải mái và hiệu năng GPU/CPU/GC trên kính; không tuyên bố đã tối ưu VR phần cứng.
+- Chưa Android Build/IL2CPP, chưa benchmark xuất toàn bộ 33.434 tài sản trên Quest. Thử Excel hiện tại dùng tập fixture nhỏ; không đại diện memory/time của tệp khổng lồ.
+- Chưa kiểm thử trực quan hộp thoại chọn file hệ điều hành; parser/preview/apply đã kiểm thử bằng đường dẫn.
+- Chưa chạy luồng Classroom/Fusion multiplayer thực tế vào Scene đích; bài Scene Menu dùng rig persistent và Scene trong bộ nhớ, không thay thế bài test toàn luồng người chơi mạng.
+- Locomotion VR là quan sát ngang có giới hạn/collision sẵn có, không phải bộ đi bộ địa hình đầy đủ; phụ thuộc collider của Scene.
+- Mô hình chi tiết có chênh profile nguồn khoảng 1.03 mm đã tồn tại; số lượng mesh thực tế là 99 cấu kiện mỗi Block, không xác nhận BOM kỹ thuật chỉ dựa vào tên mesh.
+- Không có APK được tạo trong nhiệm vụ này.
+
+TÀI LIỆU BÀN GIAO
+Audit: F:\UnityTemp\QuanLyVongDoiTaiSan_UI_Audit.txt
+Hướng dẫn: F:\UTT_vr\Documentation\RailwayLifecycle\README.md
+Excel mẫu: F:\UTT_vr\outputs\RailwayLifecycle_Refinement_20261113\VongDoiTaiSan_6GiaiDoan_Mau.xlsx
+Evidence: F:\UTT_vr\Documentation\RailwayLifecycle\Refinement_Evidence
+Ảnh: PC_Overview.png, PC_SixStages.png, VR_SpatialPanels.png trong evidence.
+Scene đã lưu và mở lại kiểm tra. Scene nguồn, 58 Zone, spline, tàu, XR prefab nguồn, multiplayer và URP không bị chỉnh sửa bởi công việc này; adapter BIM và menu read-only status được cập nhật theo phạm vi yêu cầu.
+
+PHỤ LỤC A — UI ĐÃ XÓA (TSV)
+Node	Reason	References checked
+RailwayLifecycleDashboard/VRBimAiDashboard_Contextual/BimCommands/FocusAsset	Explicitly removed action/top-level tab; data logic retained	Serialized dashboard field cleared; runtime listener removed in adapter
+RailwayLifecycleDashboard/VRBimAiDashboard_Contextual/BimCommands/Measure	Explicitly removed action/top-level tab; data logic retained	Serialized dashboard field cleared; runtime listener removed in adapter
+RailwayLifecycleDashboard/VRBimAiDashboard_Contextual/BimCommands/Statistics	Explicitly removed action/top-level tab; data logic retained	Serialized dashboard field cleared; runtime listener removed in adapter
+RailwayLifecycleDashboard/VRBimAiDashboard_Contextual/LifecycleBar/Tab_Inspection	Explicitly removed action/top-level tab; data logic retained	Serialized dashboard field cleared; runtime listener removed in adapter
+RailwayLifecycleDashboard/VRBimAiDashboard_Contextual/LifecycleBar/Tab_Maintenance	Explicitly removed action/top-level tab; data logic retained	Serialized dashboard field cleared; runtime listener removed in adapter
+RailwayLifecycleDashboard/VRBimAiDashboard_Contextual/LifecycleBar/Tab_History	Explicitly removed action/top-level tab; data logic retained	Serialized dashboard field cleared; runtime listener removed in adapter
+RailwayLifecycleDashboard/VRBimAiDashboard_Contextual/Overlay	Inactive legacy clone; production code uses explicit references, no legacy dashboard controller	No inbound semantic reference; template/conditional objects protected; prefab source unchanged
+RailwayLifecycleDashboard/VRBimAiDashboard_Contextual/SceneRailBed	Inactive legacy clone; production code uses explicit references, no legacy dashboard controller	No inbound semantic reference; template/conditional objects protected; prefab source unchanged
+RailwayLifecycleDashboard/VRBimAiDashboard_Contextual/LeftNav/DanhSach_Content/NavScroll	Inactive legacy clone; production code uses explicit references, no legacy dashboard controller	No inbound semantic reference; template/conditional objects protected; prefab source unchanged
+RailwayLifecycleDashboard/VRBimAiDashboard_Contextual/LblRail	Inactive legacy clone; production code uses explicit references, no legacy dashboard controller	No inbound semantic reference; template/conditional objects protected; prefab source unchanged
+RailwayLifecycleDashboard/VRBimAiDashboard_Contextual/LblClamp	Inactive legacy clone; production code uses explicit references, no legacy dashboard controller	No inbound semantic reference; template/conditional objects protected; prefab source unchanged
+RailwayLifecycleDashboard/VRBimAiDashboard_Contextual/LblSleeper	Inactive legacy clone; production code uses explicit references, no legacy dashboard controller	No inbound semantic reference; template/conditional objects protected; prefab source unchanged
+RailwayLifecycleDashboard/VRBimAiDashboard_Contextual/LblSlab	Inactive legacy clone; production code uses explicit references, no legacy dashboard controller	No inbound semantic reference; template/conditional objects protected; prefab source unchanged
+RailwayLifecycleDashboard/VRBimAiDashboard_Contextual/AssetPanel/HoSo_Content/TxtAssetTitle	Inactive legacy clone; production code uses explicit references, no legacy dashboard controller	No inbound semantic reference; template/conditional objects protected; prefab source unchanged
+RailwayLifecycleDashboard/VRBimAiDashboard_Contextual/AssetPanel/HoSo_Content/AssetThumb	Inactive legacy clone; production code uses explicit references, no legacy dashboard controller	No inbound semantic reference; template/conditional objects protected; prefab source unchanged
+RailwayLifecycleDashboard/VRBimAiDashboard_Contextual/AssetPanel/HoSo_Content/TxtSeg	Inactive legacy clone; production code uses explicit references, no legacy dashboard controller	No inbound semantic reference; template/conditional objects protected; prefab source unchanged
+RailwayLifecycleDashboard/VRBimAiDashboard_Contextual/AssetPanel/HoSo_Content/TxtType	Inactive legacy clone; production code uses explicit references, no legacy dashboard controller	No inbound semantic reference; template/conditional objects protected; prefab source unchanged
+RailwayLifecycleDashboard/VRBimAiDashboard_Contextual/AssetPanel/HoSo_Content/TxtCode	Inactive legacy clone; production code uses explicit references, no legacy dashboard controller	No inbound semantic reference; template/conditional objects protected; prefab source unchanged
+RailwayLifecycleDashboard/VRBimAiDashboard_Contextual/AssetPanel/HoSo_Content/TxtStatusLbl	Inactive legacy clone; production code uses explicit references, no legacy dashboard controller	No inbound semantic reference; template/conditional objects protected; prefab source unchanged
+RailwayLifecycleDashboard/VRBimAiDashboard_Contextual/AssetPanel/HoSo_Content/TxtStatusVal	Inactive legacy clone; production code uses explicit references, no legacy dashboard controller	No inbound semantic reference; template/conditional objects protected; prefab source unchanged
+RailwayLifecycleDashboard/VRBimAiDashboard_Contextual/AssetPanel/HoSo_Content/TabRow	Inactive legacy clone; production code uses explicit references, no legacy dashboard controller	No inbound semantic reference; template/conditional objects protected; prefab source unchanged
+RailwayLifecycleDashboard/VRBimAiDashboard_Contextual/AssetPanel/HoSo_Content/AssetActions	Inactive legacy clone; production code uses explicit references, no legacy dashboard controller	No inbound semantic reference; template/conditional objects protected; prefab source unchanged
+RailwayLifecycleDashboard/VRBimAiDashboard_Contextual/AssetPanel/HoSo_Content/AssetInfo	Inactive legacy clone; production code uses explicit references, no legacy dashboard controller	No inbound semantic reference; template/conditional objects protected; prefab source unchanged
+RailwayLifecycleDashboard/VRBimAiDashboard_Contextual/AssetPanel/HoSo_Content/BtnViewDetails	Inactive legacy clone; production code uses explicit references, no legacy dashboard controller	No inbound semantic reference; template/conditional objects protected; prefab source unchanged
+RailwayLifecycleDashboard/VRBimAiDashboard_Contextual/AssetPanel/HoSo_Content/AssetPrimaryTabs/TxtLife	Inactive legacy clone; production code uses explicit references, no legacy dashboard controller	No inbound semantic reference; template/conditional objects protected; prefab source unchanged
+RailwayLifecycleDashboard/VRBimAiDashboard_Contextual/AssetPanel/HoSo_Content/AssetPrimaryTabs/Stg1	Inactive legacy clone; production code uses explicit references, no legacy dashboard controller	No inbound semantic reference; template/conditional objects protected; prefab source unchanged
+RailwayLifecycleDashboard/VRBimAiDashboard_Contextual/AssetPanel/HoSo_Content/AssetPrimaryTabs/Stg2	Inactive legacy clone; production code uses explicit references, no legacy dashboard controller	No inbound semantic reference; template/conditional objects protected; prefab source unchanged
+RailwayLifecycleDashboard/VRBimAiDashboard_Contextual/AssetPanel/HoSo_Content/AssetPrimaryTabs/Stg3	Inactive legacy clone; production code uses explicit references, no legacy dashboard controller	No inbound semantic reference; template/conditional objects protected; prefab source unchanged
+RailwayLifecycleDashboard/VRBimAiDashboard_Contextual/AssetPanel/HoSo_Content/AssetPrimaryTabs/Stg4	Inactive legacy clone; production code uses explicit references, no legacy dashboard controller	No inbound semantic reference; template/conditional objects protected; prefab source unchanged
+RailwayLifecycleDashboard/VRBimAiDashboard_Contextual/AssetPanel/HoSo_Content/AssetPrimaryTabs/Stg5	Inactive legacy clone; production code uses explicit references, no legacy dashboard controller	No inbound semantic reference; template/conditional objects protected; prefab source unchanged
+RailwayLifecycleDashboard/VRBimAiDashboard_Contextual/AssetPanel/HoSo_Content/AssetPrimaryTabs/Stg6	Inactive legacy clone; production code uses explicit references, no legacy dashboard controller	No inbound semantic reference; template/conditional objects protected; prefab source unchanged
+RailwayLifecycleDashboard/VRBimAiDashboard_Contextual/AiPanel	Inactive legacy clone; production code uses explicit references, no legacy dashboard controller	No inbound semantic reference; template/conditional objects protected; prefab source unchanged
+RailwayLifecycleDashboard/VRBimAiDashboard_Contextual/MapPanel	Inactive legacy clone; production code uses explicit references, no legacy dashboard controller	No inbound semantic reference; template/conditional objects protected; prefab source unchanged
+RailwayLifecycleDashboard/VRBimAiDashboard_Contextual/Import	Inactive legacy clone; production code uses explicit references, no legacy dashboard controller	No inbound semantic reference; template/conditional objects protected; prefab source unchanged
+RailwayLifecycleDashboard/BtnBackToOverview	Inactive legacy clone; production code uses explicit references, no legacy dashboard controller	No inbound semantic reference; template/conditional objects protected; prefab source unchanged
+RailwayLifecycleDashboard/VRBimAiDashboard_Contextual/BimHeader/PresentationControls/RecenterManagementUI	New desktop-only no-op removed; X hide/show is the explicit VR recenter mechanism	Owned control created during this refinement; no source asset deleted
+
+PHỤ LỤC B — KẾT QUẢ KIỂM THỬ NGUYÊN BẢN
+
+=== Test_selection.txt ===
+PASS | Segment selection focuses without descending
+PASS | Closer segment fit: 57.26815m vs old 60m
+PASS | Block selection keeps level
+PASS | Bolt automatic focus closer than former 1.1m minimum
+PASS | Isolation keeps selected renderer and outline
+PASS | Isolation hides overview layers, not terrain/environment
+PASS | Restore snapshot preserves pre-hidden sibling
+PASS | Changing selection restores isolation
+PASS | Isolate temporarily reveals an initially hidden selection
+PASS | Restore returns initially hidden selection to hidden without a ghost outline
+PASS | Back restores selected parent block
+PASS | Back restores selected segment
+PASS | Back at top level safe
+PASS | Search locate resolves context and final ID
+PASS | Stable 34+334+33066 asset IDs
+PASS | No new C# runtime errors
+DONE selection
+
+=== Test_stages.txt ===
+PASS | Six independent stage records for every existing asset
+PASS | Migration preserves foreign keys
+PASS | Idempotent seed also initializes subsequently added test registry rows
+PASS | Fields available: Z021-TR-S001-B001-C001 / Quy hoạch
+PASS | Fields available: Z021-TR-S001-B001-C001 / Thiết kế
+PASS | Fields available: Z021-TR-S001-B001-C001 / Thi công
+PASS | Fields available: Z021-TR-S001-B001-C001 / Vận hành
+PASS | Fields available: Z021-TR-S001-B001-C001 / Bảo trì
+PASS | Fields available: Z021-TR-S001-B001-C001 / Nâng cấp
+PASS | Fields available: Z021-TR-S001-B001-C002 / Quy hoạch
+PASS | Fields available: Z021-TR-S001-B001-C002 / Thiết kế
+PASS | Fields available: Z021-TR-S001-B001-C002 / Thi công
+PASS | Fields available: Z021-TR-S001-B001-C002 / Vận hành
+PASS | Fields available: Z021-TR-S001-B001-C002 / Bảo trì
+PASS | Fields available: Z021-TR-S001-B001-C002 / Nâng cấp
+PASS | Asset A planning change leaves asset B and design stage unchanged
+PASS | Unchanged stage save adds no duplicate history
+PASS | Reject future actual upgrade date
+PASS | Reject nonnumeric budget
+PASS | Stage schema rejects unknown field
+PASS | Legacy inspection and maintenance preserved
+PASS | No new C# runtime errors
+DONE stages
+
+=== Test_stage-persist.txt ===
+PASS | Changed stage persists through another Play session / DB reopen
+PASS | Other asset/stage remain unchanged after restart
+PASS | No duplicate stage seed or events on reopen
+PASS | Production registry unchanged after migration/restart
+PASS | No new C# runtime errors
+DONE stage-persist
+
+=== Test_excel.txt ===
+PASS | Export contains all six stage sheets
+PASS | Runtime XLSX roundtrip validates: Cập nhật: 19; mới: 0; trường mới: 0; ID không có mô hình: 0; lỗi: 0
+Ô trống giữ nguyên dữ liệu; Apply dùng đúng nội dung đã preview.
+PASS | Unchanged workbook reimport creates no history duplicates
+PASS | Preview does not write SQLite
+PASS | Confirm updates only specified asset and stage
+PASS | Blank stage cells retain existing values
+PASS | Reject duplicate AssetID+StageKey
+PASS | Reject wrong StageKey for sheet
+PASS | Reject invalid stage field type
+PASS | No new C# runtime errors
+DONE excel
+
+=== Test_ui.txt ===
+PASS | Three primary tabs and six reused stage buttons
+PASS | Removed focus/measure/statistics objects and obsolete top tabs
+PASS | Dynamic templates retained after inactive UI cleanup
+PASS | LeftNav selects and focuses segment without descending
+PASS | Block UI selection and auto focus
+PASS | Bolt UI selection auto focuses close
+PASS | Isolation button state clearly changes
+PASS | Isolation button restores visibility
+PASS | Quay lại button restores block context
+PASS | Quay lại disabled at top level
+PASS | Stage UI opens Quy hoạch without changing asset Z021-TR-S001-B001-C001
+PASS | Stage UI opens Thiết kế without changing asset Z021-TR-S001-B001-C001
+PASS | Stage UI opens Thi công without changing asset Z021-TR-S001-B001-C001
+PASS | Stage UI opens Vận hành without changing asset Z021-TR-S001-B001-C001
+PASS | Stage UI opens Bảo trì without changing asset Z021-TR-S001-B001-C001
+PASS | Stage UI opens Nâng cấp without changing asset Z021-TR-S001-B001-C001
+PASS | Stage UI opens Quy hoạch without changing asset Z021-TR-S001-B001-C002
+PASS | Stage UI opens Thiết kế without changing asset Z021-TR-S001-B001-C002
+PASS | Stage UI opens Thi công without changing asset Z021-TR-S001-B001-C002
+PASS | Stage UI opens Vận hành without changing asset Z021-TR-S001-B001-C002
+PASS | Stage UI opens Bảo trì without changing asset Z021-TR-S001-B001-C002
+PASS | Stage UI opens Nâng cấp without changing asset Z021-TR-S001-B001-C002
+PASS | Actual Save button isolates asset and stage
+PASS | Operation panel preserves old inspections and adds a new inspection
+PASS | Maintenance panel adds event and retains old history
+PASS | Stage history remains accessible inside Asset Panel
+PASS | Older history page available beyond first 50 events
+PASS | History paging reaches older entries
+PASS | History paging returns to newest entries
+PASS | Hiding PC UI enables bounded-speed free camera controls
+PASS | Actual W/E input moves free camera with UI hidden
+PASS | Showing PC UI preserves camera and selection
+PASS | Explicit F-equivalent return to selected asset available
+PASS | Search still resolves exact asset ID
+PASS | Search navigation uses unified selection
+PASS | No new C# runtime errors
+DONE ui
+
+=== Test_ui-persist.txt ===
+PASS | Asset Panel save persists after restarting Play Mode
+PASS | Other asset/stage unchanged after UI save/restart
+PASS | Inspection/maintenance events persist without seed duplication on another Play session
+PASS | No new C# runtime errors
+DONE ui-persist
+
+=== Test_sample.txt ===
+PASS | Artifact-authored six-stage XLSX parses with production ExcelDataReader: Cập nhật: 12; mới: 0; trường mới: 0; ID không có mô hình: 0; lỗi: 0
+Ô trống giữ nguyên dữ liệu; Apply dùng đúng nội dung đã preview.
+PASS | Formatted sample applies with correct AssetID+StageKey/version and real numeric/date cell types
+PASS | Existing five-sheet workbook still parses/previews against migrated production registry without writing user data: Cập nhật: 65; mới: 0; trường mới: 0; ID không có mô hình: 0; lỗi: 0
+Ô trống giữ nguyên dữ liệu; Apply dùng đúng nội dung đã preview.
+PASS | No new C# runtime errors
+DONE sample
+
+=== Test_vr.txt ===
+PASS | VR has distinct left navigation, right asset panel and lower commands canvases
+PASS | One XR Origin and EventSystem
+PASS | One enabled AudioListener
+PASS | Actual XR ray reaches relocated command button
+PASS | Trigger click opens detail through XR UI module
+PASS | Right trigger physics selection and outline still work with auto focus
+PASS | A/B/right grip do not focus, go back, enter detail or submit a selected UI button
+PASS | Left X hides all management panels without losing selection
+PASS | Left joystick moves origin horizontally at limited speed while UI hidden
+PASS | Locomotion does not write tracked local HMD pose
+PASS | Right joystick performs one snap turn
+PASS | Held stick does not repeatedly turn without rearming
+PASS | Showing UI recenters panels without teleporting HMD or changing selection
+PASS | LeftNav collapses independently
+PASS | Asset panel collapses independently
+PASS | Left Y opens existing Scene Menu
+PASS | Left Y closes menu
+Scroll diagnostics: before=1 after=0.4270121 reader=(0.00, 0.00) device=(0.00, 0.00) hit=AssetItem_18
+PASS | Joystick scrolls LeftNav through actual XR UI input
+PASS | UI scroll does not also locomote
+PASS | Relocated VR search opens independent world-space Vietnamese keyboard
+PASS | Actual ray types Vietnamese key despite input losing focus
+PASS | No new C# runtime errors
+DONE vr
+
+=== SavedSceneVerification.txt ===
+PASS | Saved/reopened scene clean=True; nodes=194; active mesh renderers=57; dependencies=613.
+PASS | Three main tabs, six stages, history paging and all required templates/references present; removed buttons absent.
+PASS | No missing scripts, active meshes/materials or source asset dependencies. One EventSystem with XRUIInputModule.
+PASS | Both stereo outline shaders have no compile errors.
+PASS | SQLite assets=33434; stage profiles=200604; stage field rows=1504530; FK check clean.
+Editor only; physical headset and Android build not verified.
+=== MenuIntegration.txt ===
+PASS | Unloaded scene destroys its dashboard and locally owned XR rig.
+PASS | Actual Quản lý vòng đời tài sản menu Button.onClick loaded the registered scene asynchronously from another in-memory scene.
+PASS | Reloaded scene initializes SQLite registry; an existing persistent authored XR rig is reused with exactly one XR Origin and one EventSystem.
+PASS | Desktop/VR/VR toggle keeps one camera and reenables tracked UI raycaster.
+PASS | Leaving the BIM scene restores the existing rig's position, camera and automatic ray input mode.
+No source scene/zone was modified. Physical headset and physical Y button not tested.

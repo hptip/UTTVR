@@ -1,0 +1,91 @@
+{
+  "assets": 33434,
+  "stage_profiles": 200604,
+  "new_planning_codes": 33434,
+  "scenario_marker": 1,
+  "foreign_key_errors": 0,
+  "sample_materials": [
+    [
+      null,
+      "Tổ hợp ray thép, bê tông, liên kết đàn hồi",
+      368
+    ],
+    [
+      "Anchor",
+      "Thép cấp bền 8.8, chống ăn mòn",
+      4008
+    ],
+    [
+      "BasePlate",
+      "Thép kết cấu Q355, sơn bảo vệ",
+      3006
+    ],
+    [
+      "Bolt",
+      "Thép cấp bền 8.8, mạ kẽm",
+      4008
+    ],
+    [
+      "Fastener",
+      "Thép lò xo 60Si2Mn",
+      4008
+    ],
+    [
+      "GuidePlate",
+      "Polyamide PA66 gia cường sợi thủy tinh",
+      4008
+    ],
+    [
+      "Pad",
+      "Cao su EPDM đàn hồi",
+      4008
+    ],
+    [
+      "Rail",
+      "Thép ray R260, tiết diện thiết kế 60E1",
+      668
+    ],
+    [
+      "Slab",
+      "Bê tông C50, cốt thép CB400-V",
+      334
+    ],
+    [
+      "Sleeper",
+      "Bê tông dự ứng lực C60",
+      1002
+    ],
+    [
+      "SteelDetail",
+      "Thép kết cấu Q355",
+      4008
+    ],
+    [
+      "Support",
+      "Thép kết cấu Q355",
+      2004
+    ],
+    [
+      "Washer",
+      "Thép tôi, mạ kẽm",
+      2004
+    ]
+  ],
+  "block_cost_mismatches": 0,
+  "segment_cost_mismatches": 0,
+  "inspection_count": 33437,
+  "maintenance_count": 11147,
+  "events_count": 78029,
+  "preserved_legacy_customizations": [
+    [
+      "Z021-TR-S001-B001-C005",
+      "Cần bảo trì",
+      "DEMO: kiểm thử lưu độc lập và persistence 2026-11-12"
+    ],
+    [
+      "Z021-TR-S001-B002-C005",
+      "Cần theo dõi",
+      "Hồ sơ Z021-TR-S001-B002-C005; quản lý theo gói kết cấu đường trên Zone 021, kiểm tra định kỳ và lưu biên bản theo mã tài sản."
+    ]
+  ]
+}

@@ -1,0 +1,11 @@
+PASS | Free-look rotates in place instead of orbiting the asset
+PASS | Free camera can look upward beyond old pitch restriction
+PASS | A real collider blocks the ascent path in the test
+PASS | Actual PC E input flies through the collider
+PASS | VR Origin travels through collider outside prior zone bounds
+PASS | Right joystick Y raises VR Origin in free flight
+PASS | VR flight preserves tracked HMD local pose
+PASS | High-contrast pink highlight and 5px outline applied
+PASS | Selection still produces outline renderers
+PASS | No new C# runtime errors
+DONE flight

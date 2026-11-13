@@ -1,0 +1,99 @@
+PASS | Merged Showroom starts independently in Play Mode
+PASS | Exactly one XR Origin and EventSystem
+PASS | Exactly one active AudioListener
+PASS | Display does not run the copied route streamer
+PASS | Eight display layers and miniature train cars resolve
+PASS | Four existing train interactions retained
+PASS | Existing popup opens correct data: glink_tram_skecthfab
+PASS | Existing popup closes: glink_tram_skecthfab
+PASS | Existing popup opens correct data: sydney_metro_jotrain
+PASS | Existing popup closes: sydney_metro_jotrain
+PASS | Existing popup opens correct data: RiyadhMetro_D
+PASS | Existing popup closes: RiyadhMetro_D
+PASS | Existing popup opens correct data: McFace
+PASS | Existing popup closes: McFace
+PASS | Four new museum labels instantiated
+PASS | Layer button bound: train
+PASS | Layer toggles: train
+PASS | Layer restores: train
+PASS | Layer button bound: terrain
+PASS | Layer toggles: terrain
+PASS | Layer restores: terrain
+PASS | Layer button bound: nature
+PASS | Layer toggles: nature
+PASS | Layer restores: nature
+PASS | Layer button bound: rail
+PASS | Layer toggles: rail
+PASS | Layer restores: rail
+PASS | Layer button bound: bridge
+PASS | Layer toggles: bridge
+PASS | Layer restores: bridge
+PASS | Layer button bound: tunnel
+PASS | Layer toggles: tunnel
+PASS | Layer restores: tunnel
+PASS | Layer button bound: station
+PASS | Layer toggles: station
+PASS | Layer restores: station
+PASS | Layer button bound: khac
+PASS | Layer toggles: khac
+PASS | Layer restores: khac
+PASS | Speed x1 changes setting without starting stopped train
+PASS | Speed x2 changes setting without starting stopped train
+PASS | Speed x3 changes setting without starting stopped train
+PASS | Speed x4 changes setting without starting stopped train
+PASS | Display Play button starts train
+PASS | Train actually moves over time on its copied spline
+PASS | Display Pause button stops running state
+PASS | Train settles and holds position while paused
+PASS | Reset returns miniature train to its start
+PASS | Robot interaction opens the new chatbot
+DIAGNOSTIC | assigned provider=ShowroomMergeTestBrain; chat active=True; callback count=0
+DIAGNOSTIC | provider calls=1; busy=False; voiceLock=False; provider=ShowroomMergeTestBrain; status=Hoàn tất; bubbles=Xin chào! Mình là trợ lý AI. Bạn muốn hỏi gì? | Đọc | Kiểm tra kết nối giao diện Showroom | LOCAL_PIPELINE_TEST: Kiểm tra kết nối giao diện Showroom | Đọc
+PASS | Send/input/bubble/response pipeline works with an explicitly local test provider; no external API call
+PASS | Chat clear button clears input
+PASS | Chat close button closes panel
+PASS | Existing Scene Menu closed before new UI ray interaction
+PASS | Uses the existing rig interactor: NearFarInteractor
+RAY | interactor=XR Origin (VR)/Camera Offset/Right Controller/Near-Far Interactor; active=True; hit=Btn_Play; eye=(19.37, 1.40, -28.03); canvas=SaBan_ControlPanel
+PASS | Actual XR ray hits new UI button: Btn_Play
+PASS | XR disables only copied panel's FPS colliders to avoid double activation
+PASS | Actual XR UI trigger starts the miniature train once
+RAY | interactor=XR Origin (VR)/Camera Offset/Right Controller/Near-Far Interactor; active=True; hit=ClearButton; eye=(19.37, 1.40, -28.03); canvas=Canvas
+PASS | Actual XR ray hits new UI button: ClearButton
+PASS | XR ray clicks chatbot clear button
+RAY | interactor=XR Origin (VR)/Camera Offset/Right Controller/Near-Far Interactor; active=True; hit=Label; eye=(19.37, 1.40, -28.03); canvas=Canvas
+PASS | Actual XR ray hits new UI button: CloseButton
+PASS | XR ray closes chatbot
+PASS | No real route or zone scenes loaded by display
+PASS | Exactly one optimized existing rail layer; 49,074 original sources retained
+PASS | Instanced sources do not render twice in Play Mode
+PASS | BIM component metadata popup: Railing:MB-EBS-DRW-003_00 EBS LR 49E1-MS 140 Skl Track:311281
+PASS | BIM component metadata popup: Railing:MB-EBS-DRW-003_00 EBS LR 49E1-MS 140 Skl Track:311281
+PASS | BIM component metadata popup: Railing:MB-EBS-DRW-003_00 EBS LR 49E1-MS 140 Skl Track:311281
+PASS | BIM component metadata popup: Railing:MB-EBS-DRW-003_00 EBS LR 49E1-MS 140 Skl Track:311281
+PASS | BIM component metadata popup: Railing:MB-EBS-DRW-003_00 EBS LR 49E1-MS 140 Skl Track:311281
+PASS | BIM component metadata popup: Railing:MB-EBS-DRW-003_00 EBS LR 49E1-MS 140 Skl Track:311281
+PASS | BIM component metadata popup: Railing:MB-EBS-DRW-003_00 EBS LR 49E1-MS 140 Skl Track:311281
+PASS | BIM component metadata popup: Railing:MB-EBS-DRW-003_00 EBS LR 49E1-MS 140 Skl Track:311281
+PASS | BIM component metadata popup: Railing:MB-EBS-DRW-003_00 EBS LR 49E1-MS 140 Skl Track:311281
+PASS | Floating information board built: Ray
+PASS | Combined running visibility sequence: nature; callback ms=0.228
+PASS | Combined running visibility sequence: rail; callback ms=1.773
+PASS | Combined running visibility sequence: nature; callback ms=0.176
+PASS | Combined running visibility sequence: train; callback ms=0.538
+PASS | Combined running visibility sequence: rail; callback ms=1.373
+PASS | Combined running visibility sequence: train; callback ms=1.160
+PASS | Reducing speed preserves running state after mixed layer sequence
+PASS | All eight independent layers restored after sequence
+PASS | Repeated visibility toggles do not re-enable original duplicated renderers
+PASS | Train can resume after pause
+PASS | Scene Menu can open
+PASS | Scene Menu can close
+RAY | interactor=XR Origin (VR)/Camera Offset/Right Controller/Near-Far Interactor; active=True; hit=Close_Btn; eye=(19.37, 1.40, -28.03); canvas=TrainInfo
+PASS | Actual XR ray hits new UI button: Close_Btn
+PASS | Actual XR trigger closes train information popup
+PASS | No Console errors during popup test
+PASS | Restoring GPU instancing after exact bridge A/B images does not duplicate sources
+PASS | No Console errors during optimized functional/ray/bridge image test
+DONE PASS
+NOT TESTED | Physical Quest, live AI/STT/TTS, multiple real multiplayer clients, doorway scene transition.

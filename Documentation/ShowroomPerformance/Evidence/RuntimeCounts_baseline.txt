@@ -1,0 +1,1 @@
+Renderers total=53296; enabledActive=52081; instanced sources=0; logical batches=0

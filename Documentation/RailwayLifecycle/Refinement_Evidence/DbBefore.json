@@ -1,0 +1,26 @@
+{
+  "Assets": {
+    "count": 33434,
+    "sha256": "b19ea6ecdfbe5f21ab230f58dc81f9735628c60cfaaf39f30f64e0c42ab64acd"
+  },
+  "AssetProperties": {
+    "count": 167171,
+    "sha256": "49acf13ae86349baa843731f04c395c473122c1b7e69373a594840e4a2eb04be"
+  },
+  "AssetLifecycle": {
+    "count": 33434,
+    "sha256": "5e7e469b9b03676dcac2f5a98dbe54dcf40bd0bd51289feb41e5e985a1c3cbb5"
+  },
+  "AssetInspections": {
+    "count": 33437,
+    "sha256": "62f599aea635e7840e27691da02d5d76844f8a719482ab875e2993ec38cb6217"
+  },
+  "AssetMaintenance": {
+    "count": 11147,
+    "sha256": "7ffde106e878ead896047fd8e8b5ba78b7665e03686aba2e4a1df67c9bf9d758"
+  },
+  "AssetLifecycleEvents": {
+    "count": 78029,
+    "sha256": "5f337f31779393cbcd61d20411e2f8e6539b60a8ab218ddf5f197ff118ed1634"
+  }
+}

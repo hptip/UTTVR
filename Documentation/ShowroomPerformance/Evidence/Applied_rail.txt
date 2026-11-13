@@ -1,0 +1,1 @@
+Applied runtime GPU instancing to existing geometry only. Sources=49074; batches=390; triangles unchanged=6365330; max world-space corner error=1.1796301805588882E-05; original renderers and all transforms retained, enabled in Editor; materials copied=17

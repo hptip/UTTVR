@@ -1,0 +1,6 @@
+PASS | Saved/reopened scene clean=True; nodes=231; active mesh renderers=57; dependencies=613.
+PASS | Three main tabs, six stages, history paging and all required templates/references present; removed buttons absent.
+PASS | No missing scripts, active meshes/materials or source asset dependencies. One EventSystem with XRUIInputModule.
+PASS | Both stereo outline shaders have no compile errors.
+PASS | SQLite assets=33434; stage profiles=200604; stage field rows=1504530; FK check clean.
+Editor only; physical headset and Android build not verified.

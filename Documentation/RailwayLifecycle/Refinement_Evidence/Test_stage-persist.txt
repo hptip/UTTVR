@@ -1,0 +1,6 @@
+PASS | Changed stage persists through another Play session / DB reopen
+PASS | Other asset/stage remain unchanged after restart
+PASS | No duplicate stage seed or events on reopen
+PASS | Production registry unchanged after migration/restart
+PASS | No new C# runtime errors
+DONE stage-persist

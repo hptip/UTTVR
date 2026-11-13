@@ -1,0 +1,6 @@
+PASS | Unloaded scene destroys its dashboard and locally owned XR rig.
+PASS | Actual Quản lý vòng đời tài sản menu Button.onClick loaded the registered scene asynchronously from another in-memory scene.
+PASS | Reloaded scene initializes SQLite registry; an existing persistent authored XR rig is reused with exactly one XR Origin and one EventSystem.
+PASS | Desktop/VR/VR toggle keeps one camera and reenables tracked UI raycaster.
+PASS | Leaving the BIM scene restores the existing rig's position, camera and automatic ray input mode.
+No source scene/zone was modified. Physical headset and physical Y button not tested.

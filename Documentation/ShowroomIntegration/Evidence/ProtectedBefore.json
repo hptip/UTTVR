@@ -1,0 +1,242 @@
+[
+  {
+    "path": "Assets/ProjectLopHoc/Scenes/YenTuHaLongXanh.unity",
+    "sha256": "b8d8be4c14c6f4de388b73cdd1e2abd15d16c6a286bdc2842459f296c23cb3f6"
+  },
+  {
+    "path": "Assets/ProjectLopHoc/Scenes/QuanLyVongDoiTaiSan.unity",
+    "sha256": "dcad8be73ff522f9dbabeb58745d922e0096f8e48c9466f9e95309446ce17747"
+  },
+  {
+    "path": "Assets/ChiTietSaBan/ChiTiet/ChiTietSaBan.unity",
+    "sha256": "3d45057f246dfc66f0cee4906da1c75e3ed8a276ded6a604c56ff5c90065db2f"
+  },
+  {
+    "path": "Assets/ProjectLopHoc/Generated/QuestRailway/RailwayVertexColour.shader",
+    "sha256": "7819973a5aba3515fe1d5199621f425d31d1072b74783bb9e86a5f8eba773138"
+  },
+  {
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs",
+    "sha256": "e9c85049e2db34237663df431af7685b6c527554aadae03d01e5b999702a7948"
+  },
+  {
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventHandler.cs",
+    "sha256": "b7a2a56edf40f6033b242c0971858607353eacd5323c74c2b5e496be0a838942"
+  },
+  {
+    "path": "Assets/StandaloneFileBrowser/StandaloneFileBrowserWindows.cs",
+    "sha256": "df8c1e8e06ad4b1bd075c00204cc536233f31d280fdb52ca99c8a957e14203f7"
+  },
+  {
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator.cs",
+    "sha256": "f6c9a606954beebc086b45d6997f89de40a29fcc35584fbbd2818d4a7a7e3c67"
+  },
+  {
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool.cs",
+    "sha256": "cd8f39066cf3c6835e1b61503b06ef7a3fd409437baa2e5569ec27a02ea408c4"
+  },
+  {
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs",
+    "sha256": "d5029ca1fedf88455e622e0c7f48147f4b7c736be3b78be65dbea67e83606df2"
+  },
+  {
+    "path": "Assets/StandaloneFileBrowser/StandaloneFileBrowserEditor.cs",
+    "sha256": "7041e68d88501ea3cb59a9f33d0777dee6239fd56c5d40c7131826d618dc9de2"
+  },
+  {
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs",
+    "sha256": "ede5388968001b879abe9bfeac8d87ed0905e301a4a789a301726257685513a3"
+  },
+  {
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs",
+    "sha256": "76575f9a696f7400c5a3c78e7b5b5ee540de2dacf691dcd322f63be00c4520fa"
+  },
+  {
+    "path": "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset",
+    "sha256": "c855f583b06a7d4399d59cc1105c949e839b59f8afee46cd0595fa8d9762997c"
+  },
+  {
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs",
+    "sha256": "4e934def3bee0a2806572824cb7007efcb05f9b1082a24400e35d4de209d8506"
+  },
+  {
+    "path": "Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileImage.cs",
+    "sha256": "5a89fe407ba995d48ea14a7ff5d63675844a90f7b3f7fff176b50eadda5c1fe3"
+  },
+  {
+    "path": "Assets/StandaloneFileBrowser/StandaloneFileBrowser.cs",
+    "sha256": "820d32b07f5c428d6e79dc35cb54a9755bbe5984cd27f16015792630c356fd35"
+  },
+  {
+    "path": "Assets/Editor/YenTuSaBanBuilder.cs",
+    "sha256": "894ef9bc84462d2f40ea65d82951f277ab7d7c45c9a00ba47c4c39b0d7b4e187"
+  },
+  {
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs",
+    "sha256": "96d0c388d9f8742b63a924114947d3d6737f2dc558b527cd4e9bf88ad36f1631"
+  },
+  {
+    "path": "Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs",
+    "sha256": "d2023934bc2be23af69cd930ade85eff41c5db0a6f6666b05324b975befdb5b5"
+  },
+  {
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs",
+    "sha256": "78226bf906fcccac438e4cd9fbc757722d05c3aaa6eb43862b2702f699a61682"
+  },
+  {
+    "path": "Assets/StandaloneFileBrowser/Sample/BasicSample.cs",
+    "sha256": "208a6ba9610bff04dedc46b3263ac771e017c3ffd90c497d73cffb87bf5ef56b"
+  },
+  {
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs",
+    "sha256": "06b01d3c103cf9190b2b7ab561194f8af09b9359398ec1336d7e6d210c1769eb"
+  },
+  {
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs",
+    "sha256": "14479ee971d6b8eceae82e9eb9c03389df611a825051df6e2b10e53a60ae1c9f"
+  },
+  {
+    "path": "Assets/StandaloneFileBrowser/StandaloneFileBrowserLinux.cs",
+    "sha256": "96955e4fd6540f0341b3ab85c5d8d4830abe4edd529b75379e991e668d035910"
+  },
+  {
+    "path": "Assets/ProjectLopHoc/Scripts/SaBan/YenTuSaBanControls.cs",
+    "sha256": "70aea6dc23d583684e99a2bb7dab92bbe16f78e5ecaecb3fd73b1dc0f6358fc3"
+  },
+  {
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_FrameRateCounter.cs",
+    "sha256": "c44ed4746adddac59fae9a4f45df9d1f97bfa24a99267a855ae5310b1e98da2b"
+  },
+  {
+    "path": "Assets/StandaloneFileBrowser/Sample/CanvasSampleSaveFileImage.cs",
+    "sha256": "62972a3733129ed161f90f41a0b1b703143e9bf8802f73ce4406eeb54700adde"
+  },
+  {
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs",
+    "sha256": "3a61c0f7256d8fbeb739f25e5c1627dcf6b6517158eef38c5fa450c688201ffa"
+  },
+  {
+    "path": "Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileTextMultiple.cs",
+    "sha256": "d0d71f91343168b7fb19e3a956c7120be9919d389029867ed2e12b6ccbd15c44"
+  },
+  {
+    "path": "Assets/StandaloneFileBrowser/IStandaloneFileBrowser.cs",
+    "sha256": "ee4de9480380a047ab44cc18949137d41f16d0da5092eb366ddb78e1343ab87a"
+  },
+  {
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner.cs",
+    "sha256": "f4b25e169766fad6769f11526dbaaffb259731c2a2e5279bbee8ed4152384036"
+  },
+  {
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs",
+    "sha256": "71b9808aca4e1c6ba124152a48c4eea1e10fc0ff7a66de5ef2ab26561123cbfe"
+  },
+  {
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator.cs",
+    "sha256": "db98aef0ef8c1ad063aee3fd316c6d7137a783371003c0339ba9ffec25157a17"
+  },
+  {
+    "path": "Assets/ProjectLopHoc/Scripts/SceneQuickMenu.cs",
+    "sha256": "8650ddbb30eadc8f549c26f5fd9b780d0b235b3717abf72f602474728ac35c62"
+  },
+  {
+    "path": "Assets/StandaloneFileBrowser/Sample/CanvasSampleSaveFileText.cs",
+    "sha256": "0c3f943ca7f9f2fe32cadb22854dda8e805ed21fced24f8c58340fd84ca83449"
+  },
+  {
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs",
+    "sha256": "99c88ada7f9cda09c0bb6d6deaaabc3b66845550f61d4fb41745005761cff298"
+  },
+  {
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler.cs",
+    "sha256": "b7ab939290ed6e64ef779d91925fa44edea787a5fd73bfd784466f22f53ceb6c"
+  },
+  {
+    "path": "Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileText.cs",
+    "sha256": "7ff704196a9275931367ef8456abf6498a45cdb434e089d8c5170130d7393f02"
+  },
+  {
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs",
+    "sha256": "9c7204adfbc08becb75a66f2e328f2bc4a393af90b269571eb2c0e83a7b94b0a"
+  },
+  {
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_B.cs",
+    "sha256": "abf848317fe552b5a3feae76851e0d41145aa0caedd984799512e940277dae4a"
+  },
+  {
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs",
+    "sha256": "6d5b1670e18606f4b4026828ea61470638cd9bf0a12891a90b55c046549f7444"
+  },
+  {
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs",
+    "sha256": "bd271a4266afd3ec49db4861402b971037931567882c8ec7c4845cc3a304e2e4"
+  },
+  {
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs",
+    "sha256": "31ac73ac6a23a98c7e8ea480aa09c5abdb8ac8598a3de68b6933df7ea16c3d66"
+  },
+  {
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/DropdownSample.cs",
+    "sha256": "e163035bc080b98e90ef130abc969e8cefa32a630783650e68e724316b359332"
+  },
+  {
+    "path": "Assets/ChiTietSaBan/ChiTiet/VRBimAiDashboard/Scripts/VRBimAiDashboardInteractions.cs",
+    "sha256": "7a118257a08fecef38afb331e2aa8d720edc23199a5de786aa91887ec091518a"
+  },
+  {
+    "path": "Assets/StandaloneFileBrowser/StandaloneFileBrowserMac.cs",
+    "sha256": "216950334e629c955612158d88ee45576c4d8b4906fbc623b590684478624f5e"
+  },
+  {
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay.cs",
+    "sha256": "03933725d53aa925c5f55f7c831a88ceb28b78bc38aff5736bc06e2716e6d7ca"
+  },
+  {
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample.cs",
+    "sha256": "c9e6d50712b15ece9a7874026c2085b26c90f52d85de10202e8b36e3fea4f7e9"
+  },
+  {
+    "path": "Assets/ChiTietSaBan/ChiTiet/VRBimAiDashboard/VRBimAiDashboard_Contextual_Package/Demo_Rail_Component/Scripts/DemoBIMAsset.cs",
+    "sha256": "b7c73d4284a4e51131a495064832ef27d283490983b85882efd9555ce7760021"
+  },
+  {
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck.cs",
+    "sha256": "b59f9d1c7fddffaeec2b2523c338cc32d4c40c18fa8dd7f540b6e3b22a3f36e5"
+  },
+  {
+    "path": "Assets/ChiTietSaBan/ChiTiet/MeshCombiner.cs",
+    "sha256": "3c7dd0996b70085f2c3c89afe935058203a2f3856b1c157595aae3338a01a622"
+  },
+  {
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs",
+    "sha256": "ffc9ac6e5976c181e9b19d7ddff31208df2664691edbb23ef80496175f61256b"
+  },
+  {
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TeleType.cs",
+    "sha256": "60aef074b2c7a64952977a081fe941e7c358893519a4bf678406fabb8f616820"
+  },
+  {
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs",
+    "sha256": "6162673abf5de78d60b478dc1572b92b6108162390f4b37886afa52f66a7a613"
+  },
+  {
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs",
+    "sha256": "3bdb131f2363c695f26848ff893f1ea11394600139f83b70a4fa2c491976dbb5"
+  },
+  {
+    "path": "Assets/ProjectLopHoc/Generated/QuestRailway/EnvironmentClusterFade.shader",
+    "sha256": "ae56b052d9e802efe701146bf39d56efcb1921bc1c61bb101b933a1f6077e18f"
+  },
+  {
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs",
+    "sha256": "3e9b5d4c3ccaa63663098964a33bd3640e4e67e61e4dda00dc90dc047d67f339"
+  },
+  {
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs",
+    "sha256": "ee5af35b3e3e6e4bbbd3e8d7fc86329b7a8885d54bf1b9fed2f4a4312c54ccee"
+  },
+  {
+    "path": "Assets/TutorialInfo/Scripts/Readme.cs",
+    "sha256": "c09c93844f93eb252a6fb39c222d169c63a63e96008fd040b9e7628c3e7ccc2e"
+  }
+]

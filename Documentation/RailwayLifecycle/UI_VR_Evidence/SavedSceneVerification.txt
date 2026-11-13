@@ -1,0 +1,6 @@
+PASS | Scene saved and reopened in Edit Mode; clean=True.
+PASS | All adapter references and source dependencies exist; no missing scripts.
+PASS | Fallback prefab has two authored controller rays, no LoginCanvas or session persistence.
+PASS | Both URP outline shaders compile without errors and include stereo/instancing setup.
+PASS | Scene remains enabled in shared build list. No custom BuildProfile asset was found in this project; inherited list is used.
+2026-11-13T01:14:43.5518185+07:00

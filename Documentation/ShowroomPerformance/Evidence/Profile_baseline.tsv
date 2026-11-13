@@ -1,0 +1,181 @@
+Case	Metric	Mean	p95	p99
+overview_stopped	Frame ms	31.013	35.012	38.462
+overview_stopped	Main Thread	31042093.333	35440400.000	37359900.000
+overview_stopped	GPU Frame Time	9118378.667	11312128.000	12365824.000
+overview_stopped	CPU Main Thread Frame Time	27504467.778	31031500.000	34080800.000
+overview_stopped	CPU Render Thread Frame Time	12202479.989	16467099.000	19393300.000
+overview_stopped	Draw Calls Count	62967.733	66233.000	67755.000
+overview_stopped	SetPass Calls Count	66.189	67.000	68.000
+overview_stopped	Triangles Count	15650697.067	16885726.000	17352478.000
+overview_stopped	Vertices Count	24166875.511	26039051.000	26987464.000
+overview_stopped	Batches Count	58694.211	63047.000	66710.000
+overview_stopped	GC Allocated In Frame	105677.800	34605.000	5968356.000
+overview_stopped	Mesh Memory	582943170.000	582943170.000	582943170.000
+overview_stopped	Texture Memory	898622566.000	898622566.000	898622566.000
+overview_stopped	Total Used Memory	4741187203.400	4749869388.000	4754545260.000
+overview_stopped	GC Used Memory	1281865682.489	1286156288.000	1286250496.000
+overview_running_x1	Frame ms	28.199	31.135	32.257
+overview_running_x1	Main Thread	28157491.111	30868100.000	32644200.000
+overview_running_x1	GPU Frame Time	9516524.089	11535360.000	11743232.000
+overview_running_x1	CPU Main Thread Frame Time	25106392.222	27867900.000	29712400.000
+overview_running_x1	CPU Render Thread Frame Time	11108611.100	15159900.000	17282700.000
+overview_running_x1	Draw Calls Count	62654.833	66397.000	67606.000
+overview_running_x1	SetPass Calls Count	67.644	83.000	83.000
+overview_running_x1	Triangles Count	15435543.356	17035055.000	17343315.000
+overview_running_x1	Vertices Count	23711208.544	26335878.000	27179325.000
+overview_running_x1	Batches Count	57626.133	63735.000	66868.000
+overview_running_x1	GC Allocated In Frame	31566.978	34515.000	95291.000
+overview_running_x1	Mesh Memory	582948621.333	582948942.000	582948942.000
+overview_running_x1	Texture Memory	898622566.000	898622566.000	898622566.000
+overview_running_x1	Total Used Memory	4747183159.289	4756930649.000	4762957334.000
+overview_running_x1	GC Used Memory	1287841473.422	1288798208.000	1288888320.000
+overview_running_x4	Frame ms	26.795	29.566	30.595
+overview_running_x4	Main Thread	26777386.667	29614300.000	30754200.000
+overview_running_x4	GPU Frame Time	8609777.778	10545152.000	10782720.000
+overview_running_x4	CPU Main Thread Frame Time	23838935.556	26616200.000	27341000.000
+overview_running_x4	CPU Render Thread Frame Time	10220276.667	13810800.000	16335700.000
+overview_running_x4	Draw Calls Count	62389.300	65993.000	66893.000
+overview_running_x4	SetPass Calls Count	100.078	101.000	101.000
+overview_running_x4	Triangles Count	15419867.511	17039829.000	17229083.000
+overview_running_x4	Vertices Count	24077006.500	25951025.000	26665906.000
+overview_running_x4	Batches Count	57805.533	62046.000	64920.000
+overview_running_x4	GC Allocated In Frame	105808.211	34605.000	4184541.000
+overview_running_x4	Mesh Memory	582948961.733	582949386.000	582949386.000
+overview_running_x4	Texture Memory	898622566.000	898622566.000	898622566.000
+overview_running_x4	Total Used Memory	4750861547.156	4757940361.000	4763213494.000
+overview_running_x4	GC Used Memory	1294542483.911	1297039360.000	1297137664.000
+close_stopped	Frame ms	16.624	19.572	22.265
+close_stopped	Main Thread	16622778.889	19654400.000	21750200.000
+close_stopped	GPU Frame Time	5388765.867	6289408.000	6516736.000
+close_stopped	CPU Main Thread Frame Time	13317552.222	16103300.000	17344500.000
+close_stopped	CPU Render Thread Frame Time	6591582.211	8840900.000	10149000.000
+close_stopped	Draw Calls Count	37916.867	39952.000	40204.000
+close_stopped	SetPass Calls Count	59.744	60.000	60.000
+close_stopped	Triangles Count	7373885.122	7844345.000	7963220.000
+close_stopped	Vertices Count	13238971.856	14290821.000	14419031.000
+close_stopped	Batches Count	34946.256	37799.000	38967.000
+close_stopped	GC Allocated In Frame	30596.222	34515.000	34605.000
+close_stopped	Mesh Memory	582943170.000	582943170.000	582943170.000
+close_stopped	Texture Memory	898622566.000	898622566.000	898622566.000
+close_stopped	Total Used Memory	4709648997.911	4713730681.000	4718666461.000
+close_stopped	GC Used Memory	1298709936.356	1299718144.000	1299824640.000
+hide_visual_train	Frame ms	47.600	51.539	57.319
+hide_visual_train	Main Thread	47585957.778	51865200.000	52945100.000
+hide_visual_train	GPU Frame Time	7480411.022	13630464.000	14558208.000
+hide_visual_train	CPU Main Thread Frame Time	23476908.889	26285700.000	29481500.000
+hide_visual_train	CPU Render Thread Frame Time	9664721.089	14870200.000	17563400.000
+hide_visual_train	Draw Calls Count	62927.600	66681.000	67494.000
+hide_visual_train	SetPass Calls Count	61.844	62.000	62.000
+hide_visual_train	Triangles Count	15389323.722	16973865.000	17295276.000
+hide_visual_train	Vertices Count	23742572.522	26188347.000	26786072.000
+hide_visual_train	Batches Count	58395.722	64655.000	66198.000
+hide_visual_train	GC Allocated In Frame	106219.400	34837.000	6766443.000
+hide_visual_train	Mesh Memory	582943170.000	582943170.000	582943170.000
+hide_visual_train	Texture Memory	898622566.000	898622566.000	898622566.000
+hide_visual_train	Total Used Memory	4760042169.511	4773209945.000	4778879204.000
+hide_visual_train	GC Used Memory	1306692585.244	1308557312.000	1308663808.000
+hide_visual_terrain	Frame ms	47.955	52.880	55.864
+hide_visual_terrain	Main Thread	47869233.333	51830500.000	56434100.000
+hide_visual_terrain	GPU Frame Time	7931665.067	15032320.000	15624192.000
+hide_visual_terrain	CPU Main Thread Frame Time	23725820.000	26792800.000	29981500.000
+hide_visual_terrain	CPU Render Thread Frame Time	9700339.989	14310000.000	14968700.000
+hide_visual_terrain	Draw Calls Count	62563.844	66564.000	67357.000
+hide_visual_terrain	SetPass Calls Count	59.667	60.000	60.000
+hide_visual_terrain	Triangles Count	15155544.956	16882071.000	17151010.000
+hide_visual_terrain	Vertices Count	23642886.489	26095069.000	26699299.000
+hide_visual_terrain	Batches Count	57956.089	63600.000	65364.000
+hide_visual_terrain	GC Allocated In Frame	106217.044	34933.000	6761847.000
+hide_visual_terrain	Mesh Memory	582943170.000	582943170.000	582943170.000
+hide_visual_terrain	Texture Memory	898622566.000	898622566.000	898622566.000
+hide_visual_terrain	Total Used Memory	4769199619.656	4786822335.000	4790194592.000
+hide_visual_terrain	GC Used Memory	1315840910.222	1317462016.000	1317568512.000
+hide_visual_nature	Frame ms	46.196	50.585	52.410
+hide_visual_nature	Main Thread	46153241.111	50170700.000	52570200.000
+hide_visual_nature	GPU Frame Time	7579306.644	13835264.000	14147584.000
+hide_visual_nature	CPU Main Thread Frame Time	22919902.222	26414100.000	29367500.000
+hide_visual_nature	CPU Render Thread Frame Time	9380881.111	14166400.000	15037200.000
+hide_visual_nature	Draw Calls Count	62577.200	66873.000	67502.000
+hide_visual_nature	SetPass Calls Count	61.833	62.000	62.000
+hide_visual_nature	Triangles Count	12679863.956	14519432.000	14605843.000
+hide_visual_nature	Vertices Count	17937559.600	20239055.000	20576775.000
+hide_visual_nature	Batches Count	58005.400	65292.000	66817.000
+hide_visual_nature	GC Allocated In Frame	106455.944	35885.000	4272741.000
+hide_visual_nature	Mesh Memory	582943170.000	582943170.000	582943170.000
+hide_visual_nature	Texture Memory	898622566.000	898622566.000	898622566.000
+hide_visual_nature	Total Used Memory	4778279094.900	4793032108.000	4798034289.000
+hide_visual_nature	GC Used Memory	1324991738.311	1326366720.000	1326477312.000
+hide_visual_rail	Frame ms	21.343	23.459	25.526
+hide_visual_rail	Main Thread	21326631.111	23717100.000	24573300.000
+hide_visual_rail	GPU Frame Time	3519499.378	5769216.000	6112256.000
+hide_visual_rail	CPU Main Thread Frame Time	2234027.689	3497800.000	4838000.000
+hide_visual_rail	CPU Render Thread Frame Time	920529.967	1142900.000	1256800.000
+hide_visual_rail	Draw Calls Count	1331.733	1342.000	1344.000
+hide_visual_rail	SetPass Calls Count	34.878	35.000	35.000
+hide_visual_rail	Triangles Count	9868868.633	10016383.000	10028904.000
+hide_visual_rail	Vertices Count	14257680.389	14510027.000	14534611.000
+hide_visual_rail	Batches Count	1303.878	1332.000	1336.000
+hide_visual_rail	GC Allocated In Frame	105958.167	34747.000	6760799.000
+hide_visual_rail	Mesh Memory	582943170.000	582943170.000	582943170.000
+hide_visual_rail	Texture Memory	898622566.000	898622566.000	898622566.000
+hide_visual_rail	Total Used Memory	4696841445.078	4698862271.000	4699018090.000
+hide_visual_rail	GC Used Memory	1333732056.178	1336393728.000	1336508416.000
+hide_visual_bridge	Frame ms	44.857	49.173	55.306
+hide_visual_bridge	Main Thread	44814623.333	47869900.000	55634400.000
+hide_visual_bridge	GPU Frame Time	7680284.444	14071808.000	14388224.000
+hide_visual_bridge	CPU Main Thread Frame Time	22987300.000	26703200.000	33536400.000
+hide_visual_bridge	CPU Render Thread Frame Time	9237622.211	15021300.000	15481500.000
+hide_visual_bridge	Draw Calls Count	61790.878	65408.000	66803.000
+hide_visual_bridge	SetPass Calls Count	59.811	60.000	60.000
+hide_visual_bridge	Triangles Count	15220201.033	16895752.000	17085415.000
+hide_visual_bridge	Vertices Count	23707651.067	26100549.000	26364222.000
+hide_visual_bridge	Batches Count	57428.156	61900.000	65138.000
+hide_visual_bridge	GC Allocated In Frame	106216.044	34843.000	6760799.000
+hide_visual_bridge	Mesh Memory	582943170.000	582943170.000	582943170.000
+hide_visual_bridge	Texture Memory	898622566.000	898622566.000	898622566.000
+hide_visual_bridge	Total Used Memory	4795310792.878	4810301073.000	4812195330.000
+hide_visual_bridge	GC Used Memory	1340524544.000	1346392064.000	1346510848.000
+hide_visual_tunnel	Frame ms	44.142	47.235	49.917
+hide_visual_tunnel	Main Thread	44052993.333	47761300.000	50086600.000
+hide_visual_tunnel	GPU Frame Time	8377856.000	13615104.000	14044160.000
+hide_visual_tunnel	CPU Main Thread Frame Time	22675755.556	25785500.000	28112300.000
+hide_visual_tunnel	CPU Render Thread Frame Time	9287332.222	13737700.000	15165900.000
+hide_visual_tunnel	Draw Calls Count	62192.778	65312.000	66063.000
+hide_visual_tunnel	SetPass Calls Count	61.700	62.000	62.000
+hide_visual_tunnel	Triangles Count	15288522.711	16942526.000	17143604.000
+hide_visual_tunnel	Vertices Count	23829884.722	26378642.000	26551905.000
+hide_visual_tunnel	Batches Count	58111.322	63315.000	63845.000
+hide_visual_tunnel	GC Allocated In Frame	106457.811	35795.000	6761847.000
+hide_visual_tunnel	Mesh Memory	582943170.000	582943170.000	582943170.000
+hide_visual_tunnel	Texture Memory	898622566.000	898622566.000	898622566.000
+hide_visual_tunnel	Total Used Memory	4804131715.500	4822771471.000	4823679790.000
+hide_visual_tunnel	GC Used Memory	1350317533.867	1356361728.000	1356484608.000
+hide_visual_station	Frame ms	40.065	44.495	45.912
+hide_visual_station	Main Thread	40033383.333	44627100.000	46027800.000
+hide_visual_station	GPU Frame Time	7491037.856	12648448.000	13917184.000
+hide_visual_station	CPU Main Thread Frame Time	20751780.000	23681900.000	25374400.000
+hide_visual_station	CPU Render Thread Frame Time	8785355.533	12454900.000	34030100.000
+hide_visual_station	Draw Calls Count	62249.533	65777.000	66856.000
+hide_visual_station	SetPass Calls Count	57.611	58.000	58.000
+hide_visual_station	Triangles Count	14941303.689	16718732.000	17014087.000
+hide_visual_station	Vertices Count	23643071.411	25936557.000	26555920.000
+hide_visual_station	Batches Count	58015.444	63081.000	64544.000
+hide_visual_station	GC Allocated In Frame	106157.911	34843.000	6761191.000
+hide_visual_station	Mesh Memory	582943170.000	582943170.000	582943170.000
+hide_visual_station	Texture Memory	898622566.000	898622566.000	898622566.000
+hide_visual_station	Total Used Memory	4815539747.511	4830051499.000	4856233775.000
+hide_visual_station	GC Used Memory	1359526752.711	1366552576.000	1366671360.000
+hide_visual_khac	Frame ms	36.798	40.065	42.681
+hide_visual_khac	Main Thread	36778176.667	40225500.000	42185900.000
+hide_visual_khac	GPU Frame Time	6589678.933	11002880.000	11146240.000
+hide_visual_khac	CPU Main Thread Frame Time	19021388.889	22266200.000	23901800.000
+hide_visual_khac	CPU Render Thread Frame Time	7849594.422	10592300.000	13061700.000
+hide_visual_khac	Draw Calls Count	61632.589	66154.000	67540.000
+hide_visual_khac	SetPass Calls Count	61.800	62.000	62.000
+hide_visual_khac	Triangles Count	15161650.800	16977960.000	17320512.000
+hide_visual_khac	Vertices Count	23371700.867	26332350.000	26860022.000
+hide_visual_khac	Batches Count	57123.400	64259.000	66361.000
+hide_visual_khac	GC Allocated In Frame	31259.733	34747.000	35885.000
+hide_visual_khac	Mesh Memory	582943170.000	582943170.000	582943170.000
+hide_visual_khac	Texture Memory	898622566.000	898622566.000	898622566.000
+hide_visual_khac	Total Used Memory	4824117203.922	4841800926.000	4850965327.000
+hide_visual_khac	GC Used Memory	1369055004.444	1370247168.000	1370365952.000

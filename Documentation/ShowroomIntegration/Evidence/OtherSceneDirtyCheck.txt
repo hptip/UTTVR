@@ -1,0 +1,3 @@
+Scene=Assets/ProjectLopHoc/Scenes/QuanLyVongDoiTaiSan.unity; diagnostic serialization copy=True; source still dirty=True
+Exact source/copy byte equality=True
+Cleared only neutral dirty flag after exact equality; original file was not saved or changed.

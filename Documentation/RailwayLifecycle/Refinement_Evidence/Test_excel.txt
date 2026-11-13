@@ -1,0 +1,12 @@
+PASS | Export contains all six stage sheets
+PASS | Runtime XLSX roundtrip validates: Cập nhật: 19; mới: 0; trường mới: 0; ID không có mô hình: 0; lỗi: 0
+Ô trống giữ nguyên dữ liệu; Apply dùng đúng nội dung đã preview.
+PASS | Unchanged workbook reimport creates no history duplicates
+PASS | Preview does not write SQLite
+PASS | Confirm updates only specified asset and stage
+PASS | Blank stage cells retain existing values
+PASS | Reject duplicate AssetID+StageKey
+PASS | Reject wrong StageKey for sheet
+PASS | Reject invalid stage field type
+PASS | No new C# runtime errors
+DONE excel

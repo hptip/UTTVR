@@ -1,0 +1,23 @@
+PASS | Six independent stage records for every existing asset
+PASS | Migration preserves foreign keys
+PASS | Idempotent seed also initializes subsequently added test registry rows
+PASS | Fields available: Z021-TR-S001-B001-C001 / Quy hoạch
+PASS | Fields available: Z021-TR-S001-B001-C001 / Thiết kế
+PASS | Fields available: Z021-TR-S001-B001-C001 / Thi công
+PASS | Fields available: Z021-TR-S001-B001-C001 / Vận hành
+PASS | Fields available: Z021-TR-S001-B001-C001 / Bảo trì
+PASS | Fields available: Z021-TR-S001-B001-C001 / Nâng cấp
+PASS | Fields available: Z021-TR-S001-B001-C002 / Quy hoạch
+PASS | Fields available: Z021-TR-S001-B001-C002 / Thiết kế
+PASS | Fields available: Z021-TR-S001-B001-C002 / Thi công
+PASS | Fields available: Z021-TR-S001-B001-C002 / Vận hành
+PASS | Fields available: Z021-TR-S001-B001-C002 / Bảo trì
+PASS | Fields available: Z021-TR-S001-B001-C002 / Nâng cấp
+PASS | Asset A planning change leaves asset B and design stage unchanged
+PASS | Unchanged stage save adds no duplicate history
+PASS | Reject future actual upgrade date
+PASS | Reject nonnumeric budget
+PASS | Stage schema rejects unknown field
+PASS | Legacy inspection and maintenance preserved
+PASS | No new C# runtime errors
+DONE stages

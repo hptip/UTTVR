@@ -1,0 +1,15 @@
+PASS | BimHeader removed from saved scene
+PASS | StatusFooter replaces header at top of desktop UI
+PASS | Context and hide-UI references preserved in compact footer
+PASS | Commands above model area without overlap with top status
+PASS | Status updates still reach relocated text
+PASS | Relocated detail button still works
+PASS | Relocated back button still works
+PASS | VR keeps three panels without duplicate canvas
+PASS | Command canvas is above head-level model view
+PASS | Relocated status is visible in VR, not left under disabled desktop canvas
+PASS | VR status and command rows have separate vertical areas
+PASS | Desktop hierarchy restored after VR toggle
+PASS | Top status position survives VR toggle
+PASS | No new C# runtime errors
+DONE topbar

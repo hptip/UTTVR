@@ -1,0 +1,53 @@
+PASS | Merged Showroom starts independently in Play Mode
+PASS | Exactly one XR Origin and EventSystem
+PASS | Exactly one active AudioListener
+PASS | Display does not run the copied route streamer
+PASS | Eight display layers and miniature train cars resolve
+PASS | Four existing train interactions retained
+PASS | Existing popup opens correct data: RiyadhMetro_D
+PASS | Existing popup closes: RiyadhMetro_D
+PASS | Existing popup opens correct data: glink_tram_skecthfab
+PASS | Existing popup closes: glink_tram_skecthfab
+PASS | Existing popup opens correct data: sydney_metro_jotrain
+PASS | Existing popup closes: sydney_metro_jotrain
+PASS | Existing popup opens correct data: McFace
+PASS | Existing popup closes: McFace
+PASS | Four new museum labels instantiated
+PASS | Layer button bound: train
+PASS | Layer toggles: train
+PASS | Layer restores: train
+PASS | Layer button bound: terrain
+PASS | Layer toggles: terrain
+PASS | Layer restores: terrain
+PASS | Layer button bound: nature
+PASS | Layer toggles: nature
+PASS | Layer restores: nature
+PASS | Layer button bound: rail
+PASS | Layer toggles: rail
+PASS | Layer restores: rail
+PASS | Layer button bound: bridge
+PASS | Layer toggles: bridge
+PASS | Layer restores: bridge
+PASS | Layer button bound: tunnel
+PASS | Layer toggles: tunnel
+PASS | Layer restores: tunnel
+PASS | Layer button bound: station
+PASS | Layer toggles: station
+PASS | Layer restores: station
+PASS | Layer button bound: khac
+PASS | Layer toggles: khac
+PASS | Layer restores: khac
+PASS | Speed x1 changes setting without starting stopped train
+PASS | Speed x2 changes setting without starting stopped train
+PASS | Speed x3 changes setting without starting stopped train
+PASS | Speed x4 changes setting without starting stopped train
+PASS | Display Play button starts train
+PASS | Train actually moves over time on its copied spline
+PASS | Display Pause button stops running state
+PASS | Train settles and holds position while paused
+PASS | Reset returns miniature train to its start
+PASS | Robot interaction opens the new chatbot
+PASS | Send/input/bubble/response pipeline works with an explicitly local test provider; no external API call
+PASS | Chat clear button clears input
+PASS | Chat close button closes panel
+Ray interaction is validated separately; this is not a full-session success claim.

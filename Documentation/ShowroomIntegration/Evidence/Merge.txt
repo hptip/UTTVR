@@ -1,0 +1,20 @@
+KEPT_CURRENT_LIGHTING: omitted extra global directional light
+ADDED_BRANCH: Door/Classroom_SignBoard (1)
+ADDED_BRANCH: Door/LogoUTT (1)
+ADDED_BRANCH: AIChatbot_Prefab
+ADDED_BRANCH: EBS LR 49E1-MS 1:40 Skl/Ray
+ADDED_BRANCH: Museum Label Stand
+ADDED_BRANCH: Museum Label Stand
+ADDED_BRANCH: Museum Label Stand
+ADDED_BRANCH: Museum Label Stand
+ADDED_BRANCH: SaBan_YenTuHaLongMain
+ADDED_COMPONENT: Robot / RobotInteraction
+KEPT_CURRENT_INPUT_MODULE: InputSystemUIInputModule
+MINIATURE: only copied legacy runtime systems disabled=18; copied model colliders disabled=30; modelScale=0.002190031; fitted within table (50.00, 18.00); new display positioned in front free area
+LABEL_ALIGNED: Tàu điện ngầm Riyadh Metro -> RiyadhMetro_D
+LABEL_ALIGNED: Tàu điện mặt đất G:link -> glink_tram_skecthfab
+LABEL_ALIGNED: Tàu điện ngầm Sydney Metro -> sydney_metro_jotrain
+LABEL_ALIGNED: Tàu điện liên tỉnh Trainy McTrainface -> McFace
+PASS: original 417 objects and all existing component serialized values unchanged
+PASS: no new-content references to staging scene; one existing EventSystem/input module retained
+Saved=Assets/ProjectLopHoc/Scenes/Showroom.unity

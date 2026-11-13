@@ -1,0 +1,50 @@
+PASS | Merged Showroom starts independently in Play Mode
+PASS | Exactly one XR Origin and EventSystem
+PASS | Exactly one active AudioListener
+PASS | Display does not run the copied route streamer
+PASS | Eight display layers and miniature train cars resolve
+PASS | Existing Scene Menu closed before new UI ray interaction
+PASS | Uses the existing rig interactor: NearFarInteractor
+RAY | interactor=XR Origin (VR)/Camera Offset/Right Controller/Near-Far Interactor; active=True; hit=Btn_Play; eye=(19.37, 1.38, -28.03); canvas=SaBan_ControlPanel
+PASS | Actual XR ray hits new UI button: Btn_Play
+PASS | XR disables only copied panel's FPS colliders to avoid double activation
+PASS | Actual XR UI trigger starts the miniature train once
+RAY | interactor=XR Origin (VR)/Camera Offset/Right Controller/Near-Far Interactor; active=True; hit=ClearButton; eye=(19.37, 1.38, -28.03); canvas=Canvas
+PASS | Actual XR ray hits new UI button: ClearButton
+PASS | XR ray clicks chatbot clear button
+RAY | interactor=XR Origin (VR)/Camera Offset/Right Controller/Near-Far Interactor; active=True; hit=Label; eye=(19.37, 1.38, -28.03); canvas=Canvas
+PASS | Actual XR ray hits new UI button: CloseButton
+PASS | XR ray closes chatbot
+PASS | No real route or zone scenes loaded by display
+PASS | Exactly one optimized existing rail layer; 49,074 original sources retained
+PASS | Instanced sources do not render twice in Play Mode
+PASS | BIM component metadata popup: Railing:MB-EBS-DRW-003_00 EBS LR 49E1-MS 140 Skl Track:311281
+PASS | BIM component metadata popup: Railing:MB-EBS-DRW-003_00 EBS LR 49E1-MS 140 Skl Track:311281
+PASS | BIM component metadata popup: Railing:MB-EBS-DRW-003_00 EBS LR 49E1-MS 140 Skl Track:311281
+PASS | BIM component metadata popup: Railing:MB-EBS-DRW-003_00 EBS LR 49E1-MS 140 Skl Track:311281
+PASS | BIM component metadata popup: Railing:MB-EBS-DRW-003_00 EBS LR 49E1-MS 140 Skl Track:311281
+PASS | BIM component metadata popup: Railing:MB-EBS-DRW-003_00 EBS LR 49E1-MS 140 Skl Track:311281
+PASS | BIM component metadata popup: Railing:MB-EBS-DRW-003_00 EBS LR 49E1-MS 140 Skl Track:311281
+PASS | BIM component metadata popup: Railing:MB-EBS-DRW-003_00 EBS LR 49E1-MS 140 Skl Track:311281
+PASS | BIM component metadata popup: Railing:MB-EBS-DRW-003_00 EBS LR 49E1-MS 140 Skl Track:311281
+PASS | Floating information board built: Ray
+PASS | Combined running visibility sequence: nature; callback ms=0.358
+PASS | Combined running visibility sequence: rail; callback ms=29.005
+PASS | Combined running visibility sequence: nature; callback ms=0.231
+PASS | Combined running visibility sequence: train; callback ms=0.611
+PASS | Combined running visibility sequence: rail; callback ms=90.369
+PASS | Combined running visibility sequence: train; callback ms=1.273
+PASS | Reducing speed preserves running state after mixed layer sequence
+PASS | All eight independent layers restored after sequence
+PASS | Repeated visibility toggles do not re-enable original duplicated renderers
+PASS | Train can resume after pause
+PASS | Scene Menu can open
+PASS | Scene Menu can close
+RAY | interactor=XR Origin (VR)/Camera Offset/Right Controller/Near-Far Interactor; active=True; hit=Close_Btn; eye=(19.37, 1.38, -28.03); canvas=TrainInfo
+PASS | Actual XR ray hits new UI button: Close_Btn
+PASS | Actual XR trigger closes train information popup
+PASS | No Console errors during popup test
+PASS | Restoring GPU instancing after exact bridge A/B images does not duplicate sources
+PASS | No Console errors during optimized functional/ray/bridge image test
+DONE PASS
+NOT TESTED | Physical Quest, live AI/STT/TTS, multiple real multiplayer clients, doorway scene transition.
