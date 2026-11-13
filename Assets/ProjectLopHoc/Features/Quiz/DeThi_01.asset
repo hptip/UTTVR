@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d28084cc82390e4ebc685a0db1c487e, type: 3}
+  m_Name: DeThi_01
+  m_EditorClassIdentifier: Assembly-CSharp::ProjectLopHoc.Features.Quiz.QuizSO
+  quizName: "\u0110\u1EC1 thi 1"
+  questions:
+  - questionText: "C\xE2u 1: N\u1ED9i dung c\xE2u h\u1ECFi?"
+    options:
+    - "\u0110\xE1p \xE1n 1"
+    - "\u0110\xE1p \xE1n \u0111\xFAng"
+    - "\u0110\xE1p \xE1n 3"
+    - "\u0110\xE1p \xE1n 4"
+    correctIndex: 1
+  - questionText: "C\xE2u 2: N\u1ED9i dung c\xE2u h\u1ECFi?"
+    options:
+    - "\u0110\xE1p \xE1n 1"
+    - "\u0110\xE1p \xE1n \u0111\xFAng"
+    - "\u0110\xE1p \xE1n 3"
+    - "\u0110\xE1p \xE1n 4"
+    correctIndex: 1
+  - questionText: "C\xE2u 3: N\u1ED9i dung c\xE2u h\u1ECFi?"
+    options:
+    - "\u0110\xE1p \xE1n 1"
+    - "\u0110\xE1p \xE1n \u0111\xFAng"
+    - "\u0110\xE1p \xE1n 3"
+    - "\u0110\xE1p \xE1n 4"
+    correctIndex: 1

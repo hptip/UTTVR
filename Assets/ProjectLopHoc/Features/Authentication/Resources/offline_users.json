@@ -1,0 +1,31 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "full_name": "Quản Trị Viên Hệ Thống",
+      "role": "admin",
+      "salt": "Hub2u2psGUyibmT8VDJuIA==",
+      "passwordHash": "NMB6mmYluVoZSU777FKVnQmkbqG5/ivfDnoCyMiZ7sc=",
+      "iterations": 210000
+    },
+    {
+      "id": 2,
+      "username": "gv01",
+      "full_name": "Thầy Cương",
+      "role": "teacher",
+      "salt": "TPg3sLzUF6q3ZErp2mE1rw==",
+      "passwordHash": "6rVPVSfSXFJMxH3+IRJPlCYH2k9qdqj+UJ9bYSc9XMs=",
+      "iterations": 210000
+    },
+    {
+      "id": 3,
+      "username": "sv01",
+      "full_name": "Nguyễn Văn A (K74)",
+      "role": "student",
+      "salt": "7OFLzu/J9DyqUDbPTAwOKg==",
+      "passwordHash": "uIVb7jsmDKDLMnFHa6gaxb2GoOioY6TGacyBybdKOnI=",
+      "iterations": 210000
+    }
+  ]
+}

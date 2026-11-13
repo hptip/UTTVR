@@ -1,0 +1,15 @@
+{
+  "oldLength": 28810.337890625,
+  "start": 5199.99853515625,
+  "end": 13199.98828125,
+  "length": 7999.98291015625,
+  "firstZone": 10,
+  "lastZone": 26,
+  "railChunks": 162,
+  "environmentZones": 17,
+  "trees": 148,
+  "renderers": 0,
+  "colliders": 0,
+  "bridgeStart": 3650.00146484375,
+  "bridgeEnd": 4770.00146484375
+}

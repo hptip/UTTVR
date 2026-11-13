@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848169e93fa78284f97e07c3253113e6, type: 3}
+  m_Name: Classroom_01_Config
+  m_EditorClassIdentifier: Assembly-CSharp::ProjectLopHoc.Core.ScriptableObjects.ClassroomConfigSO
+  classroomId: ROOM_101
+  classroomName: "Ph\xF2ng h\u1ECDc L\xFD thuy\u1EBFt & Th\u1EF1c h\xE0nh \u0110\u01B0\u1EDDng
+    s\u1EAFt"
+  maxStudents: 30
+  slideImages: []
+  lecturerSecretPin: 123456

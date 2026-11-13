@@ -1,0 +1,15 @@
+{
+    "sourceScene": "Assets/ProjectLopHoc/Scenes/YenTuHaLongXanh.unity",
+    "sourceZone": "Assets/ProjectLopHoc/Generated/RuntimeZones/Zone_021.unity",
+    "referenceScene": "Assets/ChiTietSaBan/ChiTiet/ChiTietSaBan.unity",
+    "modelID": "QLVDTS-Z021-R-M001",
+    "sourceWorldOrigin": {
+        "x": 10612.5595703125,
+        "y": 9.33166217803955,
+        "z": -1598.864013671875
+    },
+    "startChainage": 5300.0009765625,
+    "endChainage": 5800.0009765625,
+    "originalStartChainage": 10500.0,
+    "originalEndChainage": 11000.0
+}

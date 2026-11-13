@@ -1,0 +1,2610 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1a95d23ab527534ca2df1b16a949c69, type: 3}
+  m_Name: RailwayMicroChunks
+  m_EditorClassIdentifier: Assembly-CSharp::RailwayMicroChunkData
+  chunks:
+  - start: 0
+    end: 0.0007324219
+    right:
+      meshResource: YenTuQuestRails/R_0051_a
+      position: {x: 5133.6553, y: 9.331663, z: -611.0091}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0051_a
+      position: {x: 5134.51, y: 9.331662, z: -604.6664}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 0.0007324219
+    end: 0.0014648438
+    right:
+      meshResource: YenTuQuestRails/R_0051_b
+      position: {x: 5133.6553, y: 9.331663, z: -611.0091}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0051_b
+      position: {x: 5134.51, y: 9.331662, z: -604.6664}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 0.0014648438
+    end: 50.001465
+    right:
+      meshResource: YenTuQuestRails/R_0052_a
+      position: {x: 5232.7754, y: 9.331663, z: -624.3783}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0052_a
+      position: {x: 5233.631, y: 9.331664, z: -618.0357}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 50.001465
+    end: 100.001465
+    right:
+      meshResource: YenTuQuestRails/R_0052_b
+      position: {x: 5232.7754, y: 9.331663, z: -624.3783}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0052_b
+      position: {x: 5233.631, y: 9.331664, z: -618.0357}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 100.001465
+    end: 150.00146
+    right:
+      meshResource: YenTuQuestRails/R_0053_a
+      position: {x: 5331.896, y: 9.331662, z: -637.72217}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0053_a
+      position: {x: 5332.748, y: 9.331662, z: -631.37915}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 150.00146
+    end: 200.00146
+    right:
+      meshResource: YenTuQuestRails/R_0053_b
+      position: {x: 5331.896, y: 9.331662, z: -637.72217}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0053_b
+      position: {x: 5332.748, y: 9.331662, z: -631.37915}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 200.00146
+    end: 250.00146
+    right:
+      meshResource: YenTuQuestRails/R_0054_a
+      position: {x: 5431.018, y: 9.331662, z: -651.0157}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0054_a
+      position: {x: 5431.8667, y: 9.331662, z: -644.6722}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 250.00146
+    end: 300.00146
+    right:
+      meshResource: YenTuQuestRails/R_0054_b
+      position: {x: 5431.018, y: 9.331662, z: -651.0157}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0054_b
+      position: {x: 5431.8667, y: 9.331662, z: -644.6722}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 300.00146
+    end: 350.00146
+    right:
+      meshResource: YenTuQuestRails/R_0055_a
+      position: {x: 5530.1387, y: 9.331662, z: -664.25073}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0055_a
+      position: {x: 5530.984, y: 9.332775, z: -657.90674}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 350.00146
+    end: 400.00146
+    right:
+      meshResource: YenTuQuestRails/R_0055_b
+      position: {x: 5530.1387, y: 9.331662, z: -664.25073}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0055_b
+      position: {x: 5530.984, y: 9.332775, z: -657.90674}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 400.00146
+    end: 450.00146
+    right:
+      meshResource: YenTuQuestRails/R_0056_a
+      position: {x: 5629.26, y: 9.331662, z: -677.41846}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0056_a
+      position: {x: 5630.1, y: 9.331662, z: -671.07385}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 450.00146
+    end: 500.00146
+    right:
+      meshResource: YenTuQuestRails/R_0056_b
+      position: {x: 5629.26, y: 9.331662, z: -677.41846}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0056_b
+      position: {x: 5630.1, y: 9.331662, z: -671.07385}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 500.00146
+    end: 550.00146
+    right:
+      meshResource: YenTuQuestRails/R_0057_a
+      position: {x: 5728.3813, y: 9.331662, z: -690.51917}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0057_a
+      position: {x: 5729.2197, y: 9.331662, z: -684.17426}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 550.00146
+    end: 600.00146
+    right:
+      meshResource: YenTuQuestRails/R_0057_b
+      position: {x: 5728.3813, y: 9.331662, z: -690.51917}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0057_b
+      position: {x: 5729.2197, y: 9.331662, z: -684.17426}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 600.00146
+    end: 650.00146
+    right:
+      meshResource: YenTuQuestRails/R_0058_a
+      position: {x: 5827.502, y: 9.331662, z: -703.6724}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0058_a
+      position: {x: 5828.3486, y: 9.331662, z: -697.3286}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 650.00146
+    end: 700.00146
+    right:
+      meshResource: YenTuQuestRails/R_0058_b
+      position: {x: 5827.502, y: 9.331662, z: -703.6724}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0058_b
+      position: {x: 5828.3486, y: 9.331662, z: -697.3286}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 700.00146
+    end: 750.00146
+    right:
+      meshResource: YenTuQuestRails/R_0059_a
+      position: {x: 5926.6235, y: 9.331662, z: -716.99164}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0059_a
+      position: {x: 5927.483, y: 9.331662, z: -710.6496}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 750.00146
+    end: 800.00146
+    right:
+      meshResource: YenTuQuestRails/R_0059_b
+      position: {x: 5926.6235, y: 9.331662, z: -716.99164}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0059_b
+      position: {x: 5927.483, y: 9.331662, z: -710.6496}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 800.00146
+    end: 850.00146
+    right:
+      meshResource: YenTuQuestRails/R_0060_a
+      position: {x: 6025.694, y: 9.331662, z: -730.5969}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0060_a
+      position: {x: 6026.5776, y: 9.332773, z: -724.2582}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 850.00146
+    end: 900.00146
+    right:
+      meshResource: YenTuQuestRails/R_0060_b
+      position: {x: 6025.694, y: 9.331662, z: -730.5969}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0060_b
+      position: {x: 6026.5776, y: 9.332773, z: -724.2582}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 900.00146
+    end: 950.00146
+    right:
+      meshResource: YenTuQuestRails/R_0061_a
+      position: {x: 6124.717, y: 9.331661, z: -744.4985}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0061_a
+      position: {x: 6125.608, y: 9.331661, z: -738.1608}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 950.00146
+    end: 1000.00146
+    right:
+      meshResource: YenTuQuestRails/R_0061_b
+      position: {x: 6124.717, y: 9.331661, z: -744.4985}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0061_b
+      position: {x: 6125.608, y: 9.331661, z: -738.1608}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 1000.00146
+    end: 1050.0015
+    right:
+      meshResource: YenTuQuestRails/R_0062_a
+      position: {x: 6223.741, y: 9.331662, z: -758.4074}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0062_a
+      position: {x: 6224.6304, y: 9.331661, z: -752.06946}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 1050.0015
+    end: 1100.0015
+    right:
+      meshResource: YenTuQuestRails/R_0062_b
+      position: {x: 6223.741, y: 9.331662, z: -758.4074}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0062_b
+      position: {x: 6224.6304, y: 9.331661, z: -752.06946}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 1100.0015
+    end: 1150.0015
+    right:
+      meshResource: YenTuQuestRails/R_0063_a
+      position: {x: 6322.765, y: 9.331662, z: -772.2937}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0063_a
+      position: {x: 6323.652, y: 9.331661, z: -765.95544}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 1150.0015
+    end: 1200.0015
+    right:
+      meshResource: YenTuQuestRails/R_0063_b
+      position: {x: 6322.765, y: 9.331662, z: -772.2937}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0063_b
+      position: {x: 6323.652, y: 9.331661, z: -765.95544}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 1200.0015
+    end: 1250.0015
+    right:
+      meshResource: YenTuQuestRails/R_0064_a
+      position: {x: 6421.788, y: 9.331661, z: -786.0642}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0064_a
+      position: {x: 6422.6636, y: 9.331661, z: -779.7243}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 1250.0015
+    end: 1300.0015
+    right:
+      meshResource: YenTuQuestRails/R_0064_b
+      position: {x: 6421.788, y: 9.331661, z: -786.0642}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0064_b
+      position: {x: 6422.6636, y: 9.331661, z: -779.7243}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 1300.0015
+    end: 1350.0015
+    right:
+      meshResource: YenTuQuestRails/R_0065_a
+      position: {x: 6520.867, y: 9.331662, z: -799.648}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0065_a
+      position: {x: 6521.7314, y: 9.331662, z: -793.3066}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 1350.0015
+    end: 1400.0015
+    right:
+      meshResource: YenTuQuestRails/R_0065_b
+      position: {x: 6520.867, y: 9.331662, z: -799.648}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0065_b
+      position: {x: 6521.7314, y: 9.331662, z: -793.3066}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 1400.0015
+    end: 1450.0015
+    right:
+      meshResource: YenTuQuestRails/R_0066_a
+      position: {x: 6619.9883, y: 9.331662, z: -813.0802}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0066_a
+      position: {x: 6620.8438, y: 9.331662, z: -806.7376}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 1450.0015
+    end: 1500.0015
+    right:
+      meshResource: YenTuQuestRails/R_0066_b
+      position: {x: 6619.9883, y: 9.331662, z: -813.0802}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0066_b
+      position: {x: 6620.8438, y: 9.331662, z: -806.7376}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 1500.0015
+    end: 1550.0015
+    right:
+      meshResource: YenTuQuestRails/R_0067_a
+      position: {x: 6719.1084, y: 9.331662, z: -826.38605}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0067_a
+      position: {x: 6719.9565, y: 9.331664, z: -820.04254}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 1550.0015
+    end: 1600.0015
+    right:
+      meshResource: YenTuQuestRails/R_0067_b
+      position: {x: 6719.1084, y: 9.331662, z: -826.38605}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0067_b
+      position: {x: 6719.9565, y: 9.331664, z: -820.04254}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 1600.0015
+    end: 1650.0015
+    right:
+      meshResource: YenTuQuestRails/R_0068_a
+      position: {x: 6818.2295, y: 9.331662, z: -839.6354}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0068_a
+      position: {x: 6819.0776, y: 9.331662, z: -833.2918}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 1650.0015
+    end: 1700.0015
+    right:
+      meshResource: YenTuQuestRails/R_0068_b
+      position: {x: 6818.2295, y: 9.331662, z: -839.6354}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0068_b
+      position: {x: 6819.0776, y: 9.331662, z: -833.2918}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 1700.0015
+    end: 1750.0015
+    right:
+      meshResource: YenTuQuestRails/R_0069_a
+      position: {x: 6917.351, y: 9.331661, z: -852.8966}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0069_a
+      position: {x: 6918.2, y: 9.331662, z: -846.55316}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 1750.0015
+    end: 1800.0015
+    right:
+      meshResource: YenTuQuestRails/R_0069_b
+      position: {x: 6917.351, y: 9.331661, z: -852.8966}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0069_b
+      position: {x: 6918.2, y: 9.331662, z: -846.55316}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 1800.0015
+    end: 1850.0015
+    right:
+      meshResource: YenTuQuestRails/R_0070_a
+      position: {x: 7016.4717, y: 9.331662, z: -866.17676}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0070_a
+      position: {x: 7017.3223, y: 9.331662, z: -859.8335}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 1850.0015
+    end: 1900.0015
+    right:
+      meshResource: YenTuQuestRails/R_0070_b
+      position: {x: 7016.4717, y: 9.331662, z: -866.17676}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0070_b
+      position: {x: 7017.3223, y: 9.331662, z: -859.8335}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 1900.0015
+    end: 1950.0015
+    right:
+      meshResource: YenTuQuestRails/R_0071_a
+      position: {x: 7115.592, y: 9.331661, z: -879.48035}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0071_a
+      position: {x: 7116.444, y: 9.332774, z: -873.1373}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 1950.0015
+    end: 2000.0015
+    right:
+      meshResource: YenTuQuestRails/R_0071_b
+      position: {x: 7115.592, y: 9.331661, z: -879.48035}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0071_b
+      position: {x: 7116.444, y: 9.332774, z: -873.1373}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 2000.0015
+    end: 2050.0015
+    right:
+      meshResource: YenTuQuestRails/R_0072_a
+      position: {x: 7214.7134, y: 9.331663, z: -892.7835}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0072_a
+      position: {x: 7215.564, y: 9.331663, z: -886.4402}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 2050.0015
+    end: 2100.0015
+    right:
+      meshResource: YenTuQuestRails/R_0072_b
+      position: {x: 7214.7134, y: 9.331663, z: -892.7835}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0072_b
+      position: {x: 7215.564, y: 9.331663, z: -886.4402}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 2100.0015
+    end: 2150.0015
+    right:
+      meshResource: YenTuQuestRails/R_0073_a
+      position: {x: 7313.8345, y: 9.331662, z: -906.0541}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0073_a
+      position: {x: 7314.6826, y: 9.331662, z: -899.7106}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 2150.0015
+    end: 2200.0015
+    right:
+      meshResource: YenTuQuestRails/R_0073_b
+      position: {x: 7313.8345, y: 9.331662, z: -906.0541}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0073_b
+      position: {x: 7314.6826, y: 9.331662, z: -899.7106}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 2200.0015
+    end: 2250.0015
+    right:
+      meshResource: YenTuQuestRails/R_0074_a
+      position: {x: 7412.956, y: 9.331662, z: -919.2955}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0074_a
+      position: {x: 7413.8027, y: 9.331662, z: -912.95166}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 2250.0015
+    end: 2300.0015
+    right:
+      meshResource: YenTuQuestRails/R_0074_b
+      position: {x: 7412.956, y: 9.331662, z: -919.2955}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0074_b
+      position: {x: 7413.8027, y: 9.331662, z: -912.95166}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 2300.0015
+    end: 2350.0015
+    right:
+      meshResource: YenTuQuestRails/R_0075_a
+      position: {x: 7512.0767, y: 9.331662, z: -932.5165}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0075_a
+      position: {x: 7512.923, y: 9.332778, z: -926.1727}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 2350.0015
+    end: 2400.0015
+    right:
+      meshResource: YenTuQuestRails/R_0075_b
+      position: {x: 7512.0767, y: 9.331662, z: -932.5165}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0075_b
+      position: {x: 7512.923, y: 9.332778, z: -926.1727}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 2400.0015
+    end: 2450.0015
+    right:
+      meshResource: YenTuQuestRails/R_0076_a
+      position: {x: 7611.1978, y: 9.331662, z: -945.78784}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0076_a
+      position: {x: 7612.0503, y: 9.331662, z: -939.4449}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 2450.0015
+    end: 2500.0015
+    right:
+      meshResource: YenTuQuestRails/R_0076_b
+      position: {x: 7611.1978, y: 9.331662, z: -945.78784}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0076_b
+      position: {x: 7612.0503, y: 9.331662, z: -939.4449}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 2500.0015
+    end: 2550.0015
+    right:
+      meshResource: YenTuQuestRails/R_0077_a
+      position: {x: 7710.3184, y: 9.331663, z: -959.16064}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0077_a
+      position: {x: 7711.1772, y: 9.331663, z: -952.81854}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 2550.0015
+    end: 2600.0015
+    right:
+      meshResource: YenTuQuestRails/R_0077_b
+      position: {x: 7710.3184, y: 9.331663, z: -959.16064}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0077_b
+      position: {x: 7711.1772, y: 9.331663, z: -952.81854}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 2600.0015
+    end: 2650.0015
+    right:
+      meshResource: YenTuQuestRails/R_0078_a
+      position: {x: 7809.4395, y: 9.331662, z: -972.6435}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0078_a
+      position: {x: 7810.3057, y: 9.331662, z: -966.30237}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 2650.0015
+    end: 2700.0015
+    right:
+      meshResource: YenTuQuestRails/R_0078_b
+      position: {x: 7809.4395, y: 9.331662, z: -972.6435}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0078_b
+      position: {x: 7810.3057, y: 9.331662, z: -966.30237}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 2700.0015
+    end: 2750.0015
+    right:
+      meshResource: YenTuQuestRails/R_0079_a
+      position: {x: 7908.5156, y: 9.331662, z: -986.23175}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0079_a
+      position: {x: 7909.3877, y: 9.331662, z: -979.8914}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 2750.0015
+    end: 2800.0015
+    right:
+      meshResource: YenTuQuestRails/R_0079_b
+      position: {x: 7908.5156, y: 9.331662, z: -986.23175}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0079_b
+      position: {x: 7909.3877, y: 9.331662, z: -979.8914}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 2800.0015
+    end: 2850.0015
+    right:
+      meshResource: YenTuQuestRails/R_0080_a
+      position: {x: 8007.542, y: 9.331663, z: -999.8463}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0080_a
+      position: {x: 8008.413, y: 9.331663, z: -993.5058}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 2850.0015
+    end: 2900.0015
+    right:
+      meshResource: YenTuQuestRails/R_0080_b
+      position: {x: 8007.542, y: 9.331663, z: -999.8463}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0080_b
+      position: {x: 8008.413, y: 9.331663, z: -993.5058}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 2900.0015
+    end: 2950.0015
+    right:
+      meshResource: YenTuQuestRails/R_0081_a
+      position: {x: 8106.6006, y: 9.331662, z: -1013.44147}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0081_a
+      position: {x: 8107.47, y: 9.331663, z: -1007.10077}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 2950.0015
+    end: 3000.0015
+    right:
+      meshResource: YenTuQuestRails/R_0081_b
+      position: {x: 8106.6006, y: 9.331662, z: -1013.44147}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0081_b
+      position: {x: 8107.47, y: 9.331663, z: -1007.10077}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 3000.0015
+    end: 3050.0015
+    right:
+      meshResource: YenTuQuestRails/R_0082_a
+      position: {x: 8205.679, y: 9.331662, z: -1027.0118}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0082_a
+      position: {x: 8206.545, y: 9.332778, z: -1020.67084}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 3050.0015
+    end: 3100.0015
+    right:
+      meshResource: YenTuQuestRails/R_0082_b
+      position: {x: 8205.679, y: 9.331662, z: -1027.0118}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0082_b
+      position: {x: 8206.545, y: 9.332778, z: -1020.67084}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 3100.0015
+    end: 3150.0015
+    right:
+      meshResource: YenTuQuestRails/R_0083_a
+      position: {x: 8304.683, y: 9.331663, z: -1041.0057}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0083_a
+      position: {x: 8305.631, y: 9.332776, z: -1034.6763}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 3150.0015
+    end: 3200.0015
+    right:
+      meshResource: YenTuQuestRails/R_0083_b
+      position: {x: 8304.683, y: 9.331663, z: -1041.0057}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0083_b
+      position: {x: 8305.631, y: 9.332776, z: -1034.6763}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 3200.0015
+    end: 3250.0015
+    right:
+      meshResource: YenTuQuestRails/R_0084_a
+      position: {x: 8403.383, y: 9.331662, z: -1057.0591}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0084_a
+      position: {x: 8404.497, y: 9.331662, z: -1050.7567}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 3250.0015
+    end: 3300.0015
+    right:
+      meshResource: YenTuQuestRails/R_0084_b
+      position: {x: 8403.383, y: 9.331662, z: -1057.0591}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0084_b
+      position: {x: 8404.497, y: 9.331662, z: -1050.7567}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 3300.0015
+    end: 3350.0015
+    right:
+      meshResource: YenTuQuestRails/R_0085_a
+      position: {x: 8501.56, y: 9.331662, z: -1076.0647}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0085_a
+      position: {x: 8502.888, y: 9.331657, z: -1069.8041}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 3350.0015
+    end: 3400.0015
+    right:
+      meshResource: YenTuQuestRails/R_0085_b
+      position: {x: 8501.56, y: 9.331662, z: -1076.0647}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0085_b
+      position: {x: 8502.888, y: 9.331657, z: -1069.8041}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 3400.0015
+    end: 3450.0015
+    right:
+      meshResource: YenTuQuestRails/R_0086_a
+      position: {x: 8599.126, y: 9.331662, z: -1098.0265}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0086_a
+      position: {x: 8600.574, y: 9.331661, z: -1091.7925}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 3450.0015
+    end: 3500.0015
+    right:
+      meshResource: YenTuQuestRails/R_0086_b
+      position: {x: 8599.126, y: 9.331662, z: -1098.0265}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0086_b
+      position: {x: 8600.574, y: 9.331661, z: -1091.7925}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 3500.0015
+    end: 3550.0015
+    right:
+      meshResource: YenTuQuestRails/R_0087_a
+      position: {x: 8696.458, y: 9.331662, z: -1120.9113}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0087_a
+      position: {x: 8697.938, y: 9.331659, z: -1114.6848}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 3550.0015
+    end: 3600.0015
+    right:
+      meshResource: YenTuQuestRails/R_0087_b
+      position: {x: 8696.458, y: 9.331662, z: -1120.9113}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0087_b
+      position: {x: 8697.938, y: 9.331659, z: -1114.6848}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 3600.0015
+    end: 3650.0015
+    right:
+      meshResource: YenTuQuestRails/R_0088_a
+      position: {x: 8793.723, y: 9.331662, z: -1144.2776}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0088_a
+      position: {x: 8795.231, y: 9.331657, z: -1138.0577}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 3650.0015
+    end: 3700.0015
+    right:
+      meshResource: YenTuQuestRails/R_0088_b
+      position: {x: 8793.723, y: 9.331662, z: -1144.2776}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0088_b
+      position: {x: 8795.231, y: 9.331657, z: -1138.0577}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 3700.0015
+    end: 3750.0015
+    right:
+      meshResource: YenTuQuestRails/R_0089_a
+      position: {x: 8890.842, y: 9.331662, z: -1167.9525}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0089_a
+      position: {x: 8892.363, y: 9.33166, z: -1161.7361}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 3750.0015
+    end: 3800.0015
+    right:
+      meshResource: YenTuQuestRails/R_0089_b
+      position: {x: 8890.842, y: 9.331662, z: -1167.9525}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0089_b
+      position: {x: 8892.363, y: 9.33166, z: -1161.7361}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 3800.0015
+    end: 3850.0015
+    right:
+      meshResource: YenTuQuestRails/R_0090_a
+      position: {x: 8987.913, y: 9.331662, z: -1191.8032}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0090_a
+      position: {x: 8989.446, y: 9.331661, z: -1185.5895}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 3850.0015
+    end: 3900.0015
+    right:
+      meshResource: YenTuQuestRails/R_0090_b
+      position: {x: 8987.913, y: 9.331662, z: -1191.8032}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0090_b
+      position: {x: 8989.446, y: 9.331661, z: -1185.5895}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 3900.0015
+    end: 3950.0015
+    right:
+      meshResource: YenTuQuestRails/R_0091_a
+      position: {x: 9084.984, y: 9.331663, z: -1215.8268}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0091_a
+      position: {x: 9086.526, y: 9.331662, z: -1209.6151}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 3950.0015
+    end: 4000.0015
+    right:
+      meshResource: YenTuQuestRails/R_0091_b
+      position: {x: 9084.984, y: 9.331663, z: -1215.8268}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0091_b
+      position: {x: 9086.526, y: 9.331662, z: -1209.6151}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 4000.0015
+    end: 4050.0015
+    right:
+      meshResource: YenTuQuestRails/R_0092_a
+      position: {x: 9182.055, y: 9.331663, z: -1239.8676}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0092_a
+      position: {x: 9183.589, y: 9.331664, z: -1233.6542}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 4050.0015
+    end: 4100.0015
+    right:
+      meshResource: YenTuQuestRails/R_0092_b
+      position: {x: 9182.055, y: 9.331663, z: -1239.8676}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0092_b
+      position: {x: 9183.589, y: 9.331664, z: -1233.6542}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 4100.0015
+    end: 4150.0015
+    right:
+      meshResource: YenTuQuestRails/R_0093_a
+      position: {x: 9279.125, y: 9.331662, z: -1263.7543}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0093_a
+      position: {x: 9280.649, y: 9.331661, z: -1257.5386}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 4150.0015
+    end: 4200.0015
+    right:
+      meshResource: YenTuQuestRails/R_0093_b
+      position: {x: 9279.125, y: 9.331662, z: -1263.7543}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0093_b
+      position: {x: 9280.649, y: 9.331661, z: -1257.5386}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 4200.0015
+    end: 4250.0015
+    right:
+      meshResource: YenTuQuestRails/R_0094_a
+      position: {x: 9376.197, y: 9.331662, z: -1287.4893}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0094_a
+      position: {x: 9377.713, y: 9.331663, z: -1281.2712}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 4250.0015
+    end: 4300.0015
+    right:
+      meshResource: YenTuQuestRails/R_0094_b
+      position: {x: 9376.197, y: 9.331662, z: -1287.4893}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0094_b
+      position: {x: 9377.713, y: 9.331663, z: -1281.2712}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 4300.0015
+    end: 4350.0015
+    right:
+      meshResource: YenTuQuestRails/R_0095_a
+      position: {x: 9473.413, y: 9.331662, z: -1311.0791}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0095_a
+      position: {x: 9474.915, y: 9.332767, z: -1304.8579}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 4350.0015
+    end: 4400.0015
+    right:
+      meshResource: YenTuQuestRails/R_0095_b
+      position: {x: 9473.413, y: 9.331662, z: -1311.0791}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0095_b
+      position: {x: 9474.915, y: 9.332767, z: -1304.8579}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 4400.0015
+    end: 4450.0015
+    right:
+      meshResource: YenTuQuestRails/R_0096_a
+      position: {x: 9570.678, y: 9.331663, z: -1334.4315}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0096_a
+      position: {x: 9572.164, y: 9.331664, z: -1328.2063}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 4450.0015
+    end: 4500.0015
+    right:
+      meshResource: YenTuQuestRails/R_0096_b
+      position: {x: 9570.678, y: 9.331663, z: -1334.4315}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0096_b
+      position: {x: 9572.164, y: 9.331664, z: -1328.2063}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 4500.0015
+    end: 4550.0015
+    right:
+      meshResource: YenTuQuestRails/R_0097_a
+      position: {x: 9667.944, y: 9.331662, z: -1357.4995}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0097_a
+      position: {x: 9669.415, y: 9.331663, z: -1351.271}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 4550.0015
+    end: 4600.0015
+    right:
+      meshResource: YenTuQuestRails/R_0097_b
+      position: {x: 9667.944, y: 9.331662, z: -1357.4995}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0097_b
+      position: {x: 9669.415, y: 9.331663, z: -1351.271}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 4600.0015
+    end: 4650.0015
+    right:
+      meshResource: YenTuQuestRails/R_0098_a
+      position: {x: 9765.21, y: 9.331663, z: -1380.647}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0098_a
+      position: {x: 9766.707, y: 9.331654, z: -1374.4246}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 4650.0015
+    end: 4700.0015
+    right:
+      meshResource: YenTuQuestRails/R_0098_b
+      position: {x: 9765.21, y: 9.331663, z: -1380.647}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0098_b
+      position: {x: 9766.707, y: 9.331654, z: -1374.4246}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 4700.0015
+    end: 4750.0015
+    right:
+      meshResource: YenTuQuestRails/R_0099_a
+      position: {x: 9862.363, y: 9.331663, z: -1404.3092}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0099_a
+      position: {x: 9863.8955, y: 9.331648, z: -1398.0953}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 4750.0015
+    end: 4800.0015
+    right:
+      meshResource: YenTuQuestRails/R_0099_b
+      position: {x: 9862.363, y: 9.331663, z: -1404.3092}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0099_b
+      position: {x: 9863.8955, y: 9.331648, z: -1398.0953}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 4800.0015
+    end: 4850.0015
+    right:
+      meshResource: YenTuQuestRails/R_0100_a
+      position: {x: 9959.433, y: 9.331662, z: -1428.4767}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0100_a
+      position: {x: 9960.986, y: 9.331666, z: -1422.268}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 4850.0015
+    end: 4900.0015
+    right:
+      meshResource: YenTuQuestRails/R_0100_b
+      position: {x: 9959.433, y: 9.331662, z: -1428.4767}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0100_b
+      position: {x: 9960.986, y: 9.331666, z: -1422.268}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 4900.0015
+    end: 4950.0015
+    right:
+      meshResource: YenTuQuestRails/R_0101_a
+      position: {x: 10056.502, y: 9.331662, z: -1452.6769}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0101_a
+      position: {x: 10058.045, y: 9.331662, z: -1446.4657}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 4950.0015
+    end: 5000.0015
+    right:
+      meshResource: YenTuQuestRails/R_0101_b
+      position: {x: 10056.502, y: 9.331662, z: -1452.6769}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0101_b
+      position: {x: 10058.045, y: 9.331662, z: -1446.4657}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 5000.0015
+    end: 5050.0015
+    right:
+      meshResource: YenTuQuestRails/R_0102_a
+      position: {x: 10153.572, y: 9.331662, z: -1476.7214}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0102_a
+      position: {x: 10155.107, y: 9.331662, z: -1470.5082}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 5050.0015
+    end: 5100.0015
+    right:
+      meshResource: YenTuQuestRails/R_0102_b
+      position: {x: 10153.572, y: 9.331662, z: -1476.7214}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0102_b
+      position: {x: 10155.107, y: 9.331662, z: -1470.5082}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 5100.0015
+    end: 5150.0015
+    right:
+      meshResource: YenTuQuestRails/R_0103_a
+      position: {x: 10250.642, y: 9.331662, z: -1500.8057}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0103_a
+      position: {x: 10252.202, y: 9.331654, z: -1494.5988}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 5150.0015
+    end: 5200.0015
+    right:
+      meshResource: YenTuQuestRails/R_0103_b
+      position: {x: 10250.642, y: 9.331662, z: -1500.8057}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0103_b
+      position: {x: 10252.202, y: 9.331654, z: -1494.5988}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 5200.0015
+    end: 5250.0015
+    right:
+      meshResource: YenTuQuestRails/R_0104_a
+      position: {x: 10347.483, y: 9.331662, z: -1525.6764}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0104_a
+      position: {x: 10349.106, y: 9.331659, z: -1519.4855}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 5250.0015
+    end: 5300.0015
+    right:
+      meshResource: YenTuQuestRails/R_0104_b
+      position: {x: 10347.483, y: 9.331662, z: -1525.6764}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0104_b
+      position: {x: 10349.106, y: 9.331659, z: -1519.4855}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 5300.0015
+    end: 5350.0015
+    right:
+      meshResource: YenTuQuestRails/R_0105_a
+      position: {x: 10444.099, y: 9.331662, z: -1551.4578}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0105_a
+      position: {x: 10445.774, y: 9.331661, z: -1545.281}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 5350.0015
+    end: 5400.0015
+    right:
+      meshResource: YenTuQuestRails/R_0105_b
+      position: {x: 10444.099, y: 9.331662, z: -1551.4578}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0105_b
+      position: {x: 10445.774, y: 9.331661, z: -1545.281}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 5400.0015
+    end: 5450.0015
+    right:
+      meshResource: YenTuQuestRails/R_0106_a
+      position: {x: 10540.505, y: 9.331663, z: -1578.0483}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0106_a
+      position: {x: 10542.239, y: 9.331662, z: -1571.8877}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 5450.0015
+    end: 5500.0015
+    right:
+      meshResource: YenTuQuestRails/R_0106_b
+      position: {x: 10540.505, y: 9.331663, z: -1578.0483}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0106_b
+      position: {x: 10542.239, y: 9.331662, z: -1571.8877}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 5500.0015
+    end: 5550.0015
+    right:
+      meshResource: YenTuQuestRails/R_0107_a
+      position: {x: 10636.507, y: 9.331663, z: -1606.0461}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0107_a
+      position: {x: 10638.361, y: 9.332771, z: -1599.9207}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 5550.0015
+    end: 5600.0015
+    right:
+      meshResource: YenTuQuestRails/R_0107_b
+      position: {x: 10636.507, y: 9.331663, z: -1606.0461}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0107_b
+      position: {x: 10638.361, y: 9.332771, z: -1599.9207}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 5600.0015
+    end: 5650.0015
+    right:
+      meshResource: YenTuQuestRails/R_0108_a
+      position: {x: 10731.941, y: 9.331662, z: -1635.9208}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0108_a
+      position: {x: 10733.908, y: 9.331659, z: -1629.8302}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 5650.0015
+    end: 5700.0015
+    right:
+      meshResource: YenTuQuestRails/R_0108_b
+      position: {x: 10731.941, y: 9.331662, z: -1635.9208}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0108_b
+      position: {x: 10733.908, y: 9.331659, z: -1629.8302}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 5700.0015
+    end: 5750.0015
+    right:
+      meshResource: YenTuQuestRails/R_0109_a
+      position: {x: 10826.858, y: 9.331662, z: -1667.4078}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0109_a
+      position: {x: 10828.919, y: 9.331662, z: -1661.3488}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 5750.0015
+    end: 5800.0015
+    right:
+      meshResource: YenTuQuestRails/R_0109_b
+      position: {x: 10826.858, y: 9.331662, z: -1667.4078}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0109_b
+      position: {x: 10828.919, y: 9.331662, z: -1661.3488}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 5800.0015
+    end: 5850.0015
+    right:
+      meshResource: YenTuQuestRails/R_0110_a
+      position: {x: 10921.31, y: 9.331662, z: -1700.2776}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0110_a
+      position: {x: 10923.45, y: 9.331662, z: -1694.2461}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 5850.0015
+    end: 5900.0015
+    right:
+      meshResource: YenTuQuestRails/R_0110_b
+      position: {x: 10921.31, y: 9.331662, z: -1700.2776}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0110_b
+      position: {x: 10923.45, y: 9.331662, z: -1694.2461}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 5900.0015
+    end: 5950.0015
+    right:
+      meshResource: YenTuQuestRails/R_0111_a
+      position: {x: 11015.461, y: 9.331662, z: -1733.8256}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0111_a
+      position: {x: 11017.605, y: 9.331662, z: -1727.7954}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 5950.0015
+    end: 6000.0015
+    right:
+      meshResource: YenTuQuestRails/R_0111_b
+      position: {x: 11015.461, y: 9.331662, z: -1733.8256}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0111_b
+      position: {x: 11017.605, y: 9.331662, z: -1727.7954}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 6000.0015
+    end: 6050.0015
+    right:
+      meshResource: YenTuQuestRails/R_0112_a
+      position: {x: 11109.767, y: 9.331662, z: -1767.1654}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0112_a
+      position: {x: 11111.888, y: 9.331656, z: -1761.1272}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 6050.0015
+    end: 6100.0015
+    right:
+      meshResource: YenTuQuestRails/R_0112_b
+      position: {x: 11109.767, y: 9.331662, z: -1767.1654}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0112_b
+      position: {x: 11111.888, y: 9.331656, z: -1761.1272}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 6100.0015
+    end: 6150.0015
+    right:
+      meshResource: YenTuQuestRails/R_0113_a
+      position: {x: 11204.187, y: 9.331662, z: -1800.0824}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0113_a
+      position: {x: 11206.277, y: 9.331646, z: -1794.0333}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 6150.0015
+    end: 6200.0015
+    right:
+      meshResource: YenTuQuestRails/R_0113_b
+      position: {x: 11204.187, y: 9.331662, z: -1800.0824}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0113_b
+      position: {x: 11206.277, y: 9.331646, z: -1794.0333}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 6200.0015
+    end: 6250.0015
+    right:
+      meshResource: YenTuQuestRails/R_0114_a
+      position: {x: 11298.813, y: 9.331662, z: -1832.435}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0114_a
+      position: {x: 11300.869, y: 9.3316555, z: -1826.3741}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 6250.0015
+    end: 6300.0015
+    right:
+      meshResource: YenTuQuestRails/R_0114_b
+      position: {x: 11298.813, y: 9.331662, z: -1832.435}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0114_b
+      position: {x: 11300.869, y: 9.3316555, z: -1826.3741}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 6300.0015
+    end: 6350.0015
+    right:
+      meshResource: YenTuQuestRails/R_0115_a
+      position: {x: 11393.476, y: 9.331663, z: -1864.6979}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0115_a
+      position: {x: 11395.554, y: 9.33168, z: -1858.6448}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 6350.0015
+    end: 6400.0015
+    right:
+      meshResource: YenTuQuestRails/R_0115_b
+      position: {x: 11393.476, y: 9.331663, z: -1864.6979}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0115_b
+      position: {x: 11395.554, y: 9.33168, z: -1858.6448}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 6400.0015
+    end: 6450.0015
+    right:
+      meshResource: YenTuQuestRails/R_0116_a
+      position: {x: 11488.004, y: 9.331663, z: -1897.374}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0116_a
+      position: {x: 11490.106, y: 9.331683, z: -1891.3292}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 6450.0015
+    end: 6500.0015
+    right:
+      meshResource: YenTuQuestRails/R_0116_b
+      position: {x: 11488.004, y: 9.331663, z: -1897.374}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0116_b
+      position: {x: 11490.106, y: 9.331683, z: -1891.3292}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 6500.0015
+    end: 6550.0015
+    right:
+      meshResource: YenTuQuestRails/R_0117_a
+      position: {x: 11582.381, y: 9.331661, z: -1930.356}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0117_a
+      position: {x: 11584.501, y: 9.331675, z: -1924.3174}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 6550.0015
+    end: 6600.0015
+    right:
+      meshResource: YenTuQuestRails/R_0117_b
+      position: {x: 11582.381, y: 9.331661, z: -1930.356}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0117_b
+      position: {x: 11584.501, y: 9.331675, z: -1924.3174}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 6600.0015
+    end: 6650.0015
+    right:
+      meshResource: YenTuQuestRails/R_0118_a
+      position: {x: 11676.715, y: 9.331662, z: -1963.5682}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0118_a
+      position: {x: 11678.843, y: 9.331656, z: -1957.5325}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 6650.0015
+    end: 6700.0015
+    right:
+      meshResource: YenTuQuestRails/R_0118_b
+      position: {x: 11676.715, y: 9.331662, z: -1963.5682}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0118_b
+      position: {x: 11678.843, y: 9.331656, z: -1957.5325}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 6700.0015
+    end: 6750.0015
+    right:
+      meshResource: YenTuQuestRails/R_0119_a
+      position: {x: 11771.051, y: 9.331662, z: -1996.8218}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0119_a
+      position: {x: 11773.179, y: 9.331663, z: -1990.7856}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 6750.0015
+    end: 6800.0015
+    right:
+      meshResource: YenTuQuestRails/R_0119_b
+      position: {x: 11771.051, y: 9.331662, z: -1996.8218}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0119_b
+      position: {x: 11773.179, y: 9.331663, z: -1990.7856}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 6800.0015
+    end: 6850.0015
+    right:
+      meshResource: YenTuQuestRails/R_0120_a
+      position: {x: 11865.384, y: 9.331662, z: -2030.066}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0120_a
+      position: {x: 11867.51, y: 9.331662, z: -2024.0298}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 6850.0015
+    end: 6900.0015
+    right:
+      meshResource: YenTuQuestRails/R_0120_b
+      position: {x: 11865.384, y: 9.331662, z: -2030.066}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0120_b
+      position: {x: 11867.51, y: 9.331662, z: -2024.0298}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 6900.0015
+    end: 6950.0015
+    right:
+      meshResource: YenTuQuestRails/R_0121_a
+      position: {x: 11959.719, y: 9.331661, z: -2063.3013}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0121_a
+      position: {x: 11961.845, y: 9.331662, z: -2057.265}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 6950.0015
+    end: 7000.0015
+    right:
+      meshResource: YenTuQuestRails/R_0121_b
+      position: {x: 11959.719, y: 9.331661, z: -2063.3013}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0121_b
+      position: {x: 11961.845, y: 9.331662, z: -2057.265}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 7000.0015
+    end: 7050.0015
+    right:
+      meshResource: YenTuQuestRails/R_0122_a
+      position: {x: 12054.051, y: 9.331662, z: -2096.609}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0122_a
+      position: {x: 12056.189, y: 9.332785, z: -2090.5764}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 7050.0015
+    end: 7100.0015
+    right:
+      meshResource: YenTuQuestRails/R_0122_b
+      position: {x: 12054.051, y: 9.331662, z: -2096.609}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0122_b
+      position: {x: 12056.189, y: 9.332785, z: -2090.5764}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 7100.0015
+    end: 7150.0015
+    right:
+      meshResource: YenTuQuestRails/R_0123_a
+      position: {x: 12148.227, y: 9.331662, z: -2130.1462}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0123_a
+      position: {x: 12150.383, y: 9.331665, z: -2124.1204}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 7150.0015
+    end: 7200.0015
+    right:
+      meshResource: YenTuQuestRails/R_0123_b
+      position: {x: 12148.227, y: 9.331662, z: -2130.1462}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0123_b
+      position: {x: 12150.383, y: 9.331665, z: -2124.1204}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 7200.0015
+    end: 7250.0015
+    right:
+      meshResource: YenTuQuestRails/R_0124_a
+      position: {x: 12242.359, y: 9.331662, z: -2163.975}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0124_a
+      position: {x: 12244.532, y: 9.331667, z: -2157.955}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 7250.0015
+    end: 7300.0015
+    right:
+      meshResource: YenTuQuestRails/R_0124_b
+      position: {x: 12242.359, y: 9.331662, z: -2163.975}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0124_b
+      position: {x: 12244.532, y: 9.331667, z: -2157.955}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 7300.0015
+    end: 7350.0015
+    right:
+      meshResource: YenTuQuestRails/R_0125_a
+      position: {x: 12336.341, y: 9.331662, z: -2198.0256}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0125_a
+      position: {x: 12338.525, y: 9.331664, z: -2192.0098}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 7350.0015
+    end: 7400.0015
+    right:
+      meshResource: YenTuQuestRails/R_0125_b
+      position: {x: 12336.341, y: 9.331662, z: -2198.0256}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0125_b
+      position: {x: 12338.525, y: 9.331664, z: -2192.0098}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 7400.0015
+    end: 7450.0015
+    right:
+      meshResource: YenTuQuestRails/R_0126_a
+      position: {x: 12430.293, y: 9.331663, z: -2232.1035}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0126_a
+      position: {x: 12432.472, y: 9.331668, z: -2226.0862}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 7450.0015
+    end: 7500.0015
+    right:
+      meshResource: YenTuQuestRails/R_0126_b
+      position: {x: 12430.293, y: 9.331663, z: -2232.1035}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0126_b
+      position: {x: 12432.472, y: 9.331668, z: -2226.0862}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 7500.0015
+    end: 7550.0015
+    right:
+      meshResource: YenTuQuestRails/R_0127_a
+      position: {x: 12524.296, y: 9.331662, z: -2266.1055}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0127_a
+      position: {x: 12526.471, y: 9.331661, z: -2260.086}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 7550.0015
+    end: 7600.0015
+    right:
+      meshResource: YenTuQuestRails/R_0127_b
+      position: {x: 12524.296, y: 9.331662, z: -2266.1055}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0127_b
+      position: {x: 12526.471, y: 9.331661, z: -2260.086}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 7600.0015
+    end: 7650.0015
+    right:
+      meshResource: YenTuQuestRails/R_0128_a
+      position: {x: 12618.418, y: 9.331662, z: -2300.06}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0128_a
+      position: {x: 12620.588, y: 9.331667, z: -2294.039}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 7650.0015
+    end: 7700.0015
+    right:
+      meshResource: YenTuQuestRails/R_0128_b
+      position: {x: 12618.418, y: 9.331662, z: -2300.06}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0128_b
+      position: {x: 12620.588, y: 9.331667, z: -2294.039}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 7700.0015
+    end: 7750.0015
+    right:
+      meshResource: YenTuQuestRails/R_0129_a
+      position: {x: 12712.556, y: 9.331662, z: -2333.9565}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0129_a
+      position: {x: 12714.724, y: 9.331671, z: -2327.9348}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 7750.0015
+    end: 7800.0015
+    right:
+      meshResource: YenTuQuestRails/R_0129_b
+      position: {x: 12712.556, y: 9.331662, z: -2333.9565}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0129_b
+      position: {x: 12714.724, y: 9.331671, z: -2327.9348}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 7800.0015
+    end: 7850.0015
+    right:
+      meshResource: YenTuQuestRails/R_0130_a
+      position: {x: 12806.689, y: 9.331662, z: -2367.8765}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0130_a
+      position: {x: 12808.861, y: 9.331668, z: -2361.856}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 7850.0015
+    end: 7900.0015
+    right:
+      meshResource: YenTuQuestRails/R_0130_b
+      position: {x: 12806.689, y: 9.331662, z: -2367.8765}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0130_b
+      position: {x: 12808.861, y: 9.331668, z: -2361.856}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 7900.0015
+    end: 7949.992
+    right:
+      meshResource: YenTuQuestRails/R_0131_a
+      position: {x: 12900.787, y: 9.331662, z: -2401.838}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0131_a
+      position: {x: 12902.962, y: 9.331663, z: -2395.8186}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  - start: 7949.992
+    end: 7999.983
+    right:
+      meshResource: YenTuQuestRails/R_0131_b
+      position: {x: 12900.787, y: 9.331662, z: -2401.838}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+    left:
+      meshResource: YenTuQuestRails/L_0131_b
+      position: {x: 12902.962, y: 9.331663, z: -2395.8186}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      materials:
+      - {fileID: 2100000, guid: 5c5223bb1a3733343930cfb912877af9, type: 2}
+  length: 7999.983
+  originalStart: 5199.9985
+  originalEnd: 13199.988
