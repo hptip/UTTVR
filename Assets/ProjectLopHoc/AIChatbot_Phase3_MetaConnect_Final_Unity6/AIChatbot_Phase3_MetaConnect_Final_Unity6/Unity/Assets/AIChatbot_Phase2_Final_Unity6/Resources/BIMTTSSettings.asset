@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52300832bfae4bbf850b0d7fbc9250de, type: 3}
+  m_Name: BIMTTSSettings
+  m_EditorClassIdentifier: 
+  proxyUrlEditorWindows: https://bim-tts-proxy.bim4d-ai.workers.dev
+  appKey: 3ccdb7fc342fdae2179073c2fbbfcc36040de5606f9c5c16
+  modelVietnamese: tts-vi
+  modelEnglish: tts-en
+  vietnameseVoices:
+  - "Quang S\u01A1n"
+  - "Th\xE1i S\u01A1n"
+  - "Tr\xFAc Ly"
+  - "Minh \u0110\u1EE9c"
+  - "Ph\u1EA1m Tuy\xEAn"
+  - "Xu\xE2n V\u0129nh"
+  - "Thanh B\xECnh"
+  - "M\u1EA1nh D\u0169ng"
+  - "Minh Qu\xE2n"
+  - "Anh Kh\xF4i"
+  - "Minh Tri\u1EBFt"
+  - "\u0110\u1EE9c Tr\xED"
+  defaultVietnameseVoice: "Quang S\u01A1n"
+  englishVoices: []
+  defaultEnglishVoice: 
+  defaultLanguage: 1
+  defaultAutoLanguage: 0
+  defaultSpeed: 1
+  autoSpeakDefault: 0
+  minSpeed: 0.7
+  maxSpeed: 1.5
+  firstChunkChars: 220
+  chunkChars: 450
+  cacheBudgetMB: 24
+  timeoutSeconds: 30
+  maxConcurrentRequests: 1
+  maxRetries: 2
+  blockSecondsAfterAuthOrQuota: 60

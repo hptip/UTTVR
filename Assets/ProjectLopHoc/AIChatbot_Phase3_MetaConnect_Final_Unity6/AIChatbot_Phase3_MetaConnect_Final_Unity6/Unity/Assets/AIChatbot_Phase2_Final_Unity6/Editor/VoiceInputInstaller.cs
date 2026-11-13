@@ -69,10 +69,10 @@ public static class VoiceInputInstaller
         Selection.activeGameObject = ui.gameObject;
 
         Debug.Log("[BIM AI Voice] " + (changed ? "Đã cài/cập nhật Voice Input." : "Voice Input đã đầy đủ, không có gì thay đổi.") +
-                  " Kiểm tra GroqSpeechToText (Language, Silence Peak Threshold) và file API key local. Không Build lại prefab.", ui);
+                  " Kiểm tra GroqSpeechToText (Language, Silence Peak Threshold) và URL + App Key Worker trong BIMTTSSettings. Không Build lại prefab.", ui);
         EditorUtility.DisplayDialog("BIM AI Voice",
             (changed ? "Đã cài Voice Input vào chatbot." : "Voice Input đã đầy đủ, không có gì thay đổi.") +
-            "\n\nLưu Scene, rồi cấu hình API key bằng Tools > BIM AI > Create or Open Local API Config.", "OK");
+            "\n\nLưu Scene, rồi nhập URL + App Key Worker bằng Tools > BIM AI > Create or Select TTS Settings.", "OK");
     }
 }
 #endif

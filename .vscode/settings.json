@@ -67,5 +67,5 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "UTT_vr.slnx"
+    "dotnet.defaultSolution": "UTTVR.slnx"
 }

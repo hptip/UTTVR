@@ -7,16 +7,17 @@ using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Networking;
+using BIM4D.AI.Speech;
 
 namespace BIM4D.AI.Generative
 {
     [DisallowMultipleComponent]
     public sealed class XkiroBrain : MonoBehaviour
     {
-        [Header("Xkiro API")]
-        private string apiKey = "";
-        [SerializeField] private string baseUrl = "https://api.xkiro.com/v1";
-        [SerializeField] private string model = "qwen/qwen3.8-max:free";
+        // Gọi Xkiro qua backend proxy (Cloudflare Worker): URL + App Key lấy từ Resources/BIMTTSSettings.asset.
+        // Khóa Xkiro chỉ nằm ở secret XKIRO_API_KEY của Worker, không có trong Unity/APK.
+        [Header("Xkiro (qua Worker)")]
+        [SerializeField] private string model = "mistralai/mistral-medium-3.5";
 
         [Header("System Instructions")]
         [SerializeField, TextArea(3, 8)]
@@ -96,11 +97,16 @@ namespace BIM4D.AI.Generative
                 );
             }
 
-            apiKey = BIMAISecrets.XkiroApiKey;
-            if (string.IsNullOrWhiteSpace(apiKey))
+            var backend = BIMTTSSettings.Load();
+            if (!backend.IsProxyConfigured)
+            {
+                throw new InvalidOperationException(backend.ProxyProblem);
+            }
+
+            if (string.IsNullOrWhiteSpace(backend.appKey))
             {
                 throw new InvalidOperationException(
-                    "Thiếu Xkiro API Key. Mở Tools > BIM AI > Create or Open Local API Config và cấu hình xkiroApiKey."
+                    "Thiếu App Key của Worker. Mở Tools > BIM AI > Create or Select TTS Settings và nhập App Key."
                 );
             }
 
@@ -109,17 +115,6 @@ namespace BIM4D.AI.Generative
                 throw new ArgumentException(
                     "The prompt cannot be empty.",
                     nameof(text)
-                );
-            }
-
-            if (!Uri.TryCreate(
-                baseUrl,
-                UriKind.Absolute,
-                out var endpoint
-            ) || endpoint.Scheme != Uri.UriSchemeHttps)
-            {
-                throw new InvalidOperationException(
-                    "The brain base URL must be an absolute HTTPS URL."
                 );
             }
 
@@ -172,7 +167,7 @@ namespace BIM4D.AI.Generative
                 };
 
                 using var request = new UnityWebRequest(
-                    baseUrl.TrimEnd('/') + "/chat/completions",
+                    backend.ProxyBaseUrl + "/v1/chat/completions",
                     "POST"
                 );
 
@@ -191,8 +186,8 @@ namespace BIM4D.AI.Generative
                 );
 
                 request.SetRequestHeader(
-                    "Authorization",
-                    "Bearer " + apiKey.Trim()
+                    "X-App-Key",
+                    backend.appKey.Trim()
                 );
 
                 request.timeout = timeoutSeconds;

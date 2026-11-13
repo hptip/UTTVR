@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Networking;
+using BIM4D.AI.Speech;
 
 namespace BIM4D.AI.Generative
 {
@@ -47,7 +48,8 @@ namespace BIM4D.AI.Generative
             Auto = 2
         }
 
-        private string apiKey = "";
+        // Gọi Groq qua backend proxy (Cloudflare Worker): URL + App Key lấy từ Resources/BIMTTSSettings.asset.
+        // Khóa Groq chỉ nằm ở secret GROQ_API_KEY của Worker, không có trong Unity/APK.
         [SerializeField] private string model = "whisper-large-v3-turbo";
         [SerializeField] private SpeechLanguage language = SpeechLanguage.Vietnamese;
         [SerializeField, TextArea(1, 3)] private string transcriptionPrompt = "BIM, Revit, IFC, openBIM, Navisworks, Tekla, Civil 3D, clash detection, LOD, LOI.";
@@ -234,8 +236,9 @@ namespace BIM4D.AI.Generative
             string contentType = "audio/wav", CancellationToken cancellationToken = default)
         {
             if (IsTranscribing) throw new SpeechRecognitionException(SpeechErrorCode.Busy, "Đang nhận diện một đoạn âm thanh khác. Vui lòng đợi.");
-            apiKey = BIMAISecrets.GroqApiKey;
-            if (string.IsNullOrWhiteSpace(apiKey)) throw new SpeechRecognitionException(SpeechErrorCode.MissingApiKey, "Thiếu Groq API Key. Mở Tools > BIM AI > Create or Open Local API Config và cấu hình groqApiKey.");
+            var backend = BIMTTSSettings.Load();
+            if (!backend.IsProxyConfigured) throw new SpeechRecognitionException(SpeechErrorCode.MissingApiKey, backend.ProxyProblem);
+            if (string.IsNullOrWhiteSpace(backend.appKey)) throw new SpeechRecognitionException(SpeechErrorCode.MissingApiKey, "Thiếu App Key của Worker. Mở Tools > BIM AI > Create or Select TTS Settings và nhập App Key.");
             if (audio == null || audio.Length == 0) throw new ArgumentException("Dữ liệu âm thanh rỗng.", nameof(audio));
             if (string.IsNullOrWhiteSpace(fileName) || string.IsNullOrWhiteSpace(contentType))
                 throw new ArgumentException("An audio filename and content type are required.");
@@ -256,8 +259,8 @@ namespace BIM4D.AI.Generative
                     form.Add(new MultipartFormDataSection("language", LanguageCode));
                 if (!string.IsNullOrWhiteSpace(transcriptionPrompt))
                     form.Add(new MultipartFormDataSection("prompt", transcriptionPrompt));
-                using var request = UnityWebRequest.Post("https://api.groq.com/openai/v1/audio/transcriptions", form);
-                request.SetRequestHeader("Authorization", "Bearer " + apiKey.Trim());
+                using var request = UnityWebRequest.Post(backend.ProxyBaseUrl + "/v1/audio/transcriptions", form);
+                request.SetRequestHeader("X-App-Key", backend.appKey.Trim());
                 request.timeout = timeoutSeconds;
                 var operation = request.SendWebRequest();
                 while (!operation.isDone) { token.ThrowIfCancellationRequested(); await Task.Yield(); }
@@ -294,7 +297,7 @@ namespace BIM4D.AI.Generative
             string error = request.error ?? "";
             if (code == 401 || code == 403)
                 return new SpeechRecognitionException(SpeechErrorCode.InvalidApiKey,
-                    $"Groq API Key không hợp lệ hoặc đã hết hạn (HTTP {code}).");
+                    $"App Key của Worker không hợp lệ hoặc đã bị thu hồi (HTTP {code}).");
             if (code == 429)
                 return new SpeechRecognitionException(SpeechErrorCode.RateLimited,
                     "Groq đang giới hạn lượt gọi (HTTP 429). Vui lòng thử lại sau.");

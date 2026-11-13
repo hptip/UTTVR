@@ -16,7 +16,8 @@ namespace BIM4D.AI.Speech
         public const string ResourceName = "BIMTTSSettings";
 
         [Header("Backend proxy (KHÔNG nhập khóa MetaConnect vào đây)")]
-        [Tooltip("Editor/Windows. Ví dụ: http://127.0.0.1:8787 (wrangler dev) hoặc https://<worker>.workers.dev")]
+        [Tooltip("Dùng cho mọi nền tảng (Editor, Windows, APK) và cho cả TTS, chat, STT. Ví dụ: https://<worker>.workers.dev. " +
+                 "http://127.0.0.1:8787 (wrangler dev) chỉ dùng được trong Editor.")]
         public string proxyUrlEditorWindows = "http://127.0.0.1:8787";
         [Tooltip("App Key của backend proxy (không phải khóa MetaConnect).")]
         public string appKey = "";
@@ -86,6 +87,10 @@ namespace BIM4D.AI.Speech
                 bool https = u.StartsWith("https://", StringComparison.OrdinalIgnoreCase);
                 bool http = u.StartsWith("http://", StringComparison.OrdinalIgnoreCase);
                 if (!https && !http) return "Proxy URL phải bắt đầu bằng https:// (hoặc http://127.0.0.1 khi chạy thử cục bộ).";
+#if !UNITY_EDITOR
+                // Android chặn http:// (insecureHttpOption = 0) và 127.0.0.1 trên kính không phải máy chạy Worker.
+                if (!https) return "Bản build cần Proxy URL https://<worker>.workers.dev trong BIMTTSSettings.";
+#endif
                 return null;
             }
         }
