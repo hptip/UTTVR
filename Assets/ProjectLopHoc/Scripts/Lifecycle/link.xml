@@ -1,0 +1,12 @@
+<linker>
+  <assembly fullname="Assembly-CSharp">
+    <type fullname="BimAsset" preserve="all" />
+    <type fullname="BimProperty" preserve="all" />
+    <type fullname="BimLifecycle" preserve="all" />
+    <type fullname="BimInspection" preserve="all" />
+    <type fullname="BimMaintenance" preserve="all" />
+    <type fullname="BimHistory" preserve="all" />
+    <type fullname="BimStage" preserve="all" />
+    <type fullname="BimStageField" preserve="all" />
+  </assembly>
+</linker>
