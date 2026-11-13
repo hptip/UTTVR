@@ -1,0 +1,10 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.obj filter=lfs diff=lfs merge=lfs -text
+*.glb filter=lfs diff=lfs merge=lfs -text
+*.blend filter=lfs diff=lfs merge=lfs -text
+*.psd filter=lfs diff=lfs merge=lfs -text
+*.exr filter=lfs diff=lfs merge=lfs -text
+UserData/QuanLyVongDoiTaiSan.db filter=lfs diff=lfs merge=lfs -text
+Assets/StreamingAssets/RailwayLifecycle/Initial.db filter=lfs diff=lfs merge=lfs -text
