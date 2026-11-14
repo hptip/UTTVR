@@ -4363,7 +4363,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7d3c5b1e9a4f4c62b8e0f2a6c1d93e57, type: 2}
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7146,6 +7146,41 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 994879263}
   m_CullTransparentMesh: 1
+--- !u!1 &997075495 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8200781538396747419, guid: c233b062354732d4e86af6fc18e8ea4e, type: 3}
+  m_PrefabInstance: {fileID: 1648732999}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &997075496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 997075495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85f98e1419089a3429a20fef4540e840, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ShowroomRobotChatInteractable
+  objectName: "Tr\xF2 chuy\u1EC7n v\u1EDBi tr\u1EE3 l\xFD"
+  highlightRenderer: {fileID: 0}
+  targetSceneName: 
+  chatbot: {fileID: 0}
+--- !u!114 &997075497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 997075495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b7a3db39465f264bb7ff3cf68e7c6c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RobotInteraction
+  chatbot: {fileID: 0}
+  maxDistance: 4
 --- !u!1 &1002084309
 GameObject:
   m_ObjectHideFlags: 0
@@ -11811,6 +11846,72 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1642951143}
   m_CullTransparentMesh: 1
+--- !u!1001 &1648732999
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8200781538396747419, guid: c233b062354732d4e86af6fc18e8ea4e, type: 3}
+      propertyPath: m_Name
+      value: Robot
+      objectReference: {fileID: 0}
+    - target: {fileID: 8828418597862272033, guid: c233b062354732d4e86af6fc18e8ea4e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 8828418597862272033, guid: c233b062354732d4e86af6fc18e8ea4e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8828418597862272033, guid: c233b062354732d4e86af6fc18e8ea4e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -33.06777
+      objectReference: {fileID: 0}
+    - target: {fileID: 8828418597862272033, guid: c233b062354732d4e86af6fc18e8ea4e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8828418597862272033, guid: c233b062354732d4e86af6fc18e8ea4e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8828418597862272033, guid: c233b062354732d4e86af6fc18e8ea4e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8828418597862272033, guid: c233b062354732d4e86af6fc18e8ea4e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8828418597862272033, guid: c233b062354732d4e86af6fc18e8ea4e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8828418597862272033, guid: c233b062354732d4e86af6fc18e8ea4e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8828418597862272033, guid: c233b062354732d4e86af6fc18e8ea4e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8200781538396747419, guid: c233b062354732d4e86af6fc18e8ea4e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 997075497}
+    - targetCorrespondingSourceObject: {fileID: 8200781538396747419, guid: c233b062354732d4e86af6fc18e8ea4e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 997075496}
+    - targetCorrespondingSourceObject: {fileID: 8731347148311903513, guid: c233b062354732d4e86af6fc18e8ea4e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+  m_SourcePrefab: {fileID: 100100000, guid: c233b062354732d4e86af6fc18e8ea4e, type: 3}
 --- !u!1 &1672716782
 GameObject:
   m_ObjectHideFlags: 0
@@ -22122,3 +22223,4 @@ SceneRoots:
   - {fileID: 367596035}
   - {fileID: 314050448}
   - {fileID: 434291904}
+  - {fileID: 1648732999}
