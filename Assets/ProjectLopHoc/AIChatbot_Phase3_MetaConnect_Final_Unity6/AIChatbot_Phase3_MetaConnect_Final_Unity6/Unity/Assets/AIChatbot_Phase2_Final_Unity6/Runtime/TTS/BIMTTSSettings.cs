@@ -33,7 +33,7 @@ namespace BIM4D.AI.Speech
             "Quang Sơn", "Thái Sơn", "Trúc Ly", "Minh Đức", "Phạm Tuyên", "Xuân Vĩnh", "Thanh Bình",
             "Mạnh Dũng", "Minh Quân", "Anh Khôi", "Minh Triết", "Đức Trí"
         };
-        public string defaultVietnameseVoice = "Quang Sơn";
+        public string defaultVietnameseVoice = "Trúc Ly";
         [Tooltip("ĐỂ TRỐNG cho tới khi bạn nghe thử và xác minh giọng nam tiếng Anh (xem Voice_Output_Guide.md). " +
                  "MetaConnect âm thầm đổi sang giọng mặc định nếu tên giọng sai, nên không được đoán.")]
         public string[] englishVoices = new string[0];

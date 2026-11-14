@@ -19,15 +19,17 @@ public sealed class ShowroomGeometryProfile : ScriptableObject
     public ShowroomGeometryMode androidDefault = ShowroomGeometryMode.Quality10;
     // Trains are viewed up close; aggressive decimation tears their surfaces. Never go below trainMinimumDetail,
     // and keep train meshes under trainKeepOriginalBelow triangles untouched (they cost little).
+    // The G:link tram, Robot and McFace were classified "khac" and Train Ride "station", so they are protected too.
     public ShowroomGeometryMode trainMinimumDetail = ShowroomGeometryMode.Quality50;
     public long trainKeepOriginalBelow = 500000;
+    public string[] protectedCategories = { "train", "khac", "station" };
     [NonSerialized] Dictionary<Mesh, Entry> lookup;
     public Mesh Resolve(Mesh mesh, ShowroomGeometryMode mode)
     {
         if (mesh == null || mode == ShowroomGeometryMode.Original) return mesh;
         if (lookup == null || lookup.Count != entries.Length) { lookup = new Dictionary<Mesh, Entry>(); foreach (var e in entries) if (e.original != null) lookup[e.original] = e; }
         if (!lookup.TryGetValue(mesh, out var entry)) return mesh;
-        if (entry.category == "train")
+        if (Array.IndexOf(protectedCategories, entry.category) >= 0)
         {
             if (entry.originalTriangles < trainKeepOriginalBelow) return mesh;
             if (mode > trainMinimumDetail) mode = trainMinimumDetail;

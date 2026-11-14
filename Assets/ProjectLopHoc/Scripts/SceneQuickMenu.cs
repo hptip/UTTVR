@@ -393,14 +393,24 @@ public sealed class SceneQuickMenu : MonoBehaviour
         }
     }
 
+    // Moving the menu to the camera in Update shook it on moving trains (the rig moves later in the frame);
+    // XRRigFollowPanel holds it relative to the rig, snaps it in front when opened and recentres lazily.
     private void FollowViewCamera()
     {
         if (!_menuOpen || _canvas == null || _viewCamera == null)
             return;
 
-        Transform canvasTransform = _canvas.transform;
-        canvasTransform.position = _viewCamera.transform.position + _viewCamera.transform.forward * 1.4f;
-        canvasTransform.rotation = _viewCamera.transform.rotation;
+        XRRigFollowPanel follow = _canvas.GetComponent<XRRigFollowPanel>();
+        if (follow == null)
+        {
+            follow = _canvas.gameObject.AddComponent<XRRigFollowPanel>();
+            follow.distance = 1.4f;
+        }
+        if (follow.viewCamera != _viewCamera)
+        {
+            follow.viewCamera = _viewCamera;
+            follow.Snap();
+        }
     }
 
     private void SetMenuOpen(bool open)

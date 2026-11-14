@@ -14,6 +14,17 @@ public sealed class XRWorldSpaceCanvas : MonoBehaviour
     private bool _configured;
     private Camera _xrCamera;
 
+    /// <summary>World size of one canvas pixel; changing it after configuration rescales the panel at once.</summary>
+    public float WorldScale
+    {
+        get => worldScale;
+        set
+        {
+            worldScale = Mathf.Max(0.0001f, value);
+            if (_configured) transform.localScale = Vector3.one * worldScale;
+        }
+    }
+
     private void Awake() => _canvas = GetComponent<Canvas>();
 
     private void Start() => ConfigureForXR();
@@ -44,6 +55,14 @@ public sealed class XRWorldSpaceCanvas : MonoBehaviour
         canvasTransform.SetPositionAndRotation(xrCamera.transform.position + xrCamera.transform.forward * distanceFromCamera, xrCamera.transform.rotation);
         canvasTransform.localScale = Vector3.one * worldScale;
 
+        // Chasing the camera every LateUpdate shook the panel on moving trains (the rig moves later in the frame);
+        // XRRigFollowPanel holds the pose relative to the rig and only recentres when the head turns away.
+        XRRigFollowPanel follow = GetComponent<XRRigFollowPanel>();
+        if (follow == null)
+            follow = gameObject.AddComponent<XRRigFollowPanel>();
+        follow.viewCamera = xrCamera;
+        follow.distance = distanceFromCamera;
+
         if (GetComponent<TrackedDeviceGraphicRaycaster>() == null)
             gameObject.AddComponent<TrackedDeviceGraphicRaycaster>();
 
@@ -55,8 +74,6 @@ public sealed class XRWorldSpaceCanvas : MonoBehaviour
     }
     private void LateUpdate()
     {
-        if (!_configured) return;
-        if (_xrCamera == null) { _configured = false; return; }
-        transform.SetPositionAndRotation(_xrCamera.transform.position + _xrCamera.transform.forward * distanceFromCamera, _xrCamera.transform.rotation);
+        if (_configured && _xrCamera == null) _configured = false;
     }
 }
