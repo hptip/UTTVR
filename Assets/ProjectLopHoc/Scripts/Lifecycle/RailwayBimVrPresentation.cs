@@ -23,7 +23,7 @@ public sealed class RailwayBimVrPresentation:MonoBehaviour
     public bool locomotionEnabled=true;public float panelDistance=1.25f;
     public bool IsVr{get;private set;}public XROrigin Origin{get;private set;}public bool PanelVisible=>visible;
     public bool LeftCollapsed{get;private set;}public bool AssetCollapsed{get;private set;}
-    bool visible=true,pendingView,manualEditorMode,turnArmed=true;double nextDeviceCheck;float nextTurn;
+    bool visible=true,pendingView,manualEditorMode,turnArmed=true,panelPlaced;double nextDeviceCheck;float nextTurn;Vector3 panelForward;
     GameObject ownedRig;Camera desktop;XRRayInteractor[] rays=Array.Empty<XRRayInteractor>();RailwayBimVrKeyboard keyboard;SceneQuickMenu sceneMenu;
     InputAction togglePanel,moveInput,turnInput;
     sealed class RaySettings{public XRRayInteractor ray;public XRInteractionManager manager;public float distance;public bool ui;public int inputMode;public XRInputValueReader<Vector2> scroll;public InputAction scrollAction;}
@@ -157,12 +157,16 @@ public sealed class RailwayBimVrPresentation:MonoBehaviour
     {
         bool collapsed=asset?AssetCollapsed:LeftCollapsed;var body=asset?dashboard.assetBody:dashboard.leftBody;var button=asset?dashboard.collapseAssetButton:dashboard.collapseNavButton;
         if(body!=null)body.SetActive(!collapsed);if(button!=null){button.GetComponentInChildren<TMP_Text>().text=collapsed?(asset?"Mở hồ sơ":"Mở danh sách"):"Thu gọn";var r=(RectTransform)button.transform;r.anchorMin=collapsed?new Vector2(.035f,.06f):new Vector2(.80f,.936f);r.anchorMax=collapsed?new Vector2(.965f,.94f):new Vector2(.98f,.995f);r.offsetMin=r.offsetMax=Vector2.zero;}
-        var pane=asset?assetPane:leftPane;if(IsVr&&pane!=null){((RectTransform)pane.canvas.transform).sizeDelta=new Vector2(pane.size.x,collapsed?64:pane.size.y);PlacePanel();}
+        var pane=asset?assetPane:leftPane;if(IsVr&&pane!=null){((RectTransform)pane.canvas.transform).sizeDelta=new Vector2(pane.size.x,collapsed?64:pane.size.y);PlacePanel(true);}
         else if(!IsVr){var original=asset?desktopAsset:desktopLeft;if(original!=null){original.Restore();if(collapsed)original.rect.anchorMin=new Vector2(original.min.x,original.max.y-.07f);}}
     }
-    public void PlacePanel()
+    // keepDirection reuses the facing the panels were opened with, so selecting an asset while looking at a side
+    // panel does not swing every panel (and the inspection view) to wherever the head happens to point.
+    public void PlacePanel()=>PlacePanel(false);
+    void PlacePanel(bool keepDirection)
     {
-        if(Origin?.Camera==null)return;keyboard.Close();var head=Origin.Camera.transform;var forward=Vector3.ProjectOnPlane(head.forward,Vector3.up).normalized;if(forward.sqrMagnitude<.1f)forward=Origin.transform.forward;var right=Vector3.Cross(Vector3.up,forward);
+        if(Origin?.Camera==null)return;keyboard.Close();var head=Origin.Camera.transform;var forward=Vector3.ProjectOnPlane(head.forward,Vector3.up).normalized;if(forward.sqrMagnitude<.1f)forward=Origin.transform.forward;
+        if(keepDirection&&panelPlaced)forward=panelForward;else{panelForward=forward;panelPlaced=true;}var right=Vector3.Cross(Vector3.up,forward);
         foreach(var pane in panes)
         {
             Vector3 point=head.position+right*pane.offset.x+Vector3.up*pane.offset.y+forward*pane.offset.z;var rotation=Quaternion.LookRotation(Vector3.ProjectOnPlane(point-head.position,Vector3.up).normalized,Vector3.up);
@@ -173,6 +177,7 @@ public sealed class RailwayBimVrPresentation:MonoBehaviour
     void MoveToCurrentView()
     {
         if(Origin?.Camera==null)return;var head=Origin.Camera.transform;var bounds=controller.cameraController.FocusBounds;var direction=Vector3.ProjectOnPlane(head.forward,Vector3.up).normalized;if(direction.sqrMagnitude<.1f)direction=Origin.transform.forward;
+        if(visible&&panelPlaced)direction=panelForward;
         var inspectionRotation=Quaternion.LookRotation(direction,Vector3.up)*Quaternion.Euler(24,0,0);
         float distance=Mathf.Clamp(RailwayBimCamera.FitDistance(bounds,inspectionRotation,Origin.Camera.fieldOfView,Origin.Camera.aspect,.86f,.86f),.4f,850);
         Vector3 position=bounds.center-direction*distance+Vector3.up*Mathf.Max(bounds.extents.y+.22f,distance*.44f);
@@ -182,7 +187,7 @@ public sealed class RailwayBimVrPresentation:MonoBehaviour
         {var renderer=hit.collider.GetComponent<Renderer>();if(hit.collider is TerrainCollider||hit.collider.GetComponent<BimAssetProxy>()==null&&renderer!=null&&renderer.bounds.size.x>10&&renderer.bounds.size.z>10)position.y=Mathf.Max(position.y,hit.point.y+.25f);}
         for(int i=0;i<5&&Physics.CheckSphere(position,.08f,~0,QueryTriggerInteraction.Ignore);i++)position+=-direction*.18f+Vector3.up*.12f;
         Origin.transform.position+=position-head.position; // no local HMD position/rotation or forced headset yaw
-        if(visible)PlacePanel();
+        if(visible)PlacePanel(true);
     }
     void OnDestroy()
     {
