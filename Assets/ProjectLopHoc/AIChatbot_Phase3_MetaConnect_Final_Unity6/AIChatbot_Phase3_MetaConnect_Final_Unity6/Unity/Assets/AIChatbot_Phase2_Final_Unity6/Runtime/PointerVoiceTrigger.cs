@@ -15,7 +15,7 @@ public sealed class PointerVoiceTrigger : MonoBehaviour, IPointerDownHandler, IP
     public event Action Cancelled;
 
     [SerializeField] private bool cancelWhenReleasedOutside = true;
-    [Tooltip("Giữ nút A tay phải (Quest) để nói, thả ra để gửi. Chỉ chạy khi khung chat đang mở vì nút mic nằm trong panel chat.")]
+    [Tooltip("Giữ Grip tay trái (Quest) để nói, thả ra để dừng ghi âm. Chỉ chạy khi khung chat đang mở vì nút mic nằm trong panel chat.")]
     [SerializeField] private bool controllerButtonEnabled = true;
 
     private const int ControllerButtonId = -1000;
@@ -26,7 +26,11 @@ public sealed class PointerVoiceTrigger : MonoBehaviour, IPointerDownHandler, IP
     private void OnEnable()
     {
         if (!controllerButtonEnabled) return;
-        if (controllerButton == null) controllerButton = new InputAction("Voice push-to-talk A", InputActionType.Button, "<XRController>{RightHand}/primaryButton");
+        if (controllerButton == null)
+        {
+            controllerButton = new InputAction("Voice push-to-talk left grip", InputActionType.Button, "<XRController>{LeftHand}/gripPressed");
+            controllerButton.AddBinding("<XRController>{LeftHand}/gripButton");
+        }
         controllerButton.Enable();
     }
 

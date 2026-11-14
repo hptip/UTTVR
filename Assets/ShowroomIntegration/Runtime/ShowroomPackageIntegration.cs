@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.UI;
 using UnityEngine.XR.Interaction.Toolkit.UI;
 using Unity.XR.CoreUtils;
@@ -21,12 +22,29 @@ public sealed class ShowroomPackageIntegration:MonoBehaviour
     bool xrConfigured;
     bool controlsHiddenForChat,controlsWereVisible;
     float nextCheck;
+    // Quest shortcuts: B opens/closes the chat, right grip sends (left grip push-to-talk lives in PointerVoiceTrigger).
+    InputAction toggleChat,sendChat;
     void Start()
     {
         if(chatbot!=null){chatbot.onOpened.AddListener(OnChatOpened);chatbot.onClosed.AddListener(OnChatClosed);}
         Configure();
+        toggleChat=new InputAction("Chatbot B",InputActionType.Button,"<XRController>{RightHand}/secondaryButton");toggleChat.Enable();
+        sendChat=new InputAction("Chatbot send grip",InputActionType.Button,"<XRController>{RightHand}/gripPressed");sendChat.AddBinding("<XRController>{RightHand}/gripButton");sendChat.Enable();
     }
-    void Update(){if(Time.unscaledTime>=nextCheck){nextCheck=Time.unscaledTime+.5f;Configure();}}
+    void Update()
+    {
+        if(Time.unscaledTime>=nextCheck){nextCheck=Time.unscaledTime+.5f;Configure();}
+        if(chatbot==null)return;
+        // In YenTu the driver uses B for the exterior train view; leave B to it while the local player is driving.
+        if(toggleChat!=null&&toggleChat.WasPressedThisFrame()&&!LocalPlayerDriving())chatbot.Toggle();
+        if(sendChat!=null&&sendChat.WasPressedThisFrame()&&chatbot.IsOpen)chatbot.Send();
+    }
+    static bool LocalPlayerDriving()
+    {
+        foreach(var player in FindObjectsByType<FirstPersonController>(FindObjectsSortMode.None))
+            if(player!=null&&player.isDriving&&player.Object!=null&&player.Object.IsValid&&player.HasStateAuthority)return true;
+        return false;
+    }
     void Configure()
     {
         if(origin==null)origin=FindFirstObjectByType<XROrigin>();
@@ -73,5 +91,6 @@ public sealed class ShowroomPackageIntegration:MonoBehaviour
         if(chatbot!=null){chatbot.onOpened.RemoveListener(OnChatOpened);chatbot.onClosed.RemoveListener(OnChatClosed);}
         if(chatbot!=null&&chatbot.inputField!=null)chatbot.inputField.onSelect.RemoveListener(CaptureKeyboardRoot);
         if(keyboardRoot!=null)Destroy(keyboardRoot);
+        toggleChat?.Dispose();sendChat?.Dispose();
     }
 }

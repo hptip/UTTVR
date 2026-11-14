@@ -17,11 +17,21 @@ public sealed class ShowroomGeometryProfile : ScriptableObject
     }
     public Entry[] entries = Array.Empty<Entry>();
     public ShowroomGeometryMode androidDefault = ShowroomGeometryMode.Quality10;
+    // Trains are viewed up close; aggressive decimation tears their surfaces. Never go below trainMinimumDetail,
+    // and keep train meshes under trainKeepOriginalBelow triangles untouched (they cost little).
+    public ShowroomGeometryMode trainMinimumDetail = ShowroomGeometryMode.Quality50;
+    public long trainKeepOriginalBelow = 500000;
     [NonSerialized] Dictionary<Mesh, Entry> lookup;
     public Mesh Resolve(Mesh mesh, ShowroomGeometryMode mode)
     {
         if (mesh == null || mode == ShowroomGeometryMode.Original) return mesh;
         if (lookup == null || lookup.Count != entries.Length) { lookup = new Dictionary<Mesh, Entry>(); foreach (var e in entries) if (e.original != null) lookup[e.original] = e; }
-        return lookup.TryGetValue(mesh, out var entry) ? entry.Select(mode) ?? mesh : mesh;
+        if (!lookup.TryGetValue(mesh, out var entry)) return mesh;
+        if (entry.category == "train")
+        {
+            if (entry.originalTriangles < trainKeepOriginalBelow) return mesh;
+            if (mode > trainMinimumDetail) mode = trainMinimumDetail;
+        }
+        return entry.Select(mode) ?? mesh;
     }
 }
