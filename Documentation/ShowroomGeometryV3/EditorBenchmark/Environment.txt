@@ -1,0 +1,17 @@
+Platform=WindowsEditor
+Unity=6000.3.0f1
+GPU=NVIDIA GeForce RTX 3060
+API=Direct3D12
+Resolution=1920x1080
+XR=False
+EyeResolution=0x0
+Stereo=MultiPass
+Quality=PC
+Pipeline=PC_RPAsset (UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset)
+VSync=0
+TargetFrameRate=-1
+SamplesPerMode=180
+WarmupFrames=90
+Frame timing/GPU counters may be unavailable; blank means not measured.
+Editor results are not standalone Quest results.
+Camera tracking is preserved. Compare poses in results; head drift invalidates strict A/B comparison.

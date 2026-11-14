@@ -1,0 +1,65 @@
+Mode,Metric,Median,p95,p99,Unit
+Original,Frame time,11.2884,12.2787,14.8691,ms
+Original,FPS,88.5120,92.5258,93.8219,fps
+Original,Triangles Count,25051713.0000,25549469.0000,25648159.0000,count
+Original,Vertices Count,46060945.0000,47127960.0000,47489786.0000,count
+Original,Draw Calls Count,9479.0000,9735.0000,9777.0000,count
+Original,SetPass Calls Count,222.0000,222.0000,222.0000,count
+Original,Main Thread,11286100.0000,12403800.0000,14789300.0000,ns
+Original,Render Thread,,,,ns
+Original,Total Used Memory,5303015426.0000,5304521706.0000,5321372782.0000,bytes
+Original,Mesh Memory,987642326.0000,987642326.0000,987642326.0000,bytes
+Original,Texture Memory,553406101.0000,553406101.0000,553406101.0000,bytes
+Original,GC Allocated In Frame,33827.0000,33979.0000,34819.0000,bytes
+Original,GPU time,10.9087,11.5446,11.8231,ms
+Original,CPU frame time,11.2827,12.4184,14.8070,ms
+Original,Camera position drift,0.0502,0.0502,0.0502,m
+Original,Camera angle drift,0.0000,0.0000,0.0000,degrees
+Quality50,Frame time,11.1280,11.9554,12.2090,ms
+Quality50,FPS,89.8262,95.1077,96.2520,fps
+Quality50,Triangles Count,17901885.0000,18269833.0000,18409435.0000,count
+Quality50,Vertices Count,32248169.0000,33045624.0000,33299622.0000,count
+Quality50,Draw Calls Count,9463.0000,9728.0000,9789.0000,count
+Quality50,SetPass Calls Count,222.0000,222.0000,222.0000,count
+Quality50,Main Thread,11120000.0000,11950500.0000,12193100.0000,ns
+Quality50,Render Thread,,,,ns
+Quality50,Total Used Memory,5305498546.0000,5317549528.0000,5317868656.0000,bytes
+Quality50,Mesh Memory,987642326.0000,987642326.0000,987642326.0000,bytes
+Quality50,Texture Memory,553406101.0000,553406101.0000,553406101.0000,bytes
+Quality50,GC Allocated In Frame,33827.0000,34819.0000,4443134.0000,bytes
+Quality50,GPU time,8.8453,9.2273,9.4147,ms
+Quality50,CPU frame time,11.1237,11.9654,12.2070,ms
+Quality50,Camera position drift,0.0502,0.0502,0.0502,m
+Quality50,Camera angle drift,0.0000,0.0000,0.0000,degrees
+Quality25,Frame time,11.1728,12.0154,12.3735,ms
+Quality25,FPS,89.3080,93.9806,95.9951,fps
+Quality25,Triangles Count,15384442.0000,15692724.0000,15745842.0000,count
+Quality25,Vertices Count,26937924.0000,27673358.0000,27796320.0000,count
+Quality25,Draw Calls Count,9453.0000,9738.0000,9757.0000,count
+Quality25,SetPass Calls Count,222.0000,222.0000,222.0000,count
+Quality25,Main Thread,11152500.0000,11967800.0000,12402400.0000,ns
+Quality25,Render Thread,,,,ns
+Quality25,Total Used Memory,5320854263.0000,5322445323.0000,5322873847.0000,bytes
+Quality25,Mesh Memory,987642326.0000,987642326.0000,987642326.0000,bytes
+Quality25,Texture Memory,553406101.0000,553406101.0000,553406101.0000,bytes
+Quality25,GC Allocated In Frame,33827.0000,33923.0000,34819.0000,bytes
+Quality25,GPU time,7.4711,8.0026,8.2637,ms
+Quality25,CPU frame time,11.1711,11.9800,12.4193,ms
+Quality25,Camera position drift,0.0502,0.0502,0.0502,m
+Quality25,Camera angle drift,0.0000,0.0000,0.0000,degrees
+Quality10,Frame time,11.1928,11.7477,12.0774,ms
+Quality10,FPS,89.3399,93.9585,96.3921,fps
+Quality10,Triangles Count,14609165.0000,14881244.0000,14944774.0000,count
+Quality10,Vertices Count,25538662.0000,26199093.0000,26306957.0000,count
+Quality10,Draw Calls Count,9446.0000,9714.0000,9749.0000,count
+Quality10,SetPass Calls Count,222.0000,222.0000,222.0000,count
+Quality10,Main Thread,11172300.0000,11683600.0000,12055800.0000,ns
+Quality10,Render Thread,,,,ns
+Quality10,Total Used Memory,5337362455.0000,5339054447.0000,5339794511.0000,bytes
+Quality10,Mesh Memory,987642326.0000,987642326.0000,987642326.0000,bytes
+Quality10,Texture Memory,553406101.0000,553406101.0000,553406101.0000,bytes
+Quality10,GC Allocated In Frame,33827.0000,34513.0000,36987.0000,bytes
+Quality10,GPU time,6.9612,7.7998,7.9258,ms
+Quality10,CPU frame time,11.1842,11.7778,12.0676,ms
+Quality10,Camera position drift,0.0502,0.0502,0.0502,m
+Quality10,Camera angle drift,0.0000,0.0000,0.0000,degrees

@@ -1,0 +1,4 @@
+Original | active weighted triangles=14861120 | active weighted vertices=22167721
+Quality50 | active weighted triangles=9780224 | active weighted vertices=15166179
+Quality25 | active weighted triangles=7852615 | active weighted vertices=12595979
+Quality10 | active weighted triangles=6772420 | active weighted vertices=11595035

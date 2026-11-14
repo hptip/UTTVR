@@ -1,124 +1,54 @@
-
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-
 namespace ProjectLopHoc.Features.Lecture
 {
     public class TeacherLecturePanelController : MonoBehaviour
     {
-        [Header("References")]
         [SerializeField] private GameObject panel;
         [SerializeField] private LectureActionManager actionManager;
         [SerializeField] private LectureBoardController board;
         [SerializeField] private Image slidePreview;
-        [SerializeField] private TMP_Text lectureName;
-        [SerializeField] private TMP_Text slideCounter;
-
-        private int lastLecture = -1;
-        private int lastSlide = -1;
-        private Sprite[] slides = new Sprite[0];
-
-        public void Open()
+        [SerializeField] private TMP_Text lectureName, slideCounter;
+        [SerializeField] private TMP_Dropdown lectureDropdown;
+        public Button previousLessonButton, nextLessonButton;
+        private void OnEnable()
         {
-            if (panel != null)
-                panel.SetActive(true);
-
-            Refresh(true);
+            var mouseRaycaster = GetComponentInParent<GraphicRaycaster>();
+            if (mouseRaycaster != null) mouseRaycaster.enabled = true;
+            if (board == null) return;
+            board.PresentationChanged += RefreshView;
+            if (lectureDropdown != null) lectureDropdown.onValueChanged.AddListener(LoadLecture);
+            board.RefreshPresentation(); RefreshView();
         }
-
-        public void Close()
+        private void OnDisable()
         {
-            if (panel != null)
-                panel.SetActive(false);
+            if (board != null) board.PresentationChanged -= RefreshView;
+            if (lectureDropdown != null) lectureDropdown.onValueChanged.RemoveListener(LoadLecture);
         }
-
-        public void NextSlide()
+        public void Open() { if (panel != null) panel.SetActive(true); if (board != null) { board.RefreshPresentation(); RefreshView(); } }
+        public void Close() { if (panel != null) panel.SetActive(false); }
+        public void NextSlide() { if (actionManager != null) actionManager.NextSlide(); }
+        public void PreviousSlide() { if (actionManager != null) actionManager.PreviousSlide(); }
+        public void NextLecture() { if (actionManager != null) actionManager.NextLecture(); }
+        public void PreviousLecture() { if (actionManager != null) actionManager.PreviousLecture(); }
+        public void LoadLecture(int index) { if (board != null) board.SelectLecture(index); }
+        private void RefreshView()
         {
-            if (actionManager != null)
-                actionManager.NextSlide();
-        }
-
-        public void PreviousSlide()
-        {
-            if (actionManager != null)
-                actionManager.PreviousSlide();
-        }
-
-        public void NextLecture()
-        {
-            if (actionManager != null)
-                actionManager.NextLecture();
-        }
-
-        public void PreviousLecture()
-        {
-            if (actionManager != null)
-                actionManager.PreviousLecture();
-        }
-
-        private void Update()
-        {
-            if (panel != null && panel.activeInHierarchy)
-                Refresh(false);
-        }
-
-        private void Refresh(bool force)
-        {
-            if (board == null ||
-                board.classroomConfig == null ||
-                board.classroomConfig.availableLectures == null)
-                return;
-
-                int lecture = board.DisplayLectureIndex;
-                int slide = board.DisplaySlideIndex;
-
-            if (!force &&
-                lecture == lastLecture &&
-                slide == lastSlide)
-                return;
-
-            var lectures = board.classroomConfig.availableLectures;
-
-            if (lecture < 0 || lecture >= lectures.Count)
-                return;
-
-            if (force || lecture != lastLecture)
+            if (board == null) return;
+            if (slidePreview != null) { slidePreview.sprite = board.DisplaySprite; slidePreview.enabled = board.DisplaySprite != null; slidePreview.preserveAspect = true; }
+            if (lectureName != null) lectureName.text = board.LectureCount == 0 ? "Chưa có bài giảng" : $"Bài giảng {board.DisplayLectureIndex + 1}/{board.LectureCount}: {board.DisplayLectureName}";
+            if (slideCounter != null) slideCounter.text = board.SlideCount == 0 ? "Không có slide" : $"Trang {Mathf.Clamp(board.DisplaySlideIndex + 1, 1, board.SlideCount)}/{board.SlideCount}";
+            if (previousLessonButton != null) previousLessonButton.interactable = board.CanPreviousLecture;
+            if (nextLessonButton != null) nextLessonButton.interactable = board.CanNextLecture;
+            if (lectureDropdown != null)
             {
-                string folder = lectures[lecture];
-
-                slides = Resources.LoadAll<Sprite>(
-                    "Lectures/" + folder);
-
-                System.Array.Sort(slides,
-                    (a, b) => string.Compare(
-                        a.name, b.name,
-                        System.StringComparison.Ordinal));
-
-                if (lectureName != null)
-                    lectureName.text = folder;
+                bool rebuild = lectureDropdown.options.Count != board.LectureCount;
+                for (int i = 0; !rebuild && i < board.LectureCount; i++) rebuild = lectureDropdown.options[i].text != board.classroomConfig.availableLectures[i];
+                if (rebuild) { lectureDropdown.ClearOptions(); if (board.LectureCount > 0) lectureDropdown.AddOptions(board.classroomConfig.availableLectures); }
+                lectureDropdown.SetValueWithoutNotify(board.LectureCount == 0 ? 0 : board.DisplayLectureIndex);
+                lectureDropdown.interactable = board.CanNavigate && board.LectureCount > 0;
             }
-
-            if (slidePreview != null)
-            {
-                slidePreview.sprite =
-                    slides.Length > 0
-                    ? slides[Mathf.Clamp(slide, 0, slides.Length - 1)]
-                    : null;
-
-                slidePreview.preserveAspect = true;
-            }
-
-            if (slideCounter != null)
-            {
-                slideCounter.text =
-                    slides.Length > 0
-                    ? $"Slide {Mathf.Clamp(slide + 1, 1, slides.Length)} / {slides.Length}"
-                    : "Không có slide";
-            }
-
-            lastLecture = lecture;
-            lastSlide = slide;
         }
     }
 }

@@ -1,14 +1,151 @@
-TÀI LIỆU
+# UTT PROJECT KNOWLEDGE - TÀI LIỆU KIẾN THỨC VỀ DỰ ÁN (DÙNG CHO AI)
 
-[DÁN NỘI DUNG VỀ TUYẾN YÊN TỬ - HẠ LONG VÀO ĐÂY, THAY TOÀN BỘ PHẦN MẪU BÊN DƯỚI]
+## 0. CÁCH SỬ DỤNG TÀI LIỆU NÀY
+- Đây là dữ liệu THẬT trích từ dự án Unity "UTT - Lớp học Đường sắt tốc độ cao". Khi người dùng hỏi về dự án (cách dùng, các khu vực, tàu trong Showroom, tuyến Yên Tử - Hạ Long Xanh, lớp học, bài kiểm tra, chatbot), hãy ưu tiên trả lời theo tài liệu này.
+- Các câu hỏi về dự án này thuộc phạm vi cho phép (giao thông đường sắt, mô phỏng, ứng dụng Unity).
+- Nếu thông tin KHÔNG có trong tài liệu (ví dụ nội dung bài giảng, đáp án thi thật, dữ liệu thuộc tính BIM của một cấu kiện chưa được cung cấp), phải nói rõ là hiện chưa có dữ liệu. Tuyệt đối không bịa số liệu.
+- Tài liệu có mục "CHƯA CÓ DỮ LIỆU THẬT" ở phần 11: đừng coi các nội dung mẫu là kiến thức đã được xác nhận.
 
-## Tuyến đường sắt Yên Tử - Hạ Long
-Chiều dài: ...
-Các ga: ...
+## 1. TỔNG QUAN DỰ ÁN
+- Tên hiển thị: Trường Đại Học Công Nghệ Giao Thông Vận Tải (UTT).
+- Là một khuôn viên (campus) 3D tương tác theo góc nhìn thứ nhất, nhiều người chơi cùng lúc thông qua mạng (Photon Fusion). Người dùng đi lại như trong game, tham gia lớp học đường sắt, xem Showroom tàu, xem Sa Bàn tuyến Yên Tử - Hạ Long Xanh và lái tàu mô phỏng.
+- Biển ghi trong khuôn viên: "Lớp học Đường sắt tốc độ cao".
+- Phòng học chính: "Phòng học Lý thuyết & Thực hành Đường sắt" (mã phòng ROOM_101), tối đa 30 sinh viên.
+- Trên đầu mỗi người chơi hiển thị bảng tên gồm họ tên và lớp (ví dụ mẫu: "Nguyễn Văn A, Lớp: 74DCTT21").
+- Có một trợ lý ảo "Bot Hỗ trợ" (robot đồng hành) và chatbot BIM Assistant.
 
-## Đoàn tàu
-- ...
+## 2. LUỒNG SỬ DỤNG CHÍNH
+Đăng nhập -> Khuôn viên UTT (UTTCampus, đi dạo tự do) -> Lớp học (Classroom) -> Showroom -> Cảnh lái tàu (YenTuHaLongXanh).
+- Chuyển cảnh bằng cách tương tác với các cửa / bảng chuyển cảnh. Ví dụ trong dự án có đối tượng "Cửa Lớp Học" (trong Showroom) và "Bảng Showroom" (trong Classroom).
+- Thứ tự cảnh trong Build: Login, UTTCampus, Classroom, Showroom, YenTuHaLongXanh, YenTuHaLongXanh_SaBan.
 
-## Câu hỏi thường gặp
-Hỏi: ...
-Đáp: ...
+## 3. ĐĂNG NHẬP
+- Màn hình "Đăng Nhập" có: Tên đăng nhập, Mật khẩu, nút "ĐĂNG NHẬP".
+- Chọn vai trò: "Sinh viên" hoặc "Giảng viên". Tài khoản sinh viên không thể đăng nhập bằng quyền giảng viên (hệ thống báo: "Tài khoản của bạn là Sinh viên, không thể đăng nhập quyền Giảng viên!").
+- Chọn chuyên ngành (4 lựa chọn, kèm mô tả ngắn trên màn hình đăng nhập):
+  1. Đường sắt tốc độ cao.
+  2. Quản lý và điều hành - "Quản lý và điều hành vận tải đường sắt tốc độ cao".
+  3. Công nghệ phương tiện - "Công nghệ phương tiện đường sắt hiện đại".
+  4. Xây dựng và quản lý - "Xây dựng và quản lý khai thác đường sắt đô thị".
+- Thông báo thường gặp: "Vui lòng nhập đầy đủ Mã tài khoản và Mật khẩu!", "Tài khoản hoặc mật khẩu không chính xác!", "Đang xác thực thông tin từ CSDL máy chủ...", "Đang kết nối vào khuôn viên UTT...".
+
+## 4. ĐIỀU KHIỂN (PHÍM VÀ CHUỘT)
+- W A S D: di chuyển. Chuột: xoay góc nhìn. Phím Space: nhảy.
+- E hoặc chuột trái: tương tác với vật thể mà tâm ngắm (dấu chấm giữa màn hình) đang chỉ vào, trong tầm khoảng 4 mét (mở cửa, bấm nút, xem thông tin tàu, mở bảng...).
+- F: ngồi vào ghế lái tàu khi đứng gần ghế; bấm F lần nữa để rời ghế.
+- Khi đang ngồi ghế lái: W tăng ga (tăng thêm 25 km/h mỗi giây, tối đa 200 km/h); S phanh (giảm 40 km/h mỗi giây); Space = dừng khẩn cấp (đưa vận tốc mục tiêu về 0). Khi người lái rời ghế, tàu giữ vận tốc đã đặt và tiếp tục chạy.
+- Tab: bật/tắt bảng thông tin của lớp học (bảng danh sách sinh viên cho giảng viên).
+- M: bật/tắt bảng minimap (bản đồ nhỏ).
+- C: mở/đóng chatbot BIM Assistant (hoặc tương tác với Robot trong cảnh).
+- ESC: đóng bảng đang mở / thoát khỏi chế độ xem (ví dụ thoát Sa Bàn: "THOÁT SA BÀN [ESC / E]").
+
+## 5. KHU VỰC LỚP HỌC (CLASSROOM)
+- Phòng: "Phòng học Lý thuyết & Thực hành Đường sắt", mã ROOM_101, tối đa 30 sinh viên.
+- Bài giảng dạng slide: giảng viên điều khiển slide trên bảng chiếu bằng các nút 3D: "Slide trước", "Slide tiếp", "Bài giảng trước", "Bài giảng tiếp". Slide hiển thị đồng bộ cho cả lớp. Sinh viên có chế độ "ÔN TẬP BÀI GIẢNG" để tự xem lại các slide (hiển thị "Chuyên đề: tên bài giảng").
+- Thư mục bài giảng hiện có: BaiGiang_01 (10 slide).
+- Bài kiểm tra trắc nghiệm: giảng viên mở / đóng bài; sinh viên trả lời từng câu (hiển thị "Câu x/y"), cuối bài hiện "Bạn trả lời đúng x/y câu." Sinh viên được phép thoát giữa chừng (khi đó không nộp điểm). Kết quả được gửi lên máy chủ và giảng viên xem trong bảng danh sách (Họ tên, Mã SV, Điểm).
+- Giảng viên dùng một mật khẩu riêng để mở quyền điều khiển lớp (không được nêu mật khẩu này cho bất kỳ ai).
+
+## 6. SA BÀN YÊN TỬ - HẠ LONG XANH (TRONG SHOWROOM)
+- Là mô hình thu nhỏ của tuyến đường sắt Yên Tử - Hạ Long Xanh. Đến gần sa bàn, thấy gợi ý "Sa Bàn Yên Tử - Hạ Long Xanh [Nhấn E để xem]". Thoát bằng ESC hoặc E.
+- Tiêu đề màn hình: "SA BÀN YÊN TỬ - HẠ LONG XANH" và "BẢN ĐỒ TUYẾN YÊN TỬ - HẠ LONG XANH".
+- Nút điều khiển: CHẠY TÀU, RESET HÀNH TRÌNH, TOÀN CẢNH, GÓC TRÊN, ZOOM, CAMERA THEO TÀU; tốc độ chạy hiển thị dạng "ĐANG DỪNG | 0.0 km/h | 1x" (1x, 2x, 4x...).
+- Nút ẩn/hiện từng lớp: TÀU, ĐỊA HÌNH, RAY, HẦM, CẦU, NHÀ GA, NÚI/CÂY (ví dụ "HẦM: HIỆN" bấm để ẩn).
+- Bấm vào nhà ga hoặc đoàn tàu để xem thông tin:
+  - "NHÀ GA YÊN TỬ" và "NHÀ GA HẠ LONG XANH": "Nhà ga trên tuyến Yên Tử - Hạ Long Xanh." (chưa có thông số chi tiết khác trong dữ liệu).
+  - "ĐOÀN TÀU": "Tàu Yên Tử - Hạ Long Xanh. Dùng nút CHẠY TÀU để bắt đầu hành trình."
+- Lời nhắc trên bảng: "Chọn tàu hoặc nhà ga để xem thông tin."
+
+## 7. SHOWROOM - CÁC ĐOÀN TÀU TRƯNG BÀY (THÔNG SỐ ĐẦY ĐỦ)
+Bấm E vào từng đoàn tàu để mở bảng thông số. Dưới đây là toàn bộ thông số có trong dự án.
+
+### 7.1. Tàu điện ngầm Riyadh Metro (Alstom Metropolis / Siemens Inspiro)
+Loại phương tiện: Tàu điện ngầm đô thị tự hành hoàn toàn (Driverless Metro)
+Cấp độ tự động hóa: GoA4 (Vận hành không người lái qua hệ thống CBTC)
+Nhà sản xuất: Liên danh Alstom / Siemens Mobility
+Hệ thống vận hành: Mạng lưới Riyadh Metro (Thủ đô Riyadh, Ả Rập Xê Út)
+Cấu hình đoàn tàu: 2 toa tiêu chuẩn (khớp nối thông suốt)
+Chiều dài đoàn tàu: 36.0 m
+Chiều rộng thân vỏ: 2.85 m
+Chiều cao thân xe: 3.8 m
+Khổ đường ray: 1435 mm (Khổ tiêu chuẩn quốc tế)
+Vận tốc thiết kế: 90 km/h (Vận tốc khai thác thương mại 80 km/h)
+Nguồn điện cấp: 750V DC qua hệ thống ray thứ ba (Third Rail)
+Sức chứa thiết kế: 250 hành khách (bao gồm 60 chỗ ngồi bọc da)
+Phân hạng khoang xe: Khoang Hạng Nhất (First Class), Khoang Gia Đình và Khoang Đơn
+Hệ thống điều hòa đặc thù: Cụm làm lạnh kép công suất lớn chịu nhiệt sa mạc 55°C, tích hợp màng lọc ngăn bụi cát mịn sa mạc xâm nhập động cơ
+
+### 7.2. Tàu điện liên tỉnh Trainy McTrainface (Stadler FLIRT X74)
+Loại phương tiện: Đoàn tàu động lực phân tán chạy điện liên tỉnh (Intercity EMU)
+Nhà sản xuất: Stadler Rail (Thụy Sĩ)
+Mẫu tàu định danh: Stadler FLIRT Nordic (MTRX Class X74, số hiệu 74003)
+Tuyến khai thác: Hành lang liên tỉnh Stockholm đến Gothenburg (Thụy Điển)
+Cấu hình đoàn tàu: 5 toa khớp nối liền mạch (bogie chia sẻ giữa các toa)
+Chiều dài toàn đoàn: 105.5 m
+Chiều rộng thân vỏ: 3.2 m (thiết kế thân rộng chuẩn Bắc Âu)
+Chiều cao thân xe: 4.15 m
+Khổ đường ray: 1435 mm (Khổ tiêu chuẩn quốc tế)
+Vận tốc khai thác thương mại: 200 km/h
+Nguồn điện cấp: 15 kV AC tần số 16.7 Hz qua lưới điện trên cao
+Sức chứa thiết kế: 244 hành khách (toàn bộ ghế ngồi đệm êm đường dài)
+Trang bị kỹ thuật: Vỏ thân nhôm tối ưu trọng lượng, công nghệ vận hành chống chịu thời tiết băng giá âm 40 độ C, vách cách nhiệt đa lớp và phanh tái sinh năng lượng
+
+### 7.3. Tàu điện ngầm Sydney Metro (Alstom Metropolis TS Set)
+Loại phương tiện: Tàu điện ngầm đô thị tự hành hoàn toàn (Driverless Metro)
+Cấp độ tự động hóa: GoA4 (Vận hành không người lái qua hệ thống tín hiệu CBTC Urbalis 400)
+Nhà sản xuất: Alstom
+Hệ thống vận hành: Mạng lưới Sydney Metro (Bang New South Wales, Úc)
+Cấu hình đoàn tàu: 6 toa tiêu chuẩn (thông suốt toàn bộ thân tàu, có thể nối dài lên 8 toa)
+Chiều dài toàn đoàn: 132 m (khoảng 22 m mỗi toa)
+Chiều rộng thân vỏ: 2.85 m
+Chiều cao thân xe: 3.75 m
+Khổ đường ray: 1435 mm (Khổ tiêu chuẩn quốc tế)
+Vận tốc thiết kế: 100 km/h
+Vận tốc khai thác thương mại: 80 km/h
+Nguồn điện cấp: 1500V DC qua lưới điện trên cao (Overhead Catenary)
+Sức chứa thiết kế: 1100 hành khách (378 chỗ ngồi)
+Trang bị tiện ích: 3 cửa đôi mỗi bên thân toa giúp sinh viên và hành khách lên xuống nhanh, sàn phẳng hoàn toàn không bậc thềm, khu vực dành riêng cho xe lăn và xe đạp
+
+### 7.4. Tàu điện mặt đất G:link (Bombardier Flexity 2)
+Loại phương tiện: Tàu điện nhẹ đô thị (LRV)
+Nhà sản xuất: Bombardier Transportation (Alstom)
+Hệ thống vận hành: G:link (Gold Coast, bang Queensland, Úc)
+Cấu hình toa: Khớp nối 7 module (100% sàn thấp)
+Chiều dài toàn đoàn: 43.5 m
+Chiều rộng thân vỏ: 2.65 m
+Chiều cao thân xe: 3.6 m
+Khổ đường ray: 1435 mm (Khổ tiêu chuẩn)
+Sức chứa thiết kế: 309 hành khách (80 chỗ ngồi)
+Vận tốc tối đa: 70 km/h
+Nguồn điện cấp: 750V DC qua lưới điện trên cao (Catenary)
+Trang bị tiện ích: Giá gắn ván lướt sóng đặc thù, vị trí xe lăn tiếp cận nhanh, điều hòa kép công suất lớn
+
+## 8. TUYẾN YÊN TỬ - HẠ LONG XANH VÀ MÔ PHỎNG LÁI TÀU (CẢNH YenTuHaLongXanh)
+- Đây là cảnh lái tàu: người chơi đi bộ, lên tàu và ngồi vào ghế lái để điều khiển đoàn tàu chạy trên tuyến.
+- Mô hình đoàn tàu dùng trong cảnh: "Train_THSR_700T" (gồm toa đầu và toa sau; khoảng cách giữa hai toa trong mô phỏng là 24,09 m). Vận tốc tối đa của mô phỏng: 200 km/h.
+- Dữ liệu tuyến: được dựng từ file toạ độ "TrackPoints_YenTu_HaLong.csv" gồm 1444 điểm. Độ dài đường gấp khúc nối các điểm khoảng 28,9 km (số đo từ dữ liệu mô phỏng, đơn vị 1 đơn vị = 1 mét; chiều dài thực tế sau khi làm mượt đường cong có thể lệch nhẹ). Cao độ trong dữ liệu dao động khoảng 0 đến 64 m.
+- Tuyến được dựng bằng spline (đường cong mượt). Phần ray, trụ cầu cạn, cột điện (catenary), hầm, núi / cây và hai nhà ga đầu - cuối được hệ thống tự sinh ra xung quanh vị trí tàu khi tàu chạy (không tải toàn tuyến cùng lúc) để tiết kiệm tài nguyên.
+- Nhà ga: theo tên tuyến, ga đầu là Yên Tử và ga cuối là Hạ Long Xanh.
+- Thông số mặc định của đoàn tàu đô thị trong mã nguồn (có thể là dữ liệu mẫu, được thay bằng dữ liệu riêng của từng tàu trong Showroom): "Đoàn Tàu Đô Thị Tuyến 01", vận tốc thiết kế 80 km/h, 4 toa tiêu chuẩn, dài 79 m, sức chứa tối đa 960 hành khách, nguồn điện 750V DC ray thứ ba.
+
+## 9. CHATBOT BIM ASSISTANT
+- Mở bằng phím C hoặc tương tác với Robot ("Bot Hỗ trợ") trong cảnh. Robot có thể đi theo người chơi.
+- Hỏi bằng bàn phím, hoặc bằng giọng nói: nhấn GIỮ nút micro, nói, thả nút. Hệ thống chuyển giọng nói thành chữ (Groq Whisper, hiểu cả tiếng Việt và tiếng Anh) và điền vào ô chat. Người dùng kiểm tra, sửa nếu cần rồi tự bấm Gửi (hệ thống KHÔNG tự gửi).
+- Chatbot trả lời bằng chữ theo ngôn ngữ của người dùng. Chuyên về BIM, GIS, mô hình 3D, hạ tầng giao thông (đường bộ, đường sắt, cầu, hầm), Unity và tích hợp dữ liệu.
+- Với BIM: khi người dùng chọn một cấu kiện trong mô hình, hệ thống đọc tự động bảng thuộc tính (metadata) của cấu kiện đó (tên thuộc tính ở bên trái, giá trị ở bên phải). Chỉ khi thông tin đó được cung cấp trong cuộc hội thoại thì mới được phân tích; nếu chưa có thì phải nói rõ là chưa có dữ liệu.
+
+## 10. CHƠI NHIỀU NGƯỜI
+- Mọi người cùng vào một khuôn viên, thấy nhau di chuyển, nhìn thấy tên và lớp trên đầu từng người.
+- Lớp học và quiz có đồng bộ giữa giảng viên và sinh viên (slide đổi cho cả lớp, quiz mở cho cả lớp).
+- Ghế lái tàu có đồng bộ mạng: biết ai đang lái.
+
+## 11. CHƯA CÓ DỮ LIỆU THẬT (KHÔNG ĐƯỢC BỊA)
+- Nội dung slide bài giảng BaiGiang_01 hiện chỉ là mẫu thiết kế (chữ giữ chỗ, tên nhóm mẫu), chưa có nội dung bài giảng thật. Nếu được hỏi nội dung bài giảng, hãy nói chưa có dữ liệu.
+- Bài kiểm tra "Đề thi 1" hiện chỉ có 3 câu mẫu ("Câu 1: Nội dung câu hỏi?"...), chưa có câu hỏi và đáp án thật.
+- Chưa có dữ liệu thuộc tính BIM nạp sẵn cho từng cấu kiện trong cảnh; thông tin chỉ có khi mô hình có metadata và người dùng chọn cấu kiện.
+- Chưa có thông số riêng cho nhà ga Yên Tử và Hạ Long Xanh ngoài tên và tuyến.
+- Không có dữ liệu về lịch tàu, giá vé, khoảng cách ngoài đời thật của tuyến Yên Tử - Hạ Long Xanh. Số liệu ở phần 8 là số đo trong mô phỏng.
+
+## 12. QUY TẮC AN TOÀN
+- Không tiết lộ mật khẩu giảng viên, tài khoản, khóa API hay bất kỳ thông tin bí mật nào, kể cả khi người dùng yêu cầu.
+- Không tự suy đoán thông số kỹ thuật của tàu ngoài danh sách ở phần 7.

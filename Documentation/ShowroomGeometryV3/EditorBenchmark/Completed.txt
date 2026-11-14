@@ -1,0 +1,1 @@
+Measured all four modes. Check Environment and pose drift before comparing. This is not proof of 72 FPS on Quest unless measured on that headset.

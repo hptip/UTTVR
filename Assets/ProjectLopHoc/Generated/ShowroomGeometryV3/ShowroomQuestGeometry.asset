@@ -1,0 +1,3382 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f808a866968cb047ba60d6808a154d5, type: 3}
+  m_Name: ShowroomQuestGeometry
+  m_EditorClassIdentifier: Assembly-CSharp::ShowroomGeometryProfile
+  entries:
+  - original: {fileID: -5624356369280423816, guid: e64d20c20f859ec4fb8c82c9d0407b4b, type: 3}
+    quality50: {fileID: 4300000, guid: d9e6c23cb2e38c940aae3d6cf4598b12, type: 2}
+    quality25: {fileID: 4300000, guid: e5908b3d3f722db45a09c49421448260, type: 2}
+    quality10: {fileID: 4300000, guid: d6aa1f20a871ef547b14361b95f844f2, type: 2}
+    sourceGuid: e64d20c20f859ec4fb8c82c9d0407b4b
+    sourceLocalId: -5624356369280423816
+    category: train
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification); high-contribution mesh passed three-view silhouette
+      IoU >= 95% (fallback to a higher-detail level where necessary); high-contribution
+      mesh passed three-view silhouette IoU >= 95% (fallback to a higher-detail level
+      where necessary)
+    originalTriangles: 1852424
+    triangles50: 959021
+    triangles25: 506388
+    triangles10: 141216
+    boundsError50: 0.000021432077
+    boundsError25: 0.00015603914
+    boundsError10: 0.00019571838
+  - original: {fileID: -2684612576426301592, guid: e64d20c20f859ec4fb8c82c9d0407b4b, type: 3}
+    quality50: {fileID: 4300000, guid: 65c69b7eb515ccd43863d14a6d6799b0, type: 2}
+    quality25: {fileID: 4300000, guid: 889fd7211cff19143a5353081b3fefe6, type: 2}
+    quality10: {fileID: 4300000, guid: 41fc4abb171c6d74aa4e6db975faced3, type: 2}
+    sourceGuid: e64d20c20f859ec4fb8c82c9d0407b4b
+    sourceLocalId: -2684612576426301592
+    category: train
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification); high-contribution mesh passed three-view silhouette
+      IoU >= 95% (fallback to a higher-detail level where necessary); high-contribution
+      mesh passed three-view silhouette IoU >= 95% (fallback to a higher-detail level
+      where necessary)
+    originalTriangles: 1852424
+    triangles50: 960032
+    triangles25: 507233
+    triangles10: 140447
+    boundsError50: 0.0000214459
+    boundsError25: 0.000156041
+    boundsError10: 0.0004633237
+  - original: {fileID: 1291700403, guid: 8b217a26fc870154c9bd0593d6ec191f, type: 3}
+    quality50: {fileID: 4300000, guid: 37065658b4dc1b24ab32a25d3353266a, type: 2}
+    quality25: {fileID: 4300000, guid: 37065658b4dc1b24ab32a25d3353266a, type: 2}
+    quality10: {fileID: 4300000, guid: 37065658b4dc1b24ab32a25d3353266a, type: 2}
+    sourceGuid: 8b217a26fc870154c9bd0593d6ec191f
+    sourceLocalId: 1291700403
+    category: rail
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification); high-contribution mesh passed three-view silhouette
+      IoU >= 95% (fallback to a higher-detail level where necessary); high-contribution
+      mesh passed three-view silhouette IoU >= 95% (fallback to a higher-detail level
+      where necessary)
+    originalTriangles: 423
+    triangles50: 256
+    triangles25: 256
+    triangles10: 256
+    boundsError50: 0.0004745166
+    boundsError25: 0.0004745166
+    boundsError10: 0.0004745166
+  - original: {fileID: 4239298160622359473, guid: c3e6d9096f4973442b47c1079a9bf55d, type: 3}
+    quality50: {fileID: 4300000, guid: 666e468806554844a8bff00d7656555b, type: 2}
+    quality25: {fileID: 4300000, guid: e81f01fece5e7754982a547ca411b4f4, type: 2}
+    quality10: {fileID: 4300000, guid: 8ee2c0cf15b8db54ebc12742ab9a66df, type: 2}
+    sourceGuid: c3e6d9096f4973442b47c1079a9bf55d
+    sourceLocalId: 4239298160622359473
+    category: nature
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification); high-contribution mesh passed three-view silhouette
+      IoU >= 95% (fallback to a higher-detail level where necessary); high-contribution
+      mesh passed three-view silhouette IoU >= 95% (fallback to a higher-detail level
+      where necessary)
+    originalTriangles: 19660
+    triangles50: 9856
+    triangles25: 4928
+    triangles10: 2496
+    boundsError50: 0.0001734264
+    boundsError25: 0.0001734264
+    boundsError10: 0.00025343563
+  - original: {fileID: 1695438369, guid: 8b217a26fc870154c9bd0593d6ec191f, type: 3}
+    quality50: {fileID: 4300000, guid: cc55b9e8ee8abdf49a70dfba9bc9c93e, type: 2}
+    quality25: {fileID: 4300000, guid: cc55b9e8ee8abdf49a70dfba9bc9c93e, type: 2}
+    quality10: {fileID: 4300000, guid: cc55b9e8ee8abdf49a70dfba9bc9c93e, type: 2}
+    sourceGuid: 8b217a26fc870154c9bd0593d6ec191f
+    sourceLocalId: 1695438369
+    category: rail
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification); high-contribution mesh passed three-view silhouette
+      IoU >= 95% (fallback to a higher-detail level where necessary); high-contribution
+      mesh passed three-view silhouette IoU >= 95% (fallback to a higher-detail level
+      where necessary)
+    originalTriangles: 344
+    triangles50: 128
+    triangles25: 128
+    triangles10: 128
+    boundsError50: 0.0008448278
+    boundsError25: 0.0008448278
+    boundsError10: 0.0008448278
+  - original: {fileID: 72106132, guid: 8b217a26fc870154c9bd0593d6ec191f, type: 3}
+    quality50: {fileID: 4300000, guid: 206e691e809d96a469ad432db9c3b736, type: 2}
+    quality25: {fileID: 4300000, guid: 206e691e809d96a469ad432db9c3b736, type: 2}
+    quality10: {fileID: 4300000, guid: 206e691e809d96a469ad432db9c3b736, type: 2}
+    sourceGuid: 8b217a26fc870154c9bd0593d6ec191f
+    sourceLocalId: 72106132
+    category: rail
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification); high-contribution mesh passed three-view silhouette
+      IoU >= 95% (fallback to a higher-detail level where necessary); high-contribution
+      mesh passed three-view silhouette IoU >= 95% (fallback to a higher-detail level
+      where necessary)
+    originalTriangles: 344
+    triangles50: 192
+    triangles25: 192
+    triangles10: 192
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: -621983254599502552, guid: 195d9ac76a06f3641adb7e800f293344, type: 3}
+    quality50: {fileID: 4300000, guid: 548f1c34f90cf8c4f98b515eb0216005, type: 2}
+    quality25: {fileID: 4300000, guid: a06db688618cc4040ac40a0ad6ef442e, type: 2}
+    quality10: {fileID: 4300000, guid: 2aa5708c1a93e1744bb45b81537d64ed, type: 2}
+    sourceGuid: 195d9ac76a06f3641adb7e800f293344
+    sourceLocalId: -621983254599502552
+    category: nature
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification); high-contribution mesh passed three-view silhouette
+      IoU >= 95% (fallback to a higher-detail level where necessary); high-contribution
+      mesh passed three-view silhouette IoU >= 95% (fallback to a higher-detail level
+      where necessary)
+    originalTriangles: 19660
+    triangles50: 9854
+    triangles25: 4928
+    triangles10: 2496
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: -833103645782805513, guid: 53df8ca26c9290f49a430a8499d8ef3f, type: 3}
+    quality50: {fileID: 4300000, guid: c6b77658236055c41aa48c91417a53ad, type: 2}
+    quality25: {fileID: 4300000, guid: 13f6610585fb4b9409199680ee2dd1ad, type: 2}
+    quality10: {fileID: 4300000, guid: c2618a9410fb3a7499d6abd1e2cebfb6, type: 2}
+    sourceGuid: 53df8ca26c9290f49a430a8499d8ef3f
+    sourceLocalId: -833103645782805513
+    category: nature
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification); high-contribution mesh passed three-view silhouette
+      IoU >= 95% (fallback to a higher-detail level where necessary); high-contribution
+      mesh passed three-view silhouette IoU >= 95% (fallback to a higher-detail level
+      where necessary)
+    originalTriangles: 19659
+    triangles50: 9855
+    triangles25: 4927
+    triangles10: 2495
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 765763964, guid: 8b217a26fc870154c9bd0593d6ec191f, type: 3}
+    quality50: {fileID: 765763964, guid: 8b217a26fc870154c9bd0593d6ec191f, type: 3}
+    quality25: {fileID: 765763964, guid: 8b217a26fc870154c9bd0593d6ec191f, type: 3}
+    quality10: {fileID: 765763964, guid: 8b217a26fc870154c9bd0593d6ec191f, type: 3}
+    sourceGuid: 8b217a26fc870154c9bd0593d6ec191f
+    sourceLocalId: 765763964
+    category: rail
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification); high-contribution mesh passed three-view silhouette
+      IoU >= 95% (fallback to a higher-detail level where necessary); high-contribution
+      mesh passed three-view silhouette IoU >= 95% (fallback to a higher-detail level
+      where necessary)
+    originalTriangles: 204
+    triangles50: 204
+    triangles25: 204
+    triangles10: 204
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 366486856, guid: 8b217a26fc870154c9bd0593d6ec191f, type: 3}
+    quality50: {fileID: 366486856, guid: 8b217a26fc870154c9bd0593d6ec191f, type: 3}
+    quality25: {fileID: 366486856, guid: 8b217a26fc870154c9bd0593d6ec191f, type: 3}
+    quality10: {fileID: 366486856, guid: 8b217a26fc870154c9bd0593d6ec191f, type: 3}
+    sourceGuid: 8b217a26fc870154c9bd0593d6ec191f
+    sourceLocalId: 366486856
+    category: rail
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification); high-contribution mesh passed three-view silhouette
+      IoU >= 95% (fallback to a higher-detail level where necessary); high-contribution
+      mesh passed three-view silhouette IoU >= 95% (fallback to a higher-detail level
+      where necessary)
+    originalTriangles: 183
+    triangles50: 183
+    triangles25: 183
+    triangles10: 183
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 4556270503865679410, guid: 6fbf722cf5c444d44a5e5b8bafa6b38d, type: 3}
+    quality50: {fileID: 4556270503865679410, guid: 6fbf722cf5c444d44a5e5b8bafa6b38d, type: 3}
+    quality25: {fileID: 4556270503865679410, guid: 6fbf722cf5c444d44a5e5b8bafa6b38d, type: 3}
+    quality10: {fileID: 4556270503865679410, guid: 6fbf722cf5c444d44a5e5b8bafa6b38d, type: 3}
+    sourceGuid: 6fbf722cf5c444d44a5e5b8bafa6b38d
+    sourceLocalId: 4556270503865679410
+    category: rail
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification); high-contribution mesh passed three-view silhouette
+      IoU >= 95% (fallback to a higher-detail level where necessary); high-contribution
+      mesh passed three-view silhouette IoU >= 95% (fallback to a higher-detail level
+      where necessary)
+    originalTriangles: 164
+    triangles50: 164
+    triangles25: 164
+    triangles10: 164
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 1945542535, guid: 8b217a26fc870154c9bd0593d6ec191f, type: 3}
+    quality50: {fileID: 1945542535, guid: 8b217a26fc870154c9bd0593d6ec191f, type: 3}
+    quality25: {fileID: 1945542535, guid: 8b217a26fc870154c9bd0593d6ec191f, type: 3}
+    quality10: {fileID: 1945542535, guid: 8b217a26fc870154c9bd0593d6ec191f, type: 3}
+    sourceGuid: 8b217a26fc870154c9bd0593d6ec191f
+    sourceLocalId: 1945542535
+    category: rail
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification); high-contribution mesh passed three-view silhouette
+      IoU >= 95% (fallback to a higher-detail level where necessary); high-contribution
+      mesh passed three-view silhouette IoU >= 95% (fallback to a higher-detail level
+      where necessary)
+    originalTriangles: 124
+    triangles50: 124
+    triangles25: 124
+    triangles10: 124
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 408638977, guid: 8b217a26fc870154c9bd0593d6ec191f, type: 3}
+    quality50: {fileID: 408638977, guid: 8b217a26fc870154c9bd0593d6ec191f, type: 3}
+    quality25: {fileID: 408638977, guid: 8b217a26fc870154c9bd0593d6ec191f, type: 3}
+    quality10: {fileID: 408638977, guid: 8b217a26fc870154c9bd0593d6ec191f, type: 3}
+    sourceGuid: 8b217a26fc870154c9bd0593d6ec191f
+    sourceLocalId: 408638977
+    category: rail
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification); high-contribution mesh passed three-view silhouette
+      IoU >= 95% (fallback to a higher-detail level where necessary); high-contribution
+      mesh passed three-view silhouette IoU >= 95% (fallback to a higher-detail level
+      where necessary)
+    originalTriangles: 120
+    triangles50: 120
+    triangles25: 120
+    triangles10: 120
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 2086175200721949154, guid: 4d713a0cb4685da4a8e0f9e7f9faa625, type: 3}
+    quality50: {fileID: 2086175200721949154, guid: 4d713a0cb4685da4a8e0f9e7f9faa625, type: 3}
+    quality25: {fileID: 4300000, guid: 246bfbda641086443a94fcf97ce14cf1, type: 2}
+    quality10: {fileID: 4300000, guid: 246bfbda641086443a94fcf97ce14cf1, type: 2}
+    sourceGuid: 4d713a0cb4685da4a8e0f9e7f9faa625
+    sourceLocalId: 2086175200721949154
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification); high-contribution mesh passed three-view silhouette
+      IoU >= 95% (fallback to a higher-detail level where necessary); high-contribution
+      mesh passed three-view silhouette IoU >= 95% (fallback to a higher-detail level
+      where necessary)
+    originalTriangles: 35424
+    triangles50: 35424
+    triangles25: 8896
+    triangles10: 8896
+    boundsError50: 0
+    boundsError25: 0.0003205227
+    boundsError10: 0.0003205227
+  - original: {fileID: 7276666286717991379, guid: 4d713a0cb4685da4a8e0f9e7f9faa625, type: 3}
+    quality50: {fileID: 7276666286717991379, guid: 4d713a0cb4685da4a8e0f9e7f9faa625, type: 3}
+    quality25: {fileID: 7276666286717991379, guid: 4d713a0cb4685da4a8e0f9e7f9faa625, type: 3}
+    quality10: {fileID: 7276666286717991379, guid: 4d713a0cb4685da4a8e0f9e7f9faa625, type: 3}
+    sourceGuid: 4d713a0cb4685da4a8e0f9e7f9faa625
+    sourceLocalId: 7276666286717991379
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification); high-contribution mesh passed three-view silhouette
+      IoU >= 95% (fallback to a higher-detail level where necessary); high-contribution
+      mesh passed three-view silhouette IoU >= 95% (fallback to a higher-detail level
+      where necessary)
+    originalTriangles: 30948
+    triangles50: 30948
+    triangles25: 30948
+    triangles10: 30948
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 1595340842, guid: 8b217a26fc870154c9bd0593d6ec191f, type: 3}
+    quality50: {fileID: 1595340842, guid: 8b217a26fc870154c9bd0593d6ec191f, type: 3}
+    quality25: {fileID: 1595340842, guid: 8b217a26fc870154c9bd0593d6ec191f, type: 3}
+    quality10: {fileID: 1595340842, guid: 8b217a26fc870154c9bd0593d6ec191f, type: 3}
+    sourceGuid: 8b217a26fc870154c9bd0593d6ec191f
+    sourceLocalId: 1595340842
+    category: rail
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification); high-contribution mesh passed three-view silhouette
+      IoU >= 95% (fallback to a higher-detail level where necessary); high-contribution
+      mesh passed three-view silhouette IoU >= 95% (fallback to a higher-detail level
+      where necessary)
+    originalTriangles: 96
+    triangles50: 96
+    triangles25: 96
+    triangles10: 96
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 648728977, guid: 8b217a26fc870154c9bd0593d6ec191f, type: 3}
+    quality50: {fileID: 648728977, guid: 8b217a26fc870154c9bd0593d6ec191f, type: 3}
+    quality25: {fileID: 648728977, guid: 8b217a26fc870154c9bd0593d6ec191f, type: 3}
+    quality10: {fileID: 648728977, guid: 8b217a26fc870154c9bd0593d6ec191f, type: 3}
+    sourceGuid: 8b217a26fc870154c9bd0593d6ec191f
+    sourceLocalId: 648728977
+    category: rail
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification); high-contribution mesh passed three-view silhouette
+      IoU >= 95% (fallback to a higher-detail level where necessary); high-contribution
+      mesh passed three-view silhouette IoU >= 95% (fallback to a higher-detail level
+      where necessary)
+    originalTriangles: 76
+    triangles50: 76
+    triangles25: 76
+    triangles10: 76
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 1217138935, guid: 8b217a26fc870154c9bd0593d6ec191f, type: 3}
+    quality50: {fileID: 1217138935, guid: 8b217a26fc870154c9bd0593d6ec191f, type: 3}
+    quality25: {fileID: 1217138935, guid: 8b217a26fc870154c9bd0593d6ec191f, type: 3}
+    quality10: {fileID: 1217138935, guid: 8b217a26fc870154c9bd0593d6ec191f, type: 3}
+    sourceGuid: 8b217a26fc870154c9bd0593d6ec191f
+    sourceLocalId: 1217138935
+    category: rail
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification); high-contribution mesh passed three-view silhouette
+      IoU >= 95% (fallback to a higher-detail level where necessary); high-contribution
+      mesh passed three-view silhouette IoU >= 95% (fallback to a higher-detail level
+      where necessary)
+    originalTriangles: 71
+    triangles50: 71
+    triangles25: 71
+    triangles10: 71
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 6236217435925985776, guid: 4d713a0cb4685da4a8e0f9e7f9faa625, type: 3}
+    quality50: {fileID: 4300000, guid: 1cfe7682b97e8ea4a8a7ad6058e07a96, type: 2}
+    quality25: {fileID: 4300000, guid: 3b410d2b74539b24b8d5abbeba91551c, type: 2}
+    quality10: {fileID: 4300000, guid: 3b410d2b74539b24b8d5abbeba91551c, type: 2}
+    sourceGuid: 4d713a0cb4685da4a8e0f9e7f9faa625
+    sourceLocalId: 6236217435925985776
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification); high-contribution mesh passed three-view silhouette
+      IoU >= 95% (fallback to a higher-detail level where necessary); high-contribution
+      mesh passed three-view silhouette IoU >= 95% (fallback to a higher-detail level
+      where necessary)
+    originalTriangles: 19919
+    triangles50: 9983
+    triangles25: 4992
+    triangles10: 4992
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 2534964839176971238, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    quality50: {fileID: 4300000, guid: 2aec5b5d8b78e434d9eb5203b8b136a3, type: 2}
+    quality25: {fileID: 4300000, guid: 2aec5b5d8b78e434d9eb5203b8b136a3, type: 2}
+    quality10: {fileID: 4300000, guid: 2aec5b5d8b78e434d9eb5203b8b136a3, type: 2}
+    sourceGuid: 584bb0b8fd0a89042a65ad33119cb303
+    sourceLocalId: 2534964839176971238
+    category: rail
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification); high-contribution mesh passed three-view silhouette
+      IoU >= 95% (fallback to a higher-detail level where necessary); high-contribution
+      mesh passed three-view silhouette IoU >= 95% (fallback to a higher-detail level
+      where necessary)
+    originalTriangles: 764
+    triangles50: 382
+    triangles25: 382
+    triangles10: 382
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: -7387706064836869012, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    quality50: {fileID: 4300000, guid: 8a579eb3651ced0459357b9d09e13865, type: 2}
+    quality25: {fileID: 4300000, guid: 8a579eb3651ced0459357b9d09e13865, type: 2}
+    quality10: {fileID: 4300000, guid: 8a579eb3651ced0459357b9d09e13865, type: 2}
+    sourceGuid: 584bb0b8fd0a89042a65ad33119cb303
+    sourceLocalId: -7387706064836869012
+    category: rail
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification); high-contribution mesh passed three-view silhouette
+      IoU >= 95% (fallback to a higher-detail level where necessary); high-contribution
+      mesh passed three-view silhouette IoU >= 95% (fallback to a higher-detail level
+      where necessary)
+    originalTriangles: 764
+    triangles50: 382
+    triangles25: 382
+    triangles10: 382
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 4300000, guid: 62d0fd02da9744645b5633b9b3afb976, type: 2}
+    quality50: {fileID: 4300000, guid: 6f95b4a1b1b06884e86ff703a18742e6, type: 2}
+    quality25: {fileID: 4300000, guid: 6f95b4a1b1b06884e86ff703a18742e6, type: 2}
+    quality10: {fileID: 4300000, guid: 6f95b4a1b1b06884e86ff703a18742e6, type: 2}
+    sourceGuid: 62d0fd02da9744645b5633b9b3afb976
+    sourceLocalId: 4300000
+    category: train
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification); high-contribution mesh passed three-view silhouette
+      IoU >= 95% (fallback to a higher-detail level where necessary); high-contribution
+      mesh passed three-view silhouette IoU >= 95% (fallback to a higher-detail level
+      where necessary)
+    originalTriangles: 129932
+    triangles50: 69141
+    triangles25: 69141
+    triangles10: 69141
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 2336359826087353907, guid: 4d713a0cb4685da4a8e0f9e7f9faa625, type: 3}
+    quality50: {fileID: 2336359826087353907, guid: 4d713a0cb4685da4a8e0f9e7f9faa625, type: 3}
+    quality25: {fileID: 2336359826087353907, guid: 4d713a0cb4685da4a8e0f9e7f9faa625, type: 3}
+    quality10: {fileID: 2336359826087353907, guid: 4d713a0cb4685da4a8e0f9e7f9faa625, type: 3}
+    sourceGuid: 4d713a0cb4685da4a8e0f9e7f9faa625
+    sourceLocalId: 2336359826087353907
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification); high-contribution mesh passed three-view silhouette
+      IoU >= 95% (fallback to a higher-detail level where necessary); high-contribution
+      mesh passed three-view silhouette IoU >= 95% (fallback to a higher-detail level
+      where necessary)
+    originalTriangles: 14112
+    triangles50: 14112
+    triangles25: 14112
+    triangles10: 14112
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 4038874053963394110, guid: 4d713a0cb4685da4a8e0f9e7f9faa625, type: 3}
+    quality50: {fileID: 4300000, guid: e2bb40a7a32f06b49abb08982eb08126, type: 2}
+    quality25: {fileID: 4300000, guid: e2bb40a7a32f06b49abb08982eb08126, type: 2}
+    quality10: {fileID: 4300000, guid: e2bb40a7a32f06b49abb08982eb08126, type: 2}
+    sourceGuid: 4d713a0cb4685da4a8e0f9e7f9faa625
+    sourceLocalId: 4038874053963394110
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification); high-contribution mesh passed three-view silhouette
+      IoU >= 95% (fallback to a higher-detail level where necessary); high-contribution
+      mesh passed three-view silhouette IoU >= 95% (fallback to a higher-detail level
+      where necessary)
+    originalTriangles: 10846
+    triangles50: 5503
+    triangles25: 5503
+    triangles10: 5503
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 5742496186965850468, guid: 4d713a0cb4685da4a8e0f9e7f9faa625, type: 3}
+    quality50: {fileID: 5742496186965850468, guid: 4d713a0cb4685da4a8e0f9e7f9faa625, type: 3}
+    quality25: {fileID: 5742496186965850468, guid: 4d713a0cb4685da4a8e0f9e7f9faa625, type: 3}
+    quality10: {fileID: 5742496186965850468, guid: 4d713a0cb4685da4a8e0f9e7f9faa625, type: 3}
+    sourceGuid: 4d713a0cb4685da4a8e0f9e7f9faa625
+    sourceLocalId: 5742496186965850468
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification); high-contribution mesh passed three-view silhouette
+      IoU >= 95% (fallback to a higher-detail level where necessary); high-contribution
+      mesh passed three-view silhouette IoU >= 95% (fallback to a higher-detail level
+      where necessary)
+    originalTriangles: 8919
+    triangles50: 8919
+    triangles25: 8919
+    triangles10: 8919
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 4300000, guid: 600a78e92ecd36641a3458bb611cf3d5, type: 2}
+    quality50: {fileID: 4300000, guid: 67760dde7e9da9445ab81d56b2eae568, type: 2}
+    quality25: {fileID: 4300000, guid: d76cea997b7f3184c8ac76c26bb2c5ab, type: 2}
+    quality10: {fileID: 4300000, guid: d76cea997b7f3184c8ac76c26bb2c5ab, type: 2}
+    sourceGuid: 600a78e92ecd36641a3458bb611cf3d5
+    sourceLocalId: 4300000
+    category: station
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification); high-contribution mesh passed three-view silhouette
+      IoU >= 95% (fallback to a higher-detail level where necessary); high-contribution
+      mesh passed three-view silhouette IoU >= 95% (fallback to a higher-detail level
+      where necessary)
+    originalTriangles: 79706
+    triangles50: 44500
+    triangles25: 22271
+    triangles10: 22271
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: -7879883357934016245, guid: 2bfa2793a5bdd3448bc5326f7eadf6fd, type: 3}
+    quality50: {fileID: -7879883357934016245, guid: 2bfa2793a5bdd3448bc5326f7eadf6fd, type: 3}
+    quality25: {fileID: -7879883357934016245, guid: 2bfa2793a5bdd3448bc5326f7eadf6fd, type: 3}
+    quality10: {fileID: -7879883357934016245, guid: 2bfa2793a5bdd3448bc5326f7eadf6fd, type: 3}
+    sourceGuid: 2bfa2793a5bdd3448bc5326f7eadf6fd
+    sourceLocalId: -7879883357934016245
+    category: train
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification); high-contribution mesh passed three-view silhouette
+      IoU >= 95% (fallback to a higher-detail level where necessary); high-contribution
+      mesh passed three-view silhouette IoU >= 95% (fallback to a higher-detail level
+      where necessary)
+    originalTriangles: 39558
+    triangles50: 39558
+    triangles25: 39558
+    triangles10: 39558
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 8365834045493856003, guid: 4d713a0cb4685da4a8e0f9e7f9faa625, type: 3}
+    quality50: {fileID: 8365834045493856003, guid: 4d713a0cb4685da4a8e0f9e7f9faa625, type: 3}
+    quality25: {fileID: 8365834045493856003, guid: 4d713a0cb4685da4a8e0f9e7f9faa625, type: 3}
+    quality10: {fileID: 8365834045493856003, guid: 4d713a0cb4685da4a8e0f9e7f9faa625, type: 3}
+    sourceGuid: 4d713a0cb4685da4a8e0f9e7f9faa625
+    sourceLocalId: 8365834045493856003
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification); high-contribution mesh passed three-view silhouette
+      IoU >= 95% (fallback to a higher-detail level where necessary); high-contribution
+      mesh passed three-view silhouette IoU >= 95% (fallback to a higher-detail level
+      where necessary)
+    originalTriangles: 8656
+    triangles50: 8656
+    triangles25: 8656
+    triangles10: 8656
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 5451805538598770718, guid: 4d713a0cb4685da4a8e0f9e7f9faa625, type: 3}
+    quality50: {fileID: 4300000, guid: d876a349a041d0a428250041c1b432d4, type: 2}
+    quality25: {fileID: 4300000, guid: d876a349a041d0a428250041c1b432d4, type: 2}
+    quality10: {fileID: 4300000, guid: d876a349a041d0a428250041c1b432d4, type: 2}
+    sourceGuid: 4d713a0cb4685da4a8e0f9e7f9faa625
+    sourceLocalId: 5451805538598770718
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification); high-contribution mesh passed three-view silhouette
+      IoU >= 95% (fallback to a higher-detail level where necessary); high-contribution
+      mesh passed three-view silhouette IoU >= 95% (fallback to a higher-detail level
+      where necessary)
+    originalTriangles: 7668
+    triangles50: 4926
+    triangles25: 4926
+    triangles10: 4926
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: -125435165217083709, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    quality50: {fileID: 4300000, guid: 8ec796c682d52484b8d971273317cc64, type: 2}
+    quality25: {fileID: 4300000, guid: 4e79a4084e363824f8eda09c9788b139, type: 2}
+    quality10: {fileID: 4300000, guid: 4e79a4084e363824f8eda09c9788b139, type: 2}
+    sourceGuid: 584bb0b8fd0a89042a65ad33119cb303
+    sourceLocalId: -125435165217083709
+    category: rail
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification); high-contribution mesh passed three-view silhouette
+      IoU >= 95% (fallback to a higher-detail level where necessary); high-contribution
+      mesh passed three-view silhouette IoU >= 95% (fallback to a higher-detail level
+      where necessary)
+    originalTriangles: 380
+    triangles50: 192
+    triangles25: 128
+    triangles10: 128
+    boundsError50: 0.0008415269
+    boundsError25: 0.0010455024
+    boundsError10: 0.0010455024
+  - original: {fileID: -3893564939911345126, guid: 6fbf722cf5c444d44a5e5b8bafa6b38d, type: 3}
+    quality50: {fileID: -3893564939911345126, guid: 6fbf722cf5c444d44a5e5b8bafa6b38d, type: 3}
+    quality25: {fileID: -3893564939911345126, guid: 6fbf722cf5c444d44a5e5b8bafa6b38d, type: 3}
+    quality10: {fileID: -3893564939911345126, guid: 6fbf722cf5c444d44a5e5b8bafa6b38d, type: 3}
+    sourceGuid: 6fbf722cf5c444d44a5e5b8bafa6b38d
+    sourceLocalId: -3893564939911345126
+    category: rail
+    generator: 'Original retained: tiny mesh or unsupported deformation/topology;
+      high-contribution mesh passed three-view silhouette IoU >= 95% (fallback to
+      a higher-detail level where necessary); high-contribution mesh passed three-view
+      silhouette IoU >= 95% (fallback to a higher-detail level where necessary)'
+    originalTriangles: 22
+    triangles50: 22
+    triangles25: 22
+    triangles10: 22
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: -2533609670155002844, guid: 6fbf722cf5c444d44a5e5b8bafa6b38d, type: 3}
+    quality50: {fileID: -2533609670155002844, guid: 6fbf722cf5c444d44a5e5b8bafa6b38d, type: 3}
+    quality25: {fileID: -2533609670155002844, guid: 6fbf722cf5c444d44a5e5b8bafa6b38d, type: 3}
+    quality10: {fileID: -2533609670155002844, guid: 6fbf722cf5c444d44a5e5b8bafa6b38d, type: 3}
+    sourceGuid: 6fbf722cf5c444d44a5e5b8bafa6b38d
+    sourceLocalId: -2533609670155002844
+    category: rail
+    generator: 'Original retained: tiny mesh or unsupported deformation/topology;
+      high-contribution mesh passed three-view silhouette IoU >= 95% (fallback to
+      a higher-detail level where necessary); high-contribution mesh passed three-view
+      silhouette IoU >= 95% (fallback to a higher-detail level where necessary)'
+    originalTriangles: 22
+    triangles50: 22
+    triangles25: 22
+    triangles10: 22
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 4300000, guid: 2fef869d63340f64f97afea4541b8a23, type: 2}
+    quality50: {fileID: 4300000, guid: a807d9e24e9b3724da953a340211f69b, type: 2}
+    quality25: {fileID: 4300000, guid: a807d9e24e9b3724da953a340211f69b, type: 2}
+    quality10: {fileID: 4300000, guid: a807d9e24e9b3724da953a340211f69b, type: 2}
+    sourceGuid: 2fef869d63340f64f97afea4541b8a23
+    sourceLocalId: 4300000
+    category: train
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification); high-contribution mesh passed three-view silhouette
+      IoU >= 95% (fallback to a higher-detail level where necessary); high-contribution
+      mesh passed three-view silhouette IoU >= 95% (fallback to a higher-detail level
+      where necessary)
+    originalTriangles: 56768
+    triangles50: 40764
+    triangles25: 40764
+    triangles10: 40764
+    boundsError50: 0.00077997334
+    boundsError25: 0.00077997334
+    boundsError10: 0.00077997334
+  - original: {fileID: -5495902117074765545, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    quality50: {fileID: 4300000, guid: 8590a06a14bb3b0439189611416f704b, type: 2}
+    quality25: {fileID: 4300000, guid: d10c9c7f26d4d3547b1043e571c1f3c3, type: 2}
+    quality10: {fileID: 4300000, guid: d10c9c7f26d4d3547b1043e571c1f3c3, type: 2}
+    sourceGuid: 584bb0b8fd0a89042a65ad33119cb303
+    sourceLocalId: -5495902117074765545
+    category: rail
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 208
+    triangles50: 96
+    triangles25: 64
+    triangles10: 64
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 4428423091871140800, guid: 2bfa2793a5bdd3448bc5326f7eadf6fd, type: 3}
+    quality50: {fileID: 4300000, guid: 45aa0f1d21499224d9a9773a24ee9f67, type: 2}
+    quality25: {fileID: 4300000, guid: da721c9cdffea7c4a9235e5a871031e9, type: 2}
+    quality10: {fileID: 4300000, guid: da721c9cdffea7c4a9235e5a871031e9, type: 2}
+    sourceGuid: 2bfa2793a5bdd3448bc5326f7eadf6fd
+    sourceLocalId: 4428423091871140800
+    category: train
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 36289
+    triangles50: 19189
+    triangles25: 10372
+    triangles10: 10372
+    boundsError50: 0.000014582186
+    boundsError25: 0.000014582186
+    boundsError10: 0.000014582186
+  - original: {fileID: 7906354052944240508, guid: a34640d4145ead141be6449445d58bad, type: 3}
+    quality50: {fileID: 4300000, guid: 0f21a7ab7ade44d4db614262db48f0c0, type: 2}
+    quality25: {fileID: 4300000, guid: 21802cb7acfd0b745b40f50fae63ae51, type: 2}
+    quality10: {fileID: 4300000, guid: 612089d41adcc2c46bdb5bafe97283bc, type: 2}
+    sourceGuid: a34640d4145ead141be6449445d58bad
+    sourceLocalId: 7906354052944240508
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 36272
+    triangles50: 20156
+    triangles25: 11094
+    triangles10: 2813
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0.00074877543
+  - original: {fileID: 4493585093827132993, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    quality50: {fileID: 4300000, guid: 76df2643204a72c438aab054470a884e, type: 2}
+    quality25: {fileID: 4300000, guid: 76df2643204a72c438aab054470a884e, type: 2}
+    quality10: {fileID: 4300000, guid: 76df2643204a72c438aab054470a884e, type: 2}
+    sourceGuid: 584bb0b8fd0a89042a65ad33119cb303
+    sourceLocalId: 4493585093827132993
+    category: rail
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 188
+    triangles50: 82
+    triangles25: 82
+    triangles10: 82
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: -1550514412580984892, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    quality50: {fileID: 4300000, guid: 32c186ce34a7be24ca8e30d6681fd360, type: 2}
+    quality25: {fileID: 4300000, guid: 32c186ce34a7be24ca8e30d6681fd360, type: 2}
+    quality10: {fileID: 4300000, guid: 32c186ce34a7be24ca8e30d6681fd360, type: 2}
+    sourceGuid: 584bb0b8fd0a89042a65ad33119cb303
+    sourceLocalId: -1550514412580984892
+    category: rail
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 188
+    triangles50: 82
+    triangles25: 82
+    triangles10: 82
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 2070595767, guid: 8b217a26fc870154c9bd0593d6ec191f, type: 3}
+    quality50: {fileID: 2070595767, guid: 8b217a26fc870154c9bd0593d6ec191f, type: 3}
+    quality25: {fileID: 2070595767, guid: 8b217a26fc870154c9bd0593d6ec191f, type: 3}
+    quality10: {fileID: 2070595767, guid: 8b217a26fc870154c9bd0593d6ec191f, type: 3}
+    sourceGuid: 8b217a26fc870154c9bd0593d6ec191f
+    sourceLocalId: 2070595767
+    category: rail
+    generator: 'Original retained: tiny mesh or unsupported deformation/topology'
+    originalTriangles: 12
+    triangles50: 12
+    triangles25: 12
+    triangles10: 12
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 2537026529402509820, guid: 4d713a0cb4685da4a8e0f9e7f9faa625, type: 3}
+    quality50: {fileID: 4300000, guid: 4ac8402463b7f7849b1c551cdaf78941, type: 2}
+    quality25: {fileID: 4300000, guid: a3e1ec4f991a7664fb405dd92db6aa04, type: 2}
+    quality10: {fileID: 4300000, guid: 2352487c13e75f14fb4b953f16904d00, type: 2}
+    sourceGuid: 4d713a0cb4685da4a8e0f9e7f9faa625
+    sourceLocalId: 2537026529402509820
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 3288
+    triangles50: 1664
+    triangles25: 832
+    triangles10: 256
+    boundsError50: 0
+    boundsError25: 0.00045395643
+    boundsError10: 0.009874202
+  - original: {fileID: -7392363406847638267, guid: 6fbf722cf5c444d44a5e5b8bafa6b38d, type: 3}
+    quality50: {fileID: -7392363406847638267, guid: 6fbf722cf5c444d44a5e5b8bafa6b38d, type: 3}
+    quality25: {fileID: -7392363406847638267, guid: 6fbf722cf5c444d44a5e5b8bafa6b38d, type: 3}
+    quality10: {fileID: -7392363406847638267, guid: 6fbf722cf5c444d44a5e5b8bafa6b38d, type: 3}
+    sourceGuid: 6fbf722cf5c444d44a5e5b8bafa6b38d
+    sourceLocalId: -7392363406847638267
+    category: rail
+    generator: 'Original retained: tiny mesh or unsupported deformation/topology'
+    originalTriangles: 10
+    triangles50: 10
+    triangles25: 10
+    triangles10: 10
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: -8819867025328821346, guid: 6fbf722cf5c444d44a5e5b8bafa6b38d, type: 3}
+    quality50: {fileID: -8819867025328821346, guid: 6fbf722cf5c444d44a5e5b8bafa6b38d, type: 3}
+    quality25: {fileID: -8819867025328821346, guid: 6fbf722cf5c444d44a5e5b8bafa6b38d, type: 3}
+    quality10: {fileID: -8819867025328821346, guid: 6fbf722cf5c444d44a5e5b8bafa6b38d, type: 3}
+    sourceGuid: 6fbf722cf5c444d44a5e5b8bafa6b38d
+    sourceLocalId: -8819867025328821346
+    category: rail
+    generator: 'Original retained: tiny mesh or unsupported deformation/topology'
+    originalTriangles: 10
+    triangles50: 10
+    triangles25: 10
+    triangles10: 10
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 8430184156229083125, guid: 6fbf722cf5c444d44a5e5b8bafa6b38d, type: 3}
+    quality50: {fileID: 8430184156229083125, guid: 6fbf722cf5c444d44a5e5b8bafa6b38d, type: 3}
+    quality25: {fileID: 8430184156229083125, guid: 6fbf722cf5c444d44a5e5b8bafa6b38d, type: 3}
+    quality10: {fileID: 8430184156229083125, guid: 6fbf722cf5c444d44a5e5b8bafa6b38d, type: 3}
+    sourceGuid: 6fbf722cf5c444d44a5e5b8bafa6b38d
+    sourceLocalId: 8430184156229083125
+    category: rail
+    generator: 'Original retained: tiny mesh or unsupported deformation/topology'
+    originalTriangles: 10
+    triangles50: 10
+    triangles25: 10
+    triangles10: 10
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: -4284182221599607849, guid: e64d20c20f859ec4fb8c82c9d0407b4b, type: 3}
+    quality50: {fileID: 4300000, guid: 52a73c8cc6ab8274cbef35853556626a, type: 2}
+    quality25: {fileID: 4300000, guid: 51bf2c89d43957143ba69a180e1b83c3, type: 2}
+    quality10: {fileID: 4300000, guid: fc5c275cdd340314991cd555e7709a56, type: 2}
+    sourceGuid: e64d20c20f859ec4fb8c82c9d0407b4b
+    sourceLocalId: -4284182221599607849
+    category: train
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 26535
+    triangles50: 13384
+    triangles25: 7033
+    triangles10: 2255
+    boundsError50: 0.00015930181
+    boundsError25: 0.00015930181
+    boundsError10: 0.00015930181
+  - original: {fileID: 2070431741667574294, guid: e64d20c20f859ec4fb8c82c9d0407b4b, type: 3}
+    quality50: {fileID: 4300000, guid: ef64eeb034a153e479ca5b09ee43b0c5, type: 2}
+    quality25: {fileID: 4300000, guid: cfc524c1a43cef34082fc54f5aa6ffa4, type: 2}
+    quality10: {fileID: 4300000, guid: f326955fd30513344be24a62992c3451, type: 2}
+    sourceGuid: e64d20c20f859ec4fb8c82c9d0407b4b
+    sourceLocalId: 2070431741667574294
+    category: train
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 26342
+    triangles50: 13417
+    triangles25: 7035
+    triangles10: 2430
+    boundsError50: 0.00015927761
+    boundsError25: 0.00015927761
+    boundsError10: 0.00015927761
+  - original: {fileID: 8691780276856062721, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    quality50: {fileID: 8691780276856062721, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    quality25: {fileID: 8691780276856062721, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    quality10: {fileID: 8691780276856062721, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    sourceGuid: 584bb0b8fd0a89042a65ad33119cb303
+    sourceLocalId: 8691780276856062721
+    category: rail
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 124
+    triangles50: 124
+    triangles25: 124
+    triangles10: 124
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 6239881831769578202, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    quality50: {fileID: 6239881831769578202, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    quality25: {fileID: 6239881831769578202, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    quality10: {fileID: 6239881831769578202, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    sourceGuid: 584bb0b8fd0a89042a65ad33119cb303
+    sourceLocalId: 6239881831769578202
+    category: rail
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 124
+    triangles50: 124
+    triangles25: 124
+    triangles10: 124
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 6255687079079774844, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    quality50: {fileID: 6255687079079774844, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    quality25: {fileID: 6255687079079774844, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    quality10: {fileID: 6255687079079774844, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    sourceGuid: 584bb0b8fd0a89042a65ad33119cb303
+    sourceLocalId: 6255687079079774844
+    category: rail
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 124
+    triangles50: 124
+    triangles25: 124
+    triangles10: 124
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 3390558720134950976, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    quality50: {fileID: 3390558720134950976, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    quality25: {fileID: 3390558720134950976, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    quality10: {fileID: 3390558720134950976, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    sourceGuid: 584bb0b8fd0a89042a65ad33119cb303
+    sourceLocalId: 3390558720134950976
+    category: rail
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 124
+    triangles50: 124
+    triangles25: 124
+    triangles10: 124
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 3163171260390484736, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    quality50: {fileID: 3163171260390484736, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    quality25: {fileID: 3163171260390484736, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    quality10: {fileID: 3163171260390484736, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    sourceGuid: 584bb0b8fd0a89042a65ad33119cb303
+    sourceLocalId: 3163171260390484736
+    category: rail
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 124
+    triangles50: 124
+    triangles25: 124
+    triangles10: 124
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 5512361600001258384, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    quality50: {fileID: 5512361600001258384, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    quality25: {fileID: 5512361600001258384, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    quality10: {fileID: 5512361600001258384, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    sourceGuid: 584bb0b8fd0a89042a65ad33119cb303
+    sourceLocalId: 5512361600001258384
+    category: rail
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 124
+    triangles50: 124
+    triangles25: 124
+    triangles10: 124
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 3525479140033381557, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    quality50: {fileID: 3525479140033381557, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    quality25: {fileID: 3525479140033381557, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    quality10: {fileID: 3525479140033381557, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    sourceGuid: 584bb0b8fd0a89042a65ad33119cb303
+    sourceLocalId: 3525479140033381557
+    category: rail
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 124
+    triangles50: 124
+    triangles25: 124
+    triangles10: 124
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 8552134717624371188, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    quality50: {fileID: 8552134717624371188, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    quality25: {fileID: 8552134717624371188, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    quality10: {fileID: 8552134717624371188, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    sourceGuid: 584bb0b8fd0a89042a65ad33119cb303
+    sourceLocalId: 8552134717624371188
+    category: rail
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 116
+    triangles50: 116
+    triangles25: 116
+    triangles10: 116
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 6650969335138528213, guid: 3fa2ef5f5d312684296de0a55d40ace1, type: 3}
+    quality50: {fileID: 4300000, guid: 08f3612d624b27244bb7bf77a605d813, type: 2}
+    quality25: {fileID: 4300000, guid: b1ed94d8ed9d2244eab4d3918e6c699b, type: 2}
+    quality10: {fileID: 4300000, guid: 3bbee395c22ced04eb906a00d386f98c, type: 2}
+    sourceGuid: 3fa2ef5f5d312684296de0a55d40ace1
+    sourceLocalId: 6650969335138528213
+    category: station
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 7652
+    triangles50: 3839
+    triangles25: 1919
+    triangles10: 959
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 2014614621063456167, guid: 3fa2ef5f5d312684296de0a55d40ace1, type: 3}
+    quality50: {fileID: 4300000, guid: c9c9130c8377cde4cb594f077c44701f, type: 2}
+    quality25: {fileID: 4300000, guid: 7d505b834632ff34dbf110a9a16c7fec, type: 2}
+    quality10: {fileID: 4300000, guid: c7613d2c0060d4747b2deb8b81865fae, type: 2}
+    sourceGuid: 3fa2ef5f5d312684296de0a55d40ace1
+    sourceLocalId: 2014614621063456167
+    category: station
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 7652
+    triangles50: 3839
+    triangles25: 1919
+    triangles10: 959
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 4300000, guid: ac8f784becf48f64dae98e9c8e9c6bfb, type: 2}
+    quality50: {fileID: 4300000, guid: 42b504d3dd7aae44a96216891eb559a1, type: 2}
+    quality25: {fileID: 4300000, guid: 00f71e6ef9f515a4d92470e49f90b1bf, type: 2}
+    quality10: {fileID: 4300000, guid: ff537d3194476ad438021e6b616c3f3d, type: 2}
+    sourceGuid: ac8f784becf48f64dae98e9c8e9c6bfb
+    sourceLocalId: 4300000
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 14600
+    triangles50: 7424
+    triangles25: 3712
+    triangles10: 1854
+    boundsError50: 0.0035510412
+    boundsError25: 0.0075031873
+    boundsError10: 0.01802591
+  - original: {fileID: -8839368762345780380, guid: 3dda4aa62b4eb0d428deb0f81c1a2ad7, type: 3}
+    quality50: {fileID: 4300000, guid: 3cb174f6bcb631744847950a25a54f24, type: 2}
+    quality25: {fileID: 4300000, guid: 8c65b1929eb9c734083ed05d7135218f, type: 2}
+    quality10: {fileID: 4300000, guid: 235906aedf6020b45b132d4ebe22ad27, type: 2}
+    sourceGuid: 3dda4aa62b4eb0d428deb0f81c1a2ad7
+    sourceLocalId: -8839368762345780380
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 12184
+    triangles50: 6142
+    triangles25: 3070
+    triangles10: 1536
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: -1765337737086602200, guid: 2bfa2793a5bdd3448bc5326f7eadf6fd, type: 3}
+    quality50: {fileID: 4300000, guid: 90136c6cda0776f4ea05d4659d45ef18, type: 2}
+    quality25: {fileID: 4300000, guid: ad1be5471be37e24b81340edb47236d1, type: 2}
+    quality10: {fileID: 4300000, guid: 82d1e75b69e57b24b8c0a386e4a3ee03, type: 2}
+    sourceGuid: 2bfa2793a5bdd3448bc5326f7eadf6fd
+    sourceLocalId: -1765337737086602200
+    category: train
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 12174
+    triangles50: 7804
+    triangles25: 3965
+    triangles10: 1024
+    boundsError50: 0
+    boundsError25: 0.00000004248793
+    boundsError10: 0.003618125
+  - original: {fileID: 3920443483216605952, guid: 2bfa2793a5bdd3448bc5326f7eadf6fd, type: 3}
+    quality50: {fileID: 4300000, guid: 0a8ccf6a9047e9041814534fa344473c, type: 2}
+    quality25: {fileID: 4300000, guid: 5e36efe45c1f3bb4ead65c4eca218d0f, type: 2}
+    quality10: {fileID: 4300000, guid: 9c3ab9d46b724d240b73d01983acd4ea, type: 2}
+    sourceGuid: 2bfa2793a5bdd3448bc5326f7eadf6fd
+    sourceLocalId: 3920443483216605952
+    category: train
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 11649
+    triangles50: 6670
+    triangles25: 3390
+    triangles10: 896
+    boundsError50: 0
+    boundsError25: 0.000000021243865
+    boundsError10: 0.0059095467
+  - original: {fileID: -679942719067557509, guid: e64d20c20f859ec4fb8c82c9d0407b4b, type: 3}
+    quality50: {fileID: 4300000, guid: 8a0d1489bfadcdb4b91107a6f88e418e, type: 2}
+    quality25: {fileID: 4300000, guid: c71efab8c1e61ed4db015f4b94ab3a0b, type: 2}
+    quality10: {fileID: 4300000, guid: 5a59f92797cce7f4e976c57b86276caa, type: 2}
+    sourceGuid: e64d20c20f859ec4fb8c82c9d0407b4b
+    sourceLocalId: -679942719067557509
+    category: train
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 11399
+    triangles50: 5755
+    triangles25: 2879
+    triangles10: 1535
+    boundsError50: 0.00006793509
+    boundsError25: 0.00006793509
+    boundsError10: 0.00007278143
+  - original: {fileID: 3214630174436693773, guid: e64d20c20f859ec4fb8c82c9d0407b4b, type: 3}
+    quality50: {fileID: 4300000, guid: 6397f75e429fe3442a81ff553c587a8f, type: 2}
+    quality25: {fileID: 4300000, guid: 193b2e340fbee48468162efb60d874f7, type: 2}
+    quality10: {fileID: 4300000, guid: 3dc853b8cda3b31438af8b5a9f851c56, type: 2}
+    sourceGuid: e64d20c20f859ec4fb8c82c9d0407b4b
+    sourceLocalId: 3214630174436693773
+    category: train
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 11399
+    triangles50: 5756
+    triangles25: 2878
+    triangles10: 1536
+    boundsError50: 0.00006758298
+    boundsError25: 0.00006758298
+    boundsError10: 0.00006758298
+  - original: {fileID: 5010355444026992007, guid: 2bfa2793a5bdd3448bc5326f7eadf6fd, type: 3}
+    quality50: {fileID: 4300000, guid: 01a32abb71d403844b69685f0454f491, type: 2}
+    quality25: {fileID: 4300000, guid: 16a23592326f4484d9c43a4389747258, type: 2}
+    quality10: {fileID: 4300000, guid: f822e06be6791f64ca2c5ce202402de9, type: 2}
+    sourceGuid: 2bfa2793a5bdd3448bc5326f7eadf6fd
+    sourceLocalId: 5010355444026992007
+    category: train
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 11127
+    triangles50: 6578
+    triangles25: 3327
+    triangles10: 1127
+    boundsError50: 0
+    boundsError25: 0.0013007115
+    boundsError10: 0.0074579627
+  - original: {fileID: -8078440423545180324, guid: 6fbf722cf5c444d44a5e5b8bafa6b38d, type: 3}
+    quality50: {fileID: -8078440423545180324, guid: 6fbf722cf5c444d44a5e5b8bafa6b38d, type: 3}
+    quality25: {fileID: -8078440423545180324, guid: 6fbf722cf5c444d44a5e5b8bafa6b38d, type: 3}
+    quality10: {fileID: -8078440423545180324, guid: 6fbf722cf5c444d44a5e5b8bafa6b38d, type: 3}
+    sourceGuid: 6fbf722cf5c444d44a5e5b8bafa6b38d
+    sourceLocalId: -8078440423545180324
+    category: tunnel
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 160
+    triangles50: 160
+    triangles25: 160
+    triangles10: 160
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 2154909080876057544, guid: e64d20c20f859ec4fb8c82c9d0407b4b, type: 3}
+    quality50: {fileID: 4300000, guid: fb628638964f4a74fb054dbdd7160534, type: 2}
+    quality25: {fileID: 4300000, guid: 18f7c11f055832d4c9bfe752d6730d01, type: 2}
+    quality10: {fileID: 4300000, guid: 85fbbc3d3e1d4434983b5cae2d8328b8, type: 2}
+    sourceGuid: e64d20c20f859ec4fb8c82c9d0407b4b
+    sourceLocalId: 2154909080876057544
+    category: train
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 10696
+    triangles50: 5300
+    triangles25: 2686
+    triangles10: 1407
+    boundsError50: 0
+    boundsError25: 0.000000025189134
+    boundsError10: 0.000000025189134
+  - original: {fileID: -3308322576996155682, guid: e64d20c20f859ec4fb8c82c9d0407b4b, type: 3}
+    quality50: {fileID: 4300000, guid: f22528b298cd9d246b7b7a578988ab44, type: 2}
+    quality25: {fileID: 4300000, guid: 5d06786b0b4a7ae4c90eebc9f6f2d630, type: 2}
+    quality10: {fileID: 4300000, guid: 5ac0923e0a7608a4f97630aa7e70f8da, type: 2}
+    sourceGuid: e64d20c20f859ec4fb8c82c9d0407b4b
+    sourceLocalId: -3308322576996155682
+    category: train
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 10468
+    triangles50: 5321
+    triangles25: 2688
+    triangles10: 1407
+    boundsError50: 0
+    boundsError25: 0.000000050418446
+    boundsError10: 0.000000050418446
+  - original: {fileID: 3822247309040838107, guid: f7ede2d77225fcd41affc1a96ce614f0, type: 3}
+    quality50: {fileID: 4300000, guid: e92999ef50ac2124fa143a8052c3206d, type: 2}
+    quality25: {fileID: 4300000, guid: ed4e12f124e2ae84a8df67e761d92bec, type: 2}
+    quality10: {fileID: 4300000, guid: 10f85f2093e69544fa040ae2e2742e37, type: 2}
+    sourceGuid: f7ede2d77225fcd41affc1a96ce614f0
+    sourceLocalId: 3822247309040838107
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 9212
+    triangles50: 4828
+    triangles25: 1792
+    triangles10: 896
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 2954858793080512207, guid: f7ede2d77225fcd41affc1a96ce614f0, type: 3}
+    quality50: {fileID: 4300000, guid: c2e8e90827c665e44b3c4358f247baa2, type: 2}
+    quality25: {fileID: 4300000, guid: d0d9cfd98df94174b9fff73937960613, type: 2}
+    quality10: {fileID: 4300000, guid: a47b6882461f5704181ddcbe9b439921, type: 2}
+    sourceGuid: f7ede2d77225fcd41affc1a96ce614f0
+    sourceLocalId: 2954858793080512207
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 9212
+    triangles50: 4828
+    triangles25: 1792
+    triangles10: 896
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 5060444177187149915, guid: f7ede2d77225fcd41affc1a96ce614f0, type: 3}
+    quality50: {fileID: 4300000, guid: d0f581c22c74d1d429c63b93f9744055, type: 2}
+    quality25: {fileID: 4300000, guid: 803ab85b1cba2b24bac6c11e3dad7dfb, type: 2}
+    quality10: {fileID: 4300000, guid: 87f356efd2c96bb44bf3e1c30e6f4dad, type: 2}
+    sourceGuid: f7ede2d77225fcd41affc1a96ce614f0
+    sourceLocalId: 5060444177187149915
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 8388
+    triangles50: 4696
+    triangles25: 1792
+    triangles10: 896
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 7485205316709286908, guid: f7ede2d77225fcd41affc1a96ce614f0, type: 3}
+    quality50: {fileID: 4300000, guid: 600becbaf266c7a4aa4ff4fc4b40b2a4, type: 2}
+    quality25: {fileID: 4300000, guid: 76c29c49ab581ff42b78961cc60b83de, type: 2}
+    quality10: {fileID: 4300000, guid: 0e67c8475b49c24458fcbb3089249254, type: 2}
+    sourceGuid: f7ede2d77225fcd41affc1a96ce614f0
+    sourceLocalId: 7485205316709286908
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 8388
+    triangles50: 4696
+    triangles25: 1792
+    triangles10: 896
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 1532306086, guid: 8b217a26fc870154c9bd0593d6ec191f, type: 3}
+    quality50: {fileID: 1532306086, guid: 8b217a26fc870154c9bd0593d6ec191f, type: 3}
+    quality25: {fileID: 1532306086, guid: 8b217a26fc870154c9bd0593d6ec191f, type: 3}
+    quality10: {fileID: 1532306086, guid: 8b217a26fc870154c9bd0593d6ec191f, type: 3}
+    sourceGuid: 8b217a26fc870154c9bd0593d6ec191f
+    sourceLocalId: 1532306086
+    category: rail
+    generator: 'Original retained: tiny mesh or unsupported deformation/topology'
+    originalTriangles: 3
+    triangles50: 3
+    triangles25: 3
+    triangles10: 3
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 4300000, guid: c35174eb31c0b154ab48e591d14d71f9, type: 2}
+    quality50: {fileID: 4300000, guid: 90f993cf5d6a3f04da9022d4cd6f4af5, type: 2}
+    quality25: {fileID: 4300000, guid: 1e9cfc930cc718e40a54f34036888936, type: 2}
+    quality10: {fileID: 4300000, guid: 1e9cfc930cc718e40a54f34036888936, type: 2}
+    sourceGuid: c35174eb31c0b154ab48e591d14d71f9
+    sourceLocalId: 4300000
+    category: bridge
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 7924
+    triangles50: 5242
+    triangles25: 2624
+    triangles10: 2624
+    boundsError50: 0
+    boundsError25: 0.000000004765949
+    boundsError10: 0.000000004765949
+  - original: {fileID: 933615028189122351, guid: e64d20c20f859ec4fb8c82c9d0407b4b, type: 3}
+    quality50: {fileID: 4300000, guid: 116383bedb3d77a42997807d57cdd589, type: 2}
+    quality25: {fileID: 4300000, guid: 5912b918b5cece142bd4fd9a1ba06722, type: 2}
+    quality10: {fileID: 4300000, guid: 46335a24559ca6e45a98a407e5723f6e, type: 2}
+    sourceGuid: e64d20c20f859ec4fb8c82c9d0407b4b
+    sourceLocalId: 933615028189122351
+    category: train
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 7124
+    triangles50: 3681
+    triangles25: 1919
+    triangles10: 959
+    boundsError50: 0.00000006228279
+    boundsError25: 0.00010672157
+    boundsError10: 0.00010672157
+  - original: {fileID: 4300000, guid: 62b8f81716bf49f4e81b5775d2ce3865, type: 2}
+    quality50: {fileID: 4300000, guid: 0efcdcf1405c4c4469096ef352d87029, type: 2}
+    quality25: {fileID: 4300000, guid: f2bc0d96af2c3634d9c8de9900da119d, type: 2}
+    quality10: {fileID: 4300000, guid: 2f5f09fae46683143aa4b7e25f125c6c, type: 2}
+    sourceGuid: 62b8f81716bf49f4e81b5775d2ce3865
+    sourceLocalId: 4300000
+    category: bridge
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 6288
+    triangles50: 3200
+    triangles25: 1600
+    triangles10: 832
+    boundsError50: 0
+    boundsError25: 0.000039932864
+    boundsError10: 0.000039932864
+  - original: {fileID: 6877436581589748775, guid: e64d20c20f859ec4fb8c82c9d0407b4b, type: 3}
+    quality50: {fileID: 4300000, guid: cc52b61fa7c0efc4e8b60f3d19f5ee6b, type: 2}
+    quality25: {fileID: 4300000, guid: 9b33e046c13cd6d4ab3ca8f1cbf05185, type: 2}
+    quality10: {fileID: 4300000, guid: c8eb1cc17d9725040bcad5d7d5597f1e, type: 2}
+    sourceGuid: e64d20c20f859ec4fb8c82c9d0407b4b
+    sourceLocalId: 6877436581589748775
+    category: train
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 6107
+    triangles50: 3071
+    triangles25: 1536
+    triangles10: 551
+    boundsError50: 0.00007371541
+    boundsError25: 0.00007370314
+    boundsError10: 0.00022043413
+  - original: {fileID: 7906354052944240508, guid: e64d20c20f859ec4fb8c82c9d0407b4b, type: 3}
+    quality50: {fileID: 4300000, guid: 0da7e03f18334444fb1414d8a7431a85, type: 2}
+    quality25: {fileID: 4300000, guid: 9aa5ba4e058d7c846a6be4831e3684b9, type: 2}
+    quality10: {fileID: 4300000, guid: 03a9f7e5c1f002b4188fb6353bdd6e75, type: 2}
+    sourceGuid: e64d20c20f859ec4fb8c82c9d0407b4b
+    sourceLocalId: 7906354052944240508
+    category: train
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 6072
+    triangles50: 3071
+    triangles25: 1535
+    triangles10: 494
+    boundsError50: 0.0006372146
+    boundsError25: 0.0006412115
+    boundsError10: 0.003260285
+  - original: {fileID: -3368545836799482859, guid: e64d20c20f859ec4fb8c82c9d0407b4b, type: 3}
+    quality50: {fileID: 4300000, guid: 8329bf7577ad75e46a42a260592d1470, type: 2}
+    quality25: {fileID: 4300000, guid: 38b0dc339c62ed04e886e7635f723d57, type: 2}
+    quality10: {fileID: 4300000, guid: 068d1317473fc874caf6c0db397462a7, type: 2}
+    sourceGuid: e64d20c20f859ec4fb8c82c9d0407b4b
+    sourceLocalId: -3368545836799482859
+    category: train
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 6072
+    triangles50: 3068
+    triangles25: 1533
+    triangles10: 485
+    boundsError50: 0.000096356984
+    boundsError25: 0.0049329307
+    boundsError10: 0.005043633
+  - original: {fileID: -437919520799270731, guid: e64d20c20f859ec4fb8c82c9d0407b4b, type: 3}
+    quality50: {fileID: 4300000, guid: ada65cbbb10d2f2458003476481305ee, type: 2}
+    quality25: {fileID: 4300000, guid: a5e1d3624b1418e418a451bdcae3b4b4, type: 2}
+    quality10: {fileID: 4300000, guid: edc851990112e6241abd61ac5126a78a, type: 2}
+    sourceGuid: e64d20c20f859ec4fb8c82c9d0407b4b
+    sourceLocalId: -437919520799270731
+    category: train
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 6024
+    triangles50: 3071
+    triangles25: 1536
+    triangles10: 552
+    boundsError50: 0.000073690855
+    boundsError25: 0.00007370314
+    boundsError10: 0.00022043413
+  - original: {fileID: 6863543580344767437, guid: 8f52b3c6c17d7b749946dc21106bbb22, type: 3}
+    quality50: {fileID: 6863543580344767437, guid: 8f52b3c6c17d7b749946dc21106bbb22, type: 3}
+    quality25: {fileID: 6863543580344767437, guid: 8f52b3c6c17d7b749946dc21106bbb22, type: 3}
+    quality10: {fileID: 6863543580344767437, guid: 8f52b3c6c17d7b749946dc21106bbb22, type: 3}
+    sourceGuid: 8f52b3c6c17d7b749946dc21106bbb22
+    sourceLocalId: 6863543580344767437
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 2909
+    triangles50: 2909
+    triangles25: 2909
+    triangles10: 2909
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: -8678823145569952518, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    quality50: {fileID: -8678823145569952518, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    quality25: {fileID: -8678823145569952518, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    quality10: {fileID: -8678823145569952518, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    sourceGuid: 584bb0b8fd0a89042a65ad33119cb303
+    sourceLocalId: -8678823145569952518
+    category: rail
+    generator: 'Original retained: tiny mesh or unsupported deformation/topology'
+    originalTriangles: 32
+    triangles50: 32
+    triangles25: 32
+    triangles10: 32
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: -5053925668127403250, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    quality50: {fileID: -5053925668127403250, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    quality25: {fileID: -5053925668127403250, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    quality10: {fileID: -5053925668127403250, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    sourceGuid: 584bb0b8fd0a89042a65ad33119cb303
+    sourceLocalId: -5053925668127403250
+    category: rail
+    generator: 'Original retained: tiny mesh or unsupported deformation/topology'
+    originalTriangles: 32
+    triangles50: 32
+    triangles25: 32
+    triangles10: 32
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 2212009239438826721, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    quality50: {fileID: 2212009239438826721, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    quality25: {fileID: 2212009239438826721, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    quality10: {fileID: 2212009239438826721, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    sourceGuid: 584bb0b8fd0a89042a65ad33119cb303
+    sourceLocalId: 2212009239438826721
+    category: rail
+    generator: 'Original retained: tiny mesh or unsupported deformation/topology'
+    originalTriangles: 32
+    triangles50: 32
+    triangles25: 32
+    triangles10: 32
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: -2228417370725966487, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    quality50: {fileID: -2228417370725966487, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    quality25: {fileID: -2228417370725966487, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    quality10: {fileID: -2228417370725966487, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    sourceGuid: 584bb0b8fd0a89042a65ad33119cb303
+    sourceLocalId: -2228417370725966487
+    category: rail
+    generator: 'Original retained: tiny mesh or unsupported deformation/topology'
+    originalTriangles: 32
+    triangles50: 32
+    triangles25: 32
+    triangles10: 32
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: -3329902420748629119, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    quality50: {fileID: -3329902420748629119, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    quality25: {fileID: -3329902420748629119, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    quality10: {fileID: -3329902420748629119, guid: 584bb0b8fd0a89042a65ad33119cb303, type: 3}
+    sourceGuid: 584bb0b8fd0a89042a65ad33119cb303
+    sourceLocalId: -3329902420748629119
+    category: rail
+    generator: 'Original retained: tiny mesh or unsupported deformation/topology'
+    originalTriangles: 32
+    triangles50: 32
+    triangles25: 32
+    triangles10: 32
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 4300000, guid: 009cae9feaa319947ba423805f89f313, type: 2}
+    quality50: {fileID: 4300000, guid: 6c702d3b985d49f4d8a10bdc34281595, type: 2}
+    quality25: {fileID: 4300000, guid: 08ef23d029722d54b96775dc9e66ab24, type: 2}
+    quality10: {fileID: 4300000, guid: 9a7b11fa6759376459f479b421f58c2f, type: 2}
+    sourceGuid: 009cae9feaa319947ba423805f89f313
+    sourceLocalId: 4300000
+    category: terrain
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 4800
+    triangles50: 2431
+    triangles25: 1216
+    triangles10: 640
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 4300000, guid: 0f1b42bf82e80714fb96b134888a7af0, type: 2}
+    quality50: {fileID: 4300000, guid: b80f9cf637187a9489d3c1d7a2096ca5, type: 2}
+    quality25: {fileID: 4300000, guid: 9a0c2e29a5e17bd4e8ea6c6acc699d55, type: 2}
+    quality10: {fileID: 4300000, guid: 768e4bcad7e589b4787a13c1d44a4580, type: 2}
+    sourceGuid: 0f1b42bf82e80714fb96b134888a7af0
+    sourceLocalId: 4300000
+    category: terrain
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 4800
+    triangles50: 2431
+    triangles25: 1216
+    triangles10: 639
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 4300000, guid: cc0cddd8a2bed0f499bf7d266ff195a3, type: 2}
+    quality50: {fileID: 4300000, guid: 2692e37aee0cab547911a6d8e9c617a1, type: 2}
+    quality25: {fileID: 4300000, guid: 31d88ff3b85c31a4fb3ad97cc5729f63, type: 2}
+    quality10: {fileID: 4300000, guid: ab22177e9e7419545b0d2ac687f42031, type: 2}
+    sourceGuid: cc0cddd8a2bed0f499bf7d266ff195a3
+    sourceLocalId: 4300000
+    category: terrain
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 4800
+    triangles50: 2431
+    triangles25: 1216
+    triangles10: 639
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 4300000, guid: e9c6a90ba1fae5746803d9eba70d2e69, type: 2}
+    quality50: {fileID: 4300000, guid: eb6ae3773ff29144693759f14466f760, type: 2}
+    quality25: {fileID: 4300000, guid: fa501d0b9e6ef434ab97ba6657b68408, type: 2}
+    quality10: {fileID: 4300000, guid: 8e240a30224af0f4c830a2f2453ba5bb, type: 2}
+    sourceGuid: e9c6a90ba1fae5746803d9eba70d2e69
+    sourceLocalId: 4300000
+    category: terrain
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 4800
+    triangles50: 2431
+    triangles25: 1216
+    triangles10: 640
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 4300000, guid: 940d7a32ac84c1645bad42237a55de9a, type: 2}
+    quality50: {fileID: 4300000, guid: f320b0dc7b4646046b9444d7d2ab5155, type: 2}
+    quality25: {fileID: 4300000, guid: 8eedb14cd3ebefa4fbde13caba19e4ef, type: 2}
+    quality10: {fileID: 4300000, guid: ace04f6a6c34e5f44a392f9dd99010da, type: 2}
+    sourceGuid: 940d7a32ac84c1645bad42237a55de9a
+    sourceLocalId: 4300000
+    category: terrain
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 4800
+    triangles50: 2430
+    triangles25: 1215
+    triangles10: 639
+    boundsError50: 0
+    boundsError25: 0.00010171777
+    boundsError10: 0.000103825594
+  - original: {fileID: 4300000, guid: de4a3ea49bfc18d4dbb9744ffed6947a, type: 2}
+    quality50: {fileID: 4300000, guid: 51142ea8b7aa68648a8e4510a89a8124, type: 2}
+    quality25: {fileID: 4300000, guid: ae22330aac8a1174fb31e2bc074ca16a, type: 2}
+    quality10: {fileID: 4300000, guid: 34824cfc209897846870842e55e78f52, type: 2}
+    sourceGuid: de4a3ea49bfc18d4dbb9744ffed6947a
+    sourceLocalId: 4300000
+    category: terrain
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 4800
+    triangles50: 2432
+    triangles25: 1216
+    triangles10: 639
+    boundsError50: 0.00029348672
+    boundsError25: 0.00029348672
+    boundsError10: 0.00029348672
+  - original: {fileID: 4300000, guid: 2e0399198ff9f514897cc3c1f6a76eda, type: 2}
+    quality50: {fileID: 4300000, guid: 75a13dd595f3f0b40b2f224bf6fd4a01, type: 2}
+    quality25: {fileID: 4300000, guid: 4b3f9e70a6ea3ee4cbcc49bd07e4d42b, type: 2}
+    quality10: {fileID: 4300000, guid: 638a735a68e22404b9c79a988587134b, type: 2}
+    sourceGuid: 2e0399198ff9f514897cc3c1f6a76eda
+    sourceLocalId: 4300000
+    category: terrain
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 4800
+    triangles50: 2432
+    triangles25: 1216
+    triangles10: 640
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 4300000, guid: 98561980dafe1de43b9fdd28dbe4d7bf, type: 2}
+    quality50: {fileID: 4300000, guid: 23371f5327a0a3140946b4877f3a75fa, type: 2}
+    quality25: {fileID: 4300000, guid: 3442c73739aadaf45b3bb5f30172d487, type: 2}
+    quality10: {fileID: 4300000, guid: 0f14493f7303e644784eeb22261acd28, type: 2}
+    sourceGuid: 98561980dafe1de43b9fdd28dbe4d7bf
+    sourceLocalId: 4300000
+    category: terrain
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 4800
+    triangles50: 2432
+    triangles25: 1216
+    triangles10: 640
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 4300000, guid: 412650107cae99944a8aa8c3d7dedd4e, type: 2}
+    quality50: {fileID: 4300000, guid: fcbca6de7a4b2bf4f9cad3b23e0c6261, type: 2}
+    quality25: {fileID: 4300000, guid: 3cde7ab2aace00e438a759048cb766b0, type: 2}
+    quality10: {fileID: 4300000, guid: 023f8b92885da1941b5bea5089850a53, type: 2}
+    sourceGuid: 412650107cae99944a8aa8c3d7dedd4e
+    sourceLocalId: 4300000
+    category: terrain
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 4800
+    triangles50: 2431
+    triangles25: 1215
+    triangles10: 640
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 4300000, guid: ca2358ed9a4a03447aa43a9a63292247, type: 2}
+    quality50: {fileID: 4300000, guid: 45aed16f24cc6744dab4d5b289e029bb, type: 2}
+    quality25: {fileID: 4300000, guid: 049cb248cfbb89441bcf0b6c56fe6073, type: 2}
+    quality10: {fileID: 4300000, guid: 7129c36e1bc8c634b8c03fd7e4e5e2bf, type: 2}
+    sourceGuid: ca2358ed9a4a03447aa43a9a63292247
+    sourceLocalId: 4300000
+    category: terrain
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 4800
+    triangles50: 2431
+    triangles25: 1215
+    triangles10: 640
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 4300000, guid: 9e3f35aebfad9254cbe01dc73b40dcc2, type: 2}
+    quality50: {fileID: 4300000, guid: d286a23a1ea49554c8982d555534b807, type: 2}
+    quality25: {fileID: 4300000, guid: 32198f75385dc7644972c5e0e9a34970, type: 2}
+    quality10: {fileID: 4300000, guid: 144a4c3fde7aac74f8edbb000c3261a8, type: 2}
+    sourceGuid: 9e3f35aebfad9254cbe01dc73b40dcc2
+    sourceLocalId: 4300000
+    category: terrain
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 4800
+    triangles50: 2432
+    triangles25: 1216
+    triangles10: 640
+    boundsError50: 0
+    boundsError25: 0.000043148408
+    boundsError10: 0.000043148408
+  - original: {fileID: 4300000, guid: 74dec0333e9e0e84cbed3bd18a63ef4a, type: 2}
+    quality50: {fileID: 4300000, guid: 3bb8d6aeb49ec764fbd65f1754296bbd, type: 2}
+    quality25: {fileID: 4300000, guid: 4c38c698ed1988040883f5dabadffcb7, type: 2}
+    quality10: {fileID: 4300000, guid: 714a5a9858041c841b32d05ed6d0771d, type: 2}
+    sourceGuid: 74dec0333e9e0e84cbed3bd18a63ef4a
+    sourceLocalId: 4300000
+    category: terrain
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 4800
+    triangles50: 2431
+    triangles25: 1216
+    triangles10: 640
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0.00001876291
+  - original: {fileID: 4300000, guid: e1daf9525b3e07540aa852e898e2c5c2, type: 2}
+    quality50: {fileID: 4300000, guid: 6ff0f4ce7be6c74469303a45ba692892, type: 2}
+    quality25: {fileID: 4300000, guid: e341116664f199f41b94b346e4987989, type: 2}
+    quality10: {fileID: 4300000, guid: d6cab63d7381c60498419278719316ee, type: 2}
+    sourceGuid: e1daf9525b3e07540aa852e898e2c5c2
+    sourceLocalId: 4300000
+    category: terrain
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 4800
+    triangles50: 2430
+    triangles25: 1216
+    triangles10: 639
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 4300000, guid: 4f0dea9e067a7ca4693a4c4b1416779e, type: 2}
+    quality50: {fileID: 4300000, guid: 16027157b2b503f499fe78a345a380d6, type: 2}
+    quality25: {fileID: 4300000, guid: d491150fbf9457b45a06d7c255595e7a, type: 2}
+    quality10: {fileID: 4300000, guid: a129cde786d8a9447a09ef1a5a91ba21, type: 2}
+    sourceGuid: 4f0dea9e067a7ca4693a4c4b1416779e
+    sourceLocalId: 4300000
+    category: terrain
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 4800
+    triangles50: 2431
+    triangles25: 1216
+    triangles10: 639
+    boundsError50: 0.00017998976
+    boundsError25: 0.00017998976
+    boundsError10: 0.00017998976
+  - original: {fileID: 4300000, guid: aaf7e2b4f88879f48aad289dece80999, type: 2}
+    quality50: {fileID: 4300000, guid: 700f145ac3fd37f4f9fec36cd604c438, type: 2}
+    quality25: {fileID: 4300000, guid: 5ce602fa700e07147a942b2f62a9caa8, type: 2}
+    quality10: {fileID: 4300000, guid: ff4130be71c58924ea9467bf7f19ba31, type: 2}
+    sourceGuid: aaf7e2b4f88879f48aad289dece80999
+    sourceLocalId: 4300000
+    category: terrain
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 4800
+    triangles50: 2432
+    triangles25: 1216
+    triangles10: 640
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: -6264831526926562434, guid: 3fa2ef5f5d312684296de0a55d40ace1, type: 3}
+    quality50: {fileID: 4300000, guid: db9119f2f83868f47abbaaa5918fdb67, type: 2}
+    quality25: {fileID: 4300000, guid: b412e68e096df2d40a09f4e48a50be8a, type: 2}
+    quality10: {fileID: 4300000, guid: fe4c89dda7514f24780108a174f1c1bf, type: 2}
+    sourceGuid: 3fa2ef5f5d312684296de0a55d40ace1
+    sourceLocalId: -6264831526926562434
+    category: station
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 2336
+    triangles50: 1216
+    triangles25: 640
+    triangles10: 192
+    boundsError50: 0.000026795555
+    boundsError25: 0.000026795555
+    boundsError10: 0.00590957
+  - original: {fileID: 4564847448827134883, guid: 3fa2ef5f5d312684296de0a55d40ace1, type: 3}
+    quality50: {fileID: 4300000, guid: 1abad3b45c80af44e9b3aae2ab0c2b5c, type: 2}
+    quality25: {fileID: 4300000, guid: 3a1ace6d75ce80f4ea80fe7c4f348285, type: 2}
+    quality10: {fileID: 4300000, guid: cbc9028aca916e1469e993da7b78fe9d, type: 2}
+    sourceGuid: 3fa2ef5f5d312684296de0a55d40ace1
+    sourceLocalId: 4564847448827134883
+    category: station
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 2336
+    triangles50: 1216
+    triangles25: 640
+    triangles10: 192
+    boundsError50: 0.000026795555
+    boundsError25: 0.000026795555
+    boundsError10: 0.00590957
+  - original: {fileID: -7292569847554373119, guid: 3fa2ef5f5d312684296de0a55d40ace1, type: 3}
+    quality50: {fileID: 4300000, guid: b7889c0d44fea46458e3ba19722947f2, type: 2}
+    quality25: {fileID: 4300000, guid: ffe7113cc6842da45ad8de7b933eba45, type: 2}
+    quality10: {fileID: 4300000, guid: 596b266606383b747944354acdca5593, type: 2}
+    sourceGuid: 3fa2ef5f5d312684296de0a55d40ace1
+    sourceLocalId: -7292569847554373119
+    category: station
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 2336
+    triangles50: 1216
+    triangles25: 640
+    triangles10: 192
+    boundsError50: 0.000026795555
+    boundsError25: 0.000026795555
+    boundsError10: 0.00590957
+  - original: {fileID: -5447637273788417547, guid: 3fa2ef5f5d312684296de0a55d40ace1, type: 3}
+    quality50: {fileID: 4300000, guid: 5d590f2a7b279f34da34c9f3986289e2, type: 2}
+    quality25: {fileID: 4300000, guid: 28e0829a378b7c3498cc902b0957c69a, type: 2}
+    quality10: {fileID: 4300000, guid: 7bc2b766c8a54914eaf91a6a3676fc80, type: 2}
+    sourceGuid: 3fa2ef5f5d312684296de0a55d40ace1
+    sourceLocalId: -5447637273788417547
+    category: station
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 2336
+    triangles50: 1216
+    triangles25: 640
+    triangles10: 192
+    boundsError50: 0.000026795555
+    boundsError25: 0.000026795555
+    boundsError10: 0.00590957
+  - original: {fileID: 9162622013225082336, guid: 3fa2ef5f5d312684296de0a55d40ace1, type: 3}
+    quality50: {fileID: 4300000, guid: c22c8824650a41f47bf6912ac18be805, type: 2}
+    quality25: {fileID: 4300000, guid: 9682333b52bf85445afd38bed0814ef0, type: 2}
+    quality10: {fileID: 4300000, guid: 6f7d507281a99d8499649e36d5eae23a, type: 2}
+    sourceGuid: 3fa2ef5f5d312684296de0a55d40ace1
+    sourceLocalId: 9162622013225082336
+    category: station
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 2336
+    triangles50: 1216
+    triangles25: 640
+    triangles10: 192
+    boundsError50: 0.000026795555
+    boundsError25: 0.000026795555
+    boundsError10: 0.00590957
+  - original: {fileID: 8129720142723837363, guid: 3fa2ef5f5d312684296de0a55d40ace1, type: 3}
+    quality50: {fileID: 4300000, guid: b4757bc8b01dd364f9470bff376df296, type: 2}
+    quality25: {fileID: 4300000, guid: d2253ed3b68a96c4ba839613ccdad9ab, type: 2}
+    quality10: {fileID: 4300000, guid: 453653f7943b13e4a9bcbff521831326, type: 2}
+    sourceGuid: 3fa2ef5f5d312684296de0a55d40ace1
+    sourceLocalId: 8129720142723837363
+    category: station
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 2336
+    triangles50: 1216
+    triangles25: 640
+    triangles10: 192
+    boundsError50: 0.000026795555
+    boundsError25: 0.000026795555
+    boundsError10: 0.00590957
+  - original: {fileID: 3916515047607418224, guid: 3fa2ef5f5d312684296de0a55d40ace1, type: 3}
+    quality50: {fileID: 4300000, guid: 1e41dfd3b8be0994d9d9f26b31691d4c, type: 2}
+    quality25: {fileID: 4300000, guid: e43851404d34a624b87f9310fb966273, type: 2}
+    quality10: {fileID: 4300000, guid: f6848b186dbbc764b97e716fe21fb46d, type: 2}
+    sourceGuid: 3fa2ef5f5d312684296de0a55d40ace1
+    sourceLocalId: 3916515047607418224
+    category: station
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 2336
+    triangles50: 1216
+    triangles25: 640
+    triangles10: 192
+    boundsError50: 0.000026795555
+    boundsError25: 0.000026795555
+    boundsError10: 0.00590957
+  - original: {fileID: 580703767378532914, guid: 8f52b3c6c17d7b749946dc21106bbb22, type: 3}
+    quality50: {fileID: 4300000, guid: 969cefbe2ace089469a9208a663aea06, type: 2}
+    quality25: {fileID: 4300000, guid: bcfafa85a253be5488bc74beab672746, type: 2}
+    quality10: {fileID: 4300000, guid: 6d93c42662eea8b49867a06a3af69fae, type: 2}
+    sourceGuid: 8f52b3c6c17d7b749946dc21106bbb22
+    sourceLocalId: 580703767378532914
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 4620
+    triangles50: 2558
+    triangles25: 895
+    triangles10: 635
+    boundsError50: 0
+    boundsError25: 0.00018656452
+    boundsError10: 0.00018656452
+  - original: {fileID: 3741162537542083803, guid: e64d20c20f859ec4fb8c82c9d0407b4b, type: 3}
+    quality50: {fileID: 4300000, guid: b31ee0ebe0b4cfb46a4d37746bb82b5a, type: 2}
+    quality25: {fileID: 4300000, guid: 28a9bbc7aad858c4d9513b760183c1c8, type: 2}
+    quality10: {fileID: 4300000, guid: b5670a34fc3ca0e4887185c17ce59340, type: 2}
+    sourceGuid: e64d20c20f859ec4fb8c82c9d0407b4b
+    sourceLocalId: 3741162537542083803
+    category: train
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 4356
+    triangles50: 2304
+    triangles25: 1151
+    triangles10: 384
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0.0063282875
+  - original: {fileID: -7126204845632095809, guid: e64d20c20f859ec4fb8c82c9d0407b4b, type: 3}
+    quality50: {fileID: 4300000, guid: 842e593fb7060c54a81bd4d6c4519449, type: 2}
+    quality25: {fileID: 4300000, guid: c63b7a12236608341aed74dc6b64b77f, type: 2}
+    quality10: {fileID: 4300000, guid: 38986f54c9ee58d43a2f257448f6e823, type: 2}
+    sourceGuid: e64d20c20f859ec4fb8c82c9d0407b4b
+    sourceLocalId: -7126204845632095809
+    category: train
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 4356
+    triangles50: 2304
+    triangles25: 1151
+    triangles10: 384
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0.0046600043
+  - original: {fileID: -5505785863868382421, guid: 3fa2ef5f5d312684296de0a55d40ace1, type: 3}
+    quality50: {fileID: 4300000, guid: fd88ecd2b73d4544da34c5f276cd19d4, type: 2}
+    quality25: {fileID: 4300000, guid: b48349741d1c7b84ba133d16bb927bab, type: 2}
+    quality10: {fileID: 4300000, guid: f69fe22d24ab8124ea194ccd1073e995, type: 2}
+    sourceGuid: 3fa2ef5f5d312684296de0a55d40ace1
+    sourceLocalId: -5505785863868382421
+    category: station
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 1980
+    triangles50: 1024
+    triangles25: 516
+    triangles10: 192
+    boundsError50: 0.000034252447
+    boundsError25: 0.000034252447
+    boundsError10: 0.0075540952
+  - original: {fileID: 8835290227940987202, guid: 3fa2ef5f5d312684296de0a55d40ace1, type: 3}
+    quality50: {fileID: 4300000, guid: 231c2c98466f5794eb443e5ddabf2cce, type: 2}
+    quality25: {fileID: 4300000, guid: e37027d3d7026ba419142af96a91f5fd, type: 2}
+    quality10: {fileID: 4300000, guid: 0ddd5284761d17e4f834fe81ed2089ce, type: 2}
+    sourceGuid: 3fa2ef5f5d312684296de0a55d40ace1
+    sourceLocalId: 8835290227940987202
+    category: station
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 1980
+    triangles50: 1024
+    triangles25: 516
+    triangles10: 192
+    boundsError50: 0.000034252447
+    boundsError25: 0.000034252447
+    boundsError10: 0.0075540952
+  - original: {fileID: -7550147739690262709, guid: 3fa2ef5f5d312684296de0a55d40ace1, type: 3}
+    quality50: {fileID: 4300000, guid: 6aa1323330344fa429158696dd6de887, type: 2}
+    quality25: {fileID: 4300000, guid: bb8540562900e7045905094651f45dd8, type: 2}
+    quality10: {fileID: 4300000, guid: a5a12a31f1c5e5848b07e6450ba1fee4, type: 2}
+    sourceGuid: 3fa2ef5f5d312684296de0a55d40ace1
+    sourceLocalId: -7550147739690262709
+    category: station
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 1980
+    triangles50: 1024
+    triangles25: 516
+    triangles10: 192
+    boundsError50: 0.000034252447
+    boundsError25: 0.000034252447
+    boundsError10: 0.0075540952
+  - original: {fileID: 6745097852835617483, guid: 3fa2ef5f5d312684296de0a55d40ace1, type: 3}
+    quality50: {fileID: 4300000, guid: fb2a05220616d16469aafcf8088df2e7, type: 2}
+    quality25: {fileID: 4300000, guid: a87b7ded68d8e8b46848f1ddd6b9ecbb, type: 2}
+    quality10: {fileID: 4300000, guid: 50a1292a66fd6784fb517bbcd2cf9b48, type: 2}
+    sourceGuid: 3fa2ef5f5d312684296de0a55d40ace1
+    sourceLocalId: 6745097852835617483
+    category: station
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 1980
+    triangles50: 1024
+    triangles25: 516
+    triangles10: 192
+    boundsError50: 0.000034252447
+    boundsError25: 0.000034252447
+    boundsError10: 0.0075540952
+  - original: {fileID: -1177479828929432257, guid: 3fa2ef5f5d312684296de0a55d40ace1, type: 3}
+    quality50: {fileID: 4300000, guid: 8d52fda1dd250884db4a2db4158caaf0, type: 2}
+    quality25: {fileID: 4300000, guid: 4b7342d6cafbf4a40908f16b9b4f7798, type: 2}
+    quality10: {fileID: 4300000, guid: d9bd73a4e0bfb564191004a145fe19ad, type: 2}
+    sourceGuid: 3fa2ef5f5d312684296de0a55d40ace1
+    sourceLocalId: -1177479828929432257
+    category: station
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 1980
+    triangles50: 1024
+    triangles25: 516
+    triangles10: 192
+    boundsError50: 0.000034252447
+    boundsError25: 0.000034252447
+    boundsError10: 0.0075540952
+  - original: {fileID: -2007363337321536394, guid: 3fa2ef5f5d312684296de0a55d40ace1, type: 3}
+    quality50: {fileID: 4300000, guid: e91f86c108d17b743a12880c1add3d90, type: 2}
+    quality25: {fileID: 4300000, guid: 314e7d894d1f0124b9ed4ef028089a22, type: 2}
+    quality10: {fileID: 4300000, guid: e92db8823672cd14b9f8dabeca34d810, type: 2}
+    sourceGuid: 3fa2ef5f5d312684296de0a55d40ace1
+    sourceLocalId: -2007363337321536394
+    category: station
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 1980
+    triangles50: 1024
+    triangles25: 516
+    triangles10: 192
+    boundsError50: 0.000034252447
+    boundsError25: 0.000034252447
+    boundsError10: 0.0075540952
+  - original: {fileID: 2090856959947152379, guid: 3fa2ef5f5d312684296de0a55d40ace1, type: 3}
+    quality50: {fileID: 4300000, guid: 08cf01f6d1d1a78418a2986a58859fe4, type: 2}
+    quality25: {fileID: 4300000, guid: f9e9e90cb442cac4599d4f4e15356764, type: 2}
+    quality10: {fileID: 4300000, guid: fc66791c4aa2706448b9ca3e19b2f21c, type: 2}
+    sourceGuid: 3fa2ef5f5d312684296de0a55d40ace1
+    sourceLocalId: 2090856959947152379
+    category: station
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 1980
+    triangles50: 1024
+    triangles25: 516
+    triangles10: 192
+    boundsError50: 0.000034252447
+    boundsError25: 0.000034252447
+    boundsError10: 0.0075540952
+  - original: {fileID: -2766811147855306684, guid: 3fa2ef5f5d312684296de0a55d40ace1, type: 3}
+    quality50: {fileID: 4300000, guid: 7b3d79ca10f3d304ebc41d15ecf78c3f, type: 2}
+    quality25: {fileID: 4300000, guid: c51b660b6eb6cf948bda56a2ce53a7d7, type: 2}
+    quality10: {fileID: 4300000, guid: 80cf0a2bb8d27e847a4a133cdbcd73e1, type: 2}
+    sourceGuid: 3fa2ef5f5d312684296de0a55d40ace1
+    sourceLocalId: -2766811147855306684
+    category: station
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 1980
+    triangles50: 1024
+    triangles25: 516
+    triangles10: 192
+    boundsError50: 0.000034252447
+    boundsError25: 0.000034252447
+    boundsError10: 0.0075540952
+  - original: {fileID: -528327144337300102, guid: 3fa2ef5f5d312684296de0a55d40ace1, type: 3}
+    quality50: {fileID: 4300000, guid: cb03b45f608fb0043b02b410798aa81a, type: 2}
+    quality25: {fileID: 4300000, guid: a12db9bd2d677194cbe4ba5a87845258, type: 2}
+    quality10: {fileID: 4300000, guid: c10207a3b4882044a95fc6584264fd41, type: 2}
+    sourceGuid: 3fa2ef5f5d312684296de0a55d40ace1
+    sourceLocalId: -528327144337300102
+    category: station
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 1980
+    triangles50: 1024
+    triangles25: 516
+    triangles10: 192
+    boundsError50: 0.000034252447
+    boundsError25: 0.000034252447
+    boundsError10: 0.0075540952
+  - original: {fileID: -4622140529359514760, guid: 3fa2ef5f5d312684296de0a55d40ace1, type: 3}
+    quality50: {fileID: 4300000, guid: 4445233fdfd951c45ba8cced8983769d, type: 2}
+    quality25: {fileID: 4300000, guid: 9423f738d3cf22a45bbe86bc093a4135, type: 2}
+    quality10: {fileID: 4300000, guid: 10c2739fc37e88542bbb624eb439cf03, type: 2}
+    sourceGuid: 3fa2ef5f5d312684296de0a55d40ace1
+    sourceLocalId: -4622140529359514760
+    category: station
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 1980
+    triangles50: 1024
+    triangles25: 516
+    triangles10: 192
+    boundsError50: 0.000034252447
+    boundsError25: 0.000034252447
+    boundsError10: 0.0075540952
+  - original: {fileID: -8942655817801998122, guid: 3fa2ef5f5d312684296de0a55d40ace1, type: 3}
+    quality50: {fileID: 4300000, guid: 639b542bb396ee84fa2f6190e086e7e7, type: 2}
+    quality25: {fileID: 4300000, guid: cfe9d942120fcb4449e1d41e84882e22, type: 2}
+    quality10: {fileID: 4300000, guid: 5193a9359e8356f4eb5be3762a1210c9, type: 2}
+    sourceGuid: 3fa2ef5f5d312684296de0a55d40ace1
+    sourceLocalId: -8942655817801998122
+    category: station
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 1980
+    triangles50: 1024
+    triangles25: 516
+    triangles10: 192
+    boundsError50: 0.000034252447
+    boundsError25: 0.000034252447
+    boundsError10: 0.0075540952
+  - original: {fileID: 5966030687666034592, guid: 3fa2ef5f5d312684296de0a55d40ace1, type: 3}
+    quality50: {fileID: 4300000, guid: 4251d02bd21dbf143ae763628d4ef983, type: 2}
+    quality25: {fileID: 4300000, guid: 979f566a497a2c14fa6161c736ec1173, type: 2}
+    quality10: {fileID: 4300000, guid: f1349ec9e714db24bbc5148888c5934d, type: 2}
+    sourceGuid: 3fa2ef5f5d312684296de0a55d40ace1
+    sourceLocalId: 5966030687666034592
+    category: station
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 1980
+    triangles50: 1024
+    triangles25: 516
+    triangles10: 192
+    boundsError50: 0.000034252447
+    boundsError25: 0.000034252447
+    boundsError10: 0.0075540952
+  - original: {fileID: -3904461488521929675, guid: 3fa2ef5f5d312684296de0a55d40ace1, type: 3}
+    quality50: {fileID: 4300000, guid: 6586e2ab482e18948bec7460ac93173d, type: 2}
+    quality25: {fileID: 4300000, guid: ab832583e8884d14f8c2385918d2292e, type: 2}
+    quality10: {fileID: 4300000, guid: ab832583e8884d14f8c2385918d2292e, type: 2}
+    sourceGuid: 3fa2ef5f5d312684296de0a55d40ace1
+    sourceLocalId: -3904461488521929675
+    category: station
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 292
+    triangles50: 128
+    triangles25: 64
+    triangles10: 64
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: -7840820556741918105, guid: 8f52b3c6c17d7b749946dc21106bbb22, type: 3}
+    quality50: {fileID: 4300000, guid: 765696734fcefca49897a7a276279256, type: 2}
+    quality25: {fileID: 4300000, guid: 4fbf29b8191e00a40b348ad4e7cca2cb, type: 2}
+    quality10: {fileID: 4300000, guid: d85076fa9b673fa4aad91abcc2b92cf8, type: 2}
+    sourceGuid: 8f52b3c6c17d7b749946dc21106bbb22
+    sourceLocalId: -7840820556741918105
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 3290
+    triangles50: 1662
+    triangles25: 832
+    triangles10: 448
+    boundsError50: 0.00018738536
+    boundsError25: 0.00018738536
+    boundsError10: 0.006193268
+  - original: {fileID: 3941114003567591502, guid: 8f52b3c6c17d7b749946dc21106bbb22, type: 3}
+    quality50: {fileID: 4300000, guid: f21c6666e0abf494396387a483efe963, type: 2}
+    quality25: {fileID: 4300000, guid: 4b319e2b2de2fb143beb82edc0eea4fe, type: 2}
+    quality10: {fileID: 4300000, guid: 21ff5d4fc9684d946b335e75e298e14d, type: 2}
+    sourceGuid: 8f52b3c6c17d7b749946dc21106bbb22
+    sourceLocalId: 3941114003567591502
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 3290
+    triangles50: 1662
+    triangles25: 832
+    triangles10: 448
+    boundsError50: 0.00018738536
+    boundsError25: 0.00018738536
+    boundsError10: 0.006193268
+  - original: {fileID: -1256519914030377077, guid: 8f52b3c6c17d7b749946dc21106bbb22, type: 3}
+    quality50: {fileID: 4300000, guid: 38ca66352c215804da25c8ea5ad16ea2, type: 2}
+    quality25: {fileID: 4300000, guid: 91238258b9d52dc4885401be3d1e07e0, type: 2}
+    quality10: {fileID: 4300000, guid: 27ff4beb993106345bcf8c3016d61e1c, type: 2}
+    sourceGuid: 8f52b3c6c17d7b749946dc21106bbb22
+    sourceLocalId: -1256519914030377077
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 3238
+    triangles50: 2159
+    triangles25: 772
+    triangles10: 256
+    boundsError50: 0
+    boundsError25: 0.0047112587
+    boundsError10: 0.013978758
+  - original: {fileID: 4300000, guid: f1040a940df08a244b040b15c79f9745, type: 2}
+    quality50: {fileID: 4300000, guid: f6214f66cdf54124189e9bddd0a2d635, type: 2}
+    quality25: {fileID: 4300000, guid: bccf840ae2cc38344ab3b72a38d2297e, type: 2}
+    quality10: {fileID: 4300000, guid: bccf840ae2cc38344ab3b72a38d2297e, type: 2}
+    sourceGuid: f1040a940df08a244b040b15c79f9745
+    sourceLocalId: 4300000
+    category: rail
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 3216
+    triangles50: 1664
+    triangles25: 832
+    triangles10: 832
+    boundsError50: 0
+    boundsError25: 0.0016837749
+    boundsError10: 0.0016837749
+  - original: {fileID: 4300000, guid: 30f848c3b2347364abbc72709a7ab946, type: 2}
+    quality50: {fileID: 4300000, guid: 601cc0fb3b4c646449175230cb4a1168, type: 2}
+    quality25: {fileID: 4300000, guid: 601cc0fb3b4c646449175230cb4a1168, type: 2}
+    quality10: {fileID: 4300000, guid: 601cc0fb3b4c646449175230cb4a1168, type: 2}
+    sourceGuid: 30f848c3b2347364abbc72709a7ab946
+    sourceLocalId: 4300000
+    category: rail
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 3216
+    triangles50: 1664
+    triangles25: 1664
+    triangles10: 1664
+    boundsError50: 0.0000000037821115
+    boundsError25: 0.0000000037821115
+    boundsError10: 0.0000000037821115
+  - original: {fileID: 4300000, guid: 751e8ea397335544faceb1b213cf2757, type: 2}
+    quality50: {fileID: 4300000, guid: d0219fcd0db80ee41bdecf21c844b1ba, type: 2}
+    quality25: {fileID: 4300000, guid: 70d9acca9533e5748baaa0413a7148be, type: 2}
+    quality10: {fileID: 4300000, guid: 70d9acca9533e5748baaa0413a7148be, type: 2}
+    sourceGuid: 751e8ea397335544faceb1b213cf2757
+    sourceLocalId: 4300000
+    category: rail
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 3216
+    triangles50: 1664
+    triangles25: 832
+    triangles10: 832
+    boundsError50: 0
+    boundsError25: 0.0024114917
+    boundsError10: 0.0024114917
+  - original: {fileID: 4300000, guid: 465675216c031e54fa1846996a64dad2, type: 2}
+    quality50: {fileID: 4300000, guid: 407420ce2927e954a94749055da2cfea, type: 2}
+    quality25: {fileID: 4300000, guid: 407420ce2927e954a94749055da2cfea, type: 2}
+    quality10: {fileID: 4300000, guid: 407420ce2927e954a94749055da2cfea, type: 2}
+    sourceGuid: 465675216c031e54fa1846996a64dad2
+    sourceLocalId: 4300000
+    category: rail
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 3216
+    triangles50: 1664
+    triangles25: 1664
+    triangles10: 1664
+    boundsError50: 0.000023983639
+    boundsError25: 0.000023983639
+    boundsError10: 0.000023983639
+  - original: {fileID: 4300000, guid: dd289195d50796548acb7e468a65578b, type: 2}
+    quality50: {fileID: 4300000, guid: c58fd340a8ceba141866f19c3566e3c3, type: 2}
+    quality25: {fileID: 4300000, guid: acc7a8868a9a30544acafcd1a5aca2fb, type: 2}
+    quality10: {fileID: 4300000, guid: acc7a8868a9a30544acafcd1a5aca2fb, type: 2}
+    sourceGuid: dd289195d50796548acb7e468a65578b
+    sourceLocalId: 4300000
+    category: rail
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 3216
+    triangles50: 1664
+    triangles25: 832
+    triangles10: 832
+    boundsError50: 0.000070557435
+    boundsError25: 0.0040843193
+    boundsError10: 0.0040843193
+  - original: {fileID: 4300000, guid: 1648b51d766afe94fa7ab8643b5d17a8, type: 2}
+    quality50: {fileID: 4300000, guid: 715f9db799d804943a911e0cabd67176, type: 2}
+    quality25: {fileID: 4300000, guid: 911d0a814e42e544b8c41472a0db0017, type: 2}
+    quality10: {fileID: 4300000, guid: 911d0a814e42e544b8c41472a0db0017, type: 2}
+    sourceGuid: 1648b51d766afe94fa7ab8643b5d17a8
+    sourceLocalId: 4300000
+    category: rail
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 3216
+    triangles50: 1664
+    triangles25: 832
+    triangles10: 832
+    boundsError50: 0.0000000037645465
+    boundsError25: 0.0042827893
+    boundsError10: 0.0042827893
+  - original: {fileID: 4300000, guid: c1928e3b56924834d81fe9323b524014, type: 2}
+    quality50: {fileID: 4300000, guid: 22d5379230857ae40b8f577f26205a9e, type: 2}
+    quality25: {fileID: 4300000, guid: c192d4aa1e9558640ad7f62196bed4c3, type: 2}
+    quality10: {fileID: 4300000, guid: c192d4aa1e9558640ad7f62196bed4c3, type: 2}
+    sourceGuid: c1928e3b56924834d81fe9323b524014
+    sourceLocalId: 4300000
+    category: rail
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 3192
+    triangles50: 1600
+    triangles25: 832
+    triangles10: 832
+    boundsError50: 0.000000007621856
+    boundsError25: 0.00009977405
+    boundsError10: 0.00009977405
+  - original: {fileID: 4300000, guid: 7c691d6e1ecf8904eb331dcde4117adb, type: 2}
+    quality50: {fileID: 4300000, guid: 3869b747cb50b294cb54f0d2290b2fc7, type: 2}
+    quality25: {fileID: 4300000, guid: cb2c6885f862aaa4681e1b352f276161, type: 2}
+    quality10: {fileID: 4300000, guid: 74d4ad088e2336a4d988594fc828423f, type: 2}
+    sourceGuid: 7c691d6e1ecf8904eb331dcde4117adb
+    sourceLocalId: 4300000
+    category: rail
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 3192
+    triangles50: 1600
+    triangles25: 832
+    triangles10: 256
+    boundsError50: 0
+    boundsError25: 0.00009902845
+    boundsError10: 0.012669301
+  - original: {fileID: 4300000, guid: 864d3c4e30e1beb40a411ddf3c4adeb7, type: 2}
+    quality50: {fileID: 4300000, guid: 6ce0ec122fced6649996073f2f6c9583, type: 2}
+    quality25: {fileID: 4300000, guid: 93f05bad7e7b3a5429abbf909037d3e7, type: 2}
+    quality10: {fileID: 4300000, guid: 93f05bad7e7b3a5429abbf909037d3e7, type: 2}
+    sourceGuid: 864d3c4e30e1beb40a411ddf3c4adeb7
+    sourceLocalId: 4300000
+    category: rail
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 3192
+    triangles50: 1600
+    triangles25: 832
+    triangles10: 832
+    boundsError50: 0.000043252472
+    boundsError25: 0.000044808752
+    boundsError10: 0.000044808752
+  - original: {fileID: 4300000, guid: 9b5ebc0bb11d5f5478ed0ccbd1f4cb1a, type: 2}
+    quality50: {fileID: 4300000, guid: 0a7c308ff60529940ab4c5952cc796e8, type: 2}
+    quality25: {fileID: 4300000, guid: f71a9b090b8ac4943899ecc664909b72, type: 2}
+    quality10: {fileID: 4300000, guid: 5c0af3fbfc623a945b8e3190235f9f53, type: 2}
+    sourceGuid: 9b5ebc0bb11d5f5478ed0ccbd1f4cb1a
+    sourceLocalId: 4300000
+    category: rail
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 3192
+    triangles50: 1600
+    triangles25: 832
+    triangles10: 256
+    boundsError50: 0.0000022405568
+    boundsError25: 0.000043245032
+    boundsError10: 0.00004549321
+  - original: {fileID: 4300000, guid: 62c51d938df51cb42ad3639ea8f81d33, type: 2}
+    quality50: {fileID: 4300000, guid: 166d35aafc491b84198d445737b6f253, type: 2}
+    quality25: {fileID: 4300000, guid: 72fd28eefe732514e9a10fc7e29b4d92, type: 2}
+    quality10: {fileID: 4300000, guid: f334934dfd673be4b8d4f8d60efac2c9, type: 2}
+    sourceGuid: 62c51d938df51cb42ad3639ea8f81d33
+    sourceLocalId: 4300000
+    category: rail
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 3192
+    triangles50: 1600
+    triangles25: 832
+    triangles10: 448
+    boundsError50: 0.000000003802128
+    boundsError25: 0.00009782762
+    boundsError10: 0.012525022
+  - original: {fileID: 4300000, guid: 5e627d0d751020d429f50ae8bd98c541, type: 2}
+    quality50: {fileID: 4300000, guid: 94402936fdf847d479cfe27513a0186c, type: 2}
+    quality25: {fileID: 4300000, guid: 6f86f4022f0eba54ca4657c56975c5ff, type: 2}
+    quality10: {fileID: 4300000, guid: 35b341205ab7989429417dfa5a8c6ca0, type: 2}
+    sourceGuid: 5e627d0d751020d429f50ae8bd98c541
+    sourceLocalId: 4300000
+    category: rail
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 3192
+    triangles50: 1600
+    triangles25: 832
+    triangles10: 448
+    boundsError50: 0.000024169403
+    boundsError25: 0.012422131
+    boundsError10: 0.012790285
+  - original: {fileID: 4300000, guid: 6684e4c60ed5bc44b9192280e8875c31, type: 2}
+    quality50: {fileID: 4300000, guid: 7818639ee056b8747a5bf2d28bc351fc, type: 2}
+    quality25: {fileID: 4300000, guid: 7818639ee056b8747a5bf2d28bc351fc, type: 2}
+    quality10: {fileID: 4300000, guid: 7818639ee056b8747a5bf2d28bc351fc, type: 2}
+    sourceGuid: 6684e4c60ed5bc44b9192280e8875c31
+    sourceLocalId: 4300000
+    category: rail
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 3192
+    triangles50: 1600
+    triangles25: 1600
+    triangles10: 1600
+    boundsError50: 0.0000011018828
+    boundsError25: 0.0000011018828
+    boundsError10: 0.0000011018828
+  - original: {fileID: 4300000, guid: ce127cb4c84352148aaca17f6f8ce4e1, type: 2}
+    quality50: {fileID: 4300000, guid: fb3a84cc4abcafd4eb8db1aaea911112, type: 2}
+    quality25: {fileID: 4300000, guid: adf8cfa696246a74a96bba71f47a5b29, type: 2}
+    quality10: {fileID: 4300000, guid: adf8cfa696246a74a96bba71f47a5b29, type: 2}
+    sourceGuid: ce127cb4c84352148aaca17f6f8ce4e1
+    sourceLocalId: 4300000
+    category: rail
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 3192
+    triangles50: 1600
+    triangles25: 832
+    triangles10: 832
+    boundsError50: 0.00007044982
+    boundsError25: 0.004197838
+    boundsError10: 0.004197838
+  - original: {fileID: 4300000, guid: 8cd4a0144671d6a43a52e10bc2755431, type: 2}
+    quality50: {fileID: 4300000, guid: 0750054b38198c549b9ad175656a3f1c, type: 2}
+    quality25: {fileID: 4300000, guid: 53beca37a36752e4d8cabc98ba78b6c7, type: 2}
+    quality10: {fileID: 4300000, guid: 53beca37a36752e4d8cabc98ba78b6c7, type: 2}
+    sourceGuid: 8cd4a0144671d6a43a52e10bc2755431
+    sourceLocalId: 4300000
+    category: rail
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 3192
+    triangles50: 1600
+    triangles25: 832
+    triangles10: 832
+    boundsError50: 0.000023305418
+    boundsError25: 0.00009402866
+    boundsError10: 0.00009402866
+  - original: {fileID: 4300000, guid: 032aaf745e4231f41b15060700d7b15e, type: 2}
+    quality50: {fileID: 4300000, guid: f8868221c7572d547aa31dfd95f9d213, type: 2}
+    quality25: {fileID: 4300000, guid: 0f52721e627d30e4c8528d7d482ba5b2, type: 2}
+    quality10: {fileID: 4300000, guid: 0f52721e627d30e4c8528d7d482ba5b2, type: 2}
+    sourceGuid: 032aaf745e4231f41b15060700d7b15e
+    sourceLocalId: 4300000
+    category: rail
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 3192
+    triangles50: 1600
+    triangles25: 832
+    triangles10: 832
+    boundsError50: 0.00001213961
+    boundsError25: 0.000055450113
+    boundsError10: 0.000055450113
+  - original: {fileID: 4300000, guid: ac7ba02d3870d8a489fa3bb55c00c2e0, type: 2}
+    quality50: {fileID: 4300000, guid: 2300bf198add87e4598deeff54d62840, type: 2}
+    quality25: {fileID: 4300000, guid: 423928d6e8f51af4f84a8805e7e4bce2, type: 2}
+    quality10: {fileID: 4300000, guid: 423928d6e8f51af4f84a8805e7e4bce2, type: 2}
+    sourceGuid: ac7ba02d3870d8a489fa3bb55c00c2e0
+    sourceLocalId: 4300000
+    category: rail
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 3192
+    triangles50: 1600
+    triangles25: 832
+    triangles10: 832
+    boundsError50: 0.000012178049
+    boundsError25: 0.000043049837
+    boundsError10: 0.000043049837
+  - original: {fileID: 7732964924091442697, guid: f7ede2d77225fcd41affc1a96ce614f0, type: 3}
+    quality50: {fileID: 4300000, guid: d0571ad886c933a479d6e7f0ff04ce07, type: 2}
+    quality25: {fileID: 4300000, guid: 17800de22fefb5e49821e40e2042a630, type: 2}
+    quality10: {fileID: 4300000, guid: 17800de22fefb5e49821e40e2042a630, type: 2}
+    sourceGuid: f7ede2d77225fcd41affc1a96ce614f0
+    sourceLocalId: 7732964924091442697
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 3179
+    triangles50: 1664
+    triangles25: 832
+    triangles10: 832
+    boundsError50: 0.002351615
+    boundsError25: 0.0025037858
+    boundsError10: 0.0025037858
+  - original: {fileID: 5047256137790225176, guid: f7ede2d77225fcd41affc1a96ce614f0, type: 3}
+    quality50: {fileID: 4300000, guid: 3fed49f940d6fba4caaa765a2b616072, type: 2}
+    quality25: {fileID: 4300000, guid: 92cb458dacb373e42944650cc598f00a, type: 2}
+    quality10: {fileID: 4300000, guid: 92cb458dacb373e42944650cc598f00a, type: 2}
+    sourceGuid: f7ede2d77225fcd41affc1a96ce614f0
+    sourceLocalId: 5047256137790225176
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 3179
+    triangles50: 1664
+    triangles25: 832
+    triangles10: 832
+    boundsError50: 0.002351615
+    boundsError25: 0.0025037858
+    boundsError10: 0.0025037858
+  - original: {fileID: -7552435013969372862, guid: f7ede2d77225fcd41affc1a96ce614f0, type: 3}
+    quality50: {fileID: 4300000, guid: 702760fe17ed20746a5f978ecb3813b3, type: 2}
+    quality25: {fileID: 4300000, guid: 99a088715f42d664bbba5ccddde0c445, type: 2}
+    quality10: {fileID: 4300000, guid: 99a088715f42d664bbba5ccddde0c445, type: 2}
+    sourceGuid: f7ede2d77225fcd41affc1a96ce614f0
+    sourceLocalId: -7552435013969372862
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 3179
+    triangles50: 1664
+    triangles25: 832
+    triangles10: 832
+    boundsError50: 0.002351615
+    boundsError25: 0.0025037858
+    boundsError10: 0.0025037858
+  - original: {fileID: -2130259702878950329, guid: f7ede2d77225fcd41affc1a96ce614f0, type: 3}
+    quality50: {fileID: 4300000, guid: 78ce0810460f7254e974f27ba410cd94, type: 2}
+    quality25: {fileID: 4300000, guid: 48c538c4070db634b9e63359f6b7a46b, type: 2}
+    quality10: {fileID: 4300000, guid: 48c538c4070db634b9e63359f6b7a46b, type: 2}
+    sourceGuid: f7ede2d77225fcd41affc1a96ce614f0
+    sourceLocalId: -2130259702878950329
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 3179
+    triangles50: 1664
+    triangles25: 832
+    triangles10: 832
+    boundsError50: 0.002351615
+    boundsError25: 0.0025037858
+    boundsError10: 0.0025037858
+  - original: {fileID: -158261878019531087, guid: 2bfa2793a5bdd3448bc5326f7eadf6fd, type: 3}
+    quality50: {fileID: 4300000, guid: 2616658f3b1cf664486495acbb02642c, type: 2}
+    quality25: {fileID: 4300000, guid: bce8bfa898f639b41b1b36dcef25a907, type: 2}
+    quality10: {fileID: 4300000, guid: f97c07db3882d604aa035ee0a5168988, type: 2}
+    sourceGuid: 2bfa2793a5bdd3448bc5326f7eadf6fd
+    sourceLocalId: -158261878019531087
+    category: train
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 3166
+    triangles50: 1662
+    triangles25: 1059
+    triangles10: 575
+    boundsError50: 0.0025443833
+    boundsError25: 0.0025443833
+    boundsError10: 0.0025443833
+  - original: {fileID: -5697598986898979612, guid: 6fbf722cf5c444d44a5e5b8bafa6b38d, type: 3}
+    quality50: {fileID: -5697598986898979612, guid: 6fbf722cf5c444d44a5e5b8bafa6b38d, type: 3}
+    quality25: {fileID: -5697598986898979612, guid: 6fbf722cf5c444d44a5e5b8bafa6b38d, type: 3}
+    quality10: {fileID: -5697598986898979612, guid: 6fbf722cf5c444d44a5e5b8bafa6b38d, type: 3}
+    sourceGuid: 6fbf722cf5c444d44a5e5b8bafa6b38d
+    sourceLocalId: -5697598986898979612
+    category: tunnel
+    generator: 'Original retained: tiny mesh or unsupported deformation/topology'
+    originalTriangles: 44
+    triangles50: 44
+    triangles25: 44
+    triangles10: 44
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: -3006060593995316349, guid: 8f52b3c6c17d7b749946dc21106bbb22, type: 3}
+    quality50: {fileID: -3006060593995316349, guid: 8f52b3c6c17d7b749946dc21106bbb22, type: 3}
+    quality25: {fileID: -3006060593995316349, guid: 8f52b3c6c17d7b749946dc21106bbb22, type: 3}
+    quality10: {fileID: -3006060593995316349, guid: 8f52b3c6c17d7b749946dc21106bbb22, type: 3}
+    sourceGuid: 8f52b3c6c17d7b749946dc21106bbb22
+    sourceLocalId: -3006060593995316349
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 2990
+    triangles50: 2990
+    triangles25: 2990
+    triangles10: 2990
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 8387620672181200716, guid: 8f52b3c6c17d7b749946dc21106bbb22, type: 3}
+    quality50: {fileID: 8387620672181200716, guid: 8f52b3c6c17d7b749946dc21106bbb22, type: 3}
+    quality25: {fileID: 8387620672181200716, guid: 8f52b3c6c17d7b749946dc21106bbb22, type: 3}
+    quality10: {fileID: 8387620672181200716, guid: 8f52b3c6c17d7b749946dc21106bbb22, type: 3}
+    sourceGuid: 8f52b3c6c17d7b749946dc21106bbb22
+    sourceLocalId: 8387620672181200716
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 2990
+    triangles50: 2990
+    triangles25: 2990
+    triangles10: 2990
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 4300000, guid: b230261898ba3304bbfa7c21e81c53cc, type: 2}
+    quality50: {fileID: 4300000, guid: ffe75785225f1c846bf3f8f7dd437921, type: 2}
+    quality25: {fileID: 4300000, guid: 31e127d6be9af494a8a9aecb93dc6a82, type: 2}
+    quality10: {fileID: 4300000, guid: 698f9bc47c676494991e60c50fc75d8a, type: 2}
+    sourceGuid: b230261898ba3304bbfa7c21e81c53cc
+    sourceLocalId: 4300000
+    category: terrain
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 2976
+    triangles50: 1535
+    triangles25: 767
+    triangles10: 384
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: -8458657576557030871, guid: 8f52b3c6c17d7b749946dc21106bbb22, type: 3}
+    quality50: {fileID: -8458657576557030871, guid: 8f52b3c6c17d7b749946dc21106bbb22, type: 3}
+    quality25: {fileID: -8458657576557030871, guid: 8f52b3c6c17d7b749946dc21106bbb22, type: 3}
+    quality10: {fileID: -8458657576557030871, guid: 8f52b3c6c17d7b749946dc21106bbb22, type: 3}
+    sourceGuid: 8f52b3c6c17d7b749946dc21106bbb22
+    sourceLocalId: -8458657576557030871
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 2792
+    triangles50: 2792
+    triangles25: 2792
+    triangles10: 2792
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 2959467708922500008, guid: 3dda4aa62b4eb0d428deb0f81c1a2ad7, type: 3}
+    quality50: {fileID: 4300000, guid: 8ae29d668b6047d45a4a980b175b3312, type: 2}
+    quality25: {fileID: 4300000, guid: a96aabef57cadc547b5c4746efbe87ce, type: 2}
+    quality10: {fileID: 4300000, guid: ddfa83f1b5ecace48bce60d23f36a8c7, type: 2}
+    sourceGuid: 3dda4aa62b4eb0d428deb0f81c1a2ad7
+    sourceLocalId: 2959467708922500008
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 2604
+    triangles50: 1344
+    triangles25: 704
+    triangles10: 192
+    boundsError50: 0
+    boundsError25: 0.0014277634
+    boundsError10: 0.008626885
+  - original: {fileID: -6505156449491735521, guid: 3dda4aa62b4eb0d428deb0f81c1a2ad7, type: 3}
+    quality50: {fileID: 4300000, guid: 8376af84507088c4c9ee9c3d7209949e, type: 2}
+    quality25: {fileID: 4300000, guid: f50aeb228fa30c24499e429948628cb4, type: 2}
+    quality10: {fileID: 4300000, guid: 6e15dbe6edfceef4fb9c12c5edd74bfc, type: 2}
+    sourceGuid: 3dda4aa62b4eb0d428deb0f81c1a2ad7
+    sourceLocalId: -6505156449491735521
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 2604
+    triangles50: 1344
+    triangles25: 704
+    triangles10: 192
+    boundsError50: 0
+    boundsError25: 0.0013916426
+    boundsError10: 0.007841755
+  - original: {fileID: 1930416916894907532, guid: 8f52b3c6c17d7b749946dc21106bbb22, type: 3}
+    quality50: {fileID: 4300000, guid: d3f13529aca4ab04a96017ee0181aa2e, type: 2}
+    quality25: {fileID: 4300000, guid: 580f2107b9d790b4db5037136722601e, type: 2}
+    quality10: {fileID: 4300000, guid: 7472ab92d72eaf2468e95966db1f57c2, type: 2}
+    sourceGuid: 8f52b3c6c17d7b749946dc21106bbb22
+    sourceLocalId: 1930416916894907532
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 2230
+    triangles50: 1393
+    triangles25: 513
+    triangles10: 255
+    boundsError50: 0.00092440314
+    boundsError25: 0.006096798
+    boundsError10: 0.011472551
+  - original: {fileID: 1839796204927932541, guid: 3fa2ef5f5d312684296de0a55d40ace1, type: 3}
+    quality50: {fileID: 4300000, guid: 30033fbb5cd7b8d40a719ae2a073a4d6, type: 2}
+    quality25: {fileID: 4300000, guid: 0caad57749f9c4a498215b69d79adb5b, type: 2}
+    quality10: {fileID: 4300000, guid: 65d3dfe5b61f11342af43f76b49333e4, type: 2}
+    sourceGuid: 3fa2ef5f5d312684296de0a55d40ace1
+    sourceLocalId: 1839796204927932541
+    category: station
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 1072
+    triangles50: 638
+    triangles25: 320
+    triangles10: 143
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0.0046109413
+  - original: {fileID: -2364732238595663823, guid: e64d20c20f859ec4fb8c82c9d0407b4b, type: 3}
+    quality50: {fileID: 4300000, guid: 8d34fa8135554914e8d900691de7b05b, type: 2}
+    quality25: {fileID: 4300000, guid: ab88ee1c3ee7ecf4e82f4b04df3b2729, type: 2}
+    quality10: {fileID: 4300000, guid: 842eb5ff24da0dd42b7e3109d72c6b17, type: 2}
+    sourceGuid: e64d20c20f859ec4fb8c82c9d0407b4b
+    sourceLocalId: -2364732238595663823
+    category: train
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 2078
+    triangles50: 1088
+    triangles25: 575
+    triangles10: 192
+    boundsError50: 0.000000014550754
+    boundsError25: 0.000000014550754
+    boundsError10: 0.000000014550754
+  - original: {fileID: 2873169502259717111, guid: 8f52b3c6c17d7b749946dc21106bbb22, type: 3}
+    quality50: {fileID: 4300000, guid: 7c56a7873823f5448ae768b3afb9252e, type: 2}
+    quality25: {fileID: 4300000, guid: caab57fc2a7e19c42a2da38fab0a3f2b, type: 2}
+    quality10: {fileID: 4300000, guid: 23360ca1ae5dcb24f977ab2b7ecc2435, type: 2}
+    sourceGuid: 8f52b3c6c17d7b749946dc21106bbb22
+    sourceLocalId: 2873169502259717111
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 2016
+    triangles50: 1024
+    triangles25: 618
+    triangles10: 230
+    boundsError50: 0.0014945726
+    boundsError25: 0.0014945726
+    boundsError10: 0.0014945726
+  - original: {fileID: -2529177735766824402, guid: 8f52b3c6c17d7b749946dc21106bbb22, type: 3}
+    quality50: {fileID: 4300000, guid: 5015781178d71c644932f91f7cea674c, type: 2}
+    quality25: {fileID: 4300000, guid: 034c9a299a40e304e8b09b1b987cfde6, type: 2}
+    quality10: {fileID: 4300000, guid: 335a51ac33dac48429539e19d1b795ba, type: 2}
+    sourceGuid: 8f52b3c6c17d7b749946dc21106bbb22
+    sourceLocalId: -2529177735766824402
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 2016
+    triangles50: 1024
+    triangles25: 618
+    triangles10: 230
+    boundsError50: 0.0014945726
+    boundsError25: 0.0014945726
+    boundsError10: 0.0014945726
+  - original: {fileID: 1209335405442123116, guid: 8f52b3c6c17d7b749946dc21106bbb22, type: 3}
+    quality50: {fileID: 4300000, guid: a32e819b6a07ae84980b2710bb06350c, type: 2}
+    quality25: {fileID: 4300000, guid: 4a815bbe3d6231742b87f097a91ffa36, type: 2}
+    quality10: {fileID: 4300000, guid: 23b25341a1515c646ac9b26b6461229f, type: 2}
+    sourceGuid: 8f52b3c6c17d7b749946dc21106bbb22
+    sourceLocalId: 1209335405442123116
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 2016
+    triangles50: 1023
+    triangles25: 614
+    triangles10: 192
+    boundsError50: 0.0014945726
+    boundsError25: 0.0014945726
+    boundsError10: 0.0014945726
+  - original: {fileID: 595330756393017343, guid: 8f52b3c6c17d7b749946dc21106bbb22, type: 3}
+    quality50: {fileID: 4300000, guid: 60eba246df4110b4b9cd9beeef547081, type: 2}
+    quality25: {fileID: 4300000, guid: 6b87252683f553d488f244b3879ca1e9, type: 2}
+    quality10: {fileID: 4300000, guid: 9eb361d950c54be4eaa02133550c5f34, type: 2}
+    sourceGuid: 8f52b3c6c17d7b749946dc21106bbb22
+    sourceLocalId: 595330756393017343
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 2016
+    triangles50: 1023
+    triangles25: 614
+    triangles10: 192
+    boundsError50: 0.0014945726
+    boundsError25: 0.0014945726
+    boundsError10: 0.0014945726
+  - original: {fileID: -7670289565280688119, guid: 3fa2ef5f5d312684296de0a55d40ace1, type: 3}
+    quality50: {fileID: 4300000, guid: 283ee5e86bf7b954da42c2b04c899a62, type: 2}
+    quality25: {fileID: 4300000, guid: 42251e9d315df2a498d4ee18aacb20fb, type: 2}
+    quality10: {fileID: 4300000, guid: 02011aae2897a894fbbad9693a2bce03, type: 2}
+    sourceGuid: 3fa2ef5f5d312684296de0a55d40ace1
+    sourceLocalId: -7670289565280688119
+    category: station
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 970
+    triangles50: 511
+    triangles25: 255
+    triangles10: 128
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0.0000002863159
+  - original: {fileID: 3146234255863163663, guid: 3fa2ef5f5d312684296de0a55d40ace1, type: 3}
+    quality50: {fileID: 4300000, guid: 41312364dbc9cf9498edd22736112acc, type: 2}
+    quality25: {fileID: 4300000, guid: 67c102142c0e4d34a838aa674d3ab605, type: 2}
+    quality10: {fileID: 4300000, guid: 162ca6a25d9c9cb4785050dc72a84ef2, type: 2}
+    sourceGuid: 3fa2ef5f5d312684296de0a55d40ace1
+    sourceLocalId: 3146234255863163663
+    category: station
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 970
+    triangles50: 511
+    triangles25: 255
+    triangles10: 128
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0.0000002863159
+  - original: {fileID: -3538003598956680809, guid: 3fa2ef5f5d312684296de0a55d40ace1, type: 3}
+    quality50: {fileID: 4300000, guid: 72984858a6067d7438261e69496f1772, type: 2}
+    quality25: {fileID: 4300000, guid: 87ae0e2b7fe5fba4bb09b737e375e974, type: 2}
+    quality10: {fileID: 4300000, guid: fdd822dbdbe32f94c8ba7b532da949cc, type: 2}
+    sourceGuid: 3fa2ef5f5d312684296de0a55d40ace1
+    sourceLocalId: -3538003598956680809
+    category: station
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 970
+    triangles50: 511
+    triangles25: 255
+    triangles10: 128
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0.0000002863159
+  - original: {fileID: 2926275011124139088, guid: 3fa2ef5f5d312684296de0a55d40ace1, type: 3}
+    quality50: {fileID: 4300000, guid: 711c4adb7c3c55c4187f514984bed527, type: 2}
+    quality25: {fileID: 4300000, guid: 39502836b9841ed478c1ad2d9029a52b, type: 2}
+    quality10: {fileID: 4300000, guid: 64e4543f8b4b1b34e8bfaf6a9341c2b6, type: 2}
+    sourceGuid: 3fa2ef5f5d312684296de0a55d40ace1
+    sourceLocalId: 2926275011124139088
+    category: station
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 970
+    triangles50: 511
+    triangles25: 255
+    triangles10: 128
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0.0000002863159
+  - original: {fileID: 4300000, guid: db1d4762169bc7347870d741a2fd195d, type: 2}
+    quality50: {fileID: 4300000, guid: cdf705dab90c1e4489f403b2b55620d3, type: 2}
+    quality25: {fileID: 4300000, guid: c431317e7c2d80a429935218870c20b7, type: 2}
+    quality10: {fileID: 4300000, guid: 699a43ea83ce3fa409d5a640ef9fb31a, type: 2}
+    sourceGuid: db1d4762169bc7347870d741a2fd195d
+    sourceLocalId: 4300000
+    category: terrain
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 1920
+    triangles50: 960
+    triangles25: 512
+    triangles10: 256
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0.000030646057
+  - original: {fileID: -4061120084548715867, guid: 2bfa2793a5bdd3448bc5326f7eadf6fd, type: 3}
+    quality50: {fileID: 4300000, guid: 53b977ade5d97e642ac5cd95d58a0fed, type: 2}
+    quality25: {fileID: 4300000, guid: d9042ad905af8104db1e2f1ab2f94553, type: 2}
+    quality10: {fileID: 4300000, guid: d9042ad905af8104db1e2f1ab2f94553, type: 2}
+    sourceGuid: 2bfa2793a5bdd3448bc5326f7eadf6fd
+    sourceLocalId: -4061120084548715867
+    category: train
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 1888
+    triangles50: 959
+    triangles25: 512
+    triangles10: 512
+    boundsError50: 0.009790802
+    boundsError25: 0.009790802
+    boundsError10: 0.009790802
+  - original: {fileID: -5052963394059084670, guid: 2bfa2793a5bdd3448bc5326f7eadf6fd, type: 3}
+    quality50: {fileID: 4300000, guid: 97e8555a18ab1dd40b45790fa29d557c, type: 2}
+    quality25: {fileID: 4300000, guid: 919cf01638e95b0449767ab946880952, type: 2}
+    quality10: {fileID: 4300000, guid: 919cf01638e95b0449767ab946880952, type: 2}
+    sourceGuid: 2bfa2793a5bdd3448bc5326f7eadf6fd
+    sourceLocalId: -5052963394059084670
+    category: train
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 1800
+    triangles50: 960
+    triangles25: 383
+    triangles10: 383
+    boundsError50: 0.010388469
+    boundsError25: 0.010388469
+    boundsError10: 0.010388469
+  - original: {fileID: -869233684755976145, guid: 2bfa2793a5bdd3448bc5326f7eadf6fd, type: 3}
+    quality50: {fileID: 4300000, guid: c20e5b95676d31647b98ddf71c467bea, type: 2}
+    quality25: {fileID: 4300000, guid: 02f02fad07b4aa941968b894bae76d23, type: 2}
+    quality10: {fileID: 4300000, guid: 02f02fad07b4aa941968b894bae76d23, type: 2}
+    sourceGuid: 2bfa2793a5bdd3448bc5326f7eadf6fd
+    sourceLocalId: -869233684755976145
+    category: train
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 1800
+    triangles50: 959
+    triangles25: 384
+    triangles10: 384
+    boundsError50: 0
+    boundsError25: 0.010388445
+    boundsError10: 0.010388445
+  - original: {fileID: 5217112195761610442, guid: 2bfa2793a5bdd3448bc5326f7eadf6fd, type: 3}
+    quality50: {fileID: 4300000, guid: 33a4d826ce8545941bc443fabc9fb98f, type: 2}
+    quality25: {fileID: 4300000, guid: c5fcd9d0e9f70ff479ca4c5eb6ba7d6b, type: 2}
+    quality10: {fileID: 4300000, guid: c5fcd9d0e9f70ff479ca4c5eb6ba7d6b, type: 2}
+    sourceGuid: 2bfa2793a5bdd3448bc5326f7eadf6fd
+    sourceLocalId: 5217112195761610442
+    category: train
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 1800
+    triangles50: 959
+    triangles25: 384
+    triangles10: 384
+    boundsError50: 0
+    boundsError25: 0.010388445
+    boundsError10: 0.010388445
+  - original: {fileID: 289819783523511185, guid: 2bfa2793a5bdd3448bc5326f7eadf6fd, type: 3}
+    quality50: {fileID: 4300000, guid: bbd7ff9fce2fe024bb72675cd6fd5e3a, type: 2}
+    quality25: {fileID: 4300000, guid: 77a15cf20f14c4c48bb0041d95149d61, type: 2}
+    quality10: {fileID: 4300000, guid: 77a15cf20f14c4c48bb0041d95149d61, type: 2}
+    sourceGuid: 2bfa2793a5bdd3448bc5326f7eadf6fd
+    sourceLocalId: 289819783523511185
+    category: train
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 1800
+    triangles50: 959
+    triangles25: 384
+    triangles10: 384
+    boundsError50: 0
+    boundsError25: 0.010388445
+    boundsError10: 0.010388445
+  - original: {fileID: -4839535900218338178, guid: 2bfa2793a5bdd3448bc5326f7eadf6fd, type: 3}
+    quality50: {fileID: 4300000, guid: 5010ccc8b612272478b8c0ca731b3708, type: 2}
+    quality25: {fileID: 4300000, guid: 00364542d28af384d8016b16173602d4, type: 2}
+    quality10: {fileID: 4300000, guid: 00364542d28af384d8016b16173602d4, type: 2}
+    sourceGuid: 2bfa2793a5bdd3448bc5326f7eadf6fd
+    sourceLocalId: -4839535900218338178
+    category: train
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 1800
+    triangles50: 959
+    triangles25: 384
+    triangles10: 384
+    boundsError50: 0
+    boundsError25: 0.010388445
+    boundsError10: 0.010388445
+  - original: {fileID: -2549278602852000602, guid: 8f52b3c6c17d7b749946dc21106bbb22, type: 3}
+    quality50: {fileID: 4300000, guid: f24d565c7125e864493f4c5acf881c12, type: 2}
+    quality25: {fileID: 4300000, guid: c7892376472e6fd479ddfcf342a2648c, type: 2}
+    quality10: {fileID: 4300000, guid: 7eae91cce813afa42bc802ea853b0147, type: 2}
+    sourceGuid: 8f52b3c6c17d7b749946dc21106bbb22
+    sourceLocalId: -2549278602852000602
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 1754
+    triangles50: 965
+    triangles25: 511
+    triangles10: 128
+    boundsError50: 0.0009288193
+    boundsError25: 0.0010622044
+    boundsError10: 0.013020915
+  - original: {fileID: 2586362298472618410, guid: 8f52b3c6c17d7b749946dc21106bbb22, type: 3}
+    quality50: {fileID: 4300000, guid: 61fa26df07c6ea24f9613f4be4494fd0, type: 2}
+    quality25: {fileID: 4300000, guid: b78e56e2764b4384ea3b6e1d9f05309e, type: 2}
+    quality10: {fileID: 4300000, guid: 0bdf18c45ffcde04fa5a245b155586a8, type: 2}
+    sourceGuid: 8f52b3c6c17d7b749946dc21106bbb22
+    sourceLocalId: 2586362298472618410
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 1754
+    triangles50: 965
+    triangles25: 511
+    triangles10: 128
+    boundsError50: 0.0009288193
+    boundsError25: 0.0010622044
+    boundsError10: 0.013020915
+  - original: {fileID: -3958421516705074108, guid: e64d20c20f859ec4fb8c82c9d0407b4b, type: 3}
+    quality50: {fileID: 4300000, guid: 1d2bfd0597f3f4b4d96934662133f405, type: 2}
+    quality25: {fileID: 4300000, guid: 12cdf11cc79e7f348baa2522ffb0822a, type: 2}
+    quality10: {fileID: 4300000, guid: 05d26ccb3ad67b045bf5f23ac30f1f6c, type: 2}
+    sourceGuid: e64d20c20f859ec4fb8c82c9d0407b4b
+    sourceLocalId: -3958421516705074108
+    category: train
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 1742
+    triangles50: 896
+    triangles25: 448
+    triangles10: 128
+    boundsError50: 0.00000017519294
+    boundsError25: 0.00000017519294
+    boundsError10: 0.0001244455
+  - original: {fileID: 4758399959694121390, guid: 4d713a0cb4685da4a8e0f9e7f9faa625, type: 3}
+    quality50: {fileID: 4300000, guid: 6ed63647a74a8224d97cf4dd4d927f1f, type: 2}
+    quality25: {fileID: 4300000, guid: 7bedd26262989494f8e426ce98e550de, type: 2}
+    quality10: {fileID: 4300000, guid: 7bedd26262989494f8e426ce98e550de, type: 2}
+    sourceGuid: 4d713a0cb4685da4a8e0f9e7f9faa625
+    sourceLocalId: 4758399959694121390
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 192
+    triangles50: 128
+    triangles25: 64
+    triangles10: 64
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: -2621000904270929414, guid: 8f52b3c6c17d7b749946dc21106bbb22, type: 3}
+    quality50: {fileID: 4300000, guid: b630e19e5bf5f4c4d91e848b04c23f4b, type: 2}
+    quality25: {fileID: 4300000, guid: 1596f88ea3b5052459f009640d26396e, type: 2}
+    quality10: {fileID: 4300000, guid: 6b9d25f386c39c74a8f2db019f8ffe8d, type: 2}
+    sourceGuid: 8f52b3c6c17d7b749946dc21106bbb22
+    sourceLocalId: -2621000904270929414
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 1670
+    triangles50: 983
+    triangles25: 320
+    triangles10: 192
+    boundsError50: 0.0062285312
+    boundsError25: 0.0062342426
+    boundsError10: 0.0062342426
+  - original: {fileID: -1978577422382570800, guid: 8f52b3c6c17d7b749946dc21106bbb22, type: 3}
+    quality50: {fileID: 4300000, guid: 5a5fc91671f4b1e41afef0fcd07316e7, type: 2}
+    quality25: {fileID: 4300000, guid: 73a37ee21422b844bb0d6a6f2e54c3a0, type: 2}
+    quality10: {fileID: 4300000, guid: 3cf5c52047d07f24f92f1a249fe6d269, type: 2}
+    sourceGuid: 8f52b3c6c17d7b749946dc21106bbb22
+    sourceLocalId: -1978577422382570800
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 1620
+    triangles50: 847
+    triangles25: 447
+    triangles10: 192
+    boundsError50: 0.0030018382
+    boundsError25: 0.003013516
+    boundsError10: 0.010169902
+  - original: {fileID: 8052602938568096326, guid: 8f52b3c6c17d7b749946dc21106bbb22, type: 3}
+    quality50: {fileID: 4300000, guid: b1c6de34d7f130846aadfe06acdc1227, type: 2}
+    quality25: {fileID: 4300000, guid: 9b47507b72bd1bb4f8fe104f6122891e, type: 2}
+    quality10: {fileID: 4300000, guid: 70b51dfab4d6b1e43ae4197f1f3c360f, type: 2}
+    sourceGuid: 8f52b3c6c17d7b749946dc21106bbb22
+    sourceLocalId: 8052602938568096326
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 1620
+    triangles50: 847
+    triangles25: 447
+    triangles10: 192
+    boundsError50: 0.0030018382
+    boundsError25: 0.003013516
+    boundsError10: 0.010169902
+  - original: {fileID: -5624356369280423816, guid: a34640d4145ead141be6449445d58bad, type: 3}
+    quality50: {fileID: 4300000, guid: 62aca000063b27541b73b841faa9e2c3, type: 2}
+    quality25: {fileID: 4300000, guid: 2d37caaf4997dd44a87c3029e452a854, type: 2}
+    quality10: {fileID: 4300000, guid: df5a0c028a7cab1419cbb9db54302c4d, type: 2}
+    sourceGuid: a34640d4145ead141be6449445d58bad
+    sourceLocalId: -5624356369280423816
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 1584
+    triangles50: 832
+    triangles25: 448
+    triangles10: 192
+    boundsError50: 0.0002077381
+    boundsError25: 0.00020798136
+    boundsError10: 0.0057292837
+  - original: {fileID: 2070431741667574294, guid: a34640d4145ead141be6449445d58bad, type: 3}
+    quality50: {fileID: 4300000, guid: a5f5b5ca69304544cacb644dc422a314, type: 2}
+    quality25: {fileID: 4300000, guid: b52b940b4b579404d82b1a337e1bef6c, type: 2}
+    quality10: {fileID: 4300000, guid: 734c5974d26433d42a69c2f41121521e, type: 2}
+    sourceGuid: a34640d4145ead141be6449445d58bad
+    sourceLocalId: 2070431741667574294
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 1584
+    triangles50: 832
+    triangles25: 448
+    triangles10: 126
+    boundsError50: 0.00020773808
+    boundsError25: 0.0016148448
+    boundsError10: 0.0019420047
+  - original: {fileID: 3214630174436693773, guid: a34640d4145ead141be6449445d58bad, type: 3}
+    quality50: {fileID: 4300000, guid: 5a89eab88305f6d4dafa09b6ddd0eb8e, type: 2}
+    quality25: {fileID: 4300000, guid: 7673f2623e7458840aa2b20e69b03246, type: 2}
+    quality10: {fileID: 4300000, guid: e6d5e41ccd89c164db4f00327979f440, type: 2}
+    sourceGuid: a34640d4145ead141be6449445d58bad
+    sourceLocalId: 3214630174436693773
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 1584
+    triangles50: 832
+    triangles25: 448
+    triangles10: 126
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0.0019425681
+  - original: {fileID: -3308322576996155682, guid: a34640d4145ead141be6449445d58bad, type: 3}
+    quality50: {fileID: 4300000, guid: 6a2b42b8b54e9f24bb123ddf39b7e8ca, type: 2}
+    quality25: {fileID: 4300000, guid: c656dad52c04ec64c9a7ab3acac25f9e, type: 2}
+    quality10: {fileID: 4300000, guid: dec56b1339cf7af47a2a3b35f91410b1, type: 2}
+    sourceGuid: a34640d4145ead141be6449445d58bad
+    sourceLocalId: -3308322576996155682
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 1584
+    triangles50: 830
+    triangles25: 448
+    triangles10: 126
+    boundsError50: 0
+    boundsError25: 0.00000006081326
+    boundsError10: 0.00815942
+  - original: {fileID: -3958421516705074108, guid: a34640d4145ead141be6449445d58bad, type: 3}
+    quality50: {fileID: 4300000, guid: 8fdea4e5738fbbb4595701085b2de2b3, type: 2}
+    quality25: {fileID: 4300000, guid: 63057d24fef2228448a9928d4d84dc95, type: 2}
+    quality10: {fileID: 4300000, guid: 386be9b8b059d3e4cb410b2f9e02c9f5, type: 2}
+    sourceGuid: a34640d4145ead141be6449445d58bad
+    sourceLocalId: -3958421516705074108
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 1584
+    triangles50: 830
+    triangles25: 448
+    triangles10: 128
+    boundsError50: 0.00020749483
+    boundsError25: 0.00020749483
+    boundsError10: 0.0044764867
+  - original: {fileID: -7126204845632095809, guid: a34640d4145ead141be6449445d58bad, type: 3}
+    quality50: {fileID: 4300000, guid: 9adc1f6dd66384f48ab6cf8f80518681, type: 2}
+    quality25: {fileID: 4300000, guid: 27cf4d36ac71f0549bb8716f04c81ee9, type: 2}
+    quality10: {fileID: 4300000, guid: f64b54202bb9a624a96c1b6836f28407, type: 2}
+    sourceGuid: a34640d4145ead141be6449445d58bad
+    sourceLocalId: -7126204845632095809
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 1584
+    triangles50: 832
+    triangles25: 448
+    triangles10: 192
+    boundsError50: 0
+    boundsError25: 0.0016013347
+    boundsError10: 0.0016147532
+  - original: {fileID: -2419393911490257906, guid: a34640d4145ead141be6449445d58bad, type: 3}
+    quality50: {fileID: 4300000, guid: ba8c29a5828a60444b673b790c726df9, type: 2}
+    quality25: {fileID: 4300000, guid: 04e7cf47739c4a446b36e19dd9f8fdbc, type: 2}
+    quality10: {fileID: 4300000, guid: 4320b5e5a80daa24ea5dbcd6eff9ae3d, type: 2}
+    sourceGuid: a34640d4145ead141be6449445d58bad
+    sourceLocalId: -2419393911490257906
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 1584
+    triangles50: 832
+    triangles25: 448
+    triangles10: 128
+    boundsError50: 0.00000006081326
+    boundsError25: 0.00000006081326
+    boundsError10: 0.004753564
+  - original: {fileID: -2684612576426301592, guid: a34640d4145ead141be6449445d58bad, type: 3}
+    quality50: {fileID: 4300000, guid: 9bd487b3bff169c4aaa998952aa264ed, type: 2}
+    quality25: {fileID: 4300000, guid: 4c76719a565c6614aabbb8387768f006, type: 2}
+    quality10: {fileID: 4300000, guid: b33edef349d59b0499e26754c5d99342, type: 2}
+    sourceGuid: a34640d4145ead141be6449445d58bad
+    sourceLocalId: -2684612576426301592
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 1584
+    triangles50: 830
+    triangles25: 448
+    triangles10: 192
+    boundsError50: 0.00000006081326
+    boundsError25: 0.00000006081326
+    boundsError10: 0.00020822458
+  - original: {fileID: -2866850402472294499, guid: a34640d4145ead141be6449445d58bad, type: 3}
+    quality50: {fileID: 4300000, guid: 33389c897f956564b87fa56ecd8b2922, type: 2}
+    quality25: {fileID: 4300000, guid: 5b57b7e100416a844992649af61152e7, type: 2}
+    quality10: {fileID: 4300000, guid: f9783ab77140dda40be4e8c9bee38ec4, type: 2}
+    sourceGuid: a34640d4145ead141be6449445d58bad
+    sourceLocalId: -2866850402472294499
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 1584
+    triangles50: 832
+    triangles25: 448
+    triangles10: 126
+    boundsError50: 0.00000006081326
+    boundsError25: 0.00000006081326
+    boundsError10: 0.008087596
+  - original: {fileID: 6608865463248885661, guid: a34640d4145ead141be6449445d58bad, type: 3}
+    quality50: {fileID: 4300000, guid: f6b1dfc83688c0b4a8eb19c05797ef57, type: 2}
+    quality25: {fileID: 4300000, guid: c4881f5a2ba0a2646b5b2ca0961b3c99, type: 2}
+    quality10: {fileID: 4300000, guid: 654d5dc7edd546a47894b82fe96396d9, type: 2}
+    sourceGuid: a34640d4145ead141be6449445d58bad
+    sourceLocalId: 6608865463248885661
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 1584
+    triangles50: 832
+    triangles25: 448
+    triangles10: 192
+    boundsError50: 0.000000060813264
+    boundsError25: 0.000000060813264
+    boundsError10: 0.0016146908
+  - original: {fileID: 6522819265319539159, guid: a34640d4145ead141be6449445d58bad, type: 3}
+    quality50: {fileID: 4300000, guid: 5e014b934161ba544bdc8b698bd88fb8, type: 2}
+    quality25: {fileID: 4300000, guid: dad04ca5b5068f14c81d87f1bf234a2f, type: 2}
+    quality10: {fileID: 4300000, guid: e40b2f3943f19f744b656e980962d356, type: 2}
+    sourceGuid: a34640d4145ead141be6449445d58bad
+    sourceLocalId: 6522819265319539159
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 1584
+    triangles50: 832
+    triangles25: 448
+    triangles10: 182
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0.0016146906
+  - original: {fileID: 5189531334322955979, guid: a34640d4145ead141be6449445d58bad, type: 3}
+    quality50: {fileID: 4300000, guid: 2614dcf7a6ca73345b63610ab5a262ee, type: 2}
+    quality25: {fileID: 4300000, guid: 0f11b6aca62fae54191685d2aebf9305, type: 2}
+    quality10: {fileID: 4300000, guid: 2acad3d539dd5ed47a776fdcbfccdf87, type: 2}
+    sourceGuid: a34640d4145ead141be6449445d58bad
+    sourceLocalId: 5189531334322955979
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 1584
+    triangles50: 830
+    triangles25: 446
+    triangles10: 160
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0.005195889
+  - original: {fileID: 8525314493496130931, guid: 4d713a0cb4685da4a8e0f9e7f9faa625, type: 3}
+    quality50: {fileID: 8525314493496130931, guid: 4d713a0cb4685da4a8e0f9e7f9faa625, type: 3}
+    quality25: {fileID: 8525314493496130931, guid: 4d713a0cb4685da4a8e0f9e7f9faa625, type: 3}
+    quality10: {fileID: 8525314493496130931, guid: 4d713a0cb4685da4a8e0f9e7f9faa625, type: 3}
+    sourceGuid: 4d713a0cb4685da4a8e0f9e7f9faa625
+    sourceLocalId: 8525314493496130931
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 152
+    triangles50: 152
+    triangles25: 152
+    triangles10: 152
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 4690644467119206816, guid: 3fa2ef5f5d312684296de0a55d40ace1, type: 3}
+    quality50: {fileID: 4300000, guid: 061d29c117c26164d8af8842939aa330, type: 2}
+    quality25: {fileID: 4300000, guid: b9489af29ea466e469579c7a838bacbe, type: 2}
+    quality10: {fileID: 4300000, guid: b9489af29ea466e469579c7a838bacbe, type: 2}
+    sourceGuid: 3fa2ef5f5d312684296de0a55d40ace1
+    sourceLocalId: 4690644467119206816
+    category: station
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 656
+    triangles50: 384
+    triangles25: 128
+    triangles10: 128
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 3234540411059217119, guid: 8f52b3c6c17d7b749946dc21106bbb22, type: 3}
+    quality50: {fileID: 3234540411059217119, guid: 8f52b3c6c17d7b749946dc21106bbb22, type: 3}
+    quality25: {fileID: 3234540411059217119, guid: 8f52b3c6c17d7b749946dc21106bbb22, type: 3}
+    quality10: {fileID: 3234540411059217119, guid: 8f52b3c6c17d7b749946dc21106bbb22, type: 3}
+    sourceGuid: 8f52b3c6c17d7b749946dc21106bbb22
+    sourceLocalId: 3234540411059217119
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 1294
+    triangles50: 1294
+    triangles25: 1294
+    triangles10: 1294
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: -1370398738123546558, guid: 8f52b3c6c17d7b749946dc21106bbb22, type: 3}
+    quality50: {fileID: -1370398738123546558, guid: 8f52b3c6c17d7b749946dc21106bbb22, type: 3}
+    quality25: {fileID: -1370398738123546558, guid: 8f52b3c6c17d7b749946dc21106bbb22, type: 3}
+    quality10: {fileID: -1370398738123546558, guid: 8f52b3c6c17d7b749946dc21106bbb22, type: 3}
+    sourceGuid: 8f52b3c6c17d7b749946dc21106bbb22
+    sourceLocalId: -1370398738123546558
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 1294
+    triangles50: 1294
+    triangles25: 1294
+    triangles10: 1294
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+    quality50: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+    quality25: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+    quality10: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+    sourceGuid: 0000000000000000e000000000000000
+    sourceLocalId: 10206
+    category: khac
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 80
+    triangles50: 80
+    triangles25: 80
+    triangles10: 80
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 8627937854399106316, guid: 3fa2ef5f5d312684296de0a55d40ace1, type: 3}
+    quality50: {fileID: 4300000, guid: 78d6c39fa1f1eaf4cb848e6aad6acadf, type: 2}
+    quality25: {fileID: 4300000, guid: 9e685d80428dc6540895f76766be03da, type: 2}
+    quality10: {fileID: 4300000, guid: 5b04b961eb0c04f419285a9eb20392b4, type: 2}
+    sourceGuid: 3fa2ef5f5d312684296de0a55d40ace1
+    sourceLocalId: 8627937854399106316
+    category: station
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 640
+    triangles50: 320
+    triangles25: 192
+    triangles10: 132
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: -2419393911490257906, guid: e64d20c20f859ec4fb8c82c9d0407b4b, type: 3}
+    quality50: {fileID: 4300000, guid: 3d00fd1d27f82524fb27820e82c9fb69, type: 2}
+    quality25: {fileID: 4300000, guid: 31869e755ae06834f87e47237d542295, type: 2}
+    quality10: {fileID: 4300000, guid: bbd076007e07c7447807ef8983a43be9, type: 2}
+    sourceGuid: e64d20c20f859ec4fb8c82c9d0407b4b
+    sourceLocalId: -2419393911490257906
+    category: train
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 1172
+    triangles50: 640
+    triangles25: 319
+    triangles10: 128
+    boundsError50: 0.00000009567271
+    boundsError25: 0.0000000969924
+    boundsError10: 0.0000000969924
+  - original: {fileID: 4300000, guid: fc698b9a6580b94448c2c4d1d9914720, type: 2}
+    quality50: {fileID: 4300000, guid: 8bcc0893ddd156f4eb5523b849656305, type: 2}
+    quality25: {fileID: 4300000, guid: 386b5983fb6f6c148b2a16c67a254032, type: 2}
+    quality10: {fileID: 4300000, guid: d18e2f2ec4605f64cb8c9668cce36569, type: 2}
+    sourceGuid: fc698b9a6580b94448c2c4d1d9914720
+    sourceLocalId: 4300000
+    category: terrain
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 1152
+    triangles50: 576
+    triangles25: 320
+    triangles10: 127
+    boundsError50: 0.00000011573221
+    boundsError25: 0.00000011573221
+    boundsError10: 0.00000011573221
+  - original: {fileID: 4300000, guid: 7b16dfb55679034439219cb6117cfa01, type: 2}
+    quality50: {fileID: 4300000, guid: 4e6c833799e1eab41be6d6d4abfb2bc8, type: 2}
+    quality25: {fileID: 4300000, guid: 22fbddb0db8b4f441826a8b04d5fcf07, type: 2}
+    quality10: {fileID: 4300000, guid: d92072584a8637d4d9f4fbb28e93f4be, type: 2}
+    sourceGuid: 7b16dfb55679034439219cb6117cfa01
+    sourceLocalId: 4300000
+    category: terrain
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 1152
+    triangles50: 576
+    triangles25: 320
+    triangles10: 127
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0.00000040798633
+  - original: {fileID: 4300000, guid: 9272162ef3d7b304c9105697cbf3a42e, type: 2}
+    quality50: {fileID: 4300000, guid: fcbbe1275ee8c7143a137408642f93c7, type: 2}
+    quality25: {fileID: 4300000, guid: d72b6a1907de96a429c25848e624bc37, type: 2}
+    quality10: {fileID: 4300000, guid: 516ff1af5ddef8146b8ca7d16c89b623, type: 2}
+    sourceGuid: 9272162ef3d7b304c9105697cbf3a42e
+    sourceLocalId: 4300000
+    category: terrain
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 1152
+    triangles50: 576
+    triangles25: 320
+    triangles10: 127
+    boundsError50: 0.000006048069
+    boundsError25: 0.000006048069
+    boundsError10: 0.000006048069
+  - original: {fileID: 4300000, guid: cd7c05adc50dd124d97503b5289078b9, type: 2}
+    quality50: {fileID: 4300000, guid: 22288790179395043a16c4409855a34f, type: 2}
+    quality25: {fileID: 4300000, guid: 974a4ce079afc6f4fa4f2179e759495e, type: 2}
+    quality10: {fileID: 4300000, guid: c1204bc3841fa264fbb61d9f288f7e8b, type: 2}
+    sourceGuid: cd7c05adc50dd124d97503b5289078b9
+    sourceLocalId: 4300000
+    category: terrain
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 1152
+    triangles50: 576
+    triangles25: 320
+    triangles10: 127
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0.0000008947385
+  - original: {fileID: 4300000, guid: 72cd01a94bb04c541a6a0fad9e29eacb, type: 2}
+    quality50: {fileID: 4300000, guid: 8e22653b918c43047bb6f2f7160b0b53, type: 2}
+    quality25: {fileID: 4300000, guid: 9e26cbb374156924cb05ff9ab978a9a8, type: 2}
+    quality10: {fileID: 4300000, guid: 596c8fd7b9401a54bb339d2f2bf1dfff, type: 2}
+    sourceGuid: 72cd01a94bb04c541a6a0fad9e29eacb
+    sourceLocalId: 4300000
+    category: terrain
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 1152
+    triangles50: 575
+    triangles25: 319
+    triangles10: 127
+    boundsError50: 0
+    boundsError25: 0.00000089500134
+    boundsError10: 0.00000089500134
+  - original: {fileID: 4300000, guid: 18bed0c36c4c4304f9502512e6af3b9b, type: 2}
+    quality50: {fileID: 4300000, guid: b3df32541e9a54e408f81885eac0f902, type: 2}
+    quality25: {fileID: 4300000, guid: 073ba7a7942498c48826ce5ecd495283, type: 2}
+    quality10: {fileID: 4300000, guid: e47a2cc71661c6f4990025da3ab00961, type: 2}
+    sourceGuid: 18bed0c36c4c4304f9502512e6af3b9b
+    sourceLocalId: 4300000
+    category: terrain
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 1152
+    triangles50: 576
+    triangles25: 320
+    triangles10: 127
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0
+  - original: {fileID: 4300000, guid: fe9100380e8f9304f9fb70b03c3c0a02, type: 2}
+    quality50: {fileID: 4300000, guid: 2045317ec27a6d849a5f849bfc23aaca, type: 2}
+    quality25: {fileID: 4300000, guid: a5cce2b507a69d44da339440b4d50738, type: 2}
+    quality10: {fileID: 4300000, guid: a40dddf0b81961643bd3e46b7a767cee, type: 2}
+    sourceGuid: fe9100380e8f9304f9fb70b03c3c0a02
+    sourceLocalId: 4300000
+    category: terrain
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 1152
+    triangles50: 576
+    triangles25: 320
+    triangles10: 128
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0.00007001476
+  - original: {fileID: 4300000, guid: 0275d7f053ee59344bbd54a7a04b396d, type: 2}
+    quality50: {fileID: 4300000, guid: f7f13039f5df9494bb581ba535718380, type: 2}
+    quality25: {fileID: 4300000, guid: 8e0ceaf708ac79645aeaeb7b10d3d580, type: 2}
+    quality10: {fileID: 4300000, guid: adfb98a7bdac5c74db8490ebb8a854b9, type: 2}
+    sourceGuid: 0275d7f053ee59344bbd54a7a04b396d
+    sourceLocalId: 4300000
+    category: terrain
+    generator: Unity 6.3 MeshLodUtility; extracted compact physical LOD meshes (no
+      runtime simplification)
+    originalTriangles: 1152
+    triangles50: 575
+    triangles25: 319
+    triangles10: 128
+    boundsError50: 0
+    boundsError25: 0
+    boundsError10: 0.000038822876
+  androidDefault: 4

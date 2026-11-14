@@ -16,6 +16,7 @@ public sealed class ShowroomInstancedVisualGroup : MonoBehaviour
     bool[] saved;
     Matrix4x4[][] world;
     Matrix4x4 previous;
+    Bounds[] batchBounds;
     bool submitted;
     bool visible=true;
     SaBanLayer layer;
@@ -33,6 +34,7 @@ public sealed class ShowroomInstancedVisualGroup : MonoBehaviour
         if(world==null)
         {
             world=new Matrix4x4[data.batches.Length][];
+            batchBounds=new Bounds[data.batches.Length];
             for(int i=0;i<world.Length;i++)world[i]=new Matrix4x4[data.batches[i].localMatrices.Length];
         }
         RefreshMatrices();submitted=true;
@@ -61,12 +63,20 @@ public sealed class ShowroomInstancedVisualGroup : MonoBehaviour
     {
         previous=transform.localToWorldMatrix;
         int sourceIndex=0;
-        for(int b=0;b<world.Length;b++)for(int i=0;i<world[b].Length;i++)
+        for(int b=0;b<world.Length;b++)
         {
+            bool first=true;
+            for(int i=0;i<world[b].Length;i++)
+            {
             // Read current source transforms once, so manual Editor placement changes are respected.
             var source=sources[sourceIndex];
             world[b][i]=source!=null&&saved[sourceIndex]&&source.gameObject.activeInHierarchy?source.transform.localToWorldMatrix:Matrix4x4.zero;
+            if(source!=null&&saved[sourceIndex]&&source.gameObject.activeInHierarchy)
+            {
+                if(first){batchBounds[b]=source.bounds;first=false;}else batchBounds[b].Encapsulate(source.bounds);
+            }
             sourceIndex++;
+            }
         }
     }
     void LateUpdate()
@@ -76,7 +86,16 @@ public sealed class ShowroomInstancedVisualGroup : MonoBehaviour
         for(int i=0;i<world.Length;i++)
         {
             var b=data.batches[i];
-            Graphics.DrawMeshInstanced(b.mesh,0,b.material,world[i],world[i].Length,null,b.shadows,b.receiveShadows,b.layer,null,LightProbeUsage.BlendProbes,null);
+            var mesh=ShowroomGeometryController.Resolve(b.mesh,this);
+            // Each variant is a compact physical mesh with exactly one LOD. Never rely on
+            // implicit Mesh LOD selection in a custom instancing path. No original is also drawn.
+            var parameters=new RenderParams(b.material)
+            {
+                worldBounds=batchBounds[i], layer=b.layer, shadowCastingMode=b.shadows,
+                receiveShadows=b.receiveShadows, lightProbeUsage=LightProbeUsage.BlendProbes,
+                forceMeshLod=0
+            };
+            Graphics.RenderMeshInstanced(parameters,mesh,0,world[i],world[i].Length);
         }
     }
     void OnDisable()
