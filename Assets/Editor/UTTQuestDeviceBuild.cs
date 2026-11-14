@@ -64,7 +64,8 @@ public static class UTTQuestDeviceBuild
             {string dep=match.Groups[1].Value.Trim();if(!File.Exists(dep))throw new Exception("Missing dynamic scene: "+dep);if(!scenes.Contains(dep))scenes.Add(dep);}
         }
         // Preserve other enabled scenes used by existing scene-transition code.
-        foreach(var entry in EditorBuildSettings.scenes.Where(s=>s.enabled))if(File.Exists(entry.path)&&!scenes.Contains(entry.path))scenes.Add(entry.path);
+        // Runtime zones ship only when a main scene streams them; unreferenced zones pushed the Gradle archive past 4 GB.
+        foreach(var entry in EditorBuildSettings.scenes.Where(s=>s.enabled))if(File.Exists(entry.path)&&!scenes.Contains(entry.path)&&!entry.path.Contains("/Generated/RuntimeZones/"))scenes.Add(entry.path);
         var list=scenes.Select(p=>new EditorBuildSettingsScene(p,true)).ToArray();
         EditorBuildSettings.scenes=list;
         var profile=BuildProfile.GetActiveBuildProfile();
