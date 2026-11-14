@@ -17469,15 +17469,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9072612883287898937, guid: 2d65979d7cdcddf40a7523a83a092953, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.166
       objectReference: {fileID: 0}
     - target: {fileID: 9072612883287898937, guid: 2d65979d7cdcddf40a7523a83a092953, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1
+      value: 3.111
       objectReference: {fileID: 0}
     - target: {fileID: 9072612883287898937, guid: 2d65979d7cdcddf40a7523a83a092953, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -4.785
       objectReference: {fileID: 0}
     - target: {fileID: 9076334781476797087, guid: 2d65979d7cdcddf40a7523a83a092953, type: 3}
       propertyPath: m_Enabled
@@ -22177,7 +22177,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BIM4D.AI.Generative.XkiroBrain
   model: mistralai/mistral-medium-3.5
-  systemPrompt: "Bạn là trợ lý ảo trên tàu tuyến Yên Tử – Hạ Long. Ưu tiên trả lời theo TÀI LIỆU được cung cấp, chỉ trả lời trong phạm vi chủ đề cho phép, được bổ sung kiến thức chung khi tài liệu chưa đủ, và tuân thủ QUY TẮC TRẢ LỜI."
+  systemPrompt: "B\u1EA1n l\xE0 tr\u1EE3 l\xFD \u1EA3o tr\xEAn t\xE0u tuy\u1EBFn
+    Y\xEAn T\u1EED \u2013 H\u1EA1 Long. \u01AFu ti\xEAn tr\u1EA3 l\u1EDDi theo T\xC0I
+    LI\u1EC6U \u0111\u01B0\u1EE3c cung c\u1EA5p, ch\u1EC9 tr\u1EA3 l\u1EDDi trong
+    ph\u1EA1m vi ch\u1EE7 \u0111\u1EC1 cho ph\xE9p, \u0111\u01B0\u1EE3c b\u1ED5 sung
+    ki\u1EBFn th\u1EE9c chung khi t\xE0i li\u1EC7u ch\u01B0a \u0111\u1EE7, v\xE0
+    tu\xE2n th\u1EE7 QUY T\u1EAEC TR\u1EA2 L\u1EDCI."
   assistantInstructions: {fileID: 4900000, guid: 8e2b0e1c8f0b49b39fd953333085e358, type: 3}
   modelContext: {fileID: 4900000, guid: 4b8ab91181a7447ca4b39464d52895ad, type: 3}
   timeoutSeconds: 90
