@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityEngine.XR.Interaction.Toolkit.UI;
 using Unity.XR.CoreUtils;
@@ -17,33 +18,29 @@ public sealed class ShowroomPackageIntegration:MonoBehaviour
     public Collider[] panelColliders;
     QuestLoginKeyboard keyboard;
     GameObject keyboardRoot;
+    // The chat canvas follows the head every frame (XRWorldSpaceCanvas) and YenTu moves the whole rig on a train,
+    // so the keyboard keeps its pose relative to the chat canvas instead of staying where it was first built.
+    Transform keyboardAnchor;Vector3 keyboardLocalPosition;Quaternion keyboardLocalRotation;
     readonly HashSet<int> priorKeyboardRoots=new HashSet<int>();
     XROrigin origin;
     bool xrConfigured;
     bool controlsHiddenForChat,controlsWereVisible;
     float nextCheck;
-    // Quest shortcuts: B opens/closes the chat, right grip sends (left grip push-to-talk lives in PointerVoiceTrigger).
+    // Quest shortcuts: A opens/closes the chat, right grip sends (left grip push-to-talk lives in PointerVoiceTrigger).
     InputAction toggleChat,sendChat;
     void Start()
     {
         if(chatbot!=null){chatbot.onOpened.AddListener(OnChatOpened);chatbot.onClosed.AddListener(OnChatClosed);}
         Configure();
-        toggleChat=new InputAction("Chatbot B",InputActionType.Button,"<XRController>{RightHand}/secondaryButton");toggleChat.Enable();
+        toggleChat=new InputAction("Chatbot A",InputActionType.Button,"<XRController>{RightHand}/primaryButton");toggleChat.Enable();
         sendChat=new InputAction("Chatbot send grip",InputActionType.Button,"<XRController>{RightHand}/gripPressed");sendChat.AddBinding("<XRController>{RightHand}/gripButton");sendChat.Enable();
     }
     void Update()
     {
         if(Time.unscaledTime>=nextCheck){nextCheck=Time.unscaledTime+.5f;Configure();}
         if(chatbot==null)return;
-        // In YenTu the driver uses B for the exterior train view; leave B to it while the local player is driving.
-        if(toggleChat!=null&&toggleChat.WasPressedThisFrame()&&!LocalPlayerDriving())chatbot.Toggle();
+        if(toggleChat!=null&&toggleChat.WasPressedThisFrame())chatbot.Toggle();
         if(sendChat!=null&&sendChat.WasPressedThisFrame()&&chatbot.IsOpen)chatbot.Send();
-    }
-    static bool LocalPlayerDriving()
-    {
-        foreach(var player in FindObjectsByType<FirstPersonController>(FindObjectsSortMode.None))
-            if(player!=null&&player.isDriving&&player.Object!=null&&player.Object.IsValid&&player.HasStateAuthority)return true;
-        return false;
     }
     void Configure()
     {
@@ -74,12 +71,32 @@ public sealed class ShowroomPackageIntegration:MonoBehaviour
         if(!controlsHiddenForChat&&saBan!=null&&saBan.panel!=null){controlsWereVisible=saBan.panel.gameObject.activeSelf;saBan.panel.gameObject.SetActive(false);controlsHiddenForChat=true;}
         if(origin==null||origin.Camera==null||keyboard!=null||chatbot==null||chatbot.inputField==null)return;
         var canvas=chatbot.inputField.GetComponentInParent<Canvas>();
-        foreach(var root in gameObject.scene.GetRootGameObjects())if(root.name=="Quest 3D Keyboard")priorKeyboardRoots.Add(root.GetInstanceID());
+        foreach(var root in LoadedRoots())if(root.name=="Quest 3D Keyboard")priorKeyboardRoots.Add(root.GetInstanceID());
         keyboard=chatbot.gameObject.AddComponent<QuestLoginKeyboard>();
-        keyboard.Initialize(chatbot.inputField,null,canvas!=null?canvas.transform:chatbot.transform);
+        keyboardAnchor=canvas!=null?canvas.transform:chatbot.transform;
+        keyboard.Initialize(chatbot.inputField,null,keyboardAnchor);
         chatbot.inputField.onSelect.AddListener(CaptureKeyboardRoot);
     }
-    void CaptureKeyboardRoot(string _){if(keyboardRoot==null)keyboardRoot=gameObject.scene.GetRootGameObjects().FirstOrDefault(g=>g.name=="Quest 3D Keyboard"&&!priorKeyboardRoots.Contains(g.GetInstanceID()));}
+    // The keyboard is created in the active scene, which in YenTu can be a streamed zone rather than this scene.
+    static IEnumerable<GameObject> LoadedRoots()
+    {
+        for(int i=0;i<SceneManager.sceneCount;i++){var scene=SceneManager.GetSceneAt(i);if(scene.isLoaded)foreach(var root in scene.GetRootGameObjects())yield return root;}
+    }
+    void CaptureKeyboardRoot(string _)
+    {
+        if(keyboardRoot!=null)return;
+        keyboardRoot=LoadedRoots().FirstOrDefault(g=>g.name=="Quest 3D Keyboard"&&!priorKeyboardRoots.Contains(g.GetInstanceID()));
+        if(keyboardRoot!=null&&keyboardAnchor!=null)
+        {
+            keyboardLocalPosition=keyboardAnchor.InverseTransformPoint(keyboardRoot.transform.position);
+            keyboardLocalRotation=Quaternion.Inverse(keyboardAnchor.rotation)*keyboardRoot.transform.rotation;
+        }
+    }
+    void LateUpdate()
+    {
+        if(keyboardRoot==null||keyboardAnchor==null||!keyboardRoot.activeSelf)return;
+        keyboardRoot.transform.SetPositionAndRotation(keyboardAnchor.TransformPoint(keyboardLocalPosition),keyboardAnchor.rotation*keyboardLocalRotation);
+    }
     void OnChatClosed()
     {
         if(keyboardRoot!=null)keyboardRoot.SetActive(false);
