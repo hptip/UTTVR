@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.InputSystem;
 
 /// <summary>
 /// Mouse/touch push-to-talk input (chỉ chuột TRÁI). Nhả ngoài nút = hủy.
@@ -14,9 +15,38 @@ public sealed class PointerVoiceTrigger : MonoBehaviour, IPointerDownHandler, IP
     public event Action Cancelled;
 
     [SerializeField] private bool cancelWhenReleasedOutside = true;
+    [Tooltip("Giữ nút A tay phải (Quest) để nói, thả ra để gửi. Chỉ chạy khi khung chat đang mở vì nút mic nằm trong panel chat.")]
+    [SerializeField] private bool controllerButtonEnabled = true;
 
+    private const int ControllerButtonId = -1000;
     private int activePointerId = int.MinValue;
     private bool pointerInside = true;
+    private InputAction controllerButton;
+
+    private void OnEnable()
+    {
+        if (!controllerButtonEnabled) return;
+        if (controllerButton == null) controllerButton = new InputAction("Voice push-to-talk A", InputActionType.Button, "<XRController>{RightHand}/primaryButton");
+        controllerButton.Enable();
+    }
+
+    private void Update()
+    {
+        if (controllerButton == null || !controllerButton.enabled) return;
+        if (controllerButton.WasPressedThisFrame() && activePointerId == int.MinValue)
+        {
+            activePointerId = ControllerButtonId;
+            pointerInside = true;
+            Pressed?.Invoke();
+        }
+        else if (activePointerId == ControllerButtonId && !controllerButton.IsPressed())
+        {
+            activePointerId = int.MinValue;
+            Released?.Invoke();
+        }
+    }
+
+    private void OnDestroy() => controllerButton?.Dispose();
 
     public bool CancelWhenReleasedOutside => cancelWhenReleasedOutside;
     /// <summary>Đang có một pointer giữ nút.</summary>
@@ -57,6 +87,7 @@ public sealed class PointerVoiceTrigger : MonoBehaviour, IPointerDownHandler, IP
 
     private void OnDisable()
     {
+        controllerButton?.Disable();
         if (activePointerId == int.MinValue) return;
         activePointerId = int.MinValue;
         pointerInside = true;
