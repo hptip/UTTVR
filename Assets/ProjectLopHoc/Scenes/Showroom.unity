@@ -498328,10 +498328,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BIM4D.AI.Generative.XkiroBrain
   model: mistralai/mistral-medium-3.5
-  systemPrompt: You are a helpful BIM assistant. Reply clearly and concisely in the
-    user's language.
-  assistantInstructions: {fileID: 0}
-  modelContext: {fileID: 0}
+  systemPrompt: "Bạn là trợ lý ảo của Showroom UTT. Chỉ trả lời dựa trên TÀI LIỆU được cung cấp và tuân thủ QUY TẮC TRẢ LỜI."
+  assistantInstructions: {fileID: 4900000, guid: 8e2b0e1c8f0b49b39fd953333085e358, type: 3}
+  modelContext: {fileID: 4900000, guid: f8a642a71f4d4db5a1fcf3c899a3fed0, type: 3}
   timeoutSeconds: 90
   historyTurns: 10
   onResponse:

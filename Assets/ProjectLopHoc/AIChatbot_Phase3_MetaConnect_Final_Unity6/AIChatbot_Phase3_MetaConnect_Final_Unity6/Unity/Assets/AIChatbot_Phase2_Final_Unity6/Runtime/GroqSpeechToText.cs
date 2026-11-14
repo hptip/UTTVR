@@ -183,9 +183,23 @@ namespace BIM4D.AI.Generative
                 activeDevice = useDefaultMicrophone ? null : microphoneDevice;
                 if (!useDefaultMicrophone && Array.IndexOf(devices, activeDevice) < 0)
                     throw new SpeechRecognitionException(SpeechErrorCode.MicrophoneUnavailable, "Microphone đã chọn không khả dụng. Hãy chọn thiết bị khác hoặc bật Use Default Microphone.");
-                recording = Microphone.Start(activeDevice, false, maxRecordingSeconds, sampleRate);
-                recordingStartedAt = Time.realtimeSinceStartup;
+                int captureRate = CaptureRate(activeDevice);
+                recording = Microphone.Start(activeDevice, false, maxRecordingSeconds, captureRate);
                 if (recording == null) throw new SpeechRecognitionException(SpeechErrorCode.MicrophoneStartFailed, "Không thể khởi động microphone. Thiết bị có thể đang được ứng dụng khác sử dụng.");
+                // Android mở micro bất đồng bộ: chỉ tính là đang ghi khi micro đã thật sự trả mẫu.
+                float waitStart = Time.realtimeSinceStartup;
+                while (Microphone.GetPosition(activeDevice) <= 0)
+                {
+                    token.ThrowIfCancellationRequested();
+                    if (Time.realtimeSinceStartup - waitStart > 2f)
+                    {
+                        CancelRecording();
+                        throw new SpeechRecognitionException(SpeechErrorCode.MicrophoneStartFailed, "Microphone không trả dữ liệu. Kiểm tra micro của kính chưa bị tắt rồi thử lại.");
+                    }
+                    await Task.Yield();
+                }
+                recordingStartedAt = Time.realtimeSinceStartup;
+                Debug.Log($"{nameof(GroqSpeechToText)}: recording '{activeDevice ?? "default"}' at {recording.frequency} Hz (device caps {DescribeCaps(activeDevice)}).", this);
             }
             finally { startingRecording = false; }
         }
@@ -215,9 +229,10 @@ namespace BIM4D.AI.Generative
                 // Đo mức âm thật của bản ghi TRƯỚC khi gửi: không gửi audio im lặng lên Groq
                 // (Whisper có thể 'bịa' transcript hoặc lặp lại prompt khi gặp im lặng).
                 LastRecordingPeak = ComputePeak(clip, frames);
+                Debug.Log($"{nameof(GroqSpeechToText)}: {frames} frames @ {clip.frequency} Hz, peak {LastRecordingPeak:0.0000}.", this);
                 if (LastRecordingPeak < silencePeakThreshold)
                     throw new SpeechRecognitionException(SpeechErrorCode.SilentAudio,
-                        "Không nghe thấy tiếng. Hãy kiểm tra microphone và quyền truy cập.");
+                        $"Không nghe thấy tiếng (mức âm {LastRecordingPeak:0.000}). Kiểm tra micro của kính chưa bị tắt và quyền Microphone của app.");
                 byte[] wav = EncodeWav(clip, frames);
                 return await TranscribeAsync(wav, "recording.wav", "audio/wav", cancellationToken);
             }
@@ -312,26 +327,60 @@ namespace BIM4D.AI.Generative
                 $"Groq nhận diện thất bại (HTTP {code}): {error}");
         }
 
-        private static byte[] EncodeWav(AudioClip clip, int frames)
+        /// <summary>Tần số ghi: Android (Quest) ghi ở 48 kHz gốc; xin 16 kHz có thể nhận về toàn số 0.</summary>
+        private int CaptureRate(string device)
+        {
+            Microphone.GetDeviceCaps(device, out int min, out int max);
+#if UNITY_ANDROID && !UNITY_EDITOR
+            int preferred = 48000;
+#else
+            int preferred = sampleRate;
+#endif
+            if (min == 0 && max == 0) return preferred; // 0/0 = thiết bị nhận mọi tần số
+            return Mathf.Clamp(preferred, min, max);
+        }
+
+        private static string DescribeCaps(string device)
+        {
+            Microphone.GetDeviceCaps(device, out int min, out int max);
+            return min == 0 && max == 0 ? "any" : $"{min}-{max} Hz";
+        }
+
+        /// <summary>WAV mono PCM16 ở sampleRate (mặc định 16 kHz cho Whisper); trộn kênh và hạ tần số nếu cần.</summary>
+        private byte[] EncodeWav(AudioClip clip, int frames)
         {
             var samples = new float[checked(frames * clip.channels)];
             if (!clip.GetData(samples, 0)) throw new InvalidOperationException("Không đọc được dữ liệu PCM của AudioClip.");
-            using var stream = new MemoryStream(44 + samples.Length * 2);
+            int channels = clip.channels;
+            int outRate = Mathf.Min(sampleRate, clip.frequency);
+            double step = (double)clip.frequency / outRate;
+            int outFrames = (int)(frames / step);
+            using var stream = new MemoryStream(44 + outFrames * 2);
             using var writer = new BinaryWriter(stream);
             writer.Write(Encoding.ASCII.GetBytes("RIFF"));
-            writer.Write(36 + samples.Length * 2);
+            writer.Write(36 + outFrames * 2);
             writer.Write(Encoding.ASCII.GetBytes("WAVEfmt "));
             writer.Write(16);
             writer.Write((short)1); // PCM, signed little-endian 16-bit.
-            writer.Write((short)clip.channels);
-            writer.Write(clip.frequency);
-            writer.Write(clip.frequency * clip.channels * 2);
-            writer.Write((short)(clip.channels * 2));
+            writer.Write((short)1);
+            writer.Write(outRate);
+            writer.Write(outRate * 2);
+            writer.Write((short)2);
             writer.Write((short)16);
             writer.Write(Encoding.ASCII.GetBytes("data"));
-            writer.Write(samples.Length * 2);
-            foreach (float sample in samples)
+            writer.Write(outFrames * 2);
+            for (int i = 0; i < outFrames; i++)
+            {
+                // Trung bình các frame nguồn thuộc ô này (lọc thông thấp đơn giản khi hạ tần số).
+                int from = (int)(i * step);
+                int to = Math.Max(from + 1, Math.Min(frames, (int)((i + 1) * step)));
+                double sum = 0;
+                for (int f = from; f < to; f++)
+                    for (int c = 0; c < channels; c++)
+                        sum += samples[f * channels + c];
+                float sample = (float)(sum / ((to - from) * channels));
                 writer.Write((short)Mathf.RoundToInt(Mathf.Clamp(sample, -1f, 1f) * short.MaxValue));
+            }
             writer.Flush();
             return stream.ToArray();
         }

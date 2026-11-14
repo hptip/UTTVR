@@ -119,7 +119,7 @@ namespace ProjectLopHoc.Features.Authentication.Views
             AddRow(root.transform, "ASDFGHJKL", 40f, 82f);
             AddRow(root.transform, "ZXCVBNM", 135f, 82f);
             AddSpecialKey(root.transform, "Shift", -390f, 135f, 150f, 82f, ToggleShift);
-            AddSpecialKey(root.transform, "⌫", 390f, 135f, 150f, 82f, Backspace);
+            AddSpecialKey(root.transform, "Del",390f, 135f, 150f, 82f, Backspace);
             AddSpecialKey(root.transform, "Clear", -500f, 235f, 160f, 82f, ClearActiveField);
             AddSpecialKey(root.transform, "Space", -120f, 235f, 420f, 82f, () => Insert(" "));
             AddSpecialKey(root.transform, "Enter", 245f, 235f, 220f, 82f, Submit);

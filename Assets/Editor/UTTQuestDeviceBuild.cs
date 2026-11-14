@@ -38,7 +38,7 @@ public static class UTTQuestDeviceBuild
     }
     static void Inspect()
     {
-        var rows=new List<string>{"UTC="+DateTime.UtcNow.ToString("O"),"Unity="+Application.unityVersion,"ActiveTarget="+EditorUserBuildSettings.activeBuildTarget,"Package="+PlayerSettings.GetApplicationIdentifier(NamedBuildTarget.Android),"Backend="+PlayerSettings.GetScriptingBackend(NamedBuildTarget.Android),"Architectures="+PlayerSettings.Android.targetArchitectures,"AAB="+EditorUserBuildSettings.buildAppBundle,"SplitOBB="+PlayerSettings.Android.splitApplicationBinary};
+        var rows=new List<string>{"UTC="+DateTime.UtcNow.ToString("O"),"Unity="+Application.unityVersion,"ActiveTarget="+EditorUserBuildSettings.activeBuildTarget,"Package="+PlayerSettings.GetApplicationIdentifier(NamedBuildTarget.Android),"Backend="+PlayerSettings.GetScriptingBackend(NamedBuildTarget.Android),"Architectures="+PlayerSettings.Android.targetArchitectures,"AAB="+EditorUserBuildSettings.buildAppBundle,"SplitOBB="+PlayerSettings.Android.splitApplicationBinary,"MinSdk="+PlayerSettings.Android.minSdkVersion};
         var profile=BuildProfile.GetActiveBuildProfile();
         rows.Add("ActiveProfile="+(profile==null?"Default platform profile":AssetDatabase.GetAssetPath(profile)));
         if(profile!=null){rows.Add("ProfileOverrideScenes="+profile.overrideGlobalScenes);rows.AddRange(profile.scenes.Select(s=>"ProfileScene="+s.enabled+" | "+s.path));}
@@ -70,6 +70,8 @@ public static class UTTQuestDeviceBuild
         var profile=BuildProfile.GetActiveBuildProfile();
         if(profile!=null&&profile.overrideGlobalScenes){profile.scenes=list;EditorUtility.SetDirty(profile);AssetDatabase.SaveAssetIfDirty(profile);}
         EditorUserBuildSettings.buildAppBundle=false;
+        // Quest 2/3/Pro run Android 12L; Meta OpenXR validation expects API 32.
+        PlayerSettings.Android.minSdkVersion=AndroidSdkVersions.AndroidApiLevel32;
         Directory.CreateDirectory("Builds");
         File.WriteAllLines(Dir+"/BuildScenes.txt",scenes);
         File.WriteAllText(Dir+"/Stage.txt","BUILDING | "+DateTime.Now.ToString("O")+" | scenes="+scenes.Count+" | output="+Apk);
